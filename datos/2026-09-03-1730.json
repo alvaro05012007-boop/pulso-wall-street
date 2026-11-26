@@ -1,0 +1,83 @@
+{
+  "id": "2026-09-03-1730",
+  "fecha": "2026-09-03",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Fuerte suba en Wall Street: el S&P 500 ganó 1,06%, el Dow 1,18% (624 puntos, su mejor día desde el 4 de agosto) y el Nasdaq 1,40%.",
+    "El gobernador de la Fed Christopher Waller dijo que podría dejar las tasas quietas si los datos muestran que la inflación se enfría.",
+    "Las apuestas a una suba de tasas en septiembre bajaron de 63% a 50% y el dólar cayó 0,6%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.747,71", "cambio": "+1,06%", "cambioPct": 1.06 },
+    { "nombre": "Dow Jones", "valor": "53.686,11", "cambio": "+1,18%", "cambioPct": 1.18 },
+    { "nombre": "Nasdaq", "valor": "26.584,06", "cambio": "+1,40%", "cambioPct": 1.40 },
+    { "nombre": "Bono 10 años", "valor": "4,77%", "cambio": "-1 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "91,72 USD", "cambio": "+0,8%", "cambioPct": 0.8 },
+    { "nombre": "Dólar (DXY)", "valor": "98,98", "cambio": "-0,6%", "cambioPct": -0.6 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Waller abre la puerta a no subir tasas en septiembre",
+      "resumen": "El gobernador de la Fed dijo a Reuters que se inclinaría por dejar las tasas sin cambios si los próximos datos confirman que la inflación baja, aunque apoyaría una suba si no se enfría.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "La probabilidad de suba en septiembre según CME FedWatch bajó de 63,2% a 50,4%.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-rallies-fed-waller-signals-pause-rate-hikes/" },
+        { "nombre": "Bloomberg (vía Swissinfo)", "url": "https://www.swissinfo.ch/eng/stocks-climb-as-fed-hike-wagers-ease-on-waller%3A-markets-wrap/91996633" }
+      ]
+    },
+    {
+      "titulo": "Mejor día del Dow desde agosto, con las grandes tecnológicas al frente",
+      "resumen": "Microsoft, Meta y Apple impulsaron al S&P 500. El Dow subió 624 puntos y el Nasdaq 1,4%.",
+      "afecta": ["Tecnología", "Comunicaciones"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Wall Street cortó una racha de tres caídas en cuatro ruedas.",
+      "fuentes": [
+        { "nombre": "AAP (vía CommBank)", "url": "https://www.commbank.com.au/articles/newsroom/2026/09/wall-st-rallies-after-waller-signals-rates-could-stay-put.html" },
+        { "nombre": "Morningstar (Dow Jones)", "url": "https://www.morningstar.com/news/dow-jones/202609038728/nasdaq-composite-rises-140-to-2658406-data-talk" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años baja por segunda rueda y el dólar cae",
+      "resumen": "La tasa del Tesoro a 10 años quedó en 4,77% y el índice dólar bajó a 98,98, lo que impulsó al oro.",
+      "afecta": ["Bonos", "Dólar", "Materiales"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El alivio en tasas favoreció a las acciones de crecimiento.",
+      "fuentes": [
+        { "nombre": "Ringside (Buttondown)", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-september-3/" },
+        { "nombre": "Korea Times", "url": "https://www.koreatimes.co.kr/world/20260904/wall-street-rallies-as-feds-waller-eases-rate-hike-fears" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Hubo cifras distintas para el cierre del S&P 500: AAP dio 7.747,71 (+1,06%) y el Korea Times 7.755,14 (+1,15%). Se usó la de AAP porque coincide con la base del día siguiente."
+  ],
+  "sectores": [
+    { "sector": "Consumo", "tono": "positivo", "porque": "Consumo discrecional fue el sector que más subió del S&P 500." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Microsoft y Apple lideraron la suba." },
+    { "sector": "Comunicaciones", "tono": "positivo", "porque": "Meta estuvo entre las que más empujaron." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Tuvo una baja leve pese a la suba del petróleo." },
+    { "sector": "Materiales", "tono": "negativo", "porque": "Quedó entre los pocos sectores en rojo." }
+  ],
+  "riesgoHoy": "El riesgo bajó por las palabras de Waller, pero todo quedaba atado al informe de empleo del viernes.",
+  "proximos": [
+    "Viernes 4: informe de empleo de agosto, clave para la decisión de la Fed.",
+    "Lunes 7: feriado del Día del Trabajo, la bolsa cierra.",
+    "Reunión de la Fed del 15 y 16 de septiembre."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-20-1730",
+  "fecha": "2026-07-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Se apagó un rebote temprano: el Dow cayó 0,6%, el S&P 500 0,2% y el Nasdaq quedó plano.",
+    "El petróleo siguió subiendo por la crisis entre EE.UU. e Irán y la tasa a 10 años llegó a 4,61%, máximo en siete semanas.",
+    "El mercado ya ve 55% de chance de una suba de tasas de la Fed en septiembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.443,28", "cambio": "-0,19%", "cambioPct": -0.19 },
+    { "nombre": "Dow Jones", "valor": "51.839,26", "cambio": "-0,59%", "cambioPct": -0.59 },
+    { "nombre": "Nasdaq", "valor": "25.529,08", "cambio": "-0,05%", "cambioPct": -0.05 },
+    { "nombre": "Bono 10 años", "valor": "4,61%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "83,23 USD", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo sigue subiendo por la crisis con Irán",
+      "resumen": "El crudo estadounidense cerró en 83,23 USD y el Brent en 89,22 USD, en medio de la crisis entre EE.UU. e Irán.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El crudo caro sumó presión vendedora en la tarde.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-oil-prices-rise-amid-us-iran-crisis/cZZiiqPR7H7" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-amid-crude-surge,-geopolitical-jitters" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años toca máximos de siete semanas",
+      "resumen": "La tasa del bono a 10 años subió a 4,61%. El mercado ponía cerca de 55% de probabilidad a una suba de la Fed en septiembre, contra 51% el día anterior.",
+      "afecta": ["Bonos", "Inmobiliario", "Financiero"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las tasas más altas pesaron sobre la mayoría de las acciones.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-crude-oil-prices-jump" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/568303" }
+      ]
+    },
+    {
+      "titulo": "Se esfuma el rebote de la mañana",
+      "resumen": "Las acciones devolvieron casi toda la suba temprana por la debilidad de los chips y la suba de tasas y petróleo. Las constructoras de viviendas cayeron 2%.",
+      "afecta": ["Semiconductores", "Inmobiliario", "Consumo"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Carvana fue la peor acción del S&P 500.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/20/early-rebound-fades-as-stocks-close-lower" },
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-monday-7-20-2026/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 25.508,07 y Briefing.com en 25.529,08, ambos con la misma baja de 12,17 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo siguió en alza." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las constructoras cayeron 2% con las tasas en máximos de siete semanas." },
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Dieron algo de apoyo a la mañana pero se debilitaron a la tarde." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow fue el índice que más cayó." }
+  ],
+  "riesgoHoy": "El riesgo principal fue la suba conjunta de petróleo y tasas, que alimenta la idea de una Fed más dura.",
+  "proximos": [
+    "Balances de Alphabet y Tesla el miércoles.",
+    "Reunión de la Fed a fin de mes.",
+    "Evolución de la crisis entre EE.UU. e Irán."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-02-10-1730",
+  "fecha": "2026-02-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto: el Dow logró su tercer récord seguido, mientras el S&P 500 y el Nasdaq bajaron.",
+    "Las ventas minoristas de diciembre quedaron planas, por debajo de lo esperado.",
+    "El dato flojo bajó el rendimiento del bono a 10 años a 4,14% y reavivó la esperanza de recortes de tasas."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.941,81", "cambio": "-0,33%", "cambioPct": -0.33 },
+    { "nombre": "Dow Jones", "valor": "50.188,14", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Nasdaq", "valor": "23.102,48", "cambio": "-0,59%", "cambioPct": -0.59 },
+    { "nombre": "Bono 10 años", "valor": "4,14%", "cambio": "-0,08 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Ventas minoristas planas en diciembre",
+      "resumen": "Las ventas minoristas de EE.UU. no crecieron en diciembre, cuando se esperaba una suba de alrededor de 0,4% a 0,5%.",
+      "afecta": ["Consumo", "Comercio minorista"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Generó dudas sobre la fuerza del consumidor.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/news/asian-benchmarks-mostly-rise-led-033620163.html" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/02/11/us-stocks-close-mixed-after-flat-retail-sales-data" }
+      ]
+    },
+    {
+      "titulo": "Caen los rendimientos y vuelve la apuesta a recortes",
+      "resumen": "El rendimiento del bono a 10 años bajó de 4,22% a 4,14% tras el dato de consumo.",
+      "afecta": ["Bonos", "Financiero"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El mercado volvió a mirar a la Fed y a posibles bajas de tasas.",
+      "fuentes": [
+        { "nombre": "CommBank", "url": "https://www.commbank.com.au/articles/newsroom/2026/02/us-shoppers-put-focus-back-on-fed.html" }
+      ]
+    },
+    {
+      "titulo": "Tercer récord seguido del Dow",
+      "resumen": "El Dow subió levemente y volvió a cerrar en máximos, mientras el S&P 500 y el Nasdaq terminaron abajo.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 0,59%.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-hits-new-high,-but-stocks-finish-mostly-lower" },
+        { "nombre": "AP / Star Tribune", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-tuesday-2102026/601580026" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Una tabla de AP mostró al Nasdaq en suba de 0,3%, pero Reuters y Xinhua informaron una baja de 0,59% al cierre; se usó la baja."
+  ],
+  "sectores": [
+    { "sector": "Consumo", "tono": "negativo", "porque": "Ventas minoristas planas en diciembre." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó 0,59%." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "La baja de rendimientos suele ayudar a sectores sensibles a las tasas." }
+  ],
+  "riesgoHoy": "Señales de que el consumidor estadounidense se está frenando.",
+  "proximos": ["Informe de empleo de enero (miércoles 11)", "IPC de enero"]
+}

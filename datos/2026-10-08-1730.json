@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-08-1730",
+  "fecha": "2026-10-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La tecnología arrastró al mercado: el Nasdaq cayó 1,25% y el S&P 500 0,5%, su segunda baja seguida desde el récord.",
+    "Las acciones de IA y de chips fueron las más castigadas, mientras el Dow subió apenas 0,1% después de ir y venir todo el día.",
+    "El Brent pasó los 104 dólares por barril."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.765,36", "cambio": "-0,47%", "cambioPct": -0.47 },
+    { "nombre": "Dow Jones", "valor": "51.231,64", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Nasdaq", "valor": "27.193,34", "cambio": "-1,25%", "cambioPct": -1.25 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Caen las acciones de IA y pesan sobre el S&P 500 y el Nasdaq",
+      "resumen": "Las tecnológicas ligadas a la inteligencia artificial y los semiconductores fueron las que más bajaron. El S&P 500 perdió 36,41 puntos a 7.765,36.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "El Nasdaq tuvo su peor día en varias semanas.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-falling-ai-stocks-weigh-on-s-and-p-500,-nasdaq" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-1082026-nid08102026/" }
+      ]
+    },
+    {
+      "titulo": "El Dow resiste y cierra levemente arriba",
+      "resumen": "El Dow subió 0,10% a 51.231,64 tras alternar subas y bajas durante la rueda; el Russell 2000 terminó casi plano.",
+      "afecta": ["Industria", "Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "La baja se concentró en la tecnología, no en todo el mercado.",
+      "fuentes": [
+        { "nombre": "Stock Market Watch", "url": "https://stockmarketwatch.com/digest/2026-10-08" },
+        { "nombre": "Ringside", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/" }
+      ]
+    },
+    {
+      "titulo": "El Brent supera los 104 dólares por las tensiones en Medio Oriente",
+      "resumen": "El petróleo subió y el Brent pasó los 104 dólares por barril en medio de las tensiones por la guerra con Irán.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El petróleo caro sigue alimentando el temor a la inflación.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/s-p-500-nasdaq-fall-crude-prices-middle-east-tensions/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips ligados a la IA fueron los más castigados." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las acciones de IA arrastraron al Nasdaq." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El Brent pasó los 104 dólares." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en la tecnología y la IA, junto con un petróleo que volvió a subir con fuerza.",
+  "proximos": [
+    "Viernes 9: cierre de semana.",
+    "Inflación de septiembre (IPC) la semana siguiente.",
+    "Balances de los grandes bancos."
+  ]
+}

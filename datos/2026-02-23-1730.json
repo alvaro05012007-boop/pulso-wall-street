@@ -1,0 +1,65 @@
+{
+  "id": "2026-02-23-1730",
+  "fecha": "2026-02-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte baja: el Dow perdió casi 822 puntos (1,66%), el Nasdaq 1,13% y el S&P 500 1,04%.",
+    "Trump subió la tasa de su arancel global después del fallo de la Corte Suprema y volvió la incertidumbre comercial.",
+    "Además, los inversores siguieron vendiendo las empresas que podrían perder con la IA, sobre todo el software."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.837,75", "cambio": "-1,04%", "cambioPct": -1.04 },
+    { "nombre": "Dow Jones", "valor": "48.804,06", "cambio": "-1,66%", "cambioPct": -1.66 },
+    { "nombre": "Nasdaq", "valor": "22.627,27", "cambio": "-1,13%", "cambioPct": -1.13 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump sube su arancel global",
+      "resumen": "Tras la anulación de sus aranceles por la Corte Suprema, Trump aumentó la tasa de un nuevo arancel global.",
+      "afecta": ["Mercado en general", "Comercio exterior"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Los tres índices cayeron más de 1%.",
+      "fuentes": [
+        { "nombre": "PBS (AP)", "url": "https://www.pbs.org/newshour/economy/stocks-drop-after-trump-ramps-up-new-tariffs-and-investors-dump-potential-ai-losers" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-sharply-lower-after-trump-raises-global-tariff-rate" }
+      ]
+    },
+    {
+      "titulo": "Sigue la venta de los posibles perdedores de la IA",
+      "resumen": "El temor a que la IA desplace a empresas tradicionales volvió a pesar, con fuerte castigo al software.",
+      "afecta": ["Software", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El ETF de software cayó cerca de 5%, según Barchart.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/2/23/aidisruption-fears-send-major-averages-lower" },
+        { "nombre": "The National (Reuters)", "url": "https://www.thenationalnews.com/news/us/2026/02/23/us-markets-end-lower-amid-revived-tariff-concerns-and-ai-displacement-fears" }
+      ]
+    },
+    {
+      "titulo": "Venta amplia en todo el mercado",
+      "resumen": "Según Reuters, la venta fue generalizada y llevó a los tres índices a perder más de 1% al cierre.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El Dow tuvo su peor día en semanas.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/373073/stocks-finish-sharply-lower-on-trade-uncertainty-and-ai-disruption-fears" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-monday-2-23-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics dio al Dow en 48.742 (-1,78%); AP lo dio en 48.804,06 (-821,91 puntos) y se usó el de AP."
+  ],
+  "sectores": [
+    { "sector": "Software", "tono": "negativo", "porque": "Temor a ser desplazado por la IA." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Nuevos aranceles pueden subir costos." },
+    { "sector": "Industria", "tono": "negativo", "porque": "La incertidumbre comercial golpea a las exportadoras." }
+  ],
+  "riesgoHoy": "La combinación de nuevos aranceles y el miedo a la disrupción de la IA.",
+  "proximos": ["Resultados de Nvidia (miércoles 25)", "Resultados de Home Depot"]
+}

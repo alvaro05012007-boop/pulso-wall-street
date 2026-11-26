@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-27-1730",
+  "fecha": "2026-07-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El petróleo se desplomó 7,5% después de que EE.UU. e Irán pausaron los ataques y Trump habló de una 'buena chance' de acuerdo.",
+    "El Dow subió 0,5%, pero el S&P 500 quedó plano y el Nasdaq cayó 0,2% por otra baja de los chips; Nvidia perdió 5%.",
+    "Siete de los once sectores subieron: la debilidad se concentró en pocas acciones grandes de semiconductores."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.413,18", "cambio": "+0,02%", "cambioPct": 0.02 },
+    { "nombre": "Dow Jones", "valor": "52.210,08", "cambio": "+0,51%", "cambioPct": 0.51 },
+    { "nombre": "Nasdaq", "valor": "24.953,09", "cambio": "-0,17%", "cambioPct": -0.17 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "82,65 USD", "cambio": "-7,5%", "cambioPct": -7.5 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo cae 7,5% por la pausa en la guerra con Irán",
+      "resumen": "EE.UU. e Irán pausaron sus ataques mientras se retomaban las negociaciones, y Trump dijo que hay una 'buena chance' de acuerdo. El WTI cerró en 82,65 USD.",
+      "afecta": ["Energía", "Transporte", "Consumo"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "Fue la mayor caída diaria del crudo en dos meses.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/27/oil-settles-firmly-lower" },
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/US/wireStory/stocks-drift-wall-street-crude-oil-prices-drop-135110302" }
+      ]
+    },
+    {
+      "titulo": "Otra baja de los chips: Nvidia cae 5%",
+      "resumen": "El ETF de semiconductores SOXX cayó más de 5% a mínimos de dos meses y medio. Los inversores salieron de chips e infraestructura de IA hacia sectores castigados como software.",
+      "afecta": ["Semiconductores", "Nvidia", "Software"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "Los chips borraron casi toda la suba temprana del mercado.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-mixed-ai-angst-offsets-easing-geopolitical-tensions" },
+        { "nombre": "Schwab Network", "url": "https://schwabnetwork.com/articles/closing-bell-tech-split-as-chip-rout-deepens-software-and-energy-sensitive-sectors-rally-as-oil-slides" }
+      ]
+    },
+    {
+      "titulo": "Semana clave: balances tecnológicos y reunión de la Fed",
+      "resumen": "Los inversores se preparaban para los balances de grandes tecnológicas y la decisión de la Fed del miércoles.",
+      "afecta": ["Todo el mercado"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La cautela antes de esos eventos limitó los movimientos.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-investors-eye-tech-earnings,-fed-meeting" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/27/mixed-finish-as-semiconductor-weakness-weighs-against-easing-oil-prices" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Briefing.com dio el cierre del WTI en 82,65 USD (-7,5%) y Cboe en 81,77 USD (-8,5%). AP informó el Nasdaq en 24.932,08; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia cayó 5% y el ETF del sector tocó mínimos de dos meses y medio." },
+    { "sector": "Software", "tono": "positivo", "porque": "Recibió la plata que salió de los chips." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo se desplomó 7,5%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "El combustible bajó con fuerza." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en los chips, que siguen cayendo aunque el resto del mercado mejora.",
+  "proximos": [
+    "Miércoles 29: decisión de la Fed.",
+    "Balances de grandes tecnológicas en la semana.",
+    "Negociaciones entre EE.UU. e Irán."
+  ]
+}

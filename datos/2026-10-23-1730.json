@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-23-1730",
+  "fecha": "2026-10-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Cierre de semana en baja: el Dow cayó 1,25%, el S&P 500 0,5% y el Nasdaq 0,2%. En la semana, el S&P perdió 0,5% y el Nasdaq 0,7%; el Dow ganó 0,4%.",
+    "El Brent saltó 3,6% a 117,20 USD, su nivel más alto desde marzo, y volvió a presionar a las acciones.",
+    "Se espera que la Fed no toque las tasas la semana próxima, pero el mercado se inclina fuerte por una suba en diciembre. También empiezan a pesar las elecciones del 3 de noviembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.623,86", "cambio": "-0,52%", "cambioPct": -0.52 },
+    { "nombre": "Dow Jones", "valor": "52.209,16", "cambio": "-1,25%", "cambioPct": -1.25 },
+    { "nombre": "Nasdaq", "valor": "25.955,34", "cambio": "-0,21%", "cambioPct": -0.21 },
+    { "nombre": "Bono 10 años", "valor": "4,99%", "cambio": "+0,03 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street cierra en baja una semana movida",
+      "resumen": "El Dow perdió 658,82 puntos. El S&P 500 terminó en 7.623,86 y el Nasdaq en 25.955,34.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/sp-500-closes-lower-ai-trade-earnings-outlook/" },
+        { "nombre": "Reuters (vía GV Wire)", "url": "https://gvwire.com/2026/10/23/wall-street-closes-lower-to-end-rocky-week/" }
+      ]
+    },
+    {
+      "titulo": "El Brent llega a su nivel más alto desde marzo",
+      "resumen": "El barril de Brent subió 3,6% a 117,20 USD y presionó a Wall Street; las grandes tecnológicas siguieron con movimientos bruscos.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía NY1)", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/23/wall-street-loses-ground-under-pressure-from-rising-oil-prices-more-swings-for-big-tech-stocks" }
+      ]
+    },
+    {
+      "titulo": "La Fed, sin cambios ahora y con suba en la mira para diciembre",
+      "resumen": "Wall Street espera que la Fed mantenga las tasas en su reunión de la semana próxima, pero apuesta fuerte a otra suba en diciembre.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Good Morning America (AP)", "url": "https://www.goodmorningamerica.com/news/story/wall-street-loses-ground-pressure-rising-oil-prices-137499720" }
+      ]
+    },
+    {
+      "titulo": "Las elecciones de medio término entran en el radar",
+      "resumen": "Los inversores empiezan a mirar las elecciones del 3 de noviembre como una fuente más de volatilidad.",
+      "afecta": ["Todo el mercado", "Defensa", "Salud"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "Star-Advertiser (Reuters)", "url": "https://www.staradvertiser.com/2026/10/23/breaking-news/wall-street-closes-lower-to-end-rocky-week/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El Brent subió 3,6% a máximos desde marzo." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible más caro golpea a aerolíneas y logística." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow fue el índice que más cayó." },
+    { "sector": "Tecnología", "tono": "mixto", "porque": "Siguieron los vaivenes de las grandes tecnológicas." }
+  ],
+  "riesgoHoy": "El riesgo principal fue el petróleo: un Brent arriba de 117 USD alimenta la inflación y las apuestas a más subas de tasas.",
+  "proximos": [
+    "Semana próxima: reunión de la Fed y resultados de más grandes tecnológicas.",
+    "3 de noviembre: elecciones de medio término.",
+    "Seguimiento de la tensión con Irán."
+  ]
+}

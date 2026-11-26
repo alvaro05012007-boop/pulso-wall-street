@@ -1,0 +1,72 @@
+{
+  "id": "2026-04-08-1730",
+  "fecha": "2026-04-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "EE.UU. e Irán acordaron un alto el fuego de dos semanas mediado por Pakistán y Wall Street voló: el Dow subió más de 1.300 puntos.",
+    "El S&P 500 ganó 2,51% y el Nasdaq 2,80%; los índices tocaron máximos de cuatro semanas.",
+    "El WTI se desplomó más de 16% hasta USD 94,41; las subas se recortaron algo cuando Irán acusó a EE.UU. de violar la tregua."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.782,81", "cambio": "+2,51%", "cambioPct": 2.51 },
+    { "nombre": "Dow Jones", "valor": "47.909,92", "cambio": "+2,85%", "cambioPct": 2.85 },
+    { "nombre": "Nasdaq", "valor": "22.634,99", "cambio": "+2,80%", "cambioPct": 2.8 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "94,41", "cambio": "-16%", "cambioPct": -16 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Alto el fuego de dos semanas entre EE.UU. e Irán",
+      "resumen": "Trump aceptó una tregua de dos semanas mediada por Pakistán y se desató un rally global.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Dow cerró con una suba de más de 1.300 puntos.",
+      "fuentes": [
+        { "nombre": "ABC11 (AP)", "url": "https://abc11.com/post/stocks-soar-oil-prices-plunge-us-iran-ceasefire/18856574/" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/04/08/markets-sp-trump-truce-ceasefire-iran-war-rally-strait-of-hormuz" }
+      ]
+    },
+    {
+      "titulo": "El petróleo se derrumba más de 16%",
+      "resumen": "El WTI cayó por debajo de USD 95 con la tregua y la perspectiva de reapertura de Ormuz.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El WTI cerró en USD 94,41.",
+      "fuentes": [
+        { "nombre": "WDBJ7 (AP)", "url": "https://www.wdbj7.com/2026/04/08/oil-plunges-toward-90-dow-surges-1300-worldwide-rally-following-ceasefire-with-iran/?outputType=amp" },
+        { "nombre": "Yahoo Finance / Barchart", "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-finish-sharply-higher-us-203624151.html" }
+      ]
+    },
+    {
+      "titulo": "Chips e infraestructura de IA lideran el rally",
+      "resumen": "Las tecnológicas ligadas a la IA subieron con fuerza junto con el resto del mercado.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice que más subió.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/8/stocks-jump-on-iran-ceasefire-as-oil-tumbles" }
+      ]
+    },
+    {
+      "titulo": "Irán acusa a EE.UU. de violar la tregua",
+      "resumen": "Las bolsas recortaron parte de la suba tras la denuncia iraní.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Las ganancias se moderaron en la última parte de la rueda.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/540325" }
+      ]
+    }
+  ],
+  "contradicciones": ["Reuters da el S&P 500 en 6.783,48 (+2,52%), apenas distinto de otras fuentes."],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Chips de IA lideraron." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "El derrumbe del crudo alivió a aerolíneas." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El WTI cayó más de 16%." }
+  ],
+  "riesgoHoy": "Que la tregua sea frágil, como sugirió la denuncia iraní de violaciones.",
+  "proximos": ["Negociaciones de paz en Pakistán", "IPC de marzo el viernes 10"]
+}

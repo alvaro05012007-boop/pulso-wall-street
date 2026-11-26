@@ -1,0 +1,74 @@
+{
+  "id": "2026-01-05-1730",
+  "fecha": "2026-01-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El Dow marcó récord tras la captura de Nicolás Maduro por parte de EE.UU.: subió 1,23% y el S&P 500 0,64%.",
+    "Las petroleras lideraron por la apuesta a que empresas estadounidenses reconstruyan la industria petrolera venezolana.",
+    "El mercado no mostró pánico: los bonos casi no se movieron y el oro subió como refugio."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.902,04", "cambio": "+0,64%", "cambioPct": 0.64 },
+    { "nombre": "Dow Jones", "valor": "48.976,97", "cambio": "+1,23%", "cambioPct": 1.23 },
+    { "nombre": "Nasdaq", "valor": "23.395,85", "cambio": "+0,69%", "cambioPct": 0.69 },
+    { "nombre": "Bono 10 años", "valor": "~4,17%", "cambio": "-0,02 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Récord del Dow con suba de petroleras tras lo de Venezuela",
+      "resumen": "Tras la captura de Maduro, el índice de energía del S&P 500 tocó su nivel más alto desde marzo de 2025 y el Dow cerró en máximo.",
+      "afecta": ["Energía", "Chevron", "Petroleras"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Los inversores apostaron a que firmas de EE.UU. tengan un rol central en reconstruir el petróleo venezolano.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-jan-5-223346490.html" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/01/05/stocks-wall-street-venezuela-greenland/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo, con reacción moderada",
+      "resumen": "El Brent llegó a caer casi 2% de noche y luego osciló; analistas recuerdan que la producción venezolana es chica frente al total mundial.",
+      "afecta": ["Petróleo"],
+      "tono": "mixto", "importancia": "media", "tipo": "interpretacion", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Las fuentes difieren sobre la dirección final del crudo en el día.",
+      "fuentes": [
+        { "nombre": "Transport Topics", "url": "https://www.ttnews.com/articles/oil-prices-venezuela-maduro" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/01/04/crude-oil-prices-venezuela-maduro-ouster-stock-market-today-dow-futures-jobs-report/" }
+      ]
+    },
+    {
+      "titulo": "Los cíclicos superan al resto",
+      "resumen": "Financieras, industriales y energía encabezaron la suba amplia del lunes.",
+      "afecta": ["Financiero", "Industria"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Los tres índices cerraron con ganancias de entre 0,6% y 1,2%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/1/5/djia-notches-record-highs-as-cyclicals-outperform" }
+      ]
+    },
+    {
+      "titulo": "Sin corrida a los refugios en bonos; el oro sí sube",
+      "resumen": "El rendimiento a 10 años bajó apenas a la zona de 4,17% y el oro spot subió cerca de 2%.",
+      "afecta": ["Bonos", "Oro"],
+      "tono": "neutral", "importancia": "baja", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Analistas no vieron búsqueda de refugio en el Tesoro.",
+      "fuentes": [
+        { "nombre": "Wealth Professional", "url": "https://www.wealthprofessional.ca/investments/equity-markets/markets-rally-as-wall-street-shrugs-off-maduro-capture-and-oils-up-on-venezuela-risk/391252" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Las fuentes no coinciden en si el petróleo y el dólar terminaron arriba o abajo; por eso quedan sin dato."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Apuesta a la reconstrucción del petróleo venezolano por firmas de EE.UU." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Los cíclicos lideraron la suba." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Acompañó la rotación hacia cíclicos." }
+  ],
+  "riesgoHoy": "La incertidumbre geopolítica por Venezuela, aunque el mercado la tomó con calma.",
+  "proximos": ["Informe de empleo de diciembre el viernes 9", "Evolución de la situación en Venezuela"]
+}

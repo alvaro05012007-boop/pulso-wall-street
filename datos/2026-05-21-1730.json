@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-21-1730",
+  "fecha": "2026-05-21",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El Dow marcó un cierre récord (+0,6%), mientras el S&P 500 subió 0,2% y el Nasdaq 0,1%.",
+    "El petróleo volvió a darse vuelta a la baja y eso alivió los rendimientos de los bonos.",
+    "Las pequeñas empresas del Russell 2000 ganaron 0,9%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.445,72", "cambio": "+0,17%", "cambioPct": 0.17 },
+    { "nombre": "Dow Jones", "valor": "50.285,66", "cambio": "+0,55%", "cambioPct": 0.55 },
+    { "nombre": "Nasdaq", "valor": "26.293,10", "cambio": "+0,09%", "cambioPct": 0.09 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Récord del Dow con la baja del crudo",
+      "resumen": "El Dow sumó 276 puntos y cerró en máximo histórico, ayudado por el retroceso del petróleo.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Los rendimientos de los bonos bajaron junto con el crudo.",
+      "fuentes": [
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/05/21/dow-marks-record-close-as-bond-yields-oil-prices-retreat" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-thursday-5-21-2026/" }
+      ]
+    },
+    {
+      "titulo": "Una rueda entrecortada por los vaivenes del petróleo",
+      "resumen": "El crudo osciló durante la jornada y los índices se movieron sin dirección clara antes de cerrar arriba.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Las subas del S&P 500 y el Nasdaq fueron limitadas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/21/stocks-navigate-choppy-session-as-oil-prices-swing" },
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-hits-record-high-as-oil-prices-fall,-but-gains-limited" }
+      ]
+    },
+    {
+      "titulo": "Esperanzas de avance en las conversaciones con Irán",
+      "resumen": "Anadolu atribuyó la suba a la menor preocupación por el petróleo y las tasas ante señales de progreso con Irán.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "interpretacion", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "En la semana el Dow acumula +1,5%.",
+      "fuentes": [
+        { "nombre": "Anadolu", "url": "https://aa.com.tr/en/americas/us-stocks-end-higher-as-oil-rate-fears-ease-on-hopes-of-progress-in-iran-talks/3944010" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow marcó récord." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo retrocedió." }
+  ],
+  "riesgoHoy": "Los vaivenes del petróleo atados a las noticias sobre Irán.",
+  "proximos": ["Confianza del consumidor de mayo (revisión final) el viernes 22", "Feriado de Memorial Day el lunes 25"]
+}

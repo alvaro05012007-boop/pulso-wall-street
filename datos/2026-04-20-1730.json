@@ -1,0 +1,72 @@
+{
+  "id": "2026-04-20-1730",
+  "fecha": "2026-04-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Se cortaron las rachas: el S&P 500 cedió 0,24% tras cinco subas seguidas y el Nasdaq 0,26% después de 13 ruedas en alza.",
+    "La Marina de EE.UU. disparó contra un buque de carga iraní y lo abordó en el Golfo de Omán; el WTI subió más de 6%.",
+    "Las bolsas se recuperaron de los mínimos por versiones de que delegaciones de ambos países viajarían a Pakistán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.109,14", "cambio": "-0,24%", "cambioPct": -0.24 },
+    { "nombre": "Dow Jones", "valor": "49.442,56", "cambio": "-0,01%", "cambioPct": -0.01 },
+    { "nombre": "Nasdaq", "valor": "24.404,39", "cambio": "-0,26%", "cambioPct": -0.26 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "+6%", "cambioPct": 6 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "EE.UU. aborda un buque iraní y reaparecen las tensiones",
+      "resumen": "La Marina disparó contra un carguero con bandera iraní y lo abordó; Trump renovó amenazas a Irán.",
+      "afecta": ["Mercado en general", "Energía", "Defensa"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El WTI subió más de 6%.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance / Barchart", "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-settle-lower-doubts-over-203330707.html" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/345949/nasdaq-snaps-historic-win-streak-as-trump-renews-iran-threats" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq corta su racha histórica de 13 subas",
+      "resumen": "El S&P 500 también puso fin a cinco ruedas positivas seguidas.",
+      "afecta": ["Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Las caídas fueron moderadas.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/543268" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/20/stocks-pause-after-rally-as-investors-monitor-usiran-developments" }
+      ]
+    },
+    {
+      "titulo": "Versiones de nuevas conversaciones en Pakistán moderan la baja",
+      "resumen": "Reportes de que delegados de EE.UU. e Irán viajarían a Pakistán ayudaron a recuperar terreno.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Dow cerró prácticamente sin cambios.",
+      "fuentes": [
+        { "nombre": "Digital Look", "url": "https://companyresearch2.digitallook.com/news/35864836/US_close_Stocks_lower_as_Middle_East_tensions_resurface.html" }
+      ]
+    },
+    {
+      "titulo": "Tim Cook pasará a ser presidente ejecutivo de Apple",
+      "resumen": "Apple anunció tras el cierre que su CEO asumirá como presidente ejecutivo del directorio.",
+      "afecta": ["Hardware", "Apple"],
+      "tono": "neutral", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "El anuncio se conoció después del cierre de la rueda.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/after-hours-report/archive/2026/4/20/apples-ceo-tim-cook-to-become-executive-chairman-amazon-to-invest-up-to-25-bln-in-anthropic" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El WTI subió más de 6%." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cortó su racha." },
+    { "sector": "Hardware", "tono": "neutral", "porque": "Cambio en la conducción de Apple tras el cierre." }
+  ],
+  "riesgoHoy": "El incidente naval con un buque iraní, que puso en duda la tregua.",
+  "proximos": ["Vencimiento de la tregua y posibles conversaciones en Pakistán", "Semana fuerte de balances"]
+}

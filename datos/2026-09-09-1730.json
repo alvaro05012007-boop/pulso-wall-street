@@ -1,0 +1,81 @@
+{
+  "id": "2026-09-09-1730",
+  "fecha": "2026-09-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Otra baja: el S&P 500 cayó 0,48%, el Dow 0,77% y el Nasdaq 0,64%.",
+    "El petróleo siguió arriba de 100 USD (Brent) por las tensiones en el Golfo y la tasa a 10 años superó 4,8%, su nivel más alto desde noviembre de 2023.",
+    "El mercado ya daba casi 60% de chance a que la Fed suba la tasa el 16 de septiembre, con los datos de inflación a la vuelta de la esquina."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "sin dato", "cambio": "-0,48%", "cambioPct": -0.48 },
+    { "nombre": "Dow Jones", "valor": "52.381,02", "cambio": "-0,77%", "cambioPct": -0.77 },
+    { "nombre": "Nasdaq", "valor": "26.253,34", "cambio": "-0,64%", "cambioPct": -0.64 },
+    { "nombre": "Bono 10 años", "valor": "más de 4,80%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo sigue arriba de 100 USD por la tensión en el Golfo",
+      "resumen": "El crudo subió 3,4% a 101,21 USD por barril (Brent), con las preocupaciones por Medio Oriente y la inflación en primer plano.",
+      "afecta": ["Energía", "Transporte", "Consumo"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": true,
+      "impacto": "El petróleo caro alimentó el miedo a una inflación más alta y a una Fed más dura.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Kitco)", "url": "https://www.kitco.com/news/off-the-wire/2026-09-09/sp-500-ends-down-oil-tops-100-barrel" },
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-dips-oil-tops-100-inflation-gulf-tensions/" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años rompe 4,8% y toca máximos desde 2023",
+      "resumen": "Los rendimientos del Tesoro a 10 años superaron 4,8%, su nivel más alto desde noviembre de 2023.",
+      "afecta": ["Bonos", "Inmobiliario", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las tasas más altas presionaron a las acciones, sobre todo las de crecimiento.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-retreat-as-oil-jumps,-treasury-yields-break-above-4.8pc" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/582503" }
+      ]
+    },
+    {
+      "titulo": "Casi 60% de chance de suba de tasas el 16 de septiembre",
+      "resumen": "Según datos de CME, los operadores asignaban cerca de 60% de probabilidad a una suba de la tasa de la Fed en su próxima reunión.",
+      "afecta": ["Financiero", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El mercado se mostró cauto antes de los datos de inflación del jueves.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/wall-street-points-to-more-losses-as-oil-bond-yields-rise-and-odds-of-a-fed-rate-hike-increase/" },
+        { "nombre": "Metrobank", "url": "https://wealthinsights.metrobank.com.ph/news/global-markets-wall-street-down-oil-up-as-inflation-middle-east-worries-persist" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Las fuentes difieren en el precio del crudo: Reuters habla de 101,21 USD y AAP de un Brent en 97,92 USD, probablemente medidos en distintos momentos."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo arriba de 100 USD favorece a las petroleras." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas largas en máximos desde 2023 pesan sobre el sector." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó 0,64% por la suba de tasas." }
+  ],
+  "riesgoHoy": "El riesgo principal fue la combinación de petróleo arriba de 100 USD y tasas en máximos de casi tres años, antes de los datos de inflación.",
+  "proximos": [
+    "Jueves 10: inflación mayorista (PPI) de agosto.",
+    "Inflación al consumidor (CPI) de agosto.",
+    "Reunión de la Fed del 15 y 16 de septiembre."
+  ]
+}

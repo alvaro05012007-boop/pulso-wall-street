@@ -1,0 +1,79 @@
+{
+  "id": "2026-07-09-1730",
+  "fecha": "2026-07-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Volvió la calma: el S&P 500 subió 0,8%, el Nasdaq 1,3% y el Dow 0,3%, encabezados por los fabricantes de chips.",
+    "El petróleo bajó casi 2% y la tasa a 10 años cedió a 4,54%, aunque siguieron por segundo día las operaciones militares contra Irán.",
+    "El mercado empieza a mirar la temporada de balances que arranca la semana próxima."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.543,64", "cambio": "+0,81%", "cambioPct": 0.81 },
+    { "nombre": "Dow Jones", "valor": "52.487,41", "cambio": "+0,27%", "cambioPct": 0.27 },
+    { "nombre": "Nasdaq", "valor": "26.206,89", "cambio": "+1,30%", "cambioPct": 1.3 },
+    { "nombre": "Bono 10 años", "valor": "4,54%", "cambio": "-3 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "72,10 USD", "cambio": "casi -2%", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los chips encabezan el rebote de Wall Street",
+      "resumen": "El Nasdaq 100 subió 1,62% y el S&P 500 ganó 60,93 puntos, impulsados por los fabricantes de chips.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El S&P 500 recuperó todo lo perdido el miércoles.",
+      "fuentes": [
+        { "nombre": "AP (vía Las Vegas Sun)", "url": "https://lasvegassun.com/news/2026/jul/09/how-major-us-stock-indexes-fared-thursday-792026/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/9/stocks-rebound-as-semiconductors-surge-and-oil-retreats" }
+      ]
+    },
+    {
+      "titulo": "El mercado mira más allá de los ataques entre EE.UU. e Irán",
+      "resumen": "Hubo un segundo día seguido de operaciones militares contra Irán, pero el petróleo bajó y las bolsas del mundo se calmaron.",
+      "afecta": ["Energía", "Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El Brent cayó 0,7% a 77,45 USD y las petroleras y empresas de servicios petroleros bajaron.",
+      "fuentes": [
+        { "nombre": "AP (vía Ahram)", "url": "https://english.ahram.org.eg/NewsContent/3/14/572570/Business/Markets--Companies/Oil-prices-and-stocks-hold-steadier-as-calm-return.aspx" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-chipmakers-rally-and-crude-prices-fall" }
+      ]
+    },
+    {
+      "titulo": "Bajan las tasas con el petróleo",
+      "resumen": "La tasa a 10 años bajó a 4,54% desde 4,56%-4,57% del miércoles, acompañando la baja del crudo.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las empresas chicas también subieron: el Russell 2000 ganó 1,2%.",
+      "fuentes": [
+        { "nombre": "AP (vía KOB)", "url": "https://www.kob.com/?p=1100921" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron la suba del día." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo cayó casi 2% y arrastró a petroleras y servicios." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq 100 subió 1,6%." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Bajaron las tasas largas." }
+  ],
+  "riesgoHoy": "El riesgo siguió siendo el conflicto con Irán: los ataques continuaron aunque el mercado los ignoró.",
+  "proximos": [
+    "Viernes 10: salida de los ADR de SK Hynix en EE.UU.",
+    "Semana próxima: inflación de junio y balances de los grandes bancos.",
+    "Negociaciones con Irán."
+  ]
+}

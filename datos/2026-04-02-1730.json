@@ -1,0 +1,61 @@
+{
+  "id": "2026-04-02-1730",
+  "fecha": "2026-04-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda agitada que terminó casi plana: el S&P 500 subió 0,1%, el Nasdaq 0,2% y el Dow cedió 0,1%.",
+    "El mercado abrió en baja después de que Trump dijera que seguirán los ataques contra Irán si no hay acuerdo, y el petróleo saltó.",
+    "En la semana corta por Viernes Santo, el S&P 500 ganó 3,4% y el Nasdaq 4,4%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.582,69", "cambio": "+0,11%", "cambioPct": 0.11 },
+    { "nombre": "Dow Jones", "valor": "46.504,67", "cambio": "-0,13%", "cambioPct": -0.13 },
+    { "nombre": "Nasdaq", "valor": "21.879,18", "cambio": "+0,17%", "cambioPct": 0.17 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump advierte que seguirán los ataques si no hay acuerdo con Irán",
+      "resumen": "El discurso presidencial enfrió el optimismo por un alto el fuego y el mercado abrió con caídas amplias.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Los índices se recuperaron de los mínimos y cerraron casi sin cambios.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/2/choppy-session-ends-little-changed-as-ceasefire-optimism-fades-and-oil-surges" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-street-ends-mixed-iran-tensions-ease/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo vuelve a dispararse",
+      "resumen": "El crudo subió con fuerza ante la amenaza de más ataques.",
+      "afecta": ["Energía"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Pesó en la apertura de las bolsas.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/538925" }
+      ]
+    },
+    {
+      "titulo": "Semana positiva antes del feriado de Viernes Santo",
+      "resumen": "El S&P 500 ganó 3,36%, el Nasdaq 4,44% y el Dow 2,96% en la semana; el Russell 2000 subió 0,7% en el día.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Cortó la racha de cinco semanas de caídas.",
+      "fuentes": [
+        { "nombre": "GV Wire (Reuters)", "url": "https://gvwire.com/2026/04/02/wall-street-ends-mixed-as-worries-linger-before-good-friday-break/" },
+        { "nombre": "California Insider (AP)", "url": "https://californiainsider.com/news/how-major-us-stock-indexes-fared-april-2-post-6007493" }
+      ]
+    }
+  ],
+  "contradicciones": ["Reuters da cifras preliminares levemente distintas (S&P 500 en 6.582,58 y Dow en 46.504,51)."],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo volvió a subir." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq cerró en leve alza." }
+  ],
+  "riesgoHoy": "La amenaza de nuevos ataques contra Irán si no se cierra un acuerdo.",
+  "proximos": ["Informe de empleo de marzo el viernes 3 (con la bolsa cerrada)", "Plazo de Trump para un acuerdo con Irán"]
+}

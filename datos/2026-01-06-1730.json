@@ -1,0 +1,73 @@
+{
+  "id": "2026-01-06-1730",
+  "fecha": "2026-01-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Nuevos récords: el Dow cerró por primera vez arriba de 49.000 y el S&P 500 marcó máximo histórico.",
+    "Las tecnológicas y la IA empujaron, junto con las pequeñas empresas.",
+    "El petróleo bajó y el dólar subió 0,4%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.944,82", "cambio": "+0,62%", "cambioPct": 0.62 },
+    { "nombre": "Dow Jones", "valor": "49.462,08", "cambio": "+0,99%", "cambioPct": 0.99 },
+    { "nombre": "Nasdaq", "valor": "23.547,17", "cambio": "+0,65%", "cambioPct": 0.65 },
+    { "nombre": "Bono 10 años", "valor": "~4,18%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "98,61", "cambio": "+0,40%", "cambioPct": 0.4 }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow supera los 49.000 puntos y el S&P 500 marca récord",
+      "resumen": "El Dow ganó 485 puntos y cerró en récord por segundo día; el S&P 500 superó su máximo previo de 6.932.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Dos récords seguidos para el Dow en la primera semana del año.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/news/asian-shares-us-futures-advance-051129009.html" },
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/01/06/dow-closes-above-49-000-with-484-point-pop" }
+      ]
+    },
+    {
+      "titulo": "Tecnológicas y apuestas a la IA lideran",
+      "resumen": "Las grandes tecnológicas y los nombres ligados a la IA encabezaron las subas, con aporte también de pequeñas empresas.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq subió 0,65%, aunque sin llegar a récord.",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/01/06/stock-market-today-jan-6-dow-jones-sets-record-high-as-tech-rally-continues" },
+        { "nombre": "TheStreet Pro", "url": "https://pro.thestreet.com/market-commentary/s-p-500-dow-break-all-time-records-as-small-caps-fill-in-for-mag-7" }
+      ]
+    },
+    {
+      "titulo": "Financieras y energía también suman",
+      "resumen": "Bancos y petroleras extendieron las ganancias del lunes tras la captura de Maduro.",
+      "afecta": ["Financiero", "Energía"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Aportaron al récord del Dow.",
+      "fuentes": [
+        { "nombre": "CommBank", "url": "https://www.commbank.com.au/articles/newsroom/2026/01/dow-hits-record-financial-and-energy-stocks-lift.html" }
+      ]
+    },
+    {
+      "titulo": "El crudo cae y el dólar sube",
+      "resumen": "El petróleo bajó y quedó negativo en la semana tras chocar con su media de 50 días; el índice dólar subió 0,4% a 98,61.",
+      "afecta": ["Petróleo", "Dólar"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Sin efecto visible en las acciones.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/01/07/crude-futures-settle-lower" },
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/bond-market-update/archive/2026/1/6/treasury-market-summary" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las grandes tecnológicas y la IA lideraron." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Bancos acompañaron el récord del Dow." },
+    { "sector": "Energía", "tono": "mixto", "porque": "Acciones arriba pese a la baja del crudo." }
+  ],
+  "riesgoHoy": "Las previsiones de crecimiento más lento para 2026 que mencionaron algunos bancos.",
+  "proximos": ["Informe de empleo de diciembre el viernes 9"]
+}

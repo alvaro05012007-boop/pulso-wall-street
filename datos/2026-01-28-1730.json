@@ -1,0 +1,63 @@
+{
+  "id": "2026-01-28-1730",
+  "fecha": "2026-01-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "neutral",
+  "enSegundos": [
+    "La Fed dejó la tasa en el rango de 3,50% a 3,75%, como se esperaba, y dio pocas pistas sobre el próximo recorte.",
+    "El S&P 500 pasó los 7.000 puntos por primera vez durante la rueda, pero cerró plano.",
+    "Solo el Nasdaq subió (+0,17%); después del cierre llegaron los balances de Microsoft, Meta y Tesla."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.978,03", "cambio": "-0,01%", "cambioPct": -0.01 },
+    { "nombre": "Dow Jones", "valor": "49.015,60", "cambio": "+0,02%", "cambioPct": 0.02 },
+    { "nombre": "Nasdaq", "valor": "23.857,45", "cambio": "+0,17%", "cambioPct": 0.17 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed mantiene las tasas",
+      "resumen": "La Reserva Federal dejó la tasa entre 3,50% y 3,75% y dio pocas señales sobre cuándo volvería a bajar.",
+      "afecta": ["Bonos", "Financiero", "Mercado en general"],
+      "tono": "neutral", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Decisión esperada; el S&P 500 se enfrió desde récords tras el anuncio.",
+      "fuentes": [
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-01-28/sp-500-holds-losses-after-fed-keeps-rates-steady-expected" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/290783/sp-500-cools-from-record-highs-after-fed-decision" }
+      ]
+    },
+    {
+      "titulo": "El S&P 500 toca los 7.000 por primera vez",
+      "resumen": "El índice superó brevemente los 7.000 puntos durante la rueda, pero no sostuvo la suba.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Cerró apenas 0,57 puntos abajo.",
+      "fuentes": [
+        { "nombre": "CommBank", "url": "https://www.commbank.com.au/articles/newsroom/2026/01/nasdaq-edges-up-after-fed-rates-hold.html" },
+        { "nombre": "Asia Economy", "url": "https://view.asiae.co.kr/en/article/2026012906300383127" }
+      ]
+    },
+    {
+      "titulo": "Arrancan los balances de las mega tecnológicas",
+      "resumen": "Microsoft, Meta y Tesla presentaron resultados después del cierre; los semiconductores lideraron temprano.",
+      "afecta": ["Microsoft", "Meta", "Tesla", "Semiconductores"],
+      "tono": "neutral", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "El Nasdaq fue el único índice en alza.",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/01/29/stock-market-today-jan-28-fed-holds-rates-steady-as-megacap-earnings-begin" },
+        { "nombre": "Nasdaq.com (Zacks)", "url": "https://www.nasdaq.com/articles/stock-market-news-jan-29-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "El resumen automático de AP mostraba al S&P 500 con +0,9%, en contra de todas las demás fuentes; se tomó el cierre de 6.978,03."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron las subas tempranas." }
+  ],
+  "riesgoHoy": "La reacción a los balances de las mega tecnológicas después del cierre.",
+  "proximos": ["Reacción a Microsoft, Meta y Tesla el jueves 29", "Balance de Apple el jueves 29"]
+}

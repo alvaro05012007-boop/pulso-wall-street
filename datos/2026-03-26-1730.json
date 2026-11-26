@@ -1,0 +1,63 @@
+{
+  "id": "2026-03-26-1730",
+  "fecha": "2026-03-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte caída: el S&P 500 perdió 1,74% y el Nasdaq 2,38%, cerrando cerca de los mínimos del día.",
+    "La energía más cara y la escalada en Medio Oriente reavivaron los temores de estanflación.",
+    "Los índices quedaron más abajo de su promedio de 200 días; Nvidia, 3M y Boeing estuvieron entre las peores."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.479,15", "cambio": "-1,74%", "cambioPct": -1.74 },
+    { "nombre": "Dow Jones", "valor": "45.959,00", "cambio": "-1,01%", "cambioPct": -1.01 },
+    { "nombre": "Nasdaq", "valor": "21.408,09", "cambio": "-2,38%", "cambioPct": -2.38 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Petróleo, tasas y debilidad de las grandes tecnológicas golpean a las bolsas",
+      "resumen": "La suba del crudo y de los rendimientos, junto con la caída de las megacapitalizadas, hundió a los índices.",
+      "afecta": ["Mercado en general", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500, el Dow y el Nasdaq 100 tocaron mínimos de casi cuatro meses.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/26/rising-oil-yields-and-megacap-weakness-weigh-on-stocks" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/536815" }
+      ]
+    },
+    {
+      "titulo": "La guerra alimenta el miedo a la inflación",
+      "resumen": "Las tensiones en Medio Oriente y la energía cara aumentaron la preocupación por la estanflación.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "interpretacion", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "El Russell 2000 cayó 1,7%.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-finish-lower-iran-war-spurs-inflation-concerns" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/03/27/us-stocks-close-lower" }
+      ]
+    },
+    {
+      "titulo": "Nvidia, 3M y Boeing entre las mayores caídas",
+      "resumen": "Las grandes acciones industriales y de chips sufrieron las mayores bajas del día.",
+      "afecta": ["Semiconductores", "Industria", "Nvidia", "Boeing", "3M"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "El Nasdaq 100 cayó a un mínimo de seis meses y medio.",
+      "fuentes": [
+        { "nombre": "Pulse (FactSet)", "url": "https://www.pulse.bot/american-stocks/video/evening-market-recap-thursday-26-mar-2b9cdad0-8f55-46cd-afb1-f25f8562012c" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia entre las peores del día." },
+    { "sector": "Industria", "tono": "negativo", "porque": "3M y Boeing cayeron con fuerza." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Debilidad de las megacapitalizadas." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo siguió subiendo." }
+  ],
+  "riesgoHoy": "El riesgo de estanflación por la energía cara y las tasas en alza.",
+  "proximos": ["Cierre de semana el viernes 27", "PCE de febrero"]
+}

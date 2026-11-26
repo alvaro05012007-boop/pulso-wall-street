@@ -1,0 +1,80 @@
+{
+  "id": "2026-09-16-1730",
+  "fecha": "2026-09-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La Fed subió la tasa 0,25 punto, su primera suba en unos tres años, y la mayoría de sus miembros espera al menos una más antes de fin de año.",
+    "El presidente de la Fed, Kevin Warsh, dijo que los riesgos de inflación no mejoraron, y las acciones dieron vuelta las subas de la mañana.",
+    "El Dow cayó 1,21% (631 puntos), el S&P 500 0,45% y el Nasdaq quedó prácticamente sin cambios; los bancos fueron de los más golpeados."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.551,81", "cambio": "-0,45%", "cambioPct": -0.45 },
+    { "nombre": "Dow Jones", "valor": "51.461,90", "cambio": "-1,21%", "cambioPct": -1.21 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "-0,01% (-3,15 puntos)", "cambioPct": -0.01 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed sube la tasa por primera vez en tres años",
+      "resumen": "La Reserva Federal subió su tasa de referencia 0,25 punto, como se esperaba. 16 de sus 18 miembros proyectan al menos otra suba de un cuarto de punto antes de fin de año.",
+      "afecta": ["Todo el mercado", "Bonos", "Financiero"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las acciones abandonaron las subas de la mañana y cerraron en baja tras el anuncio.",
+      "fuentes": [
+        { "nombre": "AP (vía PBS)", "url": "https://www.pbs.org/newshour/economy/u-s-stocks-slip-after-the-fed-raises-interest-rate-hints-more-hikes-may-be-on-the-way" },
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/stocks-give-up-early-gains-and-fall-after-the-fed-hikes-interest-rates-dow-loses-750-points/" }
+      ]
+    },
+    {
+      "titulo": "Warsh advierte que la inflación sigue firme",
+      "resumen": "El presidente de la Fed, Kevin Warsh, dijo que los riesgos de inflación no mejoraron, lo que dejó abierta la puerta a nuevas subas.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Hubo una venta fuerte en la última parte de la rueda; el Dow llegó a perder 750 puntos.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-lower-as-fed-delivers-first-rate-hike-in-three-years,-warsh-flags-stubborn-inflation" },
+        { "nombre": "Xinhua (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/09/17/us-stocks-fall-as-fed-delivers-first-rate-hike-in-over-3-years" }
+      ]
+    },
+    {
+      "titulo": "Los bancos, entre los más castigados",
+      "resumen": "Bank of America, Wells Fargo y Citi llegaron a caer 4% durante la rueda. Financiero fue el sector que más bajó (-1,68%).",
+      "afecta": ["Financiero", "Bank of America", "Wells Fargo", "Citigroup"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Dow, con más peso de bancos y empresas tradicionales, cayó mucho más que el Nasdaq.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/584340" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2991207/stock,market,news,for,sep,17,2026" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Sharecast dio un cierre del Dow de 52.462,55; Zacks informó 51.461,90 (-631 puntos), que coincide con el cierre del día anterior. Se usó el de Zacks."
+  ],
+  "sectores": [
+    { "sector": "Financiero", "tono": "negativo", "porque": "Fue el peor sector (-1,68%), con caídas en los grandes bancos." },
+    { "sector": "Tecnología", "tono": "neutral", "porque": "El Nasdaq terminó prácticamente sin cambios; la IA aguantó mejor." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo aflojó durante el día." }
+  ],
+  "riesgoHoy": "El riesgo fue la Fed: subió la tasa y avisó que puede haber más, con una inflación que no cede.",
+  "proximos": [
+    "Más subas de tasas posibles antes de fin de año según las proyecciones de la Fed.",
+    "Seguimiento del petróleo y de las tasas largas."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2026-01-08-1730",
+  "fecha": "2026-01-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda mixta: el Dow subió 0,55%, el S&P 500 quedó plano y el Nasdaq cayó 0,44% por la baja de las tecnológicas.",
+    "Las acciones de defensa rebotaron fuerte después de que Trump pidiera un presupuesto militar de 1,5 billones de dólares para 2027.",
+    "El índice tecnológico del S&P 500 perdió 1,5%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.921,46", "cambio": "+0,01%", "cambioPct": 0.01 },
+    { "nombre": "Dow Jones", "valor": "49.266,11", "cambio": "+0,55%", "cambioPct": 0.55 },
+    { "nombre": "Nasdaq", "valor": "23.480,02", "cambio": "-0,44%", "cambioPct": -0.44 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Defensa rebota con el pedido de Trump de un presupuesto militar récord",
+      "resumen": "Trump pidió 1,5 billones de dólares para defensa en 2027, muy por encima de los 901.000 millones aprobados para 2026.",
+      "afecta": ["Defensa", "Lockheed Martin", "Northrop Grumman", "Kratos"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Lockheed subió 4,3%, Northrop 2,4% y Kratos 13,8%; el subíndice aeroespacial y de defensa tocó máximo histórico.",
+      "fuentes": [
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-01-08/wall-st-mixed-tech-retreats-defense-firms-gain-trumps-budget-hike-call" },
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-jan-8-224000856.html" }
+      ]
+    },
+    {
+      "titulo": "Las tecnológicas retroceden y cortan la racha del Nasdaq",
+      "resumen": "El sector tecnológico del S&P 500 cayó 1,5% y arrastró al Nasdaq.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 104 puntos.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/271441/nasdaq-snaps-win-streak-as-tech-takes-heavy-hit" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/36936097/stocks-settle-mostly-lower-as-early-rally-fades" }
+      ]
+    },
+    {
+      "titulo": "Se desinfla el rally de la mañana",
+      "resumen": "Los índices arrancaron arriba pero la mayoría terminó en baja o plano; solo el Dow sostuvo la suba.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El S&P 500 sumó apenas 0,53 puntos.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/news/asian-shares-mixed-wall-streets-044047205.html" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-thursday-1-8-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Defensa", "tono": "positivo", "porque": "Pedido de presupuesto militar de 1,5 billones." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El sector cayó 1,5% en el S&P 500." }
+  ],
+  "riesgoHoy": "La caída de las tecnológicas, de mucho peso en los índices.",
+  "proximos": ["Informe de empleo de diciembre el viernes 9"]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2026-01-13-1730",
+  "fecha": "2026-01-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Las acciones bajaron desde récords: el Dow cayó 0,80% y el S&P 500 0,19%.",
+    "La inflación de diciembre quedó en línea (2,7% anual) y la núcleo algo por debajo de lo esperado.",
+    "El balance de JPMorgan decepcionó y golpeó a los bancos; AMD subió fuerte."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.963,74", "cambio": "-0,19%", "cambioPct": -0.19 },
+    { "nombre": "Dow Jones", "valor": "49.191,78", "cambio": "-0,80%", "cambioPct": -0.8 },
+    { "nombre": "Nasdaq", "valor": "23.709,90", "cambio": "-0,10%", "cambioPct": -0.1 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "IPC de diciembre en línea; la núcleo, mejor de lo esperado",
+      "resumen": "Los precios subieron 0,3% en el mes y la inflación núcleo 0,2% (se esperaba 0,3%); anual en 2,7% y 2,6%.",
+      "afecta": ["Bonos", "Fed"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "No cambió las expectativas: el mercado veía solo 5% de chances de baja de tasas en la reunión del 27-28 de enero.",
+      "fuentes": [
+        { "nombre": "Interactive Brokers (Briefing)", "url": "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/market-encouraged-by-in-line-cpi/" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/37020463/stocks-little-changed-despite-a-fed-friendly-us-core-cpi-report" }
+      ]
+    },
+    {
+      "titulo": "JPMorgan decepciona y arrastra a los bancos",
+      "resumen": "JPMorgan superó en ganancia ajustada pero quedó corto en ingresos; sus acciones cayeron alrededor de 4%.",
+      "afecta": ["JPMorgan", "Financiero"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Las financieras lideraron la baja del día.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/1/13/market-drifts-lower-after-cpi-report" },
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/01/13/stock-market-today-jan-13-amd-rallies-as-banking-stocks-struggle" }
+      ]
+    },
+    {
+      "titulo": "El Dow corta su racha por la tensión entre EE.UU. e Irán",
+      "resumen": "La suba de la tensión con Irán se sumó a los motivos de la baja del Dow, que terminó con tres días de alzas.",
+      "afecta": ["Mercado en general", "Petróleo"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Dow perdió 398 puntos.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/275447/dow-snaps-win-streak-as-us-iran-tensions-rise" }
+      ]
+    },
+    {
+      "titulo": "AMD sube a contramano",
+      "resumen": "AMD fue de las acciones destacadas en un día flojo para el resto.",
+      "afecta": ["AMD", "Semiconductores"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Ayudó a que el Nasdaq cayera menos que el Dow.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-jan-13-222709525.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Financiero", "tono": "negativo", "porque": "El balance de JPMorgan pesó sobre los bancos." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "AMD subió con fuerza." }
+  ],
+  "riesgoHoy": "La temporada de balances bancarios y la tensión con Irán.",
+  "proximos": ["Balances de Bank of America, Wells Fargo y Citi", "Reunión de la Fed del 27-28 de enero"]
+}

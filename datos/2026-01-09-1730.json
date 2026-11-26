@@ -1,0 +1,61 @@
+{
+  "id": "2026-01-09-1730",
+  "fecha": "2026-01-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El S&P 500 y el Dow cerraron en récord después de un informe de empleo mixto.",
+    "Se crearon menos puestos de lo esperado, pero el desempleo bajó a 4,4%.",
+    "Los chips, con Broadcom a la cabeza, lideraron; en la semana el Dow ganó 2,3%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.966,28", "cambio": "+0,65%", "cambioPct": 0.65 },
+    { "nombre": "Dow Jones", "valor": "49.504,07", "cambio": "+0,48%", "cambioPct": 0.48 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "+0,8%", "cambioPct": 0.8 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Empleo de diciembre: menos contrataciones, pero baja el desempleo",
+      "resumen": "Los empleadores sumaron menos puestos de lo previsto, pero la tasa de desempleo bajó a 4,4%.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Empleo", "volatilidad": false,
+      "impacto": "Un estratega de Nationwide dijo que el dato estuvo dentro de lo esperado y por eso el mercado casi no reaccionó.",
+      "fuentes": [
+        { "nombre": "AP / Boston.com", "url": "https://www.boston.com/news/business/2026/01/09/wall-street-rises-to-records-after-the-unemployment-rate-improves" },
+        { "nombre": "Fast Company", "url": "https://www.fastcompany.com/91472283/stock-market-mixed-job-market-data" }
+      ]
+    },
+    {
+      "titulo": "Récords del S&P 500 y el Dow impulsados por los chips",
+      "resumen": "Broadcom y otros fabricantes de chips encabezaron una suba amplia que llevó a máximos al S&P 500 y al Dow.",
+      "afecta": ["Semiconductores", "Broadcom"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq fue el que más subió, cerca de 0,8%.",
+      "fuentes": [
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-01-09/sp-500-notches-record-high-close-driven-broadcom-other-chipmakers" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/1/9/broad-gains-lift-major-averages-to-fresh-records" }
+      ]
+    },
+    {
+      "titulo": "El dato podría demorar otro recorte de la Fed",
+      "resumen": "Los rendimientos del Tesoro quedaron mixtos; el informe podría postergar una baja de tasas, sin descartarla.",
+      "afecta": ["Bonos", "Fed"],
+      "tono": "neutral", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El dólar subió tras el dato, según Reuters.",
+      "fuentes": [
+        { "nombre": "MarketScreener (Reuters)", "url": "https://www.marketscreener.com/news/stocks-rally-dollar-higher-in-wake-of-us-jobs-numbers-ce7e59d3dd81f224" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Broadcom y otros chips lideraron la suba." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq fue el índice más fuerte." }
+  ],
+  "riesgoHoy": "Que un mercado laboral más firme demore los recortes de tasas de la Fed.",
+  "proximos": ["Inflación (IPC) de diciembre el martes 13", "Arranque de balances de los grandes bancos"]
+}

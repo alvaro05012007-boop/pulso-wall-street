@@ -1,0 +1,94 @@
+{
+  "id": "2026-07-31-1730",
+  "fecha": "2026-07-31",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Julio terminó con subas: el S&P 500 ganó 0,7%, el Nasdaq 1% y el Dow 0,5%. Fue la primera semana positiva del S&P 500 en tres.",
+    "Amazon saltó cerca de 15% por un buen balance con fuerte crecimiento en la nube; Apple cayó cerca de 7% por problemas de abastecimiento.",
+    "En el mes el S&P 500 quedó casi plano, el Nasdaq perdió 3,2% y energía fue el mejor sector, con +12,6%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.489,72", "cambio": "+0,70%", "cambioPct": 0.7 },
+    { "nombre": "Dow Jones", "valor": "52.485,03", "cambio": "+0,53%", "cambioPct": 0.53 },
+    { "nombre": "Nasdaq", "valor": "25.394,87", "cambio": "+1,00%", "cambioPct": 1.0 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Amazon salta cerca de 15% por su balance",
+      "resumen": "Amazon superó lo esperado en ganancias e ingresos del segundo trimestre, impulsada por el crecimiento de su negocio de nube.",
+      "afecta": ["Amazon", "Consumo", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Fue el principal motor de la suba del día.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/us-indices-end-week-higher-as-amazon-earnings-lift-sentiment/cZN4nG4RJ5b" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/571851" }
+      ]
+    },
+    {
+      "titulo": "Apple cae cerca de 7% por problemas de abastecimiento",
+      "resumen": "Apple advirtió que la falta de componentes afectará su crecimiento, lo que sumó dudas sobre si las subas de precio del iPhone frenarán la demanda.",
+      "afecta": ["Apple", "Hardware"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "La caída de Apple limitó la suba de los índices.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-tech-stocks-lift-markets-higher,-but-apple-sinks" },
+        { "nombre": "TheStreet Pro", "url": "https://pro.thestreet.com/portfolio/supply-shortage-takes-bite-out-of-apple-8-key-items-shaping-the-stock-market-friday" }
+      ]
+    },
+    {
+      "titulo": "Un julio salvaje: energía gana 12,6% y el Nasdaq pierde 3,2%",
+      "resumen": "El S&P 500 terminó el mes con una pérdida mínima, el Nasdaq cayó 3,2% y el Dow sumó su cuarto mes seguido en alza. Energía fue el mejor sector del mes.",
+      "afecta": ["Energía", "Tecnología", "Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mes mostró una fuerte rotación de los chips y la IA hacia energía y acciones tradicionales.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/31/closing-stock-market-summary" },
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/07/us-stocks-swing-as-wall-streets-wild-july-keeps-swerving-and-inflation-worries-keep-squeezing/" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 30 años supera 5,27%",
+      "resumen": "Las preocupaciones por la inflación y el petróleo llevaron la tasa del bono a 30 años a 5,273%.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las tasas largas altas siguen siendo un freno para las acciones.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/571803" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Consumo", "tono": "positivo", "porque": "Amazon saltó cerca de 15%." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Apple cayó cerca de 7%." },
+    { "sector": "Energía", "tono": "mixto", "porque": "Mejor sector del mes (+12,6%), pero el peor de la semana (-2%)." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Tasas largas en máximos." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en las tasas largas, con el bono a 30 años arriba de 5,27% por el miedo a la inflación.",
+  "proximos": [
+    "Semana con muchos datos económicos.",
+    "Informe de empleo de julio.",
+    "Negociaciones entre EE.UU. e Irán."
+  ]
+}

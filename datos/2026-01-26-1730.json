@@ -1,0 +1,62 @@
+{
+  "id": "2026-01-26-1730",
+  "fecha": "2026-01-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Subas moderadas: el Dow ganó cerca de 0,6% y el S&P 500 0,5%.",
+    "Las grandes tecnológicas sostuvieron el mercado antes de sus balances de la semana.",
+    "El dólar siguió perdiendo valor y todos miraban la decisión de la Fed del miércoles."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.950,23", "cambio": "+0,50%", "cambioPct": 0.5 },
+    { "nombre": "Dow Jones", "valor": "49.412,40", "cambio": "+0,64%", "cambioPct": 0.64 },
+    { "nombre": "Nasdaq", "valor": "23.601,36", "cambio": "+0,43%", "cambioPct": 0.43 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las mega tecnológicas sostienen subas antes de balances clave",
+      "resumen": "Las grandes empresas tecnológicas apoyaron ganancias modestas en la previa de una semana cargada de resultados.",
+      "afecta": ["Tecnología", "Microsoft", "Meta", "Apple"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Los índices se movieron en un rango estable.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/1/26/megacaps-support-modest-gains-ahead-of-consequntial-earnings-" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-monday-1-26-2026" }
+      ]
+    },
+    {
+      "titulo": "Atención a la Fed y a los balances",
+      "resumen": "Los operadores esperaban la decisión de la Fed y los resultados de las grandes tecnológicas.",
+      "afecta": ["Fed", "Bonos"],
+      "tono": "neutral", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Rueda tranquila a la espera de definiciones.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-traders-await-fomc-decision,-tech-earnings" }
+      ]
+    },
+    {
+      "titulo": "Más competencia en IA y dudas sobre la publicidad digital",
+      "resumen": "La creciente competencia en inteligencia artificial y preocupaciones en el negocio de publicidad digital estuvieron en foco.",
+      "afecta": ["Comunicaciones", "Software"],
+      "tono": "mixto", "importancia": "baja", "tipo": "interpretacion", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Movimientos puntuales en acciones de publicidad tecnológica.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/articles/stock-market-today-jan-26-230429848.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Los cierres se calcularon restando la variación del martes 27 informada por Reuters, porque los reportes del día solo daban cifras redondeadas."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las mega tecnológicas sostuvieron la suba." },
+    { "sector": "Comunicaciones", "tono": "mixto", "porque": "Dudas sobre la publicidad digital." }
+  ],
+  "riesgoHoy": "Las expectativas altas antes de los balances de las grandes tecnológicas.",
+  "proximos": ["Decisión de la Fed el miércoles 28", "Balances de Microsoft, Meta y Tesla el 28 y Apple el 29"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-02-13-1730",
+  "fecha": "2026-02-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Día casi plano: el S&P 500 y el Dow subieron apenas y el Nasdaq bajó 0,2%.",
+    "La inflación de enero salió más baja de lo esperado y crecieron las apuestas a recortes de tasas.",
+    "El rendimiento del bono a 10 años bajó a 4,05%; igual, el S&P 500 cerró su peor semana desde noviembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.836,17", "cambio": "+0,05%", "cambioPct": 0.05 },
+    { "nombre": "Dow Jones", "valor": "49.500,93", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Nasdaq", "valor": "22.546,67", "cambio": "-0,22%", "cambioPct": -0.22 },
+    { "nombre": "Bono 10 años", "valor": "4,05%", "cambio": "-0,04 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de enero se enfría más de lo esperado",
+      "resumen": "El IPC subió 0,2% en el mes y la tasa anual bajó a 2,4% desde 2,7% en diciembre.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "Crecieron las apuestas a recortes de tasas y subieron las acciones chicas (Russell 2000).",
+      "fuentes": [
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-feb-13-180519751.html" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-inch-higher-after-soft-cpi-print" }
+      ]
+    },
+    {
+      "titulo": "Bajan los rendimientos de los bonos",
+      "resumen": "El rendimiento del bono a 10 años cayó a 4,05% desde 4,09% del jueves.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Las acciones cerraron levemente arriba.",
+      "fuentes": [
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-settle-slightly-higher-bond-yields-fall" },
+        { "nombre": "AP / Star Tribune", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-friday-2132026/601582131" }
+      ]
+    },
+    {
+      "titulo": "La tecnología sigue floja y cierra una semana mala",
+      "resumen": "Las tecnológicas bajaron otra vez y el S&P 500 terminó su peor semana desde noviembre.",
+      "afecta": ["Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Los grandes índices perdieron cerca de 1,5% en la semana.",
+      "fuentes": [
+        { "nombre": "StreetInsider (Reuters)", "url": "https://streetinsider.com/Reuters/S%26P+500+ends+up+slightly+as+tech+dips%2C+inflation+cools/25995283.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó al Nasdaq en suba de 0,2%, mientras AP y TheStreet informaron una baja de 0,2%; se usó el dato de AP."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Siguió la debilidad de las tecnológicas." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "La baja de tasas ayuda a sectores sensibles a ellas." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Más apuestas a recortes de la Fed." }
+  ],
+  "riesgoHoy": "La persistente debilidad de la tecnología pese a la buena noticia de inflación.",
+  "proximos": ["Mercado cerrado el lunes 16 por el Día de los Presidentes", "Minutas de la Fed"]
+}

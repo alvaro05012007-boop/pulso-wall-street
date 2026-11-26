@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-28-1730",
+  "fecha": "2026-08-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Warsh habló en Jackson Hole y reafirmó que la prioridad de la Fed es combatir la inflación; las acciones perdieron sus subas tempranas.",
+    "El S&P 500 y el Nasdaq cerraron en baja y el Dow quedó casi plano, mientras subían las tasas de los bonos y las apuestas a una suba de tasas.",
+    "Salesforce subió 4% y Lam Research cayó 5,2%. En la semana, el Dow lideró al mercado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dow Jones", "valor": "53.559,99", "cambio": "-0,02%", "cambioPct": -0.02 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Warsh reafirma la lucha contra la inflación en Jackson Hole",
+      "resumen": "El presidente de la Fed, Kevin Warsh, reiteró que el foco está en bajar la inflación. El mercado leyó un tono duro y subieron las apuestas a una suba de tasas.",
+      "afecta": ["Todo el mercado", "Bonos", "Financiero"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las acciones perdieron las subas de la mañana y cerraron en baja con las tasas en alza.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-fall-hawkish-warsh-boosts-fed-rate-hike-chances" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/sp-500-nasdaq-fall-fed-chair-warsh-inflation-fight/" }
+      ]
+    },
+    {
+      "titulo": "Se borran las subas tempranas",
+      "resumen": "A la mañana los índices subían por la fuerza de las grandes tecnológicas, pero después del discurso cerraron en baja.",
+      "afecta": ["Tecnología", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El giro mostró lo sensible que está el mercado a cualquier señal de la Fed.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-give-up-gains-after-warshs-hawkish-comments" },
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-08-28/wall-st-inches-megacap-strength-fed-chair-warsh-reaffirms-inflation" }
+      ]
+    },
+    {
+      "titulo": "Salesforce sube 4%; Lam Research cae 5,2%",
+      "resumen": "Salesforce siguió en alza tras su balance, mientras el fabricante de equipos para chips Lam Research cayó con fuerza.",
+      "afecta": ["Salesforce", "Lam Research", "Software", "Semiconductores"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Movimientos individuales en un día dominado por la Fed.",
+      "fuentes": [
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-08-28/wall-st-inches-megacap-strength-fed-chair-warsh-reaffirms-inflation" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/579251" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Barchart tituló que las acciones subieron porque Warsh prometió combatir la inflación, mientras Reuters, Xinhua y Sharecast informaron cierres en baja."
+  ],
+  "sectores": [
+    { "sector": "Software", "tono": "positivo", "porque": "Salesforce subió 4%." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Lam Research cayó 5,2%." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Subieron las tasas tras el discurso." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Más chance de suba de tasas." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue una Fed decidida a combatir la inflación aunque tenga que subir tasas en septiembre.",
+  "proximos": [
+    "Lunes 31: cierre de agosto.",
+    "Informe de empleo de agosto a principios de septiembre.",
+    "Reunión de la Fed de septiembre."
+  ]
+}

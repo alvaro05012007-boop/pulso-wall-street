@@ -1,0 +1,64 @@
+{
+  "id": "2026-03-18-1730",
+  "fecha": "2026-03-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La Fed dejó las tasas sin cambios y proyectó un solo recorte para 2026 por los riesgos de la guerra con Irán.",
+    "Las bolsas cayeron fuerte: el Dow -1,63% y el S&P 500 -1,36%, ambos en sus cierres más bajos de 2026.",
+    "El Brent saltó hacia USD 110 y los once sectores cerraron en rojo, con consumo básico cayendo 2,5%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.624,70", "cambio": "-1,36%", "cambioPct": -1.36 },
+    { "nombre": "Dow Jones", "valor": "46.225,15", "cambio": "-1,63%", "cambioPct": -1.63 },
+    { "nombre": "Nasdaq", "valor": "22.152,42", "cambio": "-1,46%", "cambioPct": -1.46 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed mantiene las tasas y prevé un solo recorte en el año",
+      "resumen": "La Reserva Federal no tocó la tasa y su gráfico de puntos mostró un único recorte para 2026, advirtiendo por el impacto de la guerra.",
+      "afecta": ["Mercado en general", "Financiero"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "El nuevo 'dot plot' hizo caer al mercado tras el anuncio.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Motley Fool", "url": "https://www.nasdaq.com/articles/new-fed-dot-plot-sends-markets-sliding" },
+        { "nombre": "Nation Thailand (Reuters)", "url": "https://www.nationthailand.com/news/general/40063972" }
+      ]
+    },
+    {
+      "titulo": "El S&P 500 y el Dow tocan nuevos mínimos de cierre del año",
+      "resumen": "El S&P 500 cerró en su nivel más bajo en casi cuatro meses y acumula una baja de cerca de 3% en 2026.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Se evaporaron unos USD 800.000 millones de valor de mercado en el día.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-pressured-inflation-concerns-and-iran-war-jitters" },
+        { "nombre": "Anadolu", "url": "https://www.aa.com.tr/en/economy/-800b-removed-from-us-share-markets-on-wed/3870594" }
+      ]
+    },
+    {
+      "titulo": "El Brent salta hacia USD 110",
+      "resumen": "El crudo internacional volvió a dispararse y alimentó los temores de inflación.",
+      "afecta": ["Energía", "Consumo"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Consumo básico fue el sector que más cayó (-2,5%).",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/03/us-stocks-fall-as-brent-crude-jumps-toward-110-per-barrel" },
+        { "nombre": "AOL / Motley Fool", "url": "https://www.aol.com/finance/stock-market-today-march-18-214020564.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Consumo", "tono": "negativo", "porque": "Consumo básico cayó 2,5%, el peor sector." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Menos recortes de tasas a la vista." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó 1,46%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Todos los sectores terminaron en rojo pese al crudo alto." }
+  ],
+  "riesgoHoy": "Una Fed que se resiste a bajar tasas mientras el petróleo empuja la inflación.",
+  "proximos": ["Datos de inflación y del mercado laboral", "Evolución de Ormuz"]
+}

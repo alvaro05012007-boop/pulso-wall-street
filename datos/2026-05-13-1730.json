@@ -1,0 +1,64 @@
+{
+  "id": "2026-05-13-1730",
+  "fecha": "2026-05-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "La tecnología llevó al S&P 500 (+0,6%) y al Nasdaq (+1,2%) a nuevos récords; el Dow cedió 0,1%.",
+    "Pero la suba fue angosta: cerca de dos tercios de las acciones del S&P 500 cerraron en baja tras otro dato de inflación desalentador.",
+    "Los chips y las firmas ligadas a la IA, con Nvidia en máximos, explicaron casi toda la ganancia."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.444,25", "cambio": "+0,58%", "cambioPct": 0.58 },
+    { "nombre": "Dow Jones", "valor": "49.693,20", "cambio": "-0,14%", "cambioPct": -0.14 },
+    { "nombre": "Nasdaq", "valor": "26.402,34", "cambio": "+1,20%", "cambioPct": 1.20 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La tecnología sostiene los récords aunque la mayoría de las acciones cae",
+      "resumen": "AP destacó que el S&P 500 marcó récord pese a que la mayoría de sus componentes bajó tras un nuevo dato de inflación.",
+      "afecta": ["Tecnología", "Mercado en general"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "La suba quedó concentrada en pocas megaempresas.",
+      "fuentes": [
+        { "nombre": "AP / AJC", "url": "https://www.ajc.com/news/2026/05/tech-carries-wall-street-to-records-even-as-most-stocks-fall-after-discouraging-inflation-data/" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-wednesday-5-13-2026/" }
+      ]
+    },
+    {
+      "titulo": "Nvidia en máximos y fuerza de los chips",
+      "resumen": "Los semiconductores lideraron el avance y Nvidia tocó récord.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq ganó 314 puntos.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/1914958/s-p-500-and-nasdaq-100-post-new-record-highs-on-chip-stock-strength" },
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/sp-500-nasdaq-record-highs-chip-stocks-ai-tech/" }
+      ]
+    },
+    {
+      "titulo": "El Dow y las pequeñas empresas quedan atrás",
+      "resumen": "El Dow perdió 67 puntos y el Russell 2000 acumula baja en la semana.",
+      "afecta": ["Industria", "Pequeñas empresas"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Se ve una brecha entre las tecnológicas grandes y el resto del mercado.",
+      "fuentes": [
+        { "nombre": "Anadolu", "url": "https://aa.com.tr/en/economy/us-stocks-end-mostly-higher-as-tech-rally-pushes-nasdaq-sp-500-to-record-highs/3936711" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Stocktwits publicó un cierre del Nasdaq de 24.016, que no coincide con AP, Reuters y Anadolu (26.402)."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia en récord lideró a los chips." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Sostuvo los récords de los índices." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow terminó en baja." }
+  ],
+  "riesgoHoy": "La inflación que sigue subiendo y una suba sostenida por pocas acciones.",
+  "proximos": ["Balance de Cisco", "Conversaciones entre Trump y Xi en Pekín"]
+}

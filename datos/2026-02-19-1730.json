@@ -1,0 +1,64 @@
+{
+  "id": "2026-02-19-1730",
+  "fecha": "2026-02-19",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Los índices bajaron: el Dow perdió 0,54%, el Nasdaq 0,31% y el S&P 500 0,28%.",
+    "Cayeron los chips y las empresas de infraestructura de IA, en un día con dudas sobre la IA.",
+    "El petróleo tocó su máximo en siete meses por el temor a un ataque de EE.UU. a Irán, y el déficit comercial salió peor de lo esperado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.861,89", "cambio": "-0,28%", "cambioPct": -0.28 },
+    { "nombre": "Dow Jones", "valor": "49.395,16", "cambio": "-0,54%", "cambioPct": -0.54 },
+    { "nombre": "Nasdaq", "valor": "22.682,73", "cambio": "-0,31%", "cambioPct": -0.31 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo sube a máximos de siete meses por Irán",
+      "resumen": "Trump evaluaba un posible ataque contra Irán y eso empujó el precio del crudo.",
+      "afecta": ["Petróleo", "Energía", "Defensa"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Las acciones cerraron en baja y el crudo en alza.",
+      "fuentes": [
+        { "nombre": "Finviz (Barchart)", "url": "https://finviz.com/news/316506/stocks-settle-sharply-lower-as-trump-weighs-attack-on-iran" },
+        { "nombre": "Finviz (Yahoo Finance)", "url": "https://finviz.com/news/316325/stocks-fall-oil-hits-7-month-high-as-trump-weighs-iran-strike-whats-moving-markets-thursday" }
+      ]
+    },
+    {
+      "titulo": "Caen los chips y la infraestructura de IA",
+      "resumen": "Volvió la cautela sobre la IA y los fabricantes de chips encabezaron las bajas.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 0,31%.",
+      "fuentes": [
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-decline-amid-ai-fears-and-geopolitical-risks" }
+      ]
+    },
+    {
+      "titulo": "Déficit comercial más amplio y mensajes duros de la Fed",
+      "resumen": "El déficit comercial de EE.UU. superó lo esperado y el gobernador de la Fed Stephen Miran hizo comentarios que el mercado leyó como duros.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Sumó presión vendedora a los índices.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-major-indices-retreat-as-ballooning-trade-deficit-weighs-on-sentiment" },
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/articles/stock-market-today-feb-19-151748931.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Una versión de AP dio al S&P 500 y al Nasdaq con -0,4%; los valores de cierre que surgen del reporte de AP del día siguiente dan -0,28% y -0,31%, y se usaron esos."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Lideraron las bajas por dudas sobre la IA." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió a máximos de siete meses." },
+    { "sector": "Defensa", "tono": "neutral", "porque": "Atención a una posible acción militar contra Irán." }
+  ],
+  "riesgoHoy": "Un posible conflicto entre EE.UU. e Irán y su efecto sobre el petróleo.",
+  "proximos": ["Fallo de la Corte Suprema sobre aranceles", "PIB del cuarto trimestre y PCE"]
+}

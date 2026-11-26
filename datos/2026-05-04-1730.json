@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-04-1730",
+  "fecha": "2026-05-04",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Wall Street se alejó de sus récords: el Dow cayó 1,1% (557 puntos), el S&P 500 0,4% y el Nasdaq 0,2%.",
+    "Volvieron los choques entre EE.UU. e Irán y el petróleo WTI saltó 4,4% a US$106,28.",
+    "Energía fue el único sector del S&P 500 que terminó en alza."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.200,75", "cambio": "-0,41%", "cambioPct": -0.41 },
+    { "nombre": "Dow Jones", "valor": "48.941,90", "cambio": "-1,13%", "cambioPct": -1.13 },
+    { "nombre": "Nasdaq", "valor": "25.067,80", "cambio": "-0,19%", "cambioPct": -0.19 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "US$106,28", "cambio": "+4,36%", "cambioPct": 4.36 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Se reaviva la pelea en Medio Oriente y el crudo se dispara",
+      "resumen": "Nuevas hostilidades entre EE.UU. e Irán empujaron al petróleo más de US$4 por barril.",
+      "afecta": ["Energía", "Petróleo", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Las acciones bajaron desde máximos y solo energía cerró en verde.",
+      "fuentes": [
+        { "nombre": "AP / ABC13", "url": "https://abc13.com/amp/post/wall-street-drops-records-oil-prices-jump-fighting-flares-middle-east/19037966/" },
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/5/4/modest-pullback-as-oil-surge-pressures-stocks" }
+      ]
+    },
+    {
+      "titulo": "El Dow pierde más de 500 puntos",
+      "resumen": "El promedio industrial fue el más golpeado, con una baja de 557 puntos.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El Dow cerró en 48.941,90, por debajo de los 49.000.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/547573" }
+      ]
+    },
+    {
+      "titulo": "Tensión en Medio Oriente frena el rally",
+      "resumen": "Barchart describe una rueda de caídas por el aumento de la tensión regional.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "La baja fue moderada en el Nasdaq, que perdió apenas 0,2%.",
+      "fuentes": [
+        { "nombre": "Barchart / Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-fall-amid-rising-middle-203947006.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Único sector en alza por el salto del crudo." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Lideró la caída del Dow." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible más caro pesa sobre sus costos." }
+  ],
+  "riesgoHoy": "La escalada entre EE.UU. e Irán y su efecto sobre el precio del petróleo.",
+  "proximos": ["Más balances corporativos", "Si el crudo se mantiene arriba de US$100"]
+}

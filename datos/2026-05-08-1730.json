@@ -1,0 +1,62 @@
+{
+  "id": "2026-05-08-1730",
+  "fecha": "2026-05-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El S&P 500 (+0,8%) y el Nasdaq (+1,7%) volvieron a marcar récords; el Dow quedó casi plano.",
+    "El empleo de abril sorprendió: se crearon 115.000 puestos contra unos 55.000 esperados y el desempleo siguió en 4,3%.",
+    "La demanda por IA y un acuerdo en chips pesaron más que el petróleo alto y la confianza del consumidor en mínimo récord."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.398,93", "cambio": "+0,84%", "cambioPct": 0.84 },
+    { "nombre": "Dow Jones", "valor": "49.609,16", "cambio": "+0,02%", "cambioPct": 0.02 },
+    { "nombre": "Nasdaq", "valor": "26.247,08", "cambio": "+1,71%", "cambioPct": 1.71 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El empleo de abril supera lo esperado",
+      "resumen": "Las nóminas crecieron 115.000 frente a unas 55.000 previstas; el desempleo se mantuvo en 4,3%.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Empleo", "volatilidad": false,
+      "impacto": "Según AP, el dato sólido opacó la suba del petróleo y llevó a nuevos récords.",
+      "fuentes": [
+        { "nombre": "AP / AJC", "url": "https://www.ajc.com/news/2026/05/us-stocks-rise-to-records-after-a-solid-jobs-report-overshadows-higher-oil-prices/" },
+        { "nombre": "Quartz", "url": "https://qz.com/us-stock-futures-april-jobs-report-050826" }
+      ]
+    },
+    {
+      "titulo": "IA y balances empujan al Nasdaq",
+      "resumen": "Los resultados de Nvidia y Sandisk y la demanda por inteligencia artificial impulsaron a las tecnológicas.",
+      "afecta": ["Semiconductores", "Nvidia", "Sandisk"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "El Nasdaq subió 1,7% hasta un máximo histórico.",
+      "fuentes": [
+        { "nombre": "Reuters / Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-chips-103255352.html" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/549342" }
+      ]
+    },
+    {
+      "titulo": "Confianza del consumidor en mínimo récord y crudo alto",
+      "resumen": "El sentimiento del consumidor cayó a un récord negativo a inicios de mayo, con el petróleo elevado por los ataques que amenazan el alto el fuego con Irán.",
+      "afecta": ["Consumo", "Energía"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Reuters reportó un dólar en baja y mercados que digerían señales mezcladas.",
+      "fuentes": [
+        { "nombre": "Reuters / Yahoo Finance", "url": "https://finance.yahoo.com/markets/commodities/articles/oil-jumps-stock-futures-slip-230803733.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia, Sandisk y un acuerdo en chips." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Demanda por IA llevó al Nasdaq a récord." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "La confianza del consumidor tocó un mínimo récord." }
+  ],
+  "riesgoHoy": "Los ataques que pusieron en duda el alto el fuego con Irán y mantuvieron alto el crudo.",
+  "proximos": ["Inflación (IPC) de abril el martes 12", "Evolución del alto el fuego con Irán"]
+}

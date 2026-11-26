@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-19-1730",
+  "fecha": "2026-11-19",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Sexta baja seguida del S&P 500 (-2%), su racha más larga desde 2024. El Dow perdió 1.101 puntos (2,2%) y el Nasdaq 2,3%.",
+    "Más del 90% de las acciones del S&P 500 cayó por la pérdida de confianza en las ganancias de la IA.",
+    "Anthropic debutó en la bolsa y cerró 17% arriba de su precio de salida (83 USD), pero no alcanzó para levantar el ánimo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.175,83", "cambio": "-2,02%", "cambioPct": -2.02 },
+    { "nombre": "Dow Jones", "valor": "49.097,06", "cambio": "-2,19%", "cambioPct": -2.19 },
+    { "nombre": "Nasdaq", "valor": "23.879,20", "cambio": "-2,25%", "cambioPct": -2.25 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La racha negativa más larga desde 2024",
+      "resumen": "El S&P 500 sumó su sexta baja seguida; en la semana pierde 5,1% y el Dow 6,2%.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "NBC New York", "url": "https://www.nbcnewyork.com/news/national-international/wall-street-longest-losing-streak-since-2024/6574493/" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-11192026-nid19112026/" }
+      ]
+    },
+    {
+      "titulo": "Anthropic debuta con suba, pero no contagia",
+      "resumen": "La acción de Anthropic cerró 17% arriba de los 83 USD de salida, pero el resto del mercado siguió cayendo.",
+      "afecta": ["Software", "Tecnología"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-anthropic-trading-debut-fails-to-provide-adequate-confidence/cNbio2mR90v" }
+      ]
+    },
+    {
+      "titulo": "El Dow pierde 1.101 puntos por las dudas sobre la IA",
+      "resumen": "Preocupan la rentabilidad de la IA y el gasto enorme en infraestructura. Las tasas bajaron porque los inversores buscaron refugio.",
+      "afecta": ["Tecnología", "Semiconductores", "Industria"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "The Business Journal", "url": "https://thebusinessjournal.com/dow-plunges-1101-points-ai-stocks-wall-street/" },
+        { "nombre": "Journal Arta", "url": "https://journalarta.com/en/2026/11/20/stock-market-today-dow-drops-1101-points-as-ai-shares-fade/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Pérdida de confianza en el crecimiento de la IA." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Siguió la venta de chips." },
+    { "sector": "Software", "tono": "mixto", "porque": "Anthropic subió en su debut, pero el sector no acompañó." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cayó 2,2%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo siguió bajando." }
+  ],
+  "riesgoHoy": "El riesgo era generalizado: más del 90% de las acciones del S&P 500 cayó.",
+  "proximos": [
+    "Viernes 20: vencimiento de opciones y cierre de una semana muy negativa.",
+    "Semana próxima corta por Thanksgiving (jueves 26 cerrado).",
+    "Miércoles 25: inflación PCE de octubre."
+  ]
+}

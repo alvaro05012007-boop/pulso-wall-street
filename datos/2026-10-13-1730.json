@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-13-1730",
+  "fecha": "2026-10-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El S&P 500 terminó casi plano (-0,02%), aunque la mayoría de sus acciones subió: lo frenaron los bancos y los chips.",
+    "El Dow cayó 0,35% y el Nasdaq 0,15%. Salud y financieras fueron los sectores que más pesaron.",
+    "El dólar se alejó de su máximo en 17 meses mientras el mercado esperaba la inflación del miércoles. El FMI subió su pronóstico de crecimiento mundial para 2026 a 3,1%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.805,45", "cambio": "-0,02%", "cambioPct": -0.02 },
+    { "nombre": "Dow Jones", "valor": "51.670,10", "cambio": "-0,35%", "cambioPct": -0.35 },
+    { "nombre": "Nasdaq", "valor": "27.204,38", "cambio": "-0,15%", "cambioPct": -0.15 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "94,14 USD", "cambio": "+0,43%", "cambioPct": 0.43 },
+    { "nombre": "Dólar (DXY)", "valor": "~102,35", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "S&P 500 plano pese a que la mayoría de las acciones sube",
+      "resumen": "El índice perdió apenas 1,79 puntos. Las caídas de bancos y fabricantes de chips taparon una amplitud positiva.",
+      "afecta": ["Todo el mercado", "Financiero", "Semiconductores"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "TS2", "url": "https://ts2.tech/en/sp-500-ends-flat-as-positive-breadth-defies-bank-chip-losses/" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/3006799/stock-market-news-for-oct-14-2026" }
+      ]
+    },
+    {
+      "titulo": "Chips en baja y petróleo en alza; los grandes bancos, en la mira",
+      "resumen": "Las acciones de chips cayeron mientras el petróleo subía. El mercado se preparaba para los resultados de los grandes bancos.",
+      "afecta": ["Semiconductores", "Financiero", "Energía"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "CoinCentral", "url": "https://coincentral.com/stock-market-today-chip-stocks-slide-oil-climbs-and-big-banks-report-next/" }
+      ]
+    },
+    {
+      "titulo": "El FMI mejora el crecimiento mundial gracias a la IA",
+      "resumen": "El FMI subió su pronóstico de crecimiento global 2026 a 3,1% (desde 3,0%): la inversión en IA compensa el golpe energético de la guerra en Medio Oriente.",
+      "afecta": ["Tecnología", "Energía"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "FXStreet", "url": "https://www.fxstreet.com/news/forex-today-us-dollar-retreats-from-17-month-high-as-bond-yields-oil-prices-ease-202610130659" }
+      ]
+    },
+    {
+      "titulo": "El dólar retrocede antes del CPI",
+      "resumen": "El índice del dólar bajó desde su máximo en 17 meses (cerca de 102,35) a la espera del dato de inflación del miércoles.",
+      "afecta": ["Dólar"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-13-oct-dollar-retreats-as-traders-await-cpi-oil-rises-and-stocks-slip/" }
+      ]
+    },
+    {
+      "titulo": "Brent baja, WTI sube",
+      "resumen": "El Brent cerró 0,9% abajo en 105,69 USD, mientras el WTI subió a 94,14 USD.",
+      "afecta": ["Energía"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Gulf News (Reuters)", "url": "https://gulfnews.com/amp/story/business%2Fenergy%2Foil-prices-diverge-as-brent-falls-below-106-wti-rises-opec-basket-jumps-414-1.500709494" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Financiero", "tono": "negativo", "porque": "Los bancos cayeron en la previa de sus resultados." },
+    { "sector": "Salud", "tono": "negativo", "porque": "Fue uno de los sectores que más arrastró al mercado." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Siguió la baja de los fabricantes de chips." },
+    { "sector": "Energía", "tono": "mixto", "porque": "El WTI subió levemente pero el Brent bajó." }
+  ],
+  "riesgoHoy": "Lo más riesgoso fue quedarse expuesto a chips y bancos antes de un CPI que podía empujar a la Fed a subir tasas.",
+  "proximos": [
+    "Miércoles 14: inflación de septiembre (CPI) y resultados de grandes bancos.",
+    "Jueves 15: precios mayoristas (PPI).",
+    "Reunión de la Fed a fin de octubre."
+  ]
+}

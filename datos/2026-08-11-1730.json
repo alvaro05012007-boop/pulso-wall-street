@@ -1,0 +1,78 @@
+{
+  "id": "2026-08-11-1730",
+  "fecha": "2026-08-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Otra rueda en baja antes del dato de inflación: el S&P 500 cedió 0,3% y el Dow 184 puntos.",
+    "El petróleo rebotó por señales contradictorias sobre Ormuz, y varios miembros de la Fed hablaron de una posible suba de tasas en septiembre.",
+    "Después del cierre, CoreWeave y Super Micro Computer saltaron tras sus balances."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.728,20", "cambio": "-0,32%", "cambioPct": -0.32 },
+    { "nombre": "Dow Jones", "valor": "53.791,85", "cambio": "-0,34%", "cambioPct": -0.34 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo rebota por señales mixtas sobre Ormuz",
+      "resumen": "El crudo subió por señales contradictorias sobre la reapertura del estrecho de Ormuz, lo que alimentó las preocupaciones por las tasas antes del IPC.",
+      "afecta": ["Energía", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "Las acciones cerraron en baja, salvo las empresas chicas.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-fall-amid-mixed-hormuz-signals,-rising-crude-prices" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/574512" }
+      ]
+    },
+    {
+      "titulo": "Miembros de la Fed anticipan una posible suba en septiembre",
+      "resumen": "Varios integrantes del comité de la Fed dejaron abierta la posibilidad de subir las tasas el mes próximo.",
+      "afecta": ["Bonos", "Financiero"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Aumentó la importancia del dato de inflación del miércoles.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/574512" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-ahead-wednesdays-cpi-report" }
+      ]
+    },
+    {
+      "titulo": "CoreWeave y Super Micro saltan después del cierre",
+      "resumen": "Las dos empresas ligadas a la infraestructura de IA subieron fuera de hora tras presentar sus balances.",
+      "afecta": ["CoreWeave", "Super Micro Computer", "Hardware"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Anticipan un buen día para las acciones de IA el miércoles.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/8/11/coreweave-and-super-micro-computer-jump-higher-on-earnings" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo rebotó." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "La chance de suba de tasas sube, pero también la cautela." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Super Micro saltó después del cierre." }
+  ],
+  "riesgoHoy": "El riesgo fue una Fed dispuesta a subir tasas con el petróleo otra vez en alza.",
+  "proximos": [
+    "Miércoles 12: inflación (IPC) de julio.",
+    "Jueves 13: precios mayoristas (PPI).",
+    "Novedades sobre Ormuz."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2026-07-13-1730",
+  "fecha": "2026-07-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Lunes en rojo: el S&P 500 cayó 0,8%, el Nasdaq 1,6% y el Dow 0,3%, todos cerca de los mínimos del día.",
+    "El petróleo volvió a dispararse tras un fin de semana de ataques en Medio Oriente, y las tasas cortas tocaron máximos del año.",
+    "Los chips se hundieron por el temor a que las grandes nubes recorten su gasto en infraestructura de IA."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.515,34", "cambio": "-0,79%", "cambioPct": -0.79 },
+    { "nombre": "Dow Jones", "valor": "52.498,64", "cambio": "-0,26%", "cambioPct": -0.26 },
+    { "nombre": "Nasdaq", "valor": "25.873,18", "cambio": "-1,55%", "cambioPct": -1.55 },
+    { "nombre": "Bono 10 años", "valor": "4,62%", "cambio": "+5 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo salta tras un fin de semana de ataques en Medio Oriente",
+      "resumen": "Los precios del crudo subieron con fuerza después de nuevos ataques entre EE.UU. e Irán durante el fin de semana.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El salto del crudo reforzó el miedo a la inflación justo antes del dato de precios del martes.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/13/oil-surges-semiconudcotors-slide-ahead-of-key-catalysts" },
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/07/oil-prices-jump-as-fighting-flares-in-the-middle-east-while-asian-shares-are-mixed/" }
+      ]
+    },
+    {
+      "titulo": "Los chips caen por dudas sobre el gasto en IA",
+      "resumen": "Los fabricantes de chips se hundieron por la preocupación de que las grandes empresas de nube se vean obligadas a recortar inversiones en infraestructura de IA.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "El Nasdaq perdió 408 puntos, su peor rueda en varias semanas.",
+      "fuentes": [
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-monday-7-13-2026/" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-chipmakers-routed-and-us-iran-tensions-escalate" }
+      ]
+    },
+    {
+      "titulo": "Las tasas cortas tocan máximos del año",
+      "resumen": "Las tasas de 5 años y más cortas cerraron en máximos de 2026, y las de 10 y 30 años se acercaron a los máximos de mayo.",
+      "afecta": ["Bonos", "Financiero", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El mercado aumentó las apuestas a una suba de tasas de la Fed en julio.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/13/oil-surge-and-semiconductor-weakness-pressure-stocks" }
+      ]
+    },
+    {
+      "titulo": "Vuelve el miedo a una guerra entre EE.UU. e Irán",
+      "resumen": "El temor a una escalada entre EE.UU. e Irán reapareció y pesó sobre las tres grandes referencias de Wall Street.",
+      "afecta": ["Todo el mercado", "Defensa"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Geopolítica",
+      "volatilidad": false,
+      "impacto": "Los inversores llegaron cautelosos a una semana con inflación y balances bancarios.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-us-iran-war-fear-remerges-meta-skhvy-crcl-ba-dal-in-focus/cZmC5BQR7YA?.tsrc=rss" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Caída fuerte por dudas sobre el gasto en IA." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo se disparó por los ataques del fin de semana." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Suben los costos de combustible." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Tasas cerca de máximos del año." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue la combinación de petróleo en alza y tasas en máximos justo antes del dato de inflación.",
+  "proximos": [
+    "Martes 14: inflación (IPC) de junio.",
+    "Balances de los grandes bancos desde el martes.",
+    "Reunión de la Fed a fin de mes."
+  ]
+}

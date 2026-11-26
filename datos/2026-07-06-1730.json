@@ -1,0 +1,93 @@
+{
+  "id": "2026-07-06-1730",
+  "fecha": "2026-07-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Vuelta del feriado con subas: el S&P 500 ganó 0,7%, el Nasdaq 1,1% y el Dow cerró por primera vez arriba de 53.000.",
+    "Los chips y las grandes tecnológicas rebotaron después de la paliza de la semana pasada; Broadcom subió 3,7% por acuerdos de largo plazo con Apple.",
+    "El S&P 500 quedó a menos de 1% de su récord, aunque la mayoría de sus acciones bajó."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.537,43", "cambio": "+0,72%", "cambioPct": 0.72 },
+    { "nombre": "Dow Jones", "valor": "53.055,91", "cambio": "+0,29%", "cambioPct": 0.29 },
+    { "nombre": "Nasdaq", "valor": "26.121,16", "cambio": "+1,12%", "cambioPct": 1.12 },
+    { "nombre": "Bono 10 años", "valor": "4,47%", "cambio": "-2 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Rebotan los chips y las grandes tecnológicas",
+      "resumen": "Las acciones de chips subieron antes del reporte de ventas de Samsung y de la emisión de ADR de SK Hynix prevista para el viernes. El Nasdaq 100 ganó cerca de 1,3%.",
+      "afecta": ["Semiconductores", "Tecnología", "Nvidia"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El rebote llevó al S&P 500 a menos de 1% de su máximo histórico.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stock-indexes-settle-higher-big-tech-and-chip-stocks-rally" },
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/07/rebounding-ai-stocks-send-the-sp-500-within-1-of-its-record/" }
+      ]
+    },
+    {
+      "titulo": "El Dow supera los 53.000 puntos por primera vez",
+      "resumen": "El Dow subió 155,84 puntos hasta 53.055,91, un nuevo récord de cierre.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Fue el segundo récord seguido del Dow, que venía de subir con fuerza tras el dato de empleo.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-tops-53,000-for-first-time" },
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/europe/2026/07/how-major-us-stock-indexes-fared-monday-7-6-2026/" }
+      ]
+    },
+    {
+      "titulo": "Broadcom sube 3,7% por acuerdos de largo plazo con Apple",
+      "resumen": "Broadcom anunció acuerdos de largo plazo para proveer productos de silicio a Apple.",
+      "afecta": ["Broadcom", "Apple", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "La noticia ayudó al rebote de todo el sector de chips.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-higher-on-support-from-strong-tech-gains-led-by-nvidia-dow-hits-record-highs-msft-nvda-lmt-avgo-spcx-in-focus/cZm1YfaR7lU?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "El petróleo cede después de que la OPEP+ planea más producción en agosto",
+      "resumen": "Los precios del crudo bajaron tras conocerse que la OPEP+ planea subir su producción en agosto.",
+      "afecta": ["Energía"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "El crudo más barato ayudó a bajar la tasa a 10 años a 4,47%.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/07/markets-on-wall-street-quietly-mixed-while-oil-prices-slip-after-opec-plans-august-output-hike/" },
+        { "nombre": "The Edge Malaysia (Bloomberg)", "url": "https://theedgemalaysia.com/node/809609" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebote fuerte antes de los datos de Samsung y SK Hynix." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las grandes tecnológicas recuperaron parte de lo perdido." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó por el plan de más producción de la OPEP+." }
+  ],
+  "riesgoHoy": "El riesgo fue la poca amplitud: el índice subió por pocas tecnológicas grandes mientras la mayoría de las acciones bajaba.",
+  "proximos": [
+    "Datos de balanza comercial.",
+    "Minutas de la Fed el miércoles.",
+    "Ventas preliminares de Samsung y salida de los ADR de SK Hynix el viernes."
+  ]
+}

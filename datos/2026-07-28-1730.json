@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-28-1730",
+  "fecha": "2026-07-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Buenos balances y otra baja del petróleo levantaron al mercado: el Dow subió 1% y el S&P 500 0,2%.",
+    "El Nasdaq cayó 0,2% por otra jornada difícil para los chips, pero el S&P 500 de igual ponderación ganó 1,1%.",
+    "Energía fue el peor sector (-1,4%) con el crudo en retroceso."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.428,78", "cambio": "+0,21%", "cambioPct": 0.21 },
+    { "nombre": "Dow Jones", "valor": "52.747,32", "cambio": "+1,03%", "cambioPct": 1.03 },
+    { "nombre": "Nasdaq", "valor": "24.897,92", "cambio": "-0,22%", "cambioPct": -0.22 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "79,34 USD", "cambio": "-4,0%", "cambioPct": -4.0 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Balances de grandes empresas tradicionales empujan al Dow",
+      "resumen": "Varias empresas de primera línea, como Boeing y Coca-Cola, subieron tras sus resultados, y el Dow ganó 537 puntos.",
+      "afecta": ["Industria", "Consumo", "Boeing", "Coca-Cola"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "El S&P 500 de igual ponderación subió 1,1%, muy por encima del índice tradicional.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/28/market-rotates-away-from-semiconductors-amid-earnings-oil-relief" },
+        { "nombre": "Virginia Business", "url": "https://virginiabusiness.com/sp-500-boeing-coca-cola-chip-stock-losses/" }
+      ]
+    },
+    {
+      "titulo": "Los chips siguen cayendo",
+      "resumen": "Las acciones de chips y otras ganadoras de la IA volvieron a caer y frenaron la suba de Wall Street.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Nasdaq sumó otra baja pese a la mejora del resto del mercado.",
+      "fuentes": [
+        { "nombre": "AP (vía Las Vegas Sun)", "url": "https://lasvegassun.com/news/2026/jul/28/how-major-us-stock-indexes-fared-tuesday-7282026/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/570498" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sigue bajando",
+      "resumen": "El crudo volvió a caer con la pausa en la guerra con Irán; el sector energía fue el peor del S&P 500.",
+      "afecta": ["Energía"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "El alivio en el crudo ayudó a consumo, transporte e industria.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/28/oil-slide-and-earnings-buzz-looks-to-offset-tech-weakness" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/07/29/us-stocks-close-mixed-amid-strong-earnings-falling-oil-prices" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 24.876,91 y Briefing.com en 24.897,92, con la misma baja de 55,17 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Industria", "tono": "positivo", "porque": "Boeing y otras empresas subieron tras sus balances." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Coca-Cola y el petróleo más barato ayudaron." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Otra jornada difícil para los chips." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Peor sector del día, con -1,4%." }
+  ],
+  "riesgoHoy": "El riesgo siguió en los chips y en la decisión de la Fed del día siguiente.",
+  "proximos": [
+    "Miércoles 29: decisión de la Fed.",
+    "Balances de grandes tecnológicas.",
+    "Negociaciones entre EE.UU. e Irán."
+  ]
+}

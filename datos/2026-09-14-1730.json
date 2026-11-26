@@ -1,0 +1,81 @@
+{
+  "id": "2026-09-14-1730",
+  "fecha": "2026-09-14",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Las acciones ligadas a la inteligencia artificial cayeron tras advertencias de la industria sobre la seguridad de la IA, y los chips sufrieron una fuerte venta.",
+    "El S&P 500 bajó 0,48%, el Nasdaq 0,56% y el Dow 0,29%; tecnología fue el peor sector (-1,68%).",
+    "La tasa a 10 años se acercó a 5% y el petróleo siguió subiendo, a dos días de la decisión de la Fed."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.619,98", "cambio": "-0,48%", "cambioPct": -0.48 },
+    { "nombre": "Dow Jones", "valor": "52.421,20", "cambio": "-0,29%", "cambioPct": -0.29 },
+    { "nombre": "Nasdaq", "valor": "26.186,41", "cambio": "-0,56%", "cambioPct": -0.56 },
+    { "nombre": "Bono 10 años", "valor": "cerca de 5%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Advertencias sobre la seguridad de la IA golpean a los chips",
+      "resumen": "Las acciones de IA cayeron después de advertencias de la propia industria sobre la seguridad de esta tecnología. Los fabricantes de chips fueron los más castigados.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "Tecnología cayó 1,68% y fue el peor sector del S&P 500; las de ciberseguridad, en cambio, subieron.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-ai-safety-chipmakers-treasury-yields/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años roza el 5%",
+      "resumen": "El rendimiento del Tesoro a 10 años se acercó a 5%, lo que aumenta el temor a que la Fed mantenga una postura dura más allá de la suba esperada.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "La presión de los bonos se sumó a la caída de la tecnología.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/most-us-stocks-fall-on-wall-street-as-pressure-remains-from-high-bond-yields/" },
+        { "nombre": "HDFC Sky", "url": "https://hdfcsky.com/news/nasdaq-falls-147-points-as-ai-safety-warning-triggers-chip-stock-rout-10-year-yield-hits-5percent-and-oil-surges-past-106-september-15-2026" }
+      ]
+    },
+    {
+      "titulo": "Industria también cae; otros sectores limitan la baja",
+      "resumen": "Industria perdió 1,44%. Las subas en otros sectores evitaron una caída mayor del mercado.",
+      "afecta": ["Industria"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "La baja se concentró en tecnología e industria.",
+      "fuentes": [
+        { "nombre": "Stock Market Watch", "url": "https://stockmarketwatch.com/digest/2026-09-14" },
+        { "nombre": "La Nación (AP)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-9142026-nid14092026/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Una nota de Zacks fechada el 14 dice que los índices subieron, pero los datos de cierre muestran bajas en los tres; se tomó esto último."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Fue el peor sector, con -1,68%." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Fuerte venta tras las advertencias sobre la IA." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Cayó 1,44%." },
+    { "sector": "Software", "tono": "positivo", "porque": "Las empresas de ciberseguridad subieron con fuerza." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en la IA y los chips, sumado a una tasa a 10 años cerca de 5% antes de la Fed.",
+  "proximos": [
+    "Martes 15 y miércoles 16: reunión de la Fed, con una suba de tasas muy esperada.",
+    "Evolución del petróleo."
+  ]
+}

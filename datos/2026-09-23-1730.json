@@ -1,0 +1,80 @@
+{
+  "id": "2026-09-23-1730",
+  "fecha": "2026-09-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Bajaron los tres índices: el S&P 500 cayó 0,7%, el Dow 0,7% y el Nasdaq 1,2%, arrastrado por Alphabet y Amazon.",
+    "Una encuesta mostró que la actividad de las empresas de EE.UU. llegó a su nivel más alto en más de cinco años, lo que subió las tasas de los bonos.",
+    "Crecieron las apuestas a otra suba de tasas de la Fed en octubre; el petróleo dejó de bajar."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.709,62", "cambio": "-0,71%", "cambioPct": -0.71 },
+    { "nombre": "Dow Jones", "valor": "51.512,42", "cambio": "-0,68%", "cambioPct": -0.68 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "-1,21%", "cambioPct": -1.21 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La actividad empresarial toca máximos de cinco años y suben las tasas",
+      "resumen": "Una encuesta mostró que la actividad de las empresas en EE.UU. llegó en septiembre a su mayor nivel en más de cinco años. Eso empujó las tasas de los bonos y las apuestas a una suba de la Fed en octubre.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": true,
+      "impacto": "Una economía fuerte reavivó el miedo a la inflación y la presión del mercado de bonos llegó a un nuevo nivel.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-falls-oil-prices-treasury-yields-middle-east/" },
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-9232026-136697299" }
+      ]
+    },
+    {
+      "titulo": "Alphabet y Amazon arrastran al Nasdaq",
+      "resumen": "Las grandes tecnológicas, con Alphabet y Amazon a la cabeza, fueron las que más pesaron. El Nasdaq perdió 1,21%.",
+      "afecta": ["Alphabet", "Amazon", "Tecnología", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "El Nasdaq cortó su racha de récords.",
+      "fuentes": [
+        { "nombre": "24/7 Wall St.", "url": "https://247wallst.com/cards/growth-stocks-took-the-brunt-of-it-the-nasdaq-s-1-21-drop-gspc-market-bell-01m37xwcmxyd31j71hjw2q2cg3" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2994299/stock-market-news-for-sep-23-2026" }
+      ]
+    },
+    {
+      "titulo": "Servicios públicos y comunicaciones, los peores sectores",
+      "resumen": "Nueve de los 11 sectores del S&P 500 cayeron; servicios públicos perdió 1,72% y comunicaciones 1,49%.",
+      "afecta": ["Servicios públicos", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Los sectores sensibles a las tasas fueron los más castigados.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-falls-oil-prices-treasury-yields-middle-east/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "24/7 Wall St. dio bajas de 0,76% para el S&P 500 y 0,64% para el Dow; los cierres informados (7.709,62 y 51.512,42) equivalen a -0,71% y -0,68%."
+  ],
+  "sectores": [
+    { "sector": "Servicios públicos", "tono": "negativo", "porque": "Fue el peor sector (-1,72%) por la suba de tasas." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Cayó 1,49% con Alphabet." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Amazon pesó sobre el sector." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq perdió 1,21%." }
+  ],
+  "riesgoHoy": "El riesgo fueron las tasas: una economía muy fuerte acerca otra suba de la Fed en octubre.",
+  "proximos": [
+    "Datos de inflación PCE a fin de semana.",
+    "Reunión de la Fed de octubre."
+  ]
+}

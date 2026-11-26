@@ -1,0 +1,92 @@
+{
+  "id": "2026-10-07-1730",
+  "fecha": "2026-10-07",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Wall Street retrocedió desde sus récords: el S&P 500 y el Nasdaq bajaron 0,2% y el Dow 0,7%.",
+    "La tasa a 10 años llegó a 5,36% a la mañana, cerca de su nivel más alto desde 2002, y la de 30 años tocó un máximo de 24 años; volvió el miedo a la inflación y a la deuda.",
+    "Las pequeñas empresas sufrieron más: el Russell 2000 cayó 1,3%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.801,75", "cambio": "-0,22%", "cambioPct": -0.22 },
+    { "nombre": "Dow Jones", "valor": "51.180,17", "cambio": "-0,66%", "cambioPct": -0.66 },
+    { "nombre": "Nasdaq", "valor": "27.538,69", "cambio": "-0,22%", "cambioPct": -0.22 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las tasas largas vuelven a subir y tocan máximos de décadas",
+      "resumen": "La tasa a 10 años subió hasta 5,36% desde 5,27% del martes, cerca de su máximo desde 2002, y la de 30 años tocó su nivel más alto en 24 años.",
+      "afecta": ["Bonos", "Inmobiliario", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Revivieron los temores por la inflación y la deuda del gobierno.",
+      "fuentes": [
+        { "nombre": "AP (vía NY1)", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/07/wall-street-retreats-from-its-record-as-stocks-fall-worldwide" },
+        { "nombre": "Reuters (vía GV Wire)", "url": "https://gvwire.com/2026/10/07/wall-street-ends-lower-off-record-highs-as-treasury-yields-climb/" }
+      ]
+    },
+    {
+      "titulo": "Wall Street se aleja de sus récords",
+      "resumen": "El Dow perdió 341,11 puntos a 51.180,17. El S&P 500 cerró apenas sobre 7.800 tras llegar a caer 0,71% en la rueda, y el Nasdaq cortó una racha de cinco subas.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "En la Bolsa de Nueva York hubo unas 3,3 acciones en baja por cada una en suba.",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-1072026-nid07102026/" },
+        { "nombre": "Reuters (vía Kitco)", "url": "https://www.kitco.com/news/off-the-wire/2026-10-07/sp-500-nasdaq-ease-record-highs-treasury-yields-climb" }
+      ]
+    },
+    {
+      "titulo": "El Brent pasa brevemente los 100 dólares",
+      "resumen": "El Brent superó por momentos los 100 dólares el barril; las acciones recortaron pérdidas cuando el crudo dio vuelta a la baja.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": true,
+      "impacto": "El petróleo marcó el ritmo de las acciones durante la tarde.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/10/wall-street-retreats-from-its-record-as-stocks-fall-worldwide-3/" }
+      ]
+    },
+    {
+      "titulo": "Las pequeñas empresas caen 1,3%",
+      "resumen": "El Russell 2000 bajó 1,3% y quedó peor que los índices de grandes empresas, más sensibles a las tasas altas.",
+      "afecta": ["Pequeñas empresas"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Las tasas altas golpean más a las empresas que dependen del crédito.",
+      "fuentes": [
+        { "nombre": "TS2", "url": "https://ts2.tech/en/s-small-caps-fall-1-3/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas largas tocaron máximos de décadas." },
+    { "sector": "Energía", "tono": "mixto", "porque": "El Brent pasó los 100 dólares y luego bajó." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Las pequeñas empresas y los bancos regionales sufren con tasas altas." }
+  ],
+  "riesgoHoy": "El mayor riesgo estuvo en la suba de las tasas largas, con temor a la inflación y a la deuda pública.",
+  "proximos": [
+    "Minutas de la última reunión de la Fed.",
+    "Inflación de septiembre (IPC).",
+    "Balances de los grandes bancos."
+  ]
+}

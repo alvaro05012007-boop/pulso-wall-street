@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-17-1730",
+  "fecha": "2026-07-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Viernes negro para las tecnológicas: el S&P 500 cayó 1%, el Nasdaq 1,4% y el Dow 0,8%, todos cerca de los mínimos del día.",
+    "La venta de acciones de impulso (las que más habían subido) se extendió a todo el mercado; Netflix decepcionó con su balance.",
+    "El petróleo volvió a subir por tensión en Ormuz y empujó las tasas. El S&P 500 perdió 1,6% en la semana."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.457,69", "cambio": "-1,01%", "cambioPct": -1.01 },
+    { "nombre": "Dow Jones", "valor": "52.146,42", "cambio": "-0,77%", "cambioPct": -0.77 },
+    { "nombre": "Nasdaq", "valor": "25.541,25", "cambio": "-1,40%", "cambioPct": -1.4 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La salida de las acciones de impulso se vuelve una baja general",
+      "resumen": "Las grandes tecnológicas abrieron con fuertes ventas y a la tarde la baja se extendió a todo el mercado, borrando un rebote de los chips.",
+      "afecta": ["Tecnología", "Semiconductores", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": true,
+      "impacto": "Fue la primera semana negativa del S&P 500 en tres y apenas la tercera desde marzo.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/17/momentum-unwind-turns-into-broader-retreat" },
+        { "nombre": "AP (vía Las Vegas Sun)", "url": "https://lasvegassun.com/news/2026/jul/17/how-major-us-stock-indexes-fared-friday-7172026/" }
+      ]
+    },
+    {
+      "titulo": "Sube el petróleo por tensión en Ormuz y presiona las tasas",
+      "resumen": "El crudo subió por nuevos roces en el estrecho de Ormuz; energía fue el único sector fuerte. El petróleo caro empuja las tasas de los bonos y amenaza con frenar la economía.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "En la semana, las tasas de 5 años y más cortas marcaron máximos del año.",
+      "fuentes": [
+        { "nombre": "AP (vía OPB)", "url": "https://www.opb.org/article/2026/07/17/swings-for-ai-stocks-whipsaw-markets-worldwide-while-oil-prices-keep-climbing/" },
+        { "nombre": "Cappnotes", "url": "https://cappnotes.substack.com/p/closing-look-71726" }
+      ]
+    },
+    {
+      "titulo": "Netflix decepciona con su balance",
+      "resumen": "Las acciones de Netflix cayeron después de un balance que el mercado consideró flojo.",
+      "afecta": ["Netflix", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Sumó presión sobre las tecnológicas de crecimiento.",
+      "fuentes": [
+        { "nombre": "XTB", "url": "https://www.xtb.com/en/market-analysis/morninga-wrap-wall-street-under-pressure-ai-loses-momentum-netflix-disappoints-and-the-persian-gulf-erupts" },
+        { "nombre": "Cboe", "url": "https://www.cboe.com/insights/posts/tech-sector-pullback-gains-momentum" }
+      ]
+    },
+    {
+      "titulo": "Datos mixtos: vivienda y confianza arriba, industria abajo",
+      "resumen": "Los inicios de viviendas de junio superaron lo esperado y la confianza del consumidor de julio salió muy por encima; la producción industrial y los permisos de construcción decepcionaron.",
+      "afecta": ["Consumo", "Industria", "Inmobiliario"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": false,
+      "impacto": "Los datos no cambiaron el rumbo del día, dominado por las tecnológicas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/17/momentum-unwind-weighs-on-major-averages" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP publicó un cierre del S&P 500 en 7.475,69, pero su propia baja de 76 puntos da 7.457,69, la cifra que informaron Briefing.com y otros."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Fuerte venta de las grandes tecnológicas." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Se borró un rebote temprano de los chips." },
+    { "sector": "Energía", "tono": "positivo", "porque": "Único sector fuerte con el crudo en alza." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Netflix cayó tras su balance." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue que la baja dejó de ser solo de los chips y se extendió a todo el mercado, con el petróleo empujando las tasas.",
+  "proximos": [
+    "Semana próxima: balances de Alphabet y Tesla.",
+    "Evolución de la tensión en Ormuz.",
+    "Reunión de la Fed a fin de mes."
+  ]
+}

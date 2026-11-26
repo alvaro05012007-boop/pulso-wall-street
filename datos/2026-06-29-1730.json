@@ -1,0 +1,63 @@
+{
+  "id": "2026-06-29-1730",
+  "fecha": "2026-06-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote: el S&P 500 subió 1,2% y cortó cinco bajas seguidas; el Nasdaq ganó 2,1% y el Dow 0,6% hasta un récord.",
+    "Se calmaron las hostilidades del fin de semana entre EE.UU. e Irán.",
+    "Las grandes tecnológicas rebotaron con compras en la baja, mientras las pequeñas empresas cedieron 0,3%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.440,43", "cambio": "+1,17%", "cambioPct": 1.17 },
+    { "nombre": "Dow Jones", "valor": "52.182,74", "cambio": "+0,59%", "cambioPct": 0.59 },
+    { "nombre": "Nasdaq", "valor": "25.820,14", "cambio": "+2,07%", "cambioPct": 2.07 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Se calman los ataques entre EE.UU. e Irán",
+      "resumen": "La reducción de las hostilidades del fin de semana mejoró el ánimo de los inversores.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Dow marcó un cierre récord.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-street-rises-us-iran-tensions-ease-tech-stocks/" },
+        { "nombre": "Reuters / NST", "url": "https://www.nst.com.my/amp/business/corporate/2026/06/1476441/wall-street-ends-higher-us-iran-attacks-ease" }
+      ]
+    },
+    {
+      "titulo": "Compras en la baja en las megatecnológicas",
+      "resumen": "Briefing.com describió una búsqueda de oportunidades en las grandes tecnológicas tras la mala semana.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El ETF Vanguard Mega Cap Growth subió 2,6%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/29/buythedip-bid-lifts-megacap-tech" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-monday-6-29-2026/" }
+      ]
+    },
+    {
+      "titulo": "El S&P 500 corta una racha de cinco bajas",
+      "resumen": "El índice recuperó parte de lo perdido en una semana poco habitualmente negativa.",
+      "afecta": ["Mercado en general", "Pequeñas empresas"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Russell 2000 fue la excepción con -0,3%.",
+      "fuentes": [
+        { "nombre": "AP / Las Vegas Sun", "url": "https://lasvegassun.com/news/2026/jun/29/us-stocks-rise-and-recover-some-of-their-losses-fr/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Reuters dio cifras preliminares levemente distintas (S&P 500 7.439,26; Nasdaq 25.812,52)."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Rebote de las megacaps." },
+    { "sector": "Comunicaciones", "tono": "positivo", "porque": "Acompañó la suba de las grandes tecnológicas." }
+  ],
+  "riesgoHoy": "La fragilidad de la calma entre EE.UU. e Irán.",
+  "proximos": ["Cierre del trimestre el martes 30", "Informe de empleo de junio"]
+}

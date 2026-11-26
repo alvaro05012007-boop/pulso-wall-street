@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-13-1730",
+  "fecha": "2026-08-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Récord para el S&P 500, que subió 0,65% después de otro dato de inflación tranquilo: los precios mayoristas no se movieron en julio.",
+    "El Nasdaq ganó 0,8% y el Dow 0,1%. El Russell 2000 de empresas chicas también cerró en récord.",
+    "El petróleo bajó 2,4% a 81,25 USD en medio de versiones cruzadas entre EE.UU. e Irán sobre el control de Ormuz."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.798,99", "cambio": "+0,65%", "cambioPct": 0.65 },
+    { "nombre": "Dow Jones", "valor": "53.839,99", "cambio": "+0,13%", "cambioPct": 0.13 },
+    { "nombre": "Nasdaq", "valor": "26.803,03", "cambio": "+0,81%", "cambioPct": 0.81 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "81,25 USD", "cambio": "-2,4%", "cambioPct": -2.4 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los precios mayoristas no suben en julio",
+      "resumen": "El índice de precios al productor quedó sin cambios en julio (0,0%), por debajo del 0,2% esperado.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": false,
+      "impacto": "Reforzó la idea de que la Fed no subirá las tasas en septiembre.",
+      "fuentes": [
+        { "nombre": "The Star (Reuters)", "url": "https://www.thestar.com.my/business/2026/08/14/sp-500-hits-record-as-rate-fears-ease" },
+        { "nombre": "FXEmpire", "url": "https://www.fxempire.com/forecasts/article/sp500-record-high-after-back-to-back-soft-inflation-reports-1616665" }
+      ]
+    },
+    {
+      "titulo": "El S&P 500 y el Russell 2000 cierran en récord",
+      "resumen": "El S&P 500 superó el récord del viernes anterior y el índice de empresas chicas también marcó un máximo histórico.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Los chips volvieron a liderar el mercado.",
+      "fuentes": [
+        { "nombre": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/ezines/2026/08/13/s-p-500-russell-2000-score-record-closes-as-stocks-rise" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-s-and-p-500-hits-fresh-record-high-as-traders-digest-july-ppi-reading" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja entre versiones cruzadas sobre Ormuz",
+      "resumen": "EE.UU. e Irán hicieron afirmaciones contradictorias sobre el control del estrecho de Ormuz. El WTI de septiembre cayó 2,4% a 81,25 USD.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "La baja del crudo ayudó a sostener el alivio inflacionario.",
+      "fuentes": [
+        { "nombre": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/ezines/2026/08/13/s-p-500-russell-2000-score-record-closes-as-stocks-rise" },
+        { "nombre": "Scripps News (AP)", "url": "https://www.scrippsnews.com/politics/economy/us-stocks-rise-to-a-record-as-oil-prices-drop-and-inflation-gets-less-bad" }
+      ]
+    },
+    {
+      "titulo": "Bancos e industriales frenan al Dow",
+      "resumen": "Mientras los chips lideraban, los bancos y las industriales retrocedieron y dejaron al Dow casi plano.",
+      "afecta": ["Financiero", "Industria"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "La suba se concentró en tecnología y empresas chicas.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/575157" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "The Standard informó que las acciones cerraron en baja ese jueves, en contra del resto de las fuentes que reportaron subas y récord del S&P 500."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Los chips volvieron a liderar." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Los bancos retrocedieron." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Las industriales frenaron al Dow." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo cayó 2,4%." }
+  ],
+  "riesgoHoy": "El riesgo siguió en Ormuz: las versiones cruzadas mantienen al petróleo muy volátil.",
+  "proximos": [
+    "Viernes 14: ventas minoristas de julio y confianza del consumidor.",
+    "Semana próxima: balances de minoristas como Walmart.",
+    "Novedades sobre Ormuz."
+  ]
+}

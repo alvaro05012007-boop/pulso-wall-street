@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-28-1730",
+  "fecha": "2026-05-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Nuevos récords: el S&P 500 subió 0,6% y el Nasdaq 0,9%; el Dow quedó casi plano, también en máximo.",
+    "Los inversores reaccionaron a reportes de un acuerdo entre EE.UU. e Irán para frenar el conflicto, con señales contradictorias durante el día.",
+    "Bajaron el petróleo y los rendimientos de los bonos, a la espera del dato de inflación PCE."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.563,63", "cambio": "+0,58%", "cambioPct": 0.58 },
+    { "nombre": "Dow Jones", "valor": "50.668,97", "cambio": "+0,05%", "cambioPct": 0.05 },
+    { "nombre": "Nasdaq", "valor": "26.917,47", "cambio": "+0,91%", "cambioPct": 0.91 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Reportes de un acuerdo EE.UU.-Irán, con señales cruzadas",
+      "resumen": "Los índices oscilaron ante informaciones contradictorias sobre un pacto para detener el conflicto, y terminaron en récord.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Barchart describe un cierre con señales mezcladas entre EE.UU. e Irán.",
+      "fuentes": [
+        { "nombre": "Barchart / Nasdaq", "url": "https://www.nasdaq.com/articles/stocks-settle-mixed-conflicting-us-iran-signals" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/554601" }
+      ]
+    },
+    {
+      "titulo": "Bajan el crudo y las tasas antes del PCE",
+      "resumen": "El petróleo y los rendimientos del Tesoro retrocedieron mientras el mercado esperaba el dato de inflación preferido por la Fed.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Sharecast habló de 'subas tentativas'.",
+      "fuentes": [
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-post-tentative-gains-as-oil-prices-drop,-pce-report-eyed" }
+      ]
+    },
+    {
+      "titulo": "La tecnología vuelve a liderar",
+      "resumen": "El Nasdaq sumó 243 puntos y el Russell 2000 0,6%.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "En la semana el Nasdaq acumula +2,2%.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-thursday-5-28-2026/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/28/tech-surge-lifts-market-to-record-highs-as-oil-stabilizes" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Barchart describe el cierre como 'mixto' mientras AP reporta récords en los tres índices; el Dow subió apenas 25 puntos."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la suba del Nasdaq." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Bajó el crudo." }
+  ],
+  "riesgoHoy": "Las señales contradictorias sobre un acuerdo con Irán.",
+  "proximos": ["Inflación PCE de abril el viernes 29", "Cierre de mes"]
+}

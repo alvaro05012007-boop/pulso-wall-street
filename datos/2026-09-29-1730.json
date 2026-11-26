@@ -1,0 +1,78 @@
+{
+  "id": "2026-09-29-1730",
+  "fecha": "2026-09-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Segundo día de bajas leves: el S&P 500 cayó 0,2%, el Dow 0,3% y el Nasdaq 0,1%.",
+    "Las tasas de los bonos volvieron a subir a máximos de varios años (10 años cerca de niveles de 2007) y le quitaron fuerza a las grandes tecnológicas.",
+    "El Brent bajó 1,7% a 96,16 dólares mientras sigue la guerra con Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.670,84", "cambio": "-0,17%", "cambioPct": -0.17 },
+    { "nombre": "Dow Jones", "valor": "51.349,92", "cambio": "-0,26%", "cambioPct": -0.26 },
+    { "nombre": "Nasdaq", "valor": "26.797,54", "cambio": "-0,09%", "cambioPct": -0.09 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las tasas siguen en máximos de varios años y frenan a las acciones",
+      "resumen": "La tasa a 10 años se movió cerca de sus niveles más altos desde 2007 y la de 30 años cerca de un pico de 2004. El S&P 500 perdió 12,85 puntos a 7.670,84.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La suba de tasas neutralizó buena parte del empuje de las grandes tecnológicas.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/587830" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-9292026-nid29092026/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja, pero sigue volátil por la guerra con Irán",
+      "resumen": "El Brent cayó 1,7% y cerró en 96,16 dólares el barril, con oscilaciones fuertes mientras se prolonga la guerra.",
+      "afecta": ["Energía"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": true,
+      "impacto": "La baja del crudo no alcanzó para frenar la suba de las tasas.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/global-shares-are-mixed-after-wall-street-dips-and-oil-prices-stabilize/" }
+      ]
+    },
+    {
+      "titulo": "Nvidia pierde su suba inicial; Broadcom sube",
+      "resumen": "Nvidia cerró 0,7% abajo tras empezar en alza, mientras Broadcom ganó 1,6%. Parte de las acciones de IA subieron por el optimismo sobre la salida a bolsa de Anthropic.",
+      "afecta": ["Nvidia", "Broadcom", "Semiconductores"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Los chips quedaron divididos en un día dominado por las tasas.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/global-shares-are-mixed-after-wall-street-dips-and-oil-prices-stabilize/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-extend-losses-from-elevated-yield-pressure-spcx-tgt-aapl-mu-ntap-in-focus/cZMZLlCRBW0" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Nvidia bajó 0,7% y Broadcom subió 1,6%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El Brent cayó 1,7%." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas largas siguieron en máximos de varios años." }
+  ],
+  "riesgoHoy": "El riesgo principal siguió en las tasas largas, en niveles que no se veían desde 2004-2007.",
+  "proximos": [
+    "Cierre del trimestre el miércoles 30.",
+    "Informe de empleo de septiembre el viernes 2 de octubre.",
+    "Reunión de la Fed de octubre."
+  ]
+}

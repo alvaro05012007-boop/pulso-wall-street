@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-10-1730",
+  "fecha": "2026-06-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte caída: el Dow perdió 953 puntos (-1,9%), el S&P 500 1,6% y el Nasdaq 2%; S&P y Nasdaq en mínimos de cinco semanas.",
+    "La inflación de mayo salió alta, impulsada por la energía, y revivió el temor a una Fed más dura.",
+    "Trump amenazó con más acciones contra Irán, el petróleo subió y el índice de volatilidad VIX trepó 11,8% a 22,22."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.266,99", "cambio": "-1,62%", "cambioPct": -1.62 },
+    { "nombre": "Dow Jones", "valor": "49.918,78", "cambio": "-1,87%", "cambioPct": -1.87 },
+    { "nombre": "Nasdaq", "valor": "25.169,50", "cambio": "-1,98%", "cambioPct": -1.98 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de mayo sorprende al alza",
+      "resumen": "El IPC de mayo, empujado por la energía, quedó en máximos de tres años y reavivó el temor a la Fed.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "Proactive habló de una sorpresa inflacionaria que revive los miedos sobre la Fed.",
+      "fuentes": [
+        { "nombre": "Proactive Investors", "url": "https://www.proactiveinvestors.com/companies/news/1093718/dow-nasdaq-recoil-as-inflation-surprise-revives-fed-fears-1093718.html" },
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/investing/2026/06/10/dow-jones-tumbles-over-1-as-energy-driven-inflatio/" }
+      ]
+    },
+    {
+      "titulo": "Trump amenaza con más acciones contra Irán",
+      "resumen": "La escalada de tensión en Medio Oriente empujó al petróleo y golpeó a las acciones.",
+      "afecta": ["Energía", "Petróleo", "Defensa"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El VIX subió 11,8% a 22,22.",
+      "fuentes": [
+        { "nombre": "Anadolu", "url": "https://www.aa.com.tr/en/economy/us-stocks-end-with-losses-as-inflation-climbs-trump-threatens-more-action-against-iran/3963269" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/2408795/stocks-settle-sharply-lower-on-escalating-middle-east-tensions" }
+      ]
+    },
+    {
+      "titulo": "Otra reversión liderada por la tecnología",
+      "resumen": "Las acciones de IA y chips volvieron a liderar la caída; también sufrieron las transportistas de carga.",
+      "afecta": ["Tecnología", "Semiconductores", "Transporte"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El S&P 500 sumó su primera doble baja en tres semanas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/10/another-techled-reversal-sends-major-averages-lower" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-10-2026/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un artículo de Reuters de antes de la apertura dijo que el IPC moderó apuestas a subas de tasas; la cobertura posterior lo describió como un dato caliente."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Lideró otra reversión a la baja." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Debilidad de las transportistas de carga." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió por la tensión con Irán." }
+  ],
+  "riesgoHoy": "Inflación alta combinada con una nueva escalada con Irán.",
+  "proximos": ["Precios mayoristas (IPP)", "Reunión de la Fed del 16 y 17 de junio"]
+}

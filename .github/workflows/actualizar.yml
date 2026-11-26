@@ -1,0 +1,52 @@
+# Actualiza precios, noticias (si hay clave) e historial en la nube y publica la página en GitHub Pages.
+# GitHub usa hora UTC: estos rangos cubren las ventanas de NY con y sin horario de verano; actualizar.mjs --si-toca decide si corre.
+name: Actualizar y publicar
+on:
+  schedule:
+    - cron: '*/15 13-14 * * 1-5'   # antes de la apertura (9:00-9:45 NY)
+    - cron: '*/15 20-22 * * 1-5'   # después del cierre (16:20-17:30 NY)
+  push:
+    branches: [main]
+  workflow_dispatch:                # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/La_Paz            # misma zona que la PC, para que las horas de los resúmenes coincidan
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci
+      - name: Actualizar datos
+        if: github.event_name != 'push'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # vacío = se omiten las noticias por API
+        run: node actualizar.mjs ${{ github.event_name == 'schedule' && '--si-toca' || '' }}
+      - name: Guardar cambios en el repositorio
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "pulso-bot"
+          git config user.email "pulso-bot@users.noreply.github.com"
+          # solo el estado público del actualizador; logs/clave-red.txt y el resto de logs/ nunca se suben
+          git add datos datos.js acciones.js version.js
+          git add -f logs/ejecuciones.js logs/ejecuciones.jsonl logs/ultima-ventana.txt 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Actualización automática" && git push)
+      - run: rm -rf node_modules    # la página no la necesita; no se publica
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4

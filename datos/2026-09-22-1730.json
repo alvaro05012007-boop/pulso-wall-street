@@ -1,0 +1,78 @@
+{
+  "id": "2026-09-22-1730",
+  "fecha": "2026-09-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El Nasdaq volvió a cerrar en récord (+0,45%) gracias a la IA, mientras el S&P 500 quedó sin cambios y el Dow bajó 0,36%.",
+    "El lanzamiento del asistente Muse de Meta y la suba de Micron alimentaron el entusiasmo por la IA.",
+    "Los bancos cayeron fuerte: JPMorgan perdió 3,4% y Bank of America 3%, lo que frenó al Dow."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.764,64", "cambio": "0,00%", "cambioPct": 0.0 },
+    { "nombre": "Dow Jones", "valor": "51.863,69", "cambio": "-0,36%", "cambioPct": -0.36 },
+    { "nombre": "Nasdaq", "valor": "27.244,28", "cambio": "+0,45%", "cambioPct": 0.45 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Segundo récord seguido del Nasdaq por la IA",
+      "resumen": "El Nasdaq subió 0,45% a 27.244,28 puntos, otro máximo histórico, con el entusiasmo por la IA y la baja de las tasas del Tesoro.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "La tecnología siguió liderando mientras el resto del mercado se movió poco.",
+      "fuentes": [
+        { "nombre": "Reuters (vía The Star)", "url": "https://www.thestar.com.my/business/2026/09/23/nasdaq-notches-record-high-close-ai-stocks-rally" },
+        { "nombre": "Al Jazeera", "url": "https://aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace" }
+      ]
+    },
+    {
+      "titulo": "Meta lanza su asistente Muse y Micron se dispara",
+      "resumen": "El lanzamiento del agente de IA Muse de Meta reavivó el optimismo sobre la inteligencia artificial, y Micron estuvo entre las que más subieron.",
+      "afecta": ["Meta", "Micron", "Comunicaciones", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Las acciones de IA sostuvieron al Nasdaq.",
+      "fuentes": [
+        { "nombre": "The Nightly", "url": "https://thenightly.com.au/business/nasdaq-hits-record-high-as-micron-and-ai-stocks-surge-on-wall-street-following-meta-muse-assistant-launch-c-22911829" },
+        { "nombre": "SCMP", "url": "https://scmp.com/business/china-business/article/3368470/ai-trade-outlook-brightens-falling-oil-and-metas-muse-agent-ahead-xi-trump-meeting" }
+      ]
+    },
+    {
+      "titulo": "Los bancos pesan sobre el Dow",
+      "resumen": "JPMorgan cayó 3,4% y Bank of America 3%, lo que llevó al Dow a perder 0,36%.",
+      "afecta": ["Financiero", "JPMorgan", "Bank of America"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "La caída de los bancos compensó la suba de la tecnología en el S&P 500.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/nasdaq-reaches-record-high-close-ai-stocks-rally/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq marcó otro récord." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Micron subió con fuerza." },
+    { "sector": "Comunicaciones", "tono": "positivo", "porque": "Meta lanzó su asistente Muse." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "JPMorgan y Bank of America cayeron 3% o más." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en los bancos y en la concentración de las subas en unas pocas acciones de IA.",
+  "proximos": [
+    "Reunión entre Trump y Xi Jinping.",
+    "Datos de inflación PCE a fin de mes."
+  ]
+}

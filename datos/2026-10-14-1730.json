@@ -1,0 +1,85 @@
+{
+  "id": "2026-10-14-1730",
+  "fecha": "2026-10-14",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La inflación de septiembre salió más alta de lo esperado (3,7% anual contra 3,6%) y el mercado se asustó: el Nasdaq cayó 1,9% y el S&P 500 1,1%, su peor día en más de dos meses.",
+    "Las acciones de IA y de chips fueron las más golpeadas. El Dow casi no se movió (-0,1%).",
+    "Subieron las chances de que la Fed suba las tasas: el mercado ya veía casi una moneda al aire para octubre y como escenario base una suba en diciembre.",
+    "El S&P 500 acumula cinco bajas en las seis ruedas desde su récord."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.718,94", "cambio": "-1,11%", "cambioPct": -1.11 },
+    { "nombre": "Dow Jones", "valor": "51.621,48", "cambio": "-0,09%", "cambioPct": -0.09 },
+    { "nombre": "Nasdaq", "valor": "26.692,87", "cambio": "-1,88%", "cambioPct": -1.88 },
+    { "nombre": "Bono 10 años", "valor": "~5,20%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "95,09 USD", "cambio": "+1,01%", "cambioPct": 1.01 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de septiembre sale caliente",
+      "resumen": "El CPI subió 3,7% anual contra 3,6% esperado, y el núcleo también superó lo previsto. La nafta subió 9,1% y explicó más de la mitad de la suba mensual.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hot-cpi-upends-markets/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-see-worst-day-in-over-two-months-as-chipmaker-rout-deepens-cpi-data-comes-in-hot-aapl-spcx-dram-soxx-in-focus/cZxWQBlRBqs" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq tiene su peor caída desde julio",
+      "resumen": "El S&P 500 cayó 1,1% y el Nasdaq 1,9%. Los chips y las acciones de IA ya venían en revisión y el dato de inflación aceleró la venta.",
+      "afecta": ["Semiconductores", "Tecnología", "Nasdaq"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-10142026-137270020" },
+        { "nombre": "Star-Advertiser", "url": "https://www.staradvertiser.com/2026/10/14/breaking-news/nasdaq-suffers-biggest-daily-drop-since-july-as-inflation-heats-up/" }
+      ]
+    },
+    {
+      "titulo": "Más chances de que la Fed suba las tasas",
+      "resumen": "Según CME FedWatch, la probabilidad de una suba en la reunión de octubre pasó a 27,1% desde 17,7% una semana antes. Goolsbee dijo que el dato fue desalentador.",
+      "afecta": ["Financiero", "Inmobiliario", "Servicios públicos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "CoinCentral", "url": "https://coincentral.com/stock-market-today-nasdaq-sinks-as-hot-inflation-data-lifts-fed-rate-hike-bets/" },
+        { "nombre": "ZeroHedge (Newsquawk)", "url": "https://zerohedge.com/markets/stocks-hit-ai-concerns-and-hot-cpi-newsquawk-us-market-wrap" }
+      ]
+    },
+    {
+      "titulo": "Las neoclouds sufren: CoreWeave y Nebius en baja",
+      "resumen": "Los bonos de CoreWeave rendían cerca de 15%, una señal de estrés que golpeó a las empresas de infraestructura para IA.",
+      "afecta": ["Tecnología", "Hardware"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-decline-amid-hot-inflation-data-ai-selloff-crwv-nbis-nvda-ibrx-stocks-in-focus/cZxWKOLRBqU" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sigue subiendo por Medio Oriente",
+      "resumen": "El WTI cerró en 95,09 USD (+0,95) y el Brent en 106,06 USD, por los choques entre Arabia Saudita y los hutíes.",
+      "afecta": ["Energía"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-14" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Se profundizó la venta de chips tras el CPI." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Revisión de las valuaciones de la IA acelerada por la inflación." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Las neoclouds como CoreWeave sufrieron por el estrés en su deuda." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Más chances de suba de tasas." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió por los riesgos en Medio Oriente." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Los sectores defensivos aguantaron mejor que la tecnología." }
+  ],
+  "riesgoHoy": "El mayor riesgo estuvo en las acciones de IA y chips, muy sensibles a la idea de que la Fed vuelva a subir las tasas.",
+  "proximos": [
+    "Jueves 15: precios mayoristas (PPI) y ventas minoristas.",
+    "Siguen los resultados de bancos.",
+    "Reunión de la Fed a fin de octubre: crece la apuesta a una suba."
+  ]
+}

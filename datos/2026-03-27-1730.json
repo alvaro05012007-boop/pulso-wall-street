@@ -1,0 +1,63 @@
+{
+  "id": "2026-03-27-1730",
+  "fecha": "2026-03-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Peor semana desde que empezó la guerra con Irán y quinta semana seguida en baja: los tres índices cerraron en mínimos de más de seis meses.",
+    "El Dow cayó 793 puntos (-1,73%) y entró en zona de corrección; el S&P 500 bajó 1,67% y el Nasdaq 2,15%.",
+    "El Brent superó los USD 110 y el crudo de referencia cerró en su nivel más alto desde 2022."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.370,84", "cambio": "-1,67%", "cambioPct": -1.67 },
+    { "nombre": "Dow Jones", "valor": "45.165,53", "cambio": "-1,73%", "cambioPct": -1.73 },
+    { "nombre": "Nasdaq", "valor": "20.948,37", "cambio": "-2,15%", "cambioPct": -2.15 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow entra en corrección tras otra semana perdedora",
+      "resumen": "El Dow quedó más de 10% por debajo de su máximo y los tres índices cerraron en su nivel más bajo en más de seis meses.",
+      "afecta": ["Mercado en general", "Industria"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "En la semana, el S&P 500 cayó 2,1%, el Nasdaq 3,2% y el Dow 0,9%.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/340628/dow-slips-into-correction-territory-amid-weekly-losing-streak" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/27/oildriven-selloff-caps-volatile-week" }
+      ]
+    },
+    {
+      "titulo": "El Brent supera USD 110 y el crudo marca máximos desde 2022",
+      "resumen": "La escalada en Medio Oriente disparó la energía y arrastró al mercado.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El contrato más cercano cerró en su nivel más alto desde 2022.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/537173" },
+        { "nombre": "Anadolu", "url": "https://aa.com.tr/en/economy/us-markets-post-huge-declines-at-weekly-close/3882390" }
+      ]
+    },
+    {
+      "titulo": "Las megacapitalizadas arrastran a los índices",
+      "resumen": "La debilidad de las grandes tecnológicas llevó a los tres índices a mínimos de más de seis meses.",
+      "afecta": ["Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 460 puntos.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/us-stocks-lowest-close-middle-east-tensions/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las megacapitalizadas lideraron la baja." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow entró en corrección." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo en máximos desde 2022." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Combustible cada vez más caro." }
+  ],
+  "riesgoHoy": "La escalada en Medio Oriente con el petróleo en máximos de cuatro años.",
+  "proximos": ["Fin de trimestre el martes 31", "Informe de empleo de marzo"]
+}

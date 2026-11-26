@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-05-1730",
+  "fecha": "2026-10-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Buen arranque de semana: el S&P 500 subió 0,7%, el Dow 0,2% y el Nasdaq 1,1% hasta un nuevo récord de cierre.",
+    "La baja del petróleo compensó la nueva suba de las tasas del Tesoro.",
+    "La tecnología siguió al frente, con la mira puesta en los balances de Nvidia y Microsoft."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.773,95", "cambio": "+0,66%", "cambioPct": 0.66 },
+    { "nombre": "Dow Jones", "valor": "51.267,90", "cambio": "+0,18%", "cambioPct": 0.18 },
+    { "nombre": "Nasdaq", "valor": "27.477,31", "cambio": "+1,05%", "cambioPct": 1.05 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Nasdaq marca un récord de cierre",
+      "resumen": "El Nasdaq ganó 286,45 puntos a 27.477,31 y superó su récord anterior del 22 de septiembre. El S&P 500 subió 51,23 puntos a 7.773,95.",
+      "afecta": ["Tecnología", "Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El impulso de la tecnología llevó al Nasdaq a máximos.",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-1052026-nid05102026/" },
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/nasdaq-record-high-nvidia-microsoft-earnings-focus/" }
+      ]
+    },
+    {
+      "titulo": "La baja del crudo compensa la suba de las tasas",
+      "resumen": "El petróleo cayó y eso pesó más que la nueva suba de las tasas del Tesoro, que siguen cerca de máximos de varios años.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Las acciones subieron pese a que las tasas siguieron en alza.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-falling-crude-offsets-rising-treasuries" },
+        { "nombre": "Mitrade", "url": "https://www.mitrade.com/insights/news/live-news/article-8-2138981-20261006" }
+      ]
+    },
+    {
+      "titulo": "El mercado mira los balances de Nvidia y Microsoft",
+      "resumen": "Con el Nasdaq en récord, los inversores se enfocaron en los próximos resultados de las grandes tecnológicas como Nvidia y Microsoft.",
+      "afecta": ["Nvidia", "Microsoft", "Semiconductores", "Software"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Las expectativas sobre la IA siguen sosteniendo a la tecnología.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/nasdaq-record-high-nvidia-microsoft-earnings-focus/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Llevó al Nasdaq a un récord de cierre." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Siguió el impulso de las acciones ligadas a la IA." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó." }
+  ],
+  "riesgoHoy": "El riesgo seguía en las tasas del Tesoro, que volvieron a subir aunque las acciones lo ignoraron.",
+  "proximos": [
+    "Inflación de septiembre (IPC).",
+    "Inicio de la temporada de balances del tercer trimestre.",
+    "Reunión de la Fed del 28 de octubre."
+  ]
+}

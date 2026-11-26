@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-18-1730",
+  "fecha": "2026-11-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Nvidia superó lo esperado (2,68 USD por acción contra 2,47), pero la acción pasó de subir 2,7% a cerrar en baja de 2,9%.",
+    "El Dow cayó 1,1% arrastrado por las aseguradoras de salud (propuesta de auditoría de Medicare Advantage); el S&P 500 bajó 0,2%, quinta baja seguida, y el Nasdaq subió 0,4%.",
+    "El gobernador Waller y las minutas de la Fed pusieron sobre la mesa una suba de 0,50 en diciembre: el dólar tocó su máximo desde abril de 2025."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.323,63", "cambio": "-0,23%", "cambioPct": -0.23 },
+    { "nombre": "Dow Jones", "valor": "50.198,17", "cambio": "-1,11%", "cambioPct": -1.11 },
+    { "nombre": "Nasdaq", "valor": "24.429,89", "cambio": "+0,42%", "cambioPct": 0.42 },
+    { "nombre": "Bono 10 años", "valor": "~5,06%", "cambio": "-0,045 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "83,21 USD", "cambio": "-2,98%", "cambioPct": -2.98 },
+    { "nombre": "Dólar (DXY)", "valor": "~103,78", "cambio": "+0,2%", "cambioPct": 0.2 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia supera lo esperado pero cae",
+      "resumen": "Ganó 2,68 USD por acción contra 2,47 esperados. La acción subió al principio y terminó 2,9% abajo.",
+      "afecta": ["Semiconductores"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/3032345/stock-market-news-for-nov-19-2026" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-nvidia-weakness-pressures-chipmakers" }
+      ]
+    },
+    {
+      "titulo": "Las aseguradoras de salud hunden al Dow",
+      "resumen": "El organismo de salud CMS propuso una regla de auditoría para Medicare Advantage y las aseguradoras cayeron; el Dow perdió 561 puntos.",
+      "afecta": ["Salud"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "IBTimes", "url": "https://www.ibtimes.com/us-stocks-dow-falls-nvidia-earnings-fed-rate-hikes-3809938" }
+      ]
+    },
+    {
+      "titulo": "Waller y las minutas de la Fed abren la puerta a una suba de 0,50",
+      "resumen": "Las declaraciones de Waller llevaron al índice del dólar a ~103,78, máximo desde abril de 2025.",
+      "afecta": ["Dólar", "Financiero", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-18-nov-waller-fed-minutes-put-a-bigger-december-hike-in-play/" },
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-18" }
+      ]
+    },
+    {
+      "titulo": "El petróleo cae 3% por una suba inesperada de inventarios",
+      "resumen": "El WTI bajó a 83,21 USD y la caída del crudo hizo bajar la tasa a 10 años a ~5,06%, pese al tono duro de la Fed.",
+      "afecta": ["Energía"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-18" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Salud", "tono": "negativo", "porque": "Las aseguradoras cayeron por la propuesta sobre Medicare Advantage." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia cayó 2,9% pese a superar lo esperado." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó 3%." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Se habla de una suba de tasas de 0,50 en diciembre." }
+  ],
+  "riesgoHoy": "El riesgo pasó por la Fed (posible suba de 0,50) y por salud, con el castigo a las aseguradoras.",
+  "proximos": [
+    "Jueves 19: debut de Anthropic en la bolsa.",
+    "Viernes 20: vencimiento de opciones.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

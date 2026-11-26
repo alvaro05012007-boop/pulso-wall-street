@@ -1,0 +1,62 @@
+{
+  "id": "2026-03-16-1730",
+  "fecha": "2026-03-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote amplio: el S&P 500 subió 1,01%, su mejor día en más de un mes, después de tres semanas seguidas de caídas.",
+    "Ayudaron la baja del petróleo y de los rendimientos de los bonos; los once sectores del S&P 500 terminaron en verde.",
+    "La tecnología y las acciones ligadas a la IA lideraron, con el Nasdaq +1,22%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.699,38", "cambio": "+1,01%", "cambioPct": 1.01 },
+    { "nombre": "Dow Jones", "valor": "46.946,41", "cambio": "+0,83%", "cambioPct": 0.83 },
+    { "nombre": "Nasdaq", "valor": "22.374,18", "cambio": "+1,22%", "cambioPct": 1.22 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street rebota con fuerza tras tres semanas en rojo",
+      "resumen": "Los tres índices subieron con claridad, sostenidos por la baja del crudo y de las tasas de los bonos.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El S&P 500 tuvo su mejor jornada en más de un mes.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-sharply-higher-crude-oil-slumps" },
+        { "nombre": "Nasdaq / Zacks", "url": "https://www.nasdaq.com/articles/stock-market-news-mar-17-2026" }
+      ]
+    },
+    {
+      "titulo": "Baja el petróleo y le da aire al mercado",
+      "resumen": "El retroceso del crudo alivió los temores de inflación y bajaron los rendimientos del Tesoro.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "El Dow ganó 388 puntos.",
+      "fuentes": [
+        { "nombre": "Invezz", "url": "https://invezz.com/ca/news/2026/03/16/sandampp-500-jump-1percent-dow-jones-gain-388-points-as-oil-falls/" }
+      ]
+    },
+    {
+      "titulo": "Vuelven las compras a las acciones de IA",
+      "resumen": "Tecnología de la información fue el sector que más subió (+1,39%).",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El VIX bajó y se tomó un respiro.",
+      "fuentes": [
+        { "nombre": "ARY News (Reuters)", "url": "https://arynews.tv/stocks-rally-as-ai-gains-drive-market-upward" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/337687/stocks-bounce-back-as-fear-gauge-takes-a-breather" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró con +1,39%." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Volvieron las compras a las acciones de IA." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Alivio por la baja del combustible." }
+  ],
+  "riesgoHoy": "Que el rebote sea solo técnico mientras sigue sin resolverse el bloqueo de Ormuz.",
+  "proximos": ["Reunión de la Fed el 17 y 18 de marzo", "Nuevas proyecciones de tasas (dot plot)"]
+}

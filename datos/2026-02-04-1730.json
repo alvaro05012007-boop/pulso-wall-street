@@ -1,0 +1,63 @@
+{
+  "id": "2026-02-04-1730",
+  "fecha": "2026-02-04",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Siguió la presión sobre la tecnología: el Nasdaq cayó 1,51% y el S&P 500 0,51%.",
+    "AMD se hundió más de 17%; en cambio, el Dow subió 0,53% por la rotación hacia otras acciones.",
+    "Amgen saltó 8% con su balance y Alphabet presentó resultados fuertes después del cierre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.882,72", "cambio": "-0,51%", "cambioPct": -0.51 },
+    { "nombre": "Dow Jones", "valor": "49.501,30", "cambio": "+0,53%", "cambioPct": 0.53 },
+    { "nombre": "Nasdaq", "valor": "22.904,58", "cambio": "-1,51%", "cambioPct": -1.51 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "AMD se desploma más de 17%",
+      "resumen": "AMD encabezó la continuidad de la caída tecnológica.",
+      "afecta": ["AMD", "Semiconductores"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 350 puntos.",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/02/04/stock-market-today-feb-4-amd-plunges-over-17-as-tech-fallout-continues" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/02/04/why-are-stocks-falling-tech-stocks-down/" }
+      ]
+    },
+    {
+      "titulo": "Rotación favorece al Dow; Amgen sube 8%",
+      "resumen": "Los inversores pasaron de la tecnología a otros sectores; Amgen y 3M empujaron al Dow.",
+      "afecta": ["Amgen", "3M", "Salud", "Industria"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "El Dow ganó 260 puntos mientras el Nasdaq caía.",
+      "fuentes": [
+        { "nombre": "Nasdaq.com (Zacks)", "url": "https://www.nasdaq.com/articles/rotation-trade-boon-dow-30-today" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/2/4/tech-pressure-persists-as-broader-market-sees-rotational-gains" }
+      ]
+    },
+    {
+      "titulo": "Alphabet presenta un balance sólido tras el cierre",
+      "resumen": "Alphabet informó resultados fuertes después de una jornada dura para la tecnología.",
+      "afecta": ["Alphabet", "Comunicaciones"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "La atención pasó a su plan de gasto en IA.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-feb-4-154308442.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "AMD cayó más de 17%." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Siguió la presión sobre las grandes tecnológicas." },
+    { "sector": "Salud", "tono": "positivo", "porque": "Amgen subió 8% con su balance." },
+    { "sector": "Industria", "tono": "positivo", "porque": "3M ayudó al Dow." }
+  ],
+  "riesgoHoy": "La venta persistente de acciones tecnológicas por temores ligados a la IA.",
+  "proximos": ["Balance de Amazon el jueves 5", "Datos del mercado laboral"]
+}

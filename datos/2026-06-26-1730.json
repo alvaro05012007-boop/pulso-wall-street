@@ -1,0 +1,62 @@
+{
+  "id": "2026-06-26-1730",
+  "fecha": "2026-06-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Leves bajas: el S&P 500 cedió 0,05%, el Dow 0,1% y el Nasdaq 0,2%, quinta baja seguida del S&P 500.",
+    "La mayoría de las acciones subió, pero las de IA siguieron cayendo; Micron devolvió cerca de 5,5%.",
+    "Semana negativa: el S&P 500 perdió 2% y el Nasdaq 4,6%, mientras el Dow ganó 0,6%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.354,02", "cambio": "-0,05%", "cambioPct": -0.05 },
+    { "nombre": "Dow Jones", "valor": "51.876,11", "cambio": "-0,09%", "cambioPct": -0.09 },
+    { "nombre": "Nasdaq", "valor": "25.297,61", "cambio": "-0,24%", "cambioPct": -0.24 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las acciones de IA hunden la semana",
+      "resumen": "Aunque la mayor parte de Wall Street subió, la caída de las acciones de IA dejó al mercado con una semana perdedora.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq cerró la semana con -4,6%.",
+      "fuentes": [
+        { "nombre": "AP / AJC", "url": "https://www.ajc.com/news/2026/06/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-friday-6-26-2026/" }
+      ]
+    },
+    {
+      "titulo": "Micron devuelve parte de su suba",
+      "resumen": "Tras el salto del jueves, Micron cayó cerca de 5,5% y los chips retrocedieron.",
+      "afecta": ["Micron", "Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "El Nasdaq-100 cayó 1,1% según Trading Economics.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/562322" }
+      ]
+    },
+    {
+      "titulo": "Rueda entrecortada y cierre levemente negativo",
+      "resumen": "Sharecast describe una sesión con vaivenes que extendió la rotación fuera de las grandes tecnológicas.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "En el año, el S&P 500 sube 7,4% y el Nasdaq 8,8%.",
+      "fuentes": [
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-finish-slightly-lower-after-choppy-session" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Los niveles de cierre se calcularon a partir del cierre y la variación en puntos del lunes 29 informados por AP."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Micron devolvió parte de la suba." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Rotación fuera de las grandes tecnológicas." }
+  ],
+  "riesgoHoy": "La prolongada venta de acciones ligadas a la IA.",
+  "proximos": ["Cierre del trimestre el martes 30", "Feriado del 3 de julio"]
+}

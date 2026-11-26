@@ -1,0 +1,63 @@
+{
+  "id": "2026-04-10-1730",
+  "fecha": "2026-04-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "La inflación de marzo saltó a 3,3% anual, la mayor suba en dos años, empujada por la energía.",
+    "Cierre mixto: el Dow cayó 0,56% y el S&P 500 0,11%, mientras el Nasdaq subió 0,35% gracias a la IA.",
+    "En la semana el S&P 500 ganó 3,6% y el Nasdaq 4,7%, antes de las conversaciones de paz del sábado en Pakistán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.816,89", "cambio": "-0,11%", "cambioPct": -0.11 },
+    { "nombre": "Dow Jones", "valor": "47.916,57", "cambio": "-0,56%", "cambioPct": -0.56 },
+    { "nombre": "Nasdaq", "valor": "22.902,89", "cambio": "+0,35%", "cambioPct": 0.35 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El IPC de marzo sube a 3,3% anual",
+      "resumen": "La inflación general subió 0,9% en el mes (se esperaba 0,7%), mientras la núcleo quedó en 0,2%.",
+      "afecta": ["Mercado en general", "Financiero"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "Los bonos bajaron (suben las tasas) por la lectura dura para la Fed.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-mixed-awaiting-us-iran-peace-talks" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/04/11/us-stocks-close-mixed-after-shocking-inflation-data" }
+      ]
+    },
+    {
+      "titulo": "Cautela antes de las negociaciones de paz en Islamabad",
+      "resumen": "Las conversaciones del sábado entre EE.UU. e Irán abordarían el enriquecimiento nuclear y el tránsito por Ormuz.",
+      "afecta": ["Mercado en general", "Energía"],
+      "tono": "neutral", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "La operatoria fue entrecortada a la espera del fin de semana.",
+      "fuentes": [
+        { "nombre": "BNN Bloomberg (AP)", "url": "https://www.bnnbloomberg.ca/markets/2026/04/10/stocks-waver-and-oil-prices-hold-steady-ahead-of-planned-us-iran-talks/" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-st-mixed-weekly-gains-middle-east-peace-talks/" }
+      ]
+    },
+    {
+      "titulo": "La fortaleza de la IA estabiliza al mercado",
+      "resumen": "Las acciones ligadas a la inteligencia artificial sostuvieron al Nasdaq.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq ganó 80 puntos y cerró la semana con +4,7%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/10/aistrength-helps-stabilize-market-ahead-of-usiran-talks" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/04/how-major-us-stock-indexes-fared-friday-4-10-2026" }
+      ]
+    }
+  ],
+  "contradicciones": ["Reuters da cifras preliminares algo distintas (Dow 47.903,18 y S&P 500 6.817,90)."],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "La IA sostuvo al Nasdaq." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Tasas en alza tras el IPC." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cayó 0,56%." }
+  ],
+  "riesgoHoy": "La inflación en máximos de dos años, que complica los recortes de la Fed.",
+  "proximos": ["Resultado de las conversaciones en Islamabad", "Temporada de balances del primer trimestre con los grandes bancos"]
+}

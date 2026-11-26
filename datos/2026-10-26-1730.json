@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-26-1730",
+  "fecha": "2026-10-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Arranque de semana en alza: el S&P 500 subió 0,7%, el Nasdaq 0,8% y el Dow 0,3%.",
+    "La presentación de Anthropic para salir a la bolsa volvió a poner a la IA en el centro, aunque esas acciones siguen con mucha volatilidad.",
+    "El petróleo bajó 1,7% (WTI cerca de 103 USD) porque Irán organizó conversaciones regionales en Teherán. La tasa a 10 años bajó a ~4,99%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.676,77", "cambio": "+0,70%", "cambioPct": 0.7 },
+    { "nombre": "Dow Jones", "valor": "52.361,58", "cambio": "+0,28%", "cambioPct": 0.28 },
+    { "nombre": "Nasdaq", "valor": "26.169,38", "cambio": "+0,83%", "cambioPct": 0.83 },
+    { "nombre": "Bono 10 años", "valor": "~4,99%", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "103,05 USD", "cambio": "-1,7%", "cambioPct": -1.7 },
+    { "nombre": "Dólar (DXY)", "valor": "~102,0", "cambio": "en alza", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Anthropic presenta su salida a la bolsa y vuelve el foco en la IA",
+      "resumen": "La presentación de Anthropic para cotizar en bolsa ayudó a que las acciones rebotaran tras semanas de vaivenes en la IA.",
+      "afecta": ["Tecnología", "Software"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-26-oct-anthropic-ipo-puts-ai-back-in-focus-as-stocks-rebound/" }
+      ]
+    },
+    {
+      "titulo": "Wall Street sube en las tres bolsas",
+      "resumen": "El S&P 500 ganó 53 puntos, el Nasdaq 214 y el Dow 146. Las acciones de IA siguen inestables.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "China Daily HK", "url": "https://www.chinadailyhk.com/article/641754" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-10262026-nid26102026/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja por las conversaciones en Teherán",
+      "resumen": "El WTI cayó 1,7% a 103,05 USD mientras Irán recibía conversaciones regionales, aunque siguieron los ataques sobre Arabia Saudita.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-10-26" }
+      ]
+    },
+    {
+      "titulo": "Buen dato industrial y la Fed en la mira",
+      "resumen": "El índice manufacturero de la Fed de Dallas dio 13,4 (se esperaba 7,0). Los futuros daban ~90% de chance de que la Fed no toque las tasas esta semana.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-10-26" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "La salida a bolsa de Anthropic reavivó el interés por la IA." },
+    { "sector": "Software", "tono": "positivo", "porque": "Mejor clima para las empresas de IA." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó 1,7%." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Buen dato manufacturero de Dallas." }
+  ],
+  "riesgoHoy": "El riesgo seguía en las acciones de IA, que alternan subas y bajas fuertes, y en la reunión de la Fed del miércoles.",
+  "proximos": [
+    "Martes 27 y miércoles 28: reunión de la Fed (se espera que no toque las tasas).",
+    "Resultados de Alphabet, Amazon e Intel en la semana.",
+    "Jueves 29: PIB del tercer trimestre e inflación PCE."
+  ]
+}

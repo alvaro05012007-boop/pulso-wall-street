@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-30-1730",
+  "fecha": "2026-07-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Gran rebote liderado por Microsoft, que saltó 15,5% tras un balance con 43% de crecimiento en la nube.",
+    "El S&P 500 subió 1,7%, el Nasdaq 2,8% y el Dow 1,2%, recuperando cerca de la mitad de lo perdido el miércoles.",
+    "Meta cayó cerca de 8% por una previsión floja. El PIB creció solo 1,5% anual en el segundo trimestre, con precios en alza."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.437,63", "cambio": "+1,66%", "cambioPct": 1.66 },
+    { "nombre": "Dow Jones", "valor": "52.208,06", "cambio": "+1,19%", "cambioPct": 1.19 },
+    { "nombre": "Nasdaq", "valor": "25.143,19", "cambio": "+2,78%", "cambioPct": 2.78 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Microsoft salta 15,5% tras su balance",
+      "resumen": "Los ingresos de nube crecieron 43%, el mayor ritmo desde 2022, y Copilot superó los 30 millones de usuarios pagos.",
+      "afecta": ["Microsoft", "Software", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Según un reporte, fue la mayor suba de valor de una empresa en un solo día en Wall Street.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/30/closing-stock-market-summary" },
+        { "nombre": "Anadolu Agency", "url": "https://aa.com.tr/en/economy/us-stocks-close-thursday-sharply-higher/4014416" }
+      ]
+    },
+    {
+      "titulo": "Rebotan los chips con la vuelta del entusiasmo por la IA",
+      "resumen": "Los semiconductores acompañaron a Microsoft y el Nasdaq 100 subió 3,4%, su mejor día en un mes.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El mercado recuperó más de la mitad de la caída del día anterior.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-day-in-a-month-on-support-from-microsoft-gains-ai-stocks-orcl-googl-msft-be-tsla-stock-in-focus/cZN5hYaRJ2J" },
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/07/wall-street-recovers-more-than-half-of-the-priors-day-loss-as-microsoft-and-chip-stocks-rally/" }
+      ]
+    },
+    {
+      "titulo": "Meta cae cerca de 8% por una previsión floja",
+      "resumen": "Meta no alcanzó lo que esperaban los inversores y dio una previsión de ingresos más débil de lo previsto.",
+      "afecta": ["Meta", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Mostró que el mercado separa ganadores y perdedores entre las grandes tecnológicas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/30/midday-summary" }
+      ]
+    },
+    {
+      "titulo": "El PIB crece solo 1,5% y los precios suben con fuerza",
+      "resumen": "El PIB del segundo trimestre creció 1,5% anualizado (se esperaba 2,3%) y el índice de precios del PIB subió 6,3% (se esperaba 3,7%).",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": false,
+      "impacto": "Las tasas de los bonos siguieron altas pese al crecimiento flojo, una mezcla incómoda para la Fed.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/30/midday-summary" },
+        { "nombre": "Briefing.com (Page One)", "url": "https://www.briefing.com/page-one/archive/2026/7/30/fortunately-for-the-market-microsoft-is-no-mr-softie" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Anadolu informó el Nasdaq en 25.122,18 y Briefing.com en 25.143,19, con la misma suba de 679,24 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Software", "tono": "positivo", "porque": "Microsoft subió 15,5%." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Fuerte rebote de los chips." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Meta cayó cerca de 8%." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la recuperación del mercado." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en el PIB: poco crecimiento con precios en alza, una combinación que complica a la Fed.",
+  "proximos": [
+    "Viernes 31: reacción a los balances de Apple y Amazon.",
+    "Viernes 7 de agosto: informe de empleo de julio.",
+    "Negociaciones entre EE.UU. e Irán."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-06-01-1730",
+  "fecha": "2026-06-01",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Junio arrancó con récords: el S&P 500 subió 0,3%, el Nasdaq 0,4% y el Dow 0,1%.",
+    "Nvidia saltó 6,3% tras presentar su chip RTX Spark, con el que entra al mercado de computadoras personales.",
+    "El petróleo subió por nuevos combates que amenazan la tregua con Irán, pero el mercado lo ignoró en gran parte."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.599,96", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Dow Jones", "valor": "51.078,88", "cambio": "+0,09%", "cambioPct": 0.09 },
+    { "nombre": "Nasdaq", "valor": "27.086,81", "cambio": "+0,42%", "cambioPct": 0.42 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia entra al mercado de PC y sube 6,3%",
+      "resumen": "Nvidia presentó su RTX Spark Superchip para computadoras personales.",
+      "afecta": ["Nvidia", "Semiconductores", "Hardware"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Fue el gran motor del récord del Nasdaq.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-1-flat-225422503.html" },
+        { "nombre": "Zacks / Nasdaq", "url": "https://www.nasdaq.com/articles/stock-market-news-jun-2-2026" }
+      ]
+    },
+    {
+      "titulo": "El crudo sube por nuevos choques con Irán",
+      "resumen": "Los últimos combates amenazaron la tregua entre EE.UU. e Irán y el petróleo subió.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "AP señaló que las acciones igual avanzaron a nuevos récords gracias a la IA.",
+      "fuentes": [
+        { "nombre": "AP / AJC", "url": "https://www.ajc.com/news/2026/06/wall-street-inches-to-more-records-thanks-to-booming-ai-stocks/" }
+      ]
+    },
+    {
+      "titulo": "La tecnología sostiene los récords pese a debilidad general",
+      "resumen": "Briefing.com destacó que la suba se apoyó en la tecnología mientras buena parte del mercado retrocedía.",
+      "afecta": ["Tecnología"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Quinto récord seguido para el S&P 500 y el Nasdaq.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/1/tech-carries-market-to-record-highs-despite-broader-weakness" },
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/06/01/nasdaq-s-p-500-start-june-with-5th-straight-record-close" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Zacks dio el Nasdaq en 26.972,62 (cifra del viernes); AP y NBC dan 27.086,81."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia subió 6,3%." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Nvidia entra al negocio de PC." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió por los choques con Irán." }
+  ],
+  "riesgoHoy": "Los nuevos combates que amenazan la tregua con Irán.",
+  "proximos": ["Informe de empleo de mayo el viernes 5", "Evolución de la tregua con Irán"]
+}

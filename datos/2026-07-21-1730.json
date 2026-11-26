@@ -1,0 +1,95 @@
+{
+  "id": "2026-07-21-1730",
+  "fecha": "2026-07-21",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Las acciones cortaron tres días de baja: el S&P 500 subió 0,9%, el Nasdaq 1,3% (su mejor día en tres semanas) y el Dow 0,7%.",
+    "Los chips y otras acciones ligadas a la IA encabezaron la suba, y la atención volvió a los balances.",
+    "El petróleo siguió subiendo, con el Brent arriba de 91 USD, y la tasa a 5 años marcó un nuevo máximo del año."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.509,20", "cambio": "+0,89%", "cambioPct": 0.89 },
+    { "nombre": "Dow Jones", "valor": "52.224,64", "cambio": "+0,74%", "cambioPct": 0.74 },
+    { "nombre": "Nasdaq", "valor": "25.858,21", "cambio": "+1,29%", "cambioPct": 1.29 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los chips encabezan el rebote y cortan tres días de baja",
+      "resumen": "Los fabricantes de chips y otras acciones de IA lideraron la suba; el Russell 2000 de empresas chicas ganó 1,5%.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Nasdaq tuvo su mejor rueda en tres semanas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/21/momentum-trade-holds-through-the-close" },
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-tuesday-7-21-2026/" }
+      ]
+    },
+    {
+      "titulo": "El Brent supera los 91 USD",
+      "resumen": "El petróleo siguió en alza y el Brent pasó los 91 USD por barril, aunque eso no frenó la suba de las acciones.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": true,
+      "impacto": "El crudo más caro volvió a empujar las tasas de los bonos.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/07/ai-stocks-lead-wall-street-higher-even-as-brent-oils-price-tops-91/" },
+        { "nombre": "Ringside (Buttondown)", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-july-21/" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 5 años toca un nuevo máximo del año",
+      "resumen": "La tasa del bono a 5 años marcó un máximo de 2026 y los demás plazos se acercaron a sus picos del año.",
+      "afecta": ["Bonos", "Financiero", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las acciones absorbieron la suba de tasas, al menos por un día.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/21/momentum-trade-holds-through-the-close" }
+      ]
+    },
+    {
+      "titulo": "Los balances vuelven al centro de la escena",
+      "resumen": "Los inversores volvieron a mirar los resultados de las empresas antes de los reportes de las grandes tecnológicas.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "interpretacion",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "En lo que va del año el S&P 500 sube 9,7%.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-investors-refocus-on-earnings" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-snap-three-day-losses-nasdaq-ends-best-day-in-three-weeks-earnings-take-centerstage/cZZS8knR7vC" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 25.837,21 y Briefing.com en 25.858,21, con la misma suba de 329,13 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron la suba del día." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El Brent superó los 91 USD." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible sigue encareciéndose." }
+  ],
+  "riesgoHoy": "El riesgo fue el petróleo, que siguió subiendo y empujando las tasas aunque las acciones lo ignoraron.",
+  "proximos": [
+    "Miércoles 22: balances de Alphabet y Tesla después del cierre.",
+    "Reunión de la Fed a fin de mes.",
+    "Evolución del conflicto con Irán."
+  ]
+}

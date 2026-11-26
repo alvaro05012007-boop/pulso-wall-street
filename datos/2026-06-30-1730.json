@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-30-1730",
+  "fecha": "2026-06-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Cierre de trimestre en alza: el Nasdaq subió 1,5%, el S&P 500 0,8% y el Dow 0,3% hasta un nuevo récord.",
+    "Los chips lideraron; el S&P 500 y el Nasdaq cerraron su mejor trimestre desde 2020, pese a la guerra con Irán.",
+    "Junio igual terminó en baja para el S&P 500 y el Nasdaq; el Dow tuvo su mejor primer semestre en cinco años."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.499,36", "cambio": "+0,79%", "cambioPct": 0.79 },
+    { "nombre": "Dow Jones", "valor": "52.319,20", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Nasdaq", "valor": "~26.214", "cambio": "+1,5%", "cambioPct": 1.5 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El mejor trimestre desde 2020 para S&P 500 y Nasdaq",
+      "resumen": "Pese a la guerra con Irán, los dos índices cerraron su mejor trimestre en casi seis años.",
+      "afecta": ["Mercado en general", "Tecnología"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Junio, sin embargo, cerró con pérdidas para ambos.",
+      "fuentes": [
+        { "nombre": "Reuters / Star-Advertiser", "url": "https://www.staradvertiser.com/2026/06/30/breaking-news/sp-500-nasdaq-register-best-quarter-since-2020-despite-iran-war/" },
+        { "nombre": "Semafor", "url": "https://www.semafor.com/article/06/30/2026/us-stocks-wrap-up-best-quarter-since-2020" }
+      ]
+    },
+    {
+      "titulo": "Los chips cierran el trimestre con un rally",
+      "resumen": "Los semiconductores y la tecnología lideraron la suba del último día del trimestre.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq ganó cerca de 1,5%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/30/semiconductor-rally-caps-strong-quarter" },
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/investing/2026/06/30/market-indexes-close-out-june-with-a-tech-rally/" }
+      ]
+    },
+    {
+      "titulo": "El Dow, en récord y con su mejor semestre en cinco años",
+      "resumen": "El Dow cerró en 52.319,20 y registró su mejor primera mitad de año desde 2021.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "AP señaló que las acciones recortaron sus pérdidas de junio.",
+      "fuentes": [
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-rise-as-dow-logs-strongest-firsthalf-performance-in-five-years" },
+        { "nombre": "AP / ADN", "url": "https://www.adn.com/business-economy/2026/06/30/us-stocks-trim-their-losses-for-june/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "El cierre del Nasdaq varía según la fuente: cerca de 26.214, mientras un dato de Briefing.com de las 16:30 lo ubicaba en 26.234,72."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron el cierre del trimestre." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq ganó 1,5%." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow en récord." }
+  ],
+  "riesgoHoy": "Una inflación alta que mantiene abierta la posibilidad de subas de tasas.",
+  "proximos": ["Informe de empleo de junio", "Feriado del 3 de julio por el Día de la Independencia"]
+}

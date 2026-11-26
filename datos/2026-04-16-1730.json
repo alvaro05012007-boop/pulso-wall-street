@@ -1,0 +1,61 @@
+{
+  "id": "2026-04-16-1730",
+  "fecha": "2026-04-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Otro récord: el S&P 500 subió 0,26% hasta 7.041,28 y el Nasdaq 0,36% hasta 24.102,70.",
+    "El Nasdaq encadenó 12 ruedas seguidas en alza, su racha más larga desde 2009.",
+    "Los inversores sopesaron las negociaciones de paz y una tanda mixta de balances; el petróleo subió."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.041,28", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Dow Jones", "valor": "48.578,72", "cambio": "+0,24%", "cambioPct": 0.24 },
+    { "nombre": "Nasdaq", "valor": "24.102,70", "cambio": "+0,36%", "cambioPct": 0.36 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street suma otro récord",
+      "resumen": "Los tres índices subieron levemente y el S&P 500 y el Nasdaq volvieron a cerrar en máximos.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Russell 2000 subió 0,2%.",
+      "fuentes": [
+        { "nombre": "ADN (AP)", "url": "https://www.adn.com/business-economy/2026/04/16/wall-street-sets-another-record-after-stocks-tick-higher/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/16/broadening-participation-supports-record-highs" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq logra su racha más larga desde 2009",
+      "resumen": "Doce sesiones consecutivas en alza mientras avanzan las conversaciones de paz en Medio Oriente.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Los balances tecnológicos ayudaron a sostener la racha.",
+      "fuentes": [
+        { "nombre": "MarketScreener (Reuters)", "url": "https://www.marketscreener.com/news/trading-day-nasdaq-notches-12-day-winning-streak-as-middle-east-peace-talks-progress-ce7e50d2d880f327" },
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-tech-earnings-and-ceasefire-optimism" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube pese al optimismo",
+      "resumen": "El crudo avanzó mientras las bolsas marcaban nuevos máximos.",
+      "afecta": ["Energía"],
+      "tono": "mixto", "importancia": "baja", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "No frenó la suba de las acciones.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-s-and-p-500,-nasdaq-hit-new-highs,-oil-prices-gain" }
+      ]
+    }
+  ],
+  "contradicciones": ["Un artículo de Zacks fechado el 16 de abril da cifras (Dow -0,2%, Nasdaq +1,6%) que corresponden al día anterior."],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Balances tecnológicos y racha del Nasdaq." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió." }
+  ],
+  "riesgoHoy": "Un mercado en máximos que depende de que avancen las conversaciones de paz.",
+  "proximos": ["Vencimiento mensual de opciones el viernes 17", "Balances de Netflix y otras grandes"]
+}

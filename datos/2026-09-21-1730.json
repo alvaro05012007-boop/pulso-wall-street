@@ -1,0 +1,79 @@
+{
+  "id": "2026-09-21-1730",
+  "fecha": "2026-09-21",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Gran día en Wall Street: el Nasdaq subió 2,26% y marcó su primer récord desde junio; el S&P 500 ganó 1,5% y quedó a 0,4% de su máximo.",
+    "El secretario del Tesoro, Scott Bessent, dijo que las charlas con China fueron \"muy exitosas\" antes de la reunión Trump-Xi.",
+    "Los chips explotaron: Intel subió 12%, Arm 17% y AMD 10%, llegando a valer un billón de dólares.",
+    "El petróleo y las tasas de los bonos bajaron, con esperanzas de un fin de la guerra con Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.764,70", "cambio": "+1,49%", "cambioPct": 1.49 },
+    { "nombre": "Dow Jones", "valor": "52.048,83", "cambio": "+0,71%", "cambioPct": 0.71 },
+    { "nombre": "Nasdaq", "valor": "27.122,09", "cambio": "+2,26%", "cambioPct": 2.26 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Bessent celebra las charlas con China antes de la cumbre Trump-Xi",
+      "resumen": "Bessent calificó su reunión con el viceprimer ministro He Lifeng como \"muy exitosa\". Acordaron crear un diálogo sobre IA y trabajan en un esquema comercial \"30-30-30\" para bienes no críticos.",
+      "afecta": ["Todo el mercado", "Tecnología", "Materiales"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "La mejora en la relación con China impulsó a las acciones, sobre todo tecnológicas.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/stocks-advance-after-bessent-says-talks-with-china-were-successful-before-trump-xi-meeting/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/bessent-flags-30-30-30-trade-deal-before-trump-xi-meeting-tariffs-ai-rare-earths-iran-focus/cZMRizmRB4z" }
+      ]
+    },
+    {
+      "titulo": "Récord del Nasdaq con un salto de los chips",
+      "resumen": "Intel subió 12,2%, Arm 17% y AMD cerca de 10%, alcanzando por primera vez una valuación de un billón de dólares.",
+      "afecta": ["Semiconductores", "Intel", "AMD", "Arm"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "El Nasdaq cerró en máximo histórico por primera vez desde el 2 de junio.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Kitco)", "url": "https://www.kitco.com/news/off-the-wire/2026-09-21/nasdaq-notches-record-high-close-ai-optimism-reignites-and-treasury" },
+        { "nombre": "Honolulu Star-Advertiser", "url": "https://www.staradvertiser.com/2026/09/21/breaking-news/nasdaq-hits-record-high-as-ai-chip-rally-lifts-tech-stocks/" }
+      ]
+    },
+    {
+      "titulo": "Bajan el petróleo y las tasas",
+      "resumen": "El crudo cayó por las esperanzas de un fin de la guerra con Irán y las tasas del Tesoro retrocedieron.",
+      "afecta": ["Energía", "Bonos", "Transporte"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Menos petróleo y tasas más bajas alivian el miedo a la inflación.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-climb-as-tech-leads-gains-amid-softer-oil-and-bond-yields" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Intel, Arm y AMD subieron entre 10% y 17%." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la suba con optimismo por la IA." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó por la esperanza de paz con Irán." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "El combustible más barato ayuda a sus costos." }
+  ],
+  "riesgoHoy": "El riesgo bajó, aunque todo dependía de que la cumbre Trump-Xi saliera bien.",
+  "proximos": [
+    "Reunión entre Trump y Xi Jinping.",
+    "Asamblea General de la ONU."
+  ]
+}

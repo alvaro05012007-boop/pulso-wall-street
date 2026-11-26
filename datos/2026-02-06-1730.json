@@ -1,0 +1,76 @@
+{
+  "id": "2026-02-06-1730",
+  "fecha": "2026-02-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El Dow cerró por primera vez arriba de 50.000 puntos, con una suba de casi 1.207 puntos.",
+    "Fue el mejor día del S&P 500 desde mayo: rebotaron los chips, con Nvidia arriba casi 8%.",
+    "Amazon cayó cerca de 5,5% por su plan de gastar unos 200.000 millones en 2026."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.932,30", "cambio": "+1,97%", "cambioPct": 1.97 },
+    { "nombre": "Dow Jones", "valor": "50.115,67", "cambio": "+2,47%", "cambioPct": 2.47 },
+    { "nombre": "Nasdaq", "valor": "23.031,21", "cambio": "+2,18%", "cambioPct": 2.18 },
+    { "nombre": "Bono 10 años", "valor": "4,21%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "63,58", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow supera los 50.000 puntos por primera vez",
+      "resumen": "Wall Street rebotó con fuerza después de una semana dura para la tecnología y el Dow tocó un récord histórico.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El Dow subió 2,5% y el S&P 500 tuvo su mejor día desde mayo.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/news/bitcoin-falls-9-asian-shares-043109407.html" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/after-hours-report/archive/2026/2/6/closing-summary-djia-hits-record-highs-as-tech-attempts-to-regain-footing" }
+      ]
+    },
+    {
+      "titulo": "Los chips encabezan el rebote",
+      "resumen": "Nvidia y Broadcom subieron fuerte y recuperaron parte de lo perdido en la semana por las dudas sobre la IA.",
+      "afecta": ["Nvidia", "Broadcom", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Nvidia cerró en 185,41 dólares, con suba de 7,87%.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-dow-closes-above-50,000-as-tech-bounces-back" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/02/06/stock-market-today-dow-50000-chips-airlines-rebound-gold-silver-bitcoin/" }
+      ]
+    },
+    {
+      "titulo": "Amazon cae por su enorme plan de inversión",
+      "resumen": "Amazon proyectó cerca de 200.000 millones de dólares de gasto de capital para 2026 y los inversores dudaron del retorno.",
+      "afecta": ["Amazon", "Consumo"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "La acción bajó cerca de 5,5%, a 210,32 dólares.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-closes-above-50,000-as-tech-bounces-back" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/2/6/dow-surges-1020-and--points-toward-50000-as-nvidia-caterpillar-lead-amazon-slumps" }
+      ]
+    },
+    {
+      "titulo": "El bitcoin deja de caer",
+      "resumen": "Después de una fuerte venta en los días previos, el bitcoin se estabilizó y ayudó a calmar el ánimo.",
+      "afecta": ["Bitcoin"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Bajó la presión vendedora en activos de riesgo.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/02/dow-soars-1000-points-as-tech-stocks-recover-while-bitcoin-stops-plunging" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Sobre el petróleo, Briefing.com lo mostró levemente arriba (63,58) y Seeking Alpha con baja de 2,6% (63,55); por eso el cambio queda sin dato."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia y Broadcom lideraron el rebote." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Caterpillar estuvo entre las que empujaron al Dow." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Amazon cayó por su plan de gasto." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Las aerolíneas rebotaron, según Fortune." }
+  ],
+  "riesgoHoy": "Las dudas sobre si el gasto gigante en IA de las grandes tecnológicas va a rendir.",
+  "proximos": ["Informe de empleo de enero", "Dato de inflación (IPC) de enero"]
+}

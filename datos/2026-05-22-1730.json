@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-22-1730",
+  "fecha": "2026-05-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Otro récord para el Dow (+0,6%); el S&P 500 subió 0,4% y el Nasdaq 0,2%.",
+    "El S&P 500 sumó su octava semana seguida de alzas, la racha más larga desde fines de 2023.",
+    "Pesaron a favor las señales de progreso hacia el fin del conflicto en Medio Oriente; en contra, la confianza del consumidor revisada a un mínimo récord."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.473,47", "cambio": "+0,37%", "cambioPct": 0.37 },
+    { "nombre": "Dow Jones", "valor": "50.579,70", "cambio": "+0,58%", "cambioPct": 0.58 },
+    { "nombre": "Nasdaq", "valor": "26.343,97", "cambio": "+0,19%", "cambioPct": 0.19 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Esperanzas de paz en Medio Oriente llevan al Dow a otro récord",
+      "resumen": "Las señales de avance en las conversaciones para terminar el conflicto mejoraron el ánimo.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Dow cerró en 50.579,70, máximo histórico.",
+      "fuentes": [
+        { "nombre": "Reuters / Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-markets-092646485.html" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-friday-5-22-2026/" }
+      ]
+    },
+    {
+      "titulo": "La confianza del consumidor, revisada a mínimo récord",
+      "resumen": "El índice de la Universidad de Michigan de mayo se corrigió a la baja a un récord negativo y subieron las expectativas de inflación.",
+      "afecta": ["Consumo"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "AP señaló que las acciones suben aunque los hogares están cada vez más desanimados.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-track-wall-street-051857368.html" }
+      ]
+    },
+    {
+      "titulo": "Dell se dispara más de 16%",
+      "resumen": "Dell cerró con una suba de más de 16% después de que Wells Fargo mejoró su visión sobre la acción.",
+      "afecta": ["Dell", "Hardware"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Fue una de las mayores subas del S&P 500.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Motley Fool", "url": "https://nasdaq.com/articles/stock-market-today-may-22-sp-500-posts-eighth-straight-week-gains" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Hardware", "tono": "positivo", "porque": "Dell saltó más de 16%." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "La confianza del consumidor tocó mínimo récord." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow en récord." }
+  ],
+  "riesgoHoy": "El deterioro del ánimo de los consumidores y expectativas de inflación más altas.",
+  "proximos": ["Feriado de Memorial Day el lunes 25", "Inflación PCE de abril", "Avances en el acuerdo con Irán"]
+}

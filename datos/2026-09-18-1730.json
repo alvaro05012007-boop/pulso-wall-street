@@ -1,0 +1,78 @@
+{
+  "id": "2026-09-18-1730",
+  "fecha": "2026-09-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto el día del vencimiento trimestral de opciones: el S&P 500 subió 0,2%, el Nasdaq entre 0,4% y 0,7% y el Dow bajó unos 95 puntos.",
+    "Las tasas de los bonos volvieron a subir y frenaron al mercado; los chips siguieron fuertes.",
+    "En la semana, el Nasdaq ganó 2,6% y el S&P 500 0,7%, mientras el Dow perdió 733 puntos."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "sin dato", "cambio": "+0,2%", "cambioPct": 0.2 },
+    { "nombre": "Dow Jones", "valor": "sin dato", "cambio": "-0,2% (-95 puntos)", "cambioPct": -0.2 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Cierre mixto con rebote de las tasas",
+      "resumen": "Las tasas del Tesoro volvieron a subir y reavivaron las dudas sobre la economía. El S&P 500 subió 0,2% y el Dow bajó 95 puntos.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El Dow cerró una semana negativa mientras el Nasdaq terminó con una ganancia semanal de 2,6%.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/585107" },
+        { "nombre": "Xinhua (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/09/19/us-stocks-close-mixed" }
+      ]
+    },
+    {
+      "titulo": "Los chips vuelven a subir",
+      "resumen": "Las acciones de semiconductores tuvieron un buen día y sostuvieron al Nasdaq.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Los chips compensaron la debilidad de las acciones más tradicionales.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-mixed-finish-but-chip-stocks-bounce-back" }
+      ]
+    },
+    {
+      "titulo": "El vencimiento de opciones deja una rueda sin dirección",
+      "resumen": "El vencimiento trimestral de opciones (triple witching) concentró el volumen y, según analistas, aportó poco impulso a los índices.",
+      "afecta": ["Todo el mercado"],
+      "tono": "neutral",
+      "importancia": "baja",
+      "tipo": "interpretacion",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Los movimientos de los índices fueron chicos.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-mixed-finish-but-chip-stocks-bounce-back" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics dio una suba de 0,7% para el Nasdaq y Sharecast de 0,4%; por eso el dato quedó como \"sin dato\"."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Los chips siguieron subiendo." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow, con más peso industrial, bajó." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas volvieron a subir." }
+  ],
+  "riesgoHoy": "El riesgo volvió a estar en las tasas de los bonos, que subieron después de la decisión de la Fed.",
+  "proximos": [
+    "Posible reunión entre Trump y Xi, con negociaciones comerciales con China.",
+    "Discursos de funcionarios de la Fed tras la suba de tasas."
+  ]
+}

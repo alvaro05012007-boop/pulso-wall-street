@@ -1,0 +1,60 @@
+{
+  "id": "2026-01-22-1730",
+  "fecha": "2026-01-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Segundo día de subas: el Nasdaq ganó 0,91%, el Dow 0,63% y el S&P 500 0,55%.",
+    "Siguió el alivio por el abandono de los aranceles a Europa.",
+    "Los datos económicos, incluido el PIB, salieron mejor de lo esperado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.913,35", "cambio": "+0,55%", "cambioPct": 0.55 },
+    { "nombre": "Dow Jones", "valor": "49.384,01", "cambio": "+0,63%", "cambioPct": 0.63 },
+    { "nombre": "Nasdaq", "valor": "23.436,02", "cambio": "+0,91%", "cambioPct": 0.91 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Continúa el rally de alivio por Groenlandia",
+      "resumen": "Las acciones siguieron subiendo de forma ordenada tras la marcha atrás con los aranceles a Europa.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Dow borró la pérdida semanal.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/1/22/stocks-advance-in-orderly-fashion-as-relief-rally-holds" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/284587/dow-extends-comeback-wipes-weekly-deficit-away" }
+      ]
+    },
+    {
+      "titulo": "Buenos datos económicos y PIB mejor de lo previsto",
+      "resumen": "Reuters destacó datos optimistas; el PIB superó las expectativas.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "PIB", "volatilidad": false,
+      "impacto": "Sumó al alivio arancelario como motor de la suba.",
+      "fuentes": [
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-01-22/wall-street-ends-investors-buoyed-tariff-relief-upbeat-data" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-rise-on-easing-geopolitical-tensions,-gdp-data-beat" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq lidera la segunda suba seguida",
+      "resumen": "El índice tecnológico ganó 211 puntos, el mejor de los tres.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Más apetito por riesgo según los reportes.",
+      "fuentes": [
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-thursday-1-22-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq fue el índice más fuerte." }
+  ],
+  "riesgoHoy": "La fragilidad del alivio comercial frente a nuevos anuncios.",
+  "proximos": ["Balance de Intel después del cierre", "Reunión de la Fed del 27-28 de enero"]
+}

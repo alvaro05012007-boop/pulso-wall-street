@@ -1,0 +1,118 @@
+{
+  "id": "2026-11-24-1807",
+  "fecha": "2026-11-24",
+  "hora": "18:07",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Día mixto después del rebote del lunes: el S&P 500 bajó 0,5% y el Nasdaq 1,5%, pero el Dow subió 0,9% y cerró arriba de los 50.000 puntos.",
+    "Volvió la venta en la IA: Nvidia cayó 5,9% un día después de subir 31,5%, CoreWeave 11,8% y Anthropic 6,5%, por debajo de su precio de salida a bolsa.",
+    "El consumo salvó el día: Kohl's subió 19,5% y Dollar Tree 11,2% con buenos resultados, y la confianza del consumidor salió mejor de lo esperado.",
+    "La Fed sigue encaminada a subir las tasas el 8 y 9 de diciembre (~95% de probabilidad de +0,25 pp). Mañana miércoles sale el PCE, el dato de inflación clave.",
+    "El petróleo subió (Brent +2,4%, a 88,78 USD) con tensión en el Estrecho de Ormuz; el jueves la bolsa cierra por Thanksgiving."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.201,09", "cambio": "-0,50%", "cambioPct": -0.50 },
+    { "nombre": "Dow Jones", "valor": "50.018,70", "cambio": "+0,85%", "cambioPct": 0.85 },
+    { "nombre": "Nasdaq", "valor": "23.733,54", "cambio": "-1,48%", "cambioPct": -1.48 },
+    { "nombre": "Bono 10 años", "valor": "~4,90% a 4,93%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~81,68 USD", "cambio": "+1,88%", "cambioPct": 1.88 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las acciones de IA vuelven a caer y arrastran al Nasdaq",
+      "resumen": "Nvidia bajó 5,9% un día después de su suba de 31,5%. CoreWeave cayó 11,8%, GE Vernova 4,8% y Micron más de 10% en algún momento del día; también bajaron AMD y Broadcom. El S&P 500 sumó su octava baja en nueve ruedas.",
+      "afecta": ["Nvidia", "Semiconductores", "Nasdaq"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (Post-Gazette)", "url": "https://www.post-gazette.com/business/personal-finance/stock-markets-today-november-24-2026-ADPKIR2OYF6ZTJNTVHW2ZIWVBU/" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html" }
+      ]
+    },
+    {
+      "titulo": "Anthropic cae por debajo de su precio de salida a bolsa",
+      "resumen": "La acción bajó 6,5% y quedó por debajo de 83 USD, su precio de IPO, después de haber tocado 115 USD en su primer día la semana pasada.",
+      "afecta": ["Software", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (Post-Gazette)", "url": "https://www.post-gazette.com/business/personal-finance/stock-markets-today-november-24-2026-ADPKIR2OYF6ZTJNTVHW2ZIWVBU/" }
+      ]
+    },
+    {
+      "titulo": "El Dow cierra arriba de 50.000 puntos",
+      "resumen": "El Dow Jones subió 423 puntos (+0,9%) y terminó en 50.018,70, sostenido por acciones fuera de la tecnología. Las pequeñas empresas (Russell 2000) también subieron 0,6%.",
+      "afecta": ["Todo el mercado", "Consumo", "Industria"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "AP (Post-Gazette)", "url": "https://www.post-gazette.com/business/personal-finance/stock-markets-today-november-24-2026-ADPKIR2OYF6ZTJNTVHW2ZIWVBU/" },
+        { "nombre": "Business Upturn", "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-tuesday-close-as-nasdaq-leads-declines/" }
+      ]
+    },
+    {
+      "titulo": "Minoristas en alza con buenos resultados",
+      "resumen": "Kohl's subió 19,5% tras mejorar ganancias y perspectivas, y Dollar Tree 11,2% al superar lo esperado. Best Buy subió después de su mejor crecimiento de ventas comparables en cinco años.",
+      "afecta": ["Consumo"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "AP (Post-Gazette)", "url": "https://www.post-gazette.com/business/personal-finance/stock-markets-today-november-24-2026-ADPKIR2OYF6ZTJNTVHW2ZIWVBU/" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html" }
+      ]
+    },
+    {
+      "titulo": "La Fed, casi segura de subir tasas en diciembre",
+      "resumen": "El mercado le da ~95% de probabilidad a una suba de 0,25 pp el 8 y 9 de diciembre y ~5% a una de 0,50 pp. John Williams, de la Fed de Nueva York, dio señales de más ajuste por la inflación persistente.",
+      "afecta": ["Financiero", "Inmobiliario", "Servicios públicos", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Kitco", "url": "https://kitco.com/news/article/2026-11-24/gold-struggles-extend-rebound-fed-rate-hike-bets-pressure-silver-kitco-am" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html" }
+      ]
+    },
+    {
+      "titulo": "Sube el petróleo con tensión en el Estrecho de Ormuz",
+      "resumen": "El Brent subió 2,4% a 88,78 USD. La Guardia Revolucionaria de Irán dijo que tres petroleros chocaron con minas el lunes (no confirmado) y el tránsito por el estrecho cayó fuerte.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "AP (Post-Gazette)", "url": "https://www.post-gazette.com/business/personal-finance/stock-markets-today-november-24-2026-ADPKIR2OYF6ZTJNTVHW2ZIWVBU/" },
+        { "nombre": "Kitco", "url": "https://kitco.com/news/article/2026-11-24/gold-struggles-extend-rebound-fed-rate-hike-bets-pressure-silver-kitco-am" }
+      ]
+    },
+    {
+      "titulo": "La confianza del consumidor mejora más de lo esperado",
+      "resumen": "El índice del Conference Board subió más de lo previsto, con fuertes mejoras entre demócratas e independientes después de las elecciones de medio término.",
+      "afecta": ["Consumo"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "AP (Post-Gazette)", "url": "https://www.post-gazette.com/business/personal-finance/stock-markets-today-november-24-2026-ADPKIR2OYF6ZTJNTVHW2ZIWVBU/" }
+      ]
+    },
+    {
+      "titulo": "HPE: buenos números, pero dudas con los márgenes de IA",
+      "resumen": "Hewlett Packard Enterprise informó ingresos del trimestre +50% y pedidos +88% interanual, pero según reportes previos a la apertura la acción bajaba por una perspectiva más débil de márgenes en nube e IA. No encontramos el cierre final.",
+      "afecta": ["Hardware"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia −5,9% y Micron, AMD y Broadcom en baja tras el rebote del lunes." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Vuelven las dudas sobre la IA; el Nasdaq cayó 1,5%." },
+    { "sector": "Software", "tono": "negativo", "porque": "Anthropic cayó 6,5%, por debajo de su precio de IPO." },
+    { "sector": "Hardware", "tono": "mixto", "porque": "HPE con números fuertes pero dudas en márgenes; CoreWeave −11,8%." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Kohl's, Dollar Tree y Best Buy subieron con buenos resultados y mejoró la confianza del consumidor." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió por la tensión en Ormuz." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Se espera una suba de tasas en diciembre con el bono a 10 años cerca de 4,9%." },
+    { "sector": "Servicios públicos", "tono": "negativo", "porque": "Sensibles a la suba de tasas esperada." }
+  ],
+  "riesgoHoy": "Más riesgo en semiconductores e IA, que se mueven entre +30% y −6% de un día al otro, y en los sectores sensibles a las tasas antes del PCE de mañana. El petróleo puede saltar si empeora la situación en Ormuz.",
+  "proximos": [
+    "Miércoles 25: inflación PCE de octubre, pedidos de bienes durables, segunda estimación del PBI del 3er trimestre y Libro Beige de la Fed.",
+    "Jueves 26: bolsa cerrada por Thanksgiving.",
+    "Viernes 27: media jornada. Arranca el Black Friday.",
+    "8 y 9 de diciembre: reunión de la Fed (se espera una suba de 0,25 pp)."
+  ]
+}

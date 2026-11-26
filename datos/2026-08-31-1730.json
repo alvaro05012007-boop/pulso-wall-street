@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-31-1730",
+  "fecha": "2026-08-31",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Agosto cerró con bajas: el Dow cayó 0,7%, el S&P 500 0,3% y el Nasdaq 0,1%, aunque los tres ganaron en el mes.",
+    "EE.UU. e Irán intercambiaron nuevos ataques y el Brent subió 2,7%, otra vez arriba de 90 USD.",
+    "El petróleo caro reforzó la idea de una suba de tasas de la Fed; Exxon y Chevron subieron. El Dow sumó su quinto mes seguido en alza."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.686,14", "cambio": "-0,3%", "cambioPct": -0.3 },
+    { "nombre": "Dow Jones", "valor": "53.185,90", "cambio": "-0,70%", "cambioPct": -0.7 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "-0,1%", "cambioPct": -0.1 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nuevos ataques entre EE.UU. e Irán disparan el petróleo",
+      "resumen": "EE.UU. atacó lanzacohetes iraníes y hubo nuevos intercambios de golpes; el Brent subió 2,7% y volvió a superar los 90 USD.",
+      "afecta": ["Energía", "Transporte", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El petróleo caro sumó riesgo inflacionario y apuestas a una suba de tasas.",
+      "fuentes": [
+        { "nombre": "AP (vía Click2Houston)", "url": "https://www.click2houston.com/news/2026/08/31/asian-shares-are-mixed-and-oil-prices-surge-after-us-strike-on-iranian-rocket-launchers/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/579661" }
+      ]
+    },
+    {
+      "titulo": "Las petroleras suben; el resto del mercado cae",
+      "resumen": "Exxon Mobil ganó 2,7% y Chevron 2,1%, mientras el Dow perdió 374 puntos.",
+      "afecta": ["Energía", "Exxon Mobil", "Chevron"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Energía fue el único punto fuerte del día.",
+      "fuentes": [
+        { "nombre": "Honolulu Star-Advertiser (Reuters)", "url": "https://www.staradvertiser.com/2026/08/31/breaking-news/wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-street-closes-lower-oil-prices-inflation-fears/" }
+      ]
+    },
+    {
+      "titulo": "Agosto termina con ganancias para los tres índices",
+      "resumen": "Pese a la baja del último día, los tres grandes índices subieron en agosto y el Dow sumó su quinto mes seguido en alza.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado llega a septiembre cerca de récords pero con el petróleo y la Fed como amenazas.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-records-fifth-straight-month-of-gains/cZYzITkRJsC" },
+        { "nombre": "Newser", "url": "https://newser.com/story/395609/indexes-fall-after-us-strike.html" }
+      ]
+    },
+    {
+      "titulo": "Los chips vuelven a pesar",
+      "resumen": "La debilidad de los fabricantes de chips dejó a los índices mayormente en baja.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Sumó presión sobre el S&P 500.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/4009398/stock-indices-finish-mostly-lower-on-chipmaker-weakness" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Stocktwits informó una suba de 0,1% del Nasdaq 100, mientras otras fuentes dieron una baja de 0,1% del Nasdaq."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Exxon y Chevron subieron con el crudo." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Debilidad de los chips." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Combustible más caro." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow perdió 0,7%." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue el regreso de los ataques entre EE.UU. e Irán, con el petróleo otra vez arriba de 90 USD.",
+  "proximos": [
+    "Martes 1 de septiembre: arranque del mes y datos de empleo.",
+    "Viernes 4: informe de empleo de agosto.",
+    "Reunión de la Fed de septiembre."
+  ]
+}

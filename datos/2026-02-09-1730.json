@@ -1,0 +1,71 @@
+{
+  "id": "2026-02-09-1730",
+  "fecha": "2026-02-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Los índices cerraron en alza y el Dow marcó otro récord, apenas arriba de 50.134 puntos.",
+    "La tecnología siguió rebotando: Oracle subió casi 10% y Nvidia 3,3%.",
+    "Igual, la mayoría de las acciones cayó; los bonos quedaron quietos antes de los datos de empleo e inflación."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.964,82", "cambio": "+0,47%", "cambioPct": 0.47 },
+    { "nombre": "Dow Jones", "valor": "50.135,87", "cambio": "+0,04%", "cambioPct": 0.04 },
+    { "nombre": "Nasdaq", "valor": "23.238,67", "cambio": "+0,90%", "cambioPct": 0.9 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nuevo récord del Dow con la tecnología al frente",
+      "resumen": "Wall Street subió por segundo día, apoyado en empresas ligadas a la IA, y el Dow logró otro cierre récord.",
+      "afecta": ["Mercado en general", "Tecnología"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq ganó 0,9% y el S&P 500 0,5%.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-211750359.html" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/2/9/major-averages-finish-mostly-higher-on-tech-leadership-broad-strength" }
+      ]
+    },
+    {
+      "titulo": "Oracle sube casi 10% por optimismo con la IA",
+      "resumen": "Oracle se destacó pese a la debilidad general del software.",
+      "afecta": ["Oracle", "Software"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Fue una de las mayores subas del día.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/articles/stock-market-today-feb-9-222234166.html" }
+      ]
+    },
+    {
+      "titulo": "Chips en alza, pero la mayoría de las acciones cae",
+      "resumen": "Nvidia subió 3,3% y Broadcom 1,5%, aunque la mayor parte de las acciones del mercado terminó en baja.",
+      "afecta": ["Nvidia", "Broadcom", "Semiconductores"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "La suba se concentró en pocas empresas grandes.",
+      "fuentes": [
+        { "nombre": "AP / Washington Times", "url": "https://www.washingtontimes.com/news/2026/feb/9/us-stocks-drifting-big-rallies-began-asia-run-momentum/" }
+      ]
+    },
+    {
+      "titulo": "Espera por empleo e inflación",
+      "resumen": "Los rendimientos de los bonos se mantuvieron estables antes de varios datos clave de la semana.",
+      "afecta": ["Bonos"],
+      "tono": "neutral", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Los inversores evitaron grandes apuestas.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/02/10/us-stocks-close-higher-ahead-of-employment-inflation-data" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia, AMD y Broadcom subieron." },
+    { "sector": "Software", "tono": "mixto", "porque": "Oracle saltó, pero el sector siguió débil." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las empresas de IA empujaron a los índices." }
+  ],
+  "riesgoHoy": "La suba dependió de pocas tecnológicas mientras la mayoría de las acciones caía.",
+  "proximos": ["Ventas minoristas de diciembre", "Informe de empleo de enero", "IPC de enero"]
+}

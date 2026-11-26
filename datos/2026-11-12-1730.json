@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-1730",
+  "fecha": "2026-11-12",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Jensen Huang renunció como CEO de Nvidia y la acción llegó a caer 14% en el día; cerró con una baja de 4,3%, en mínimos de 52 semanas.",
+    "Los índices aguantaron: el S&P 500 cayó 0,35%, el Nasdaq 0,4% y el Dow 0,4%. Broadcom (+5,5%) y AMD (+5,9%) subieron porque los inversores pasaron a los rivales.",
+    "Energía fue el mejor sector del S&P 500 (+1,5%) y las tasas de los bonos subieron."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.592,40", "cambio": "-0,35%", "cambioPct": -0.35 },
+    { "nombre": "Dow Jones", "valor": "52.297,09", "cambio": "-0,36%", "cambioPct": -0.36 },
+    { "nombre": "Nasdaq", "valor": "25.366,09", "cambio": "-0,39%", "cambioPct": -0.39 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en alza", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Renuncia Jensen Huang a Nvidia",
+      "resumen": "La salida del CEO sacudió a las acciones de IA. Nvidia llegó a perder 14% y cerró 4,3% abajo, en su nivel más bajo en un año.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Business Today (Reuters)", "url": "https://www.businesstoday.com.my/2026/11/13/us-stocks-retreat-as-huang-exit-weighs-on-nvidia-and-ai-shares/" },
+        { "nombre": "Wealth Professional", "url": "https://www.wealthprofessional.ca/investments/equity-markets/wall-street-absorbs-the-hit-as-nvidia-touches-a-52-week-low/394013" }
+      ]
+    },
+    {
+      "titulo": "Broadcom y AMD ganan con la caída de Nvidia",
+      "resumen": "Los inversores pasaron a los competidores: Broadcom subió 5,5% y AMD 5,9%.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Bernama", "url": "https://bernama.com/tv/news.php?id=2633574" }
+      ]
+    },
+    {
+      "titulo": "La energía compensa en parte",
+      "resumen": "Energía fue el sector que más subió (+1,5%) y la caída de Nvidia pesó más que esa ganancia. Las tasas del Tesoro subieron.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Newcastle Herald (Reuters)", "url": "https://www.newcastleherald.com.au/story/9390934/equities-lower-as-nvidia-drop-outweighs-energy-gains/" },
+        { "nombre": "NST (Reuters)", "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1576568/wall-street-ends-lower-nvidia-ceo-resigns-us-yields" }
+      ]
+    },
+    {
+      "titulo": "Nebius y Strategy se desploman",
+      "resumen": "Nebius cayó 18% tras recortar su pronóstico de ingresos 2026 y Strategy perdió 6,6% porque MSCI la sacará de sus índices.",
+      "afecta": ["Hardware", "Software"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "UNB", "url": "https://unb.com.bd/category/Business/us-stocks-close-lower-as-nvidia-ceo-exit-rattles-ai-trade/200211" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Nvidia cayó 4,3% pero Broadcom y AMD subieron más de 5%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "Fue el mejor sector del S&P 500 (+1,5%)." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Nebius se desplomó 18%." },
+    { "sector": "Software", "tono": "negativo", "porque": "Strategy cayó 6,6%." }
+  ],
+  "riesgoHoy": "El riesgo se concentró en Nvidia y las acciones de IA, con movimientos de dos dígitos dentro de la misma rueda.",
+  "proximos": [
+    "Viernes 13: datos de precios.",
+    "Semana próxima: resultados de Nvidia.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

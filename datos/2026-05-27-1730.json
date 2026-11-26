@@ -1,0 +1,64 @@
+{
+  "id": "2026-05-27-1730",
+  "fecha": "2026-05-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Los tres índices cerraron en récord con subas chicas: Dow +0,4%, Nasdaq +0,1% y S&P 500 casi plano.",
+    "El índice de semiconductores cayó 1,4% y frenó a la tecnología, mientras la baja del petróleo ayudó al Dow.",
+    "Micron llegó a valer US$1 billón (trillion) en la rueda."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.520,36", "cambio": "+0,02%", "cambioPct": 0.02 },
+    { "nombre": "Dow Jones", "valor": "50.644,28", "cambio": "+0,36%", "cambioPct": 0.36 },
+    { "nombre": "Nasdaq", "valor": "26.674,73", "cambio": "+0,07%", "cambioPct": 0.07 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow marca récord con la baja del petróleo",
+      "resumen": "El crudo volvió a caer por el optimismo sobre una tregua con Irán y el Dow sumó 183 puntos.",
+      "afecta": ["Industria", "Energía"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Los tres índices terminaron en máximos históricos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/27/dow-hits-fresh-record-as-falling-oil-offsets-semiconductor-weakness" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-wednesday-5-27-2026/" }
+      ]
+    },
+    {
+      "titulo": "Pausa en el rally de la IA",
+      "resumen": "El índice de semiconductores PHLX cayó 1,4% y el Nasdaq cortó su impulso.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Reuters habló de un S&P 500 y un Nasdaq 'apagados'.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/dow-record-close-sp-500-nasdaq-ai-rally-pause/" }
+      ]
+    },
+    {
+      "titulo": "Micron toca el billón de dólares de valor",
+      "resumen": "Micron extendió su suba y alcanzó por momentos una capitalización de US$1 billón.",
+      "afecta": ["Micron"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Una marca simbólica del boom de los chips de memoria para IA.",
+      "fuentes": [
+        { "nombre": "Fortune", "url": "https://dc.fortune.com/2026/05/27/micron-1-trillion-sp500-all-time-high-2026/" },
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-may-27-220947834.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Reuters dio el Dow en 50.650,76 y AP en 50.644,28; diferencia menor de cierre preliminar."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "El índice PHLX cayó 1,4%." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow en récord." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Baja del crudo." }
+  ],
+  "riesgoHoy": "Que la tregua con Irán no se confirme y que el rally de chips se agote.",
+  "proximos": ["Inflación PCE de abril", "Confirmación de un acuerdo EE.UU.-Irán"]
+}

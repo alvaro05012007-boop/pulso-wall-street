@@ -1,0 +1,63 @@
+{
+  "id": "2026-02-20-1730",
+  "fecha": "2026-02-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Los índices subieron: el Nasdaq ganó 0,90%, el S&P 500 0,69% y el Dow 0,47%.",
+    "La Corte Suprema anuló los aranceles amplios de Trump, aunque él prometió reponerlos por otras vías.",
+    "También pesaron datos de menor crecimiento e inflación; Nvidia cayó y frenó la suba."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.909,51", "cambio": "+0,69%", "cambioPct": 0.69 },
+    { "nombre": "Dow Jones", "valor": "49.625,97", "cambio": "+0,47%", "cambioPct": 0.47 },
+    { "nombre": "Nasdaq", "valor": "22.886,07", "cambio": "+0,90%", "cambioPct": 0.9 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Corte Suprema anula los aranceles de Trump",
+      "resumen": "El máximo tribunal derribó los aranceles amplios del presidente; Trump dijo que buscará aplicarlos por otros caminos.",
+      "afecta": ["Mercado en general", "Comercio exterior"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Las operaciones fueron cautelosas, pero los índices cerraron en alza.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-slowdown-signals,-inflation-data-and-tariff-ruling-dominate" },
+        { "nombre": "AP / Star Tribune", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-friday-2202026/601586054" }
+      ]
+    },
+    {
+      "titulo": "Señales de desaceleración y dato de inflación",
+      "resumen": "Los inversores evaluaron datos que mostraron una economía más lenta junto con un nuevo dato de inflación.",
+      "afecta": ["Bonos", "Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "PIB", "volatilidad": false,
+      "impacto": "El mercado los tomó con calma.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-slowdown-signals,-inflation-data-and-tariff-ruling-dominate" }
+      ]
+    },
+    {
+      "titulo": "Nvidia, el mayor lastre",
+      "resumen": "Nvidia llegó a caer 4,2% en medio del castigo a las empresas vistas como posibles perdedoras de la IA.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Fue el mayor peso negativo del mercado en esa versión de AP.",
+      "fuentes": [
+        { "nombre": "AP / AOL", "url": "https://www.aol.com/articles/asian-shares-mixed-nvidias-losses-055810569.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Una nota de AP publicada en AOL decía que las acciones se hundían; el reporte de cierre de AP muestra subas en los tres índices, y se usó ese."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq lideró la suba." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia cayó con fuerza." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "El fallo sobre aranceles podría bajar costos, pero hay incertidumbre." }
+  ],
+  "riesgoHoy": "La incertidumbre sobre cómo Trump va a reponer los aranceles anulados.",
+  "proximos": ["Resultados de Nvidia (miércoles 25)", "Nuevas medidas arancelarias de Trump"]
+}

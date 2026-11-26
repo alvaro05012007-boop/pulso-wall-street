@@ -1,0 +1,64 @@
+{
+  "id": "2026-06-23-1730",
+  "fecha": "2026-06-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Caída liderada por la tecnología: el Nasdaq perdió 2,2% y el S&P 500 1,4%; el Dow quedó casi plano (-0,1%).",
+    "Los semiconductores se hundieron antes del balance de Micron; Nvidia cayó 4%.",
+    "El S&P 500 de igual ponderación cedió solo 0,4%: la baja se concentró en las grandes."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.365,46", "cambio": "-1,44%", "cambioPct": -1.44 },
+    { "nombre": "Dow Jones", "valor": "51.666,84", "cambio": "-0,09%", "cambioPct": -0.09 },
+    { "nombre": "Nasdaq", "valor": "25.587,04", "cambio": "-2,21%", "cambioPct": -2.21 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los chips se derrumban antes del balance de Micron",
+      "resumen": "Los semiconductores cayeron con fuerza a la espera de los resultados de Micron.",
+      "afecta": ["Semiconductores", "Nvidia", "Micron"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Nvidia perdió 3,99%, entre las peores del Dow.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/23/semiconductors-slide-ahead-of-microns-earnings-broader-market-shows-resilience" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/561267" }
+      ]
+    },
+    {
+      "titulo": "Megacaps y software, bajo presión",
+      "resumen": "Barchart destacó la debilidad de las grandes tecnológicas y del software.",
+      "afecta": ["Software", "Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 580 puntos.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/2590233/stocks-mostly-lower-on-weakness-in-megacap-tech-and-software-stocks" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-23-2026/" }
+      ]
+    },
+    {
+      "titulo": "Caterpillar y Honeywell también caen",
+      "resumen": "Además de Nvidia, Caterpillar (-3,55%) y Honeywell (-2,37%) estuvieron entre las peores del Dow.",
+      "afecta": ["Caterpillar", "Honeywell", "Industria"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "El Dow igual cerró casi sin cambios.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/561267" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Varios resultados fechados el 23/6 repiten las cifras del lunes 22; se usaron las de AP del martes."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Caída antes del balance de Micron." },
+    { "sector": "Software", "tono": "negativo", "porque": "Debilidad destacada por Barchart." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Caterpillar y Honeywell cayeron." }
+  ],
+  "riesgoHoy": "La concentración de las caídas en las tecnológicas grandes antes de Micron.",
+  "proximos": ["Balance de Micron", "Inflación PCE de mayo"]
+}

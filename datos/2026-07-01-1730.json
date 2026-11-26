@@ -1,0 +1,93 @@
+{
+  "id": "2026-07-01-1730",
+  "fecha": "2026-07-01",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Arranque de julio y del segundo semestre con índices mixtos: el S&P 500 bajó 0,2% y el Nasdaq 0,7%, mientras el Dow cerró prácticamente plano después de tocar un récord en la rueda.",
+    "Los fabricantes de chips se desplomaron: el índice de semiconductores de Filadelfia cayó 6,3% con bajas en Micron, Nvidia, Broadcom y KLA.",
+    "La plata se fue de las tecnológicas a acciones más ligadas a la economía, y la mayoría de las acciones del S&P 500 subió."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.483,23", "cambio": "-0,22%", "cambioPct": -0.22 },
+    { "nombre": "Dow Jones", "valor": "52.305,24", "cambio": "-0,03%", "cambioPct": -0.03 },
+    { "nombre": "Nasdaq", "valor": "26.040,03", "cambio": "-0,66%", "cambioPct": -0.66 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Derrumbe de los fabricantes de chips: el índice del sector cae 6,3%",
+      "resumen": "El índice de semiconductores de Filadelfia perdió 6,3%, con bajas en memorias, equipos para chips e infraestructura de IA: Micron, Sandisk, Nvidia, Broadcom, Corning y KLA.",
+      "afecta": ["Semiconductores", "Nvidia", "Micron", "Broadcom"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "La caída de los chips arrastró al Nasdaq y al S&P 500 aunque la mayoría de las acciones subió.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/weakness-chipmakers-drags-stock-indexes-lower" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/1/semiconductor-selloff-fails-to-rattle-broader-market" }
+      ]
+    },
+    {
+      "titulo": "Rotación: los inversores salen de tecnología y entran en acciones cíclicas",
+      "resumen": "El Nasdaq 100 cayó cerca de 1,5% mientras subían sectores más atados a la economía. El Dow tocó un récord en la rueda pero terminó casi sin cambios.",
+      "afecta": ["Tecnología", "Industria", "Financiero"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Más de la mitad del mercado subió, pero el peso de las grandes tecnológicas dejó a los índices en rojo.",
+      "fuentes": [
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-wednesday-7-1-2026/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-as-investors-continue-rotation-out-of-tech-and-chipmakers/cZm3qaER71K?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja por señales positivas entre EE.UU. e Irán",
+      "resumen": "Los precios del crudo cedieron por reportes de conversaciones positivas entre EE.UU. e Irán y por mejor tránsito en el estrecho de Ormuz.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Un petróleo más barato alivia costos para transporte y consumo, pero pesa sobre las petroleras.",
+      "fuentes": [
+        { "nombre": "Neil's Newsletter", "url": "https://neilsethi.substack.com/p/markets-update-7126" }
+      ]
+    },
+    {
+      "titulo": "El primer semestre cerró con fuertes ganancias",
+      "resumen": "El S&P 500 ganó 9,6% en la primera mitad del año y el Nasdaq 12%, con un segundo trimestre que fue el mejor desde 2020.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado empezó julio cerca de máximos, lo que deja poco margen ante malas noticias.",
+      "fuentes": [
+        { "nombre": "News Tribune (AP)", "url": "https://www.newstribune.com/news/2026/jul/01/sp-500-nasdaq-register-best-quarter-since-2020/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "El índice del sector cayó 6,3% con ventas en memorias y chips para IA." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las grandes tecnológicas cayeron por la rotación hacia otros sectores." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Las acciones cíclicas recibieron la plata que salió de tecnología." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó por señales de diálogo entre EE.UU. e Irán." }
+  ],
+  "riesgoHoy": "El mayor riesgo estuvo en los chips y las acciones de IA, que cayeron con fuerza y concentran mucho peso en los índices.",
+  "proximos": [
+    "Jueves 2: informe de empleo de junio, adelantado por el feriado.",
+    "Viernes 3: mercado cerrado por el Día de la Independencia.",
+    "Negociaciones entre EE.UU. e Irán y tránsito por Ormuz."
+  ]
+}

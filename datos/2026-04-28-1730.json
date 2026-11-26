@@ -1,0 +1,63 @@
+{
+  "id": "2026-04-28-1730",
+  "fecha": "2026-04-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Se cortó la racha de récords: el Nasdaq cayó 0,90% y el S&P 500 0,49%; el Dow quedó casi plano (-0,05%).",
+    "Reportes de que OpenAI no alcanzó sus metas de ingresos y usuarios golpearon a las acciones de IA y chips.",
+    "El WTI subió más de 3% por las tensiones en torno a Ormuz."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.138,80", "cambio": "-0,49%", "cambioPct": -0.49 },
+    { "nombre": "Dow Jones", "valor": "49.141,93", "cambio": "-0,05%", "cambioPct": -0.05 },
+    { "nombre": "Nasdaq", "valor": "24.663,80", "cambio": "-0,90%", "cambioPct": -0.9 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "+3%", "cambioPct": 3 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Dudas sobre la IA: OpenAI habría fallado sus metas",
+      "resumen": "Reportes de que OpenAI no cumplió objetivos de ingresos y usuarios reavivaron las dudas sobre el gasto en IA.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Las acciones de chips y de IA lideraron las caídas.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-fall-ai-jitters-and-surging-crude-oil-prices" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/04/29/us-stocks-close-lower-as-ai-spending-concerns-resurface" }
+      ]
+    },
+    {
+      "titulo": "El WTI sube más de 3% por Ormuz",
+      "resumen": "Las tensiones entre EE.UU. e Irán sobre el estrecho volvieron a encarecer el crudo.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Se sumó a la toma de ganancias tras los récords.",
+      "fuentes": [
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/04/how-major-us-stock-indexes-fared-tuesday-4-28-2026/" },
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-fall-ai-jitters-and-surging-crude-oil-prices" }
+      ]
+    },
+    {
+      "titulo": "Las bolsas se alejan de máximos antes de la Fed",
+      "resumen": "Dudas sobre la IA, riesgos del petróleo y la decisión de la Fed pesaron sobre el ánimo.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El Dow cayó solo 0,05%.",
+      "fuentes": [
+        { "nombre": "InvestmentNews", "url": "https://www.investmentnews.com/equities/stocks-retreat-from-highs-as-ai-doubts-oil-risks-and-fed-loom-over-markets/266359" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-markets-pull-back-as-risk-appetite-wanes,-chip-stocks-drop" }
+      ]
+    }
+  ],
+  "contradicciones": ["Trading Economics da la caída del Nasdaq en 1% y otras fuentes en 0,9%."],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Dudas sobre el gasto en IA." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó 0,9%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El WTI subió más de 3%." }
+  ],
+  "riesgoHoy": "Las dudas sobre la rentabilidad de la IA, motor de los récords recientes.",
+  "proximos": ["Decisión de la Fed el miércoles 29", "Balances de Microsoft, Alphabet, Meta y Amazon"]
+}

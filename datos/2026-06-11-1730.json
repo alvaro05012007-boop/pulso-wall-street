@@ -1,0 +1,62 @@
+{
+  "id": "2026-06-11-1730",
+  "fecha": "2026-06-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote fuerte: el S&P 500 subió 1,8%, el Dow 1,9% (930 puntos) y el Nasdaq 2,5%.",
+    "Trump canceló los ataques contra Irán previstos para esa noche y dijo que un acuerdo de paz era inminente.",
+    "El petróleo WTI cayó a US$87,81, los chips rebotaron y las pequeñas empresas ganaron 3%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.394,30", "cambio": "+1,75%", "cambioPct": 1.75 },
+    { "nombre": "Dow Jones", "valor": "50.848,75", "cambio": "+1,86%", "cambioPct": 1.86 },
+    { "nombre": "Nasdaq", "valor": "25.809,66", "cambio": "+2,54%", "cambioPct": 2.54 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "US$87,81", "cambio": "-2,36%", "cambioPct": -2.36 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump cancela los ataques contra Irán",
+      "resumen": "El presidente suspendió los bombardeos previstos y aseguró que un acuerdo de paz estaba cerca.",
+      "afecta": ["Mercado en general", "Energía", "Defensa"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Las acciones recuperaron casi toda la caída del día anterior.",
+      "fuentes": [
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-surge-as-trump-cancels-iran-strikes,-says-peace-deal-imminent" },
+        { "nombre": "Xinhua / People's Daily", "url": "https://en.people.cn/n3/2026/0612/c90000-20466821.html" }
+      ]
+    },
+    {
+      "titulo": "El petróleo cae y los chips rebotan",
+      "resumen": "El WTI bajó US$2,12 a US$87,81 y los semiconductores volvieron a subir.",
+      "afecta": ["Energía", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Briefing.com atribuye la suba al optimismo por Irán y al rebote de los chips.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/11/stocks-rally-on-iran-deal-optimism-and-semiconductor-rebound" }
+      ]
+    },
+    {
+      "titulo": "Las pequeñas empresas suben 3%",
+      "resumen": "El Russell 2000 ganó 85 puntos hasta 2.921; en la semana el S&P 500 apenas sube 0,1%.",
+      "afecta": ["Pequeñas empresas"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Fue una suba amplia en todo el mercado.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-thursday-6-11-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebotaron con fuerza." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El WTI cayó a US$87,81." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Combustible más barato." },
+    { "sector": "Defensa", "tono": "negativo", "porque": "Se cancelaron los ataques previstos." }
+  ],
+  "riesgoHoy": "Que el anuncio de paz no se concrete, como pasó otras veces en las semanas previas.",
+  "proximos": ["Debut de SpaceX en el Nasdaq", "Reunión de la Fed del 16 y 17 de junio"]
+}

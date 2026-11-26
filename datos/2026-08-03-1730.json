@@ -1,0 +1,95 @@
+{
+  "id": "2026-08-03-1730",
+  "fecha": "2026-08-03",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Agosto arrancó con todo: el S&P 500 subió 1,5%, el Nasdaq 2,1% y el Dow 1,3% hasta un nuevo récord de cierre.",
+    "La esperanza de una baja de tensión entre EE.UU. e Irán hizo caer el petróleo, y eso bajó el miedo a la inflación y las tasas.",
+    "El S&P 500 cerró arriba de 7.600 por primera vez desde el 2 de junio, a apenas 0,1% de su récord."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.600,50", "cambio": "+1,48%", "cambioPct": 1.48 },
+    { "nombre": "Dow Jones", "valor": "53.178,41", "cambio": "+1,32%", "cambioPct": 1.32 },
+    { "nombre": "Nasdaq", "valor": "25.934,91", "cambio": "+2,13%", "cambioPct": 2.13 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Esperanza de distensión con Irán: baja el petróleo y suben las bolsas",
+      "resumen": "Las señales de una baja de tensión entre EE.UU. e Irán hicieron caer el crudo, lo que alivió el miedo a la inflación y bajó las tasas de los bonos.",
+      "afecta": ["Energía", "Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El Dow marcó un récord de cierre y el S&P 500 quedó a 0,1% del suyo.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-jump,-dow-hits-record-on-hopes-of-us-iran-de-escalation" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-sharply-higher-middle-east-tensions-ease" }
+      ]
+    },
+    {
+      "titulo": "Las grandes tecnológicas lideran la suba",
+      "resumen": "Las 'siete magníficas' empujaron al mercado. Los chips llegaron a perder casi 3% al inicio pero terminaron con una suba de 1,1%.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Nasdaq ganó 540 puntos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/3/stocks-rally-as-megacap-momentum-continues" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-end-higher-dow-hits-record-high-on-strong-mag-7-performance/cZoTYo1RJ3K" }
+      ]
+    },
+    {
+      "titulo": "Palantir sube después del cierre tras superar y elevar previsiones",
+      "resumen": "Palantir presentó un segundo trimestre mejor de lo esperado y subió su previsión, y su acción saltó en las operaciones fuera de hora.",
+      "afecta": ["Palantir", "Software"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Anticipa un buen arranque para el software en la rueda del martes.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/8/3/palantir-jumps-after-beatandraise-q2" }
+      ]
+    },
+    {
+      "titulo": "El oro baja con la menor tensión geopolítica",
+      "resumen": "El oro cerró en baja porque la distensión en Medio Oriente redujo la demanda de refugio.",
+      "afecta": ["Materiales"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Los inversores dejaron los refugios para volver a las acciones.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/3/gold-settles-lower-as-easing-geopolitical-tensions-pressure-prices" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 25.913,90 y Briefing.com en 25.934,91, con la misma suba de 540,04 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las grandes tecnológicas lideraron." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Se recuperaron de una baja temprana de casi 3%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Bajó el petróleo por la distensión." },
+    { "sector": "Materiales", "tono": "negativo", "porque": "El oro cayó." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en que la suba depende de una distensión con Irán que todavía no está firmada.",
+  "proximos": [
+    "Más balances: AMD y SpaceX el martes.",
+    "Informe de empleo de julio el viernes.",
+    "Negociaciones entre EE.UU. e Irán."
+  ]
+}

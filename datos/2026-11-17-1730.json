@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-17-1730",
+  "fecha": "2026-11-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Otra caída: el S&P 500 bajó 1% y quedó en su cierre más bajo desde fines de julio; el Dow perdió 849 puntos (1,6%) y el Nasdaq 0,7%. Los 11 sectores cerraron en baja.",
+    "Nvidia creó un comité en su directorio para controlar temas de seguridad nacional, tras revelaciones sobre la relación de Huang con una supuesta espía china. Presentaba resultados después del cierre.",
+    "Ventas minoristas firmes (núcleo +0,6%) pero la producción industrial cayó 0,4%. El petróleo siguió en baja y los bonos subieron como refugio."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.340,53", "cambio": "-1,03%", "cambioPct": -1.03 },
+    { "nombre": "Dow Jones", "valor": "50.759,42", "cambio": "-1,64%", "cambioPct": -1.64 },
+    { "nombre": "Nasdaq", "valor": "24.328,38", "cambio": "-0,74%", "cambioPct": -0.74 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Otra ola de ventas sobre la IA",
+      "resumen": "Nvidia y otras acciones de IA volvieron a caer; el S&P 500 perdió 76 puntos y el Dow 849.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/11/wall-street-shakes-again-as-nvidia-and-other-jittery-ai-stocks-swing-lower/" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11172026-nid17112026/" }
+      ]
+    },
+    {
+      "titulo": "Nvidia arma un comité de seguridad nacional",
+      "resumen": "El nuevo comité del directorio supervisará el cumplimiento en seguridad nacional y comercio global, tras conocerse la relación de Huang con una presunta espía china.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía WCAX)", "url": "https://www.wcax.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/?outputType=amp" }
+      ]
+    },
+    {
+      "titulo": "Ventas minoristas firmes, industria floja",
+      "resumen": "Las ventas minoristas subieron 0,2% y el grupo de control 0,6% (se esperaba 0,4%). La producción industrial cayó 0,4% contra 0% esperado.",
+      "afecta": ["Consumo", "Industria"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-17" },
+        { "nombre": "ZeroHedge (Newsquawk)", "url": "https://www.zerohedge.com/markets/equity-weakness-continues-nvda-earnings-await-newsquawk-us-market-wrap" }
+      ]
+    },
+    {
+      "titulo": "El petróleo acumula una caída fuerte en el mes",
+      "resumen": "Las acciones de energía sufrieron por la caída del crudo, que bajó unos 30 USD por barril en el último mes.",
+      "afecta": ["Energía"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-fall-ahead-nvidia-earnings-and-us-economic-data" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia, golpeada por el caso Huang, antes de sus resultados." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Fuerte caída del petróleo." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Producción industrial en baja y el Dow perdió 1,6%." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Buenas ventas minoristas, pero el mercado cayó igual." }
+  ],
+  "riesgoHoy": "El riesgo máximo estuvo en Nvidia, que presentaba resultados con su conducción bajo investigación.",
+  "proximos": [
+    "Miércoles 18: reacción al balance de Nvidia y minutas de la Fed.",
+    "Jueves 19: debut de Anthropic en la bolsa.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

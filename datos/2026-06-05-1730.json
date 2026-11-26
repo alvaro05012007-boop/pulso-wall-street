@@ -1,0 +1,66 @@
+{
+  "id": "2026-06-05-1730",
+  "fecha": "2026-06-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Desplome: el Nasdaq cayó 4,2%, su peor día desde abril de 2025; el S&P 500 perdió 2,6% y el Dow 1,35%.",
+    "El empleo de mayo sorprendió con 172.000 puestos, más del doble de lo esperado, y los rendimientos se dispararon: el bono a 30 años pasó el 5%.",
+    "El mercado pasó a temer que la Fed suba tasas en vez de bajarlas; las grandes tecnológicas y los chips lideraron la venta."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.383,74", "cambio": "-2,64%", "cambioPct": -2.64 },
+    { "nombre": "Dow Jones", "valor": "50.866,78", "cambio": "-1,35%", "cambioPct": -1.35 },
+    { "nombre": "Nasdaq", "valor": "25.709,43", "cambio": "-4,18%", "cambioPct": -4.18 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El empleo de mayo duplica lo esperado",
+      "resumen": "Se crearon 172.000 puestos, más del doble de lo previsto, y el desempleo quedó en 4,3%.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Empleo", "volatilidad": true,
+      "impacto": "Paradójicamente, el dato fuerte hundió a las acciones porque aleja los recortes de tasas.",
+      "fuentes": [
+        { "nombre": "AP / NY1", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/06/05/stocks-slide-as-big-tech-sinks-and-bond-yields-surge-after-a-strong-may-jobs-report" },
+        { "nombre": "Scripps News", "url": "https://www.scrippsnews.com/politics/economy/despite-strong-jobs-report-wall-street-sees-worst-day-since-october" }
+      ]
+    },
+    {
+      "titulo": "Se disparan los rendimientos; el bono a 30 años supera 5%",
+      "resumen": "Los rendimientos del Tesoro saltaron y crecieron las apuestas a que la Fed podría subir tasas.",
+      "afecta": ["Bonos", "Inmobiliario", "Financiero"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "El S&P 500 cortó una racha de nueve semanas de alzas.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-friday-6-5-2026/" },
+        { "nombre": "Motley Fool", "url": "https://fool.com/investing/2026/06/05/market-indexes-tumble-at-midday-as-treasury-yields/" }
+      ]
+    },
+    {
+      "titulo": "Paliza a chips y grandes tecnológicas",
+      "resumen": "Los semiconductores encabezaron la venta y Meta cayó 5,5%.",
+      "afecta": ["Semiconductores", "Meta", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 1.121 puntos, su mayor caída diaria desde abril de 2025 según Reuters.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-street-lower-chip-stocks-slide-jobs-data/" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/2332593/stocks-settle-sharply-lower-as-tech-companies-routed" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un reporte de Trading Economics dio el Dow en 50.941 (-1,20%), cifra que coincide con la caída del día 3; se usó el cierre de AP de 50.866,78."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Lideraron la venta masiva." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las megacaps fueron las más castigadas." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Meta cayó 5,5%." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Tasas largas arriba de 5%." }
+  ],
+  "riesgoHoy": "El giro de expectativas hacia posibles subas de tasas de la Fed.",
+  "proximos": ["Inflación (IPC) de mayo el miércoles 10", "Reunión de la Fed del 16 y 17 de junio"]
+}

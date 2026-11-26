@@ -1,0 +1,59 @@
+{
+  "id": "2026-01-16-1730",
+  "fecha": "2026-01-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Cierre apenas en rojo antes del fin de semana largo: el S&P 500 bajó 0,06% y el Dow 0,17%.",
+    "Los tres índices terminaron la semana con pérdidas.",
+    "Pesaron nuevos dichos de Trump sobre la Fed y la geopolítica; las acciones espaciales subieron."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.940,01", "cambio": "-0,06%", "cambioPct": -0.06 },
+    { "nombre": "Dow Jones", "valor": "49.359,33", "cambio": "-0,17%", "cambioPct": -0.17 },
+    { "nombre": "Nasdaq", "valor": "23.515,39", "cambio": "-0,1%", "cambioPct": -0.1 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Semana negativa para los tres índices",
+      "resumen": "Tras una rueda que osciló entre subas y bajas, los índices cerraron levemente abajo y con pérdidas semanales.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "En el año, el S&P 500 seguía arriba cerca de 1,4% y el Dow 2,7%, según AP.",
+      "fuentes": [
+        { "nombre": "Star Tribune (AP)", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-friday-1162026/601565661" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/1/16/market-drifts-slightly-lower-to-end-the-week" }
+      ]
+    },
+    {
+      "titulo": "Preguntas sobre la independencia de la Fed",
+      "resumen": "Los operadores reaccionaron a los últimos comentarios de Trump sobre la Fed y sobre temas geopolíticos.",
+      "afecta": ["Fed", "Bonos"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Contribuyó a un cierre levemente negativo.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/279403/stocks-finish-quietly-lower-amid-fed-independence-questions" }
+      ]
+    },
+    {
+      "titulo": "Despegan las acciones espaciales",
+      "resumen": "Las empresas del sector espacial fueron de las más destacadas en un día flojo.",
+      "afecta": ["Defensa", "Industria"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Subas puntuales a contramano del mercado.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-jan-16-231716643.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Defensa", "tono": "positivo", "porque": "Subieron las acciones espaciales y aeroespaciales." }
+  ],
+  "riesgoHoy": "La presión política sobre la Fed.",
+  "proximos": ["Mercado cerrado el lunes 19 por Martin Luther King", "Foro de Davos y balances de Netflix y otras"]
+}

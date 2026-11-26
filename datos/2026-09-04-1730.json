@@ -1,0 +1,81 @@
+{
+  "id": "2026-09-04-1730",
+  "fecha": "2026-09-04",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Un informe de empleo mucho más fuerte de lo esperado (162.000 puestos contra unos 55.000) revivió el miedo a una suba de tasas de la Fed.",
+    "El S&P 500 bajó 0,4%, el Dow 0,5% y el Nasdaq 0,3%; los fabricantes de chips amortiguaron la caída.",
+    "Las tasas de los bonos volvieron a subir y Trump se quejó de la caída y pidió a la Fed que baje las tasas.",
+    "El lunes 7 la bolsa cierra por el Día del Trabajo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.718,60", "cambio": "-0,38%", "cambioPct": -0.38 },
+    { "nombre": "Dow Jones", "valor": "53.414,25", "cambio": "-0,51%", "cambioPct": -0.51 },
+    { "nombre": "Nasdaq", "valor": "26.506,99", "cambio": "-0,29%", "cambioPct": -0.29 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El empleo de agosto sorprende: 162.000 nuevos puestos",
+      "resumen": "Las nóminas crecieron 162.000 en agosto contra unos 55.000 esperados, junio y julio se corrigieron 55.000 para arriba y el desempleo quedó en 4,1%.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Empleo",
+      "volatilidad": true,
+      "impacto": "Los futuros de tasas pasaron a dar cerca de 60% de chance de suba en la reunión del 15 y 16 de septiembre.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-dips-strong-jobs-fed-rate-hike/" },
+        { "nombre": "Honolulu Star-Advertiser", "url": "https://www.staradvertiser.com/2026/09/04/breaking-news/wall-street-ends-lower-as-solid-jobs-data-fuels-hawkish-fed-bets/" }
+      ]
+    },
+    {
+      "titulo": "Wall Street cierra en baja, con los chips como sostén",
+      "resumen": "El S&P 500 perdió 29 puntos y el Dow 272. La fortaleza de los fabricantes de chips limitó la baja del Nasdaq.",
+      "afecta": ["Semiconductores", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "La baja fue moderada después de la fuerte suba del jueves.",
+      "fuentes": [
+        { "nombre": "La Nación (AP)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-942026-nid04092026/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg" }
+      ]
+    },
+    {
+      "titulo": "Trump critica la caída y presiona a la Fed",
+      "resumen": "El presidente Donald Trump se quejó de la baja de la bolsa tras el dato de empleo y pidió a la Reserva Federal que baje las tasas en lugar de subirlas.",
+      "afecta": ["Fed", "Bonos"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Sumó ruido político alrededor de la próxima decisión de la Fed.",
+      "fuentes": [
+        { "nombre": "Reuters (vía GV Wire)", "url": "https://gvwire.com/2026/09/04/wall-street-slides-after-strong-jobs-report-bolsters-hawkish-fed-bets/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un resumen de AP indicó que el Nasdaq subió, pero Xinhua y Reuters informaron una baja de 0,29% a 26.506,99; se tomó esta última."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Los fabricantes de chips subieron y frenaron la caída del Nasdaq." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Más chances de suba de tasas, con efectos encontrados para bancos." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas volvieron a subir tras el dato de empleo." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue el dato de empleo: un mercado laboral fuerte hace más probable que la Fed suba la tasa en septiembre.",
+  "proximos": [
+    "Lunes 7: bolsa cerrada por el Día del Trabajo.",
+    "Inflación de agosto (CPI) la semana siguiente.",
+    "Reunión de la Fed del 15 y 16 de septiembre."
+  ]
+}

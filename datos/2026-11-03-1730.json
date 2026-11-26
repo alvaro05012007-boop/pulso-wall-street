@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-03-1730",
+  "fecha": "2026-11-03",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Día de elecciones de medio término: el S&P 500 subió 0,4% y el Nasdaq 0,8% con el rebote de los chips. El Dow cayó 0,4%.",
+    "Apple bajó cerca de 2% y limitó la suba.",
+    "El petróleo fue y vino con versiones de un borrador de acuerdo con Irán aprobado por EE.UU. Las ofertas de empleo (JOLTS) subieron fuerte."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.568,92", "cambio": "+0,36%", "cambioPct": 0.36 },
+    { "nombre": "Dow Jones", "valor": "51.786,72", "cambio": "-0,38%", "cambioPct": -0.38 },
+    { "nombre": "Nasdaq", "valor": "25.372,01", "cambio": "+0,83%", "cambioPct": 0.83 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "S&P 500 y Nasdaq se recuperan el día de la elección",
+      "resumen": "Los chips rebotaron y cortaron la racha negativa mientras los operadores esperaban los primeros resultados.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-recover-from-ai-rout-on-us-midterm-election-day-meta-aapl-amd-skhy-in-focus/cNGXlSbR9dS" },
+        { "nombre": "IBTimes", "url": "https://www.ibtimes.com/us-stocks-midterm-elections-ai-iran-talks-3809355" }
+      ]
+    },
+    {
+      "titulo": "Apple pesa sobre el mercado",
+      "resumen": "Apple cayó alrededor de 2% y frenó la suba de los índices; el Dow terminó 197 puntos abajo.",
+      "afecta": ["Hardware", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/3022827/stock-market-news-for-nov-4-2026" }
+      ]
+    },
+    {
+      "titulo": "Suben las ofertas de empleo mientras EE.UU. vota",
+      "resumen": "El informe JOLTS mostró un salto en las vacantes de empleo, señal de un mercado laboral firme.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-job-openings-jump-as-the-us-votes/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo se sacude por un posible acuerdo con Irán",
+      "resumen": "Las versiones de un borrador de acuerdo con Irán aprobado por EE.UU. hicieron que el crudo subiera y bajara durante el día.",
+      "afecta": ["Energía"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-03" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebote de los chips el día de la elección." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Apple cayó cerca de 2%." },
+    { "sector": "Energía", "tono": "mixto", "porque": "El petróleo osciló con las versiones sobre Irán." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cerró en baja." }
+  ],
+  "riesgoHoy": "El riesgo principal fue político: el resultado de las elecciones podía mover fuerte al mercado al día siguiente.",
+  "proximos": [
+    "Miércoles 4: resultados de las elecciones de medio término.",
+    "Jueves 5: decisión del Banco de Inglaterra.",
+    "Viernes 6: informe de empleo de octubre."
+  ]
+}

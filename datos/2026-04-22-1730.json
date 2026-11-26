@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-22-1730",
+  "fecha": "2026-04-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Se extendió la tregua con Irán y, junto con buenos balances, llevó al S&P 500 (+1,05%) y al Nasdaq (+1,64%) a nuevos récords.",
+    "El S&P 500 cerró en 7.137,90 y el Dow subió 0,69%.",
+    "GE Vernova saltó 13,8% por la demanda de centros de datos; el WTI igual subió 3,8% a USD 93,06."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.137,90", "cambio": "+1,05%", "cambioPct": 1.05 },
+    { "nombre": "Dow Jones", "valor": "49.490,03", "cambio": "+0,69%", "cambioPct": 0.69 },
+    { "nombre": "Nasdaq", "valor": "24.657,57", "cambio": "+1,64%", "cambioPct": 1.64 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "93,06", "cambio": "+3,8%", "cambioPct": 3.8 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Se extiende la tregua con Irán y las bolsas marcan récords",
+      "resumen": "La extensión del alto el fuego, descrita en algunos resúmenes como indefinida, impulsó a Wall Street.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El S&P 500 y el Nasdaq cerraron en máximos históricos.",
+      "fuentes": [
+        { "nombre": "WSAU (Reuters)", "url": "https://wsau.com/2026/04/22/wall-street-rises-on-iran-ceasefire-extension-and-solid-earnings/" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/346876/earnings-ceasefire-extension-push-nasdaq-spx-to-record-close" }
+      ]
+    },
+    {
+      "titulo": "GE Vernova vuela 13,8% por la demanda de centros de datos",
+      "resumen": "La empresa de equipos eléctricos se disparó gracias al pedido de energía para centros de datos.",
+      "afecta": ["Industria", "Servicios públicos", "GE Vernova"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Encabezó las subas del día.",
+      "fuentes": [
+        { "nombre": "Newser (AP)", "url": "https://www.newser.com/story/387827/stocks-hit-new-records-despite-war-worries.html" }
+      ]
+    },
+    {
+      "titulo": "El WTI sube 3,8% pese a la tregua",
+      "resumen": "El crudo siguió firme por el bloqueo naval vigente sobre Irán.",
+      "afecta": ["Energía"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "El WTI cerró en USD 93,06.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/544056" }
+      ]
+    },
+    {
+      "titulo": "Tesla y Texas Instruments suben tras sus balances; IBM y ServiceNow caen",
+      "resumen": "Después del cierre, Tesla y Texas Instruments subieron por sus resultados mientras IBM y ServiceNow quedaron bajo presión.",
+      "afecta": ["Semiconductores", "Software", "Tesla", "Texas Instruments", "IBM", "ServiceNow"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Los movimientos se vieron en la operatoria posterior al cierre.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/after-hours-report/archive/2026/4/22/tesla-and-texas-instruments-power-higher-on-earnings-ibm-and-service-now-face-some-pressure" }
+      ]
+    }
+  ],
+  "contradicciones": ["Trading Economics da el Dow en 49.455 (+0,62%), algo por debajo del cierre de AP (49.490,03)."],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq marcó récord." },
+    { "sector": "Industria", "tono": "positivo", "porque": "GE Vernova saltó 13,8%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El WTI subió 3,8%." }
+  ],
+  "riesgoHoy": "El bloqueo naval sigue vigente y mantiene el petróleo alto pese a la tregua.",
+  "proximos": ["Reacción a los balances de Tesla, IBM y ServiceNow", "Balance de Intel el jueves 23"]
+}

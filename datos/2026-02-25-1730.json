@@ -1,0 +1,73 @@
+{
+  "id": "2026-02-25-1730",
+  "fecha": "2026-02-25",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Segundo día de suba: el Nasdaq ganó 1,26%, el S&P 500 0,81% y el Dow 0,63%.",
+    "La tecnología lideró; Western Digital y Seagate subieron más de 6%.",
+    "Nvidia presentó resultados después del cierre; Home Depot y las constructoras bajaron por un mercado inmobiliario presionado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.946,13", "cambio": "+0,81%", "cambioPct": 0.81 },
+    { "nombre": "Dow Jones", "valor": "49.482,15", "cambio": "+0,63%", "cambioPct": 0.63 },
+    { "nombre": "Nasdaq", "valor": "23.152,08", "cambio": "+1,26%", "cambioPct": 1.26 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La tecnología extiende el rebote",
+      "resumen": "Se calmaron las preocupaciones por la IA y las tecnológicas siguieron recuperándose.",
+      "afecta": ["Tecnología", "Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq subió 1,26%.",
+      "fuentes": [
+        { "nombre": "NST (Reuters)", "url": "https://www.nst.com.my/amp/business/corporate/2026/02/1385424/wall-street-extends-tech-powered-rally-ai-worries-abate-nvidia" },
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stock-indexes-settle-higher-strength-tech" }
+      ]
+    },
+    {
+      "titulo": "Nvidia presenta resultados",
+      "resumen": "Nvidia dio a conocer sus números después del cierre; los inversores se fijaron en su previsión de ganancias para 2026, que quedó por debajo de lo estimado por analistas.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Los futuros quedaron atentos a la reacción del jueves.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/europe/2026/02/how-major-us-stock-indexes-fared-wednesday-2-25-2026" }
+      ]
+    },
+    {
+      "titulo": "Saltan los fabricantes de almacenamiento",
+      "resumen": "Western Digital cerró con suba de más de 7% y Seagate de más de 6%.",
+      "afecta": ["Western Digital", "Seagate", "Hardware"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Estuvieron entre las mayores subas del S&P 500.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/425476/stock-indexes-settle-higher-on-strength-in-tech" }
+      ]
+    },
+    {
+      "titulo": "Home Depot y las constructoras caen",
+      "resumen": "El CEO de Home Depot dijo que el mercado inmobiliario sigue presionado.",
+      "afecta": ["Home Depot", "Constructoras"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Bajaron las acciones ligadas a la vivienda.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance (Barchart)", "url": "https://finance.yahoo.com/news/stock-indexes-settle-higher-strength-213223602.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó subas algo mayores (S&P 500 +0,9%, Nasdaq +1,4%, Dow +0,7%); se usaron los cierres de AP."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la suba del día." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Western Digital y Seagate saltaron." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Home Depot advirtió que la vivienda sigue presionada." }
+  ],
+  "riesgoHoy": "La reacción del mercado a los resultados de Nvidia.",
+  "proximos": ["Reacción a Nvidia el jueves 26", "Inflación mayorista (PPI)"]
+}

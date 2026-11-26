@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-20-1730",
+  "fecha": "2026-10-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El Dow subió 1% y tocó su máximo en un mes, empujado por buenos balances y por la baja del petróleo. El S&P 500 ganó 0,3% y el Nasdaq quedó plano por las caídas de Apple y Meta.",
+    "Versiones de una propuesta de paz entre EE.UU. e Irán sacudieron al petróleo: el WTI llegó a bajar de 103 a cerca de 97 USD antes de recuperar parte.",
+    "Salud marcó un récord dentro del S&P 500 y las empresas chicas (Russell 2000) subieron fuerte."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.712,57", "cambio": "+0,28%", "cambioPct": 0.28 },
+    { "nombre": "Dow Jones", "valor": "52.495,88", "cambio": "+1,02%", "cambioPct": 1.02 },
+    { "nombre": "Nasdaq", "valor": "26.424,82", "cambio": "-0,02%", "cambioPct": -0.02 },
+    { "nombre": "Bono 10 años", "valor": "~5,12%", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "101,79 USD", "cambio": "-1,8%", "cambioPct": -1.8 },
+    { "nombre": "Dólar (DXY)", "valor": "~101,7", "cambio": "-0,2%", "cambioPct": -0.2 }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow toca máximo en un mes con buenos balances",
+      "resumen": "El Dow subió 529,85 puntos (1,02%). Los resultados del tercer trimestre y la baja del crudo ayudaron; salud tocó un récord.",
+      "afecta": ["Salud", "Industria", "Todo el mercado"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Anadolu", "url": "https://aa.com.tr/en/economy/us-stocks-close-mixed-as-upbeat-earnings-offset-ai-concerns/4095139" },
+        { "nombre": "Sharecast", "url": "https://www.sharecast.com/scroll_1/news/market-report-us-close/us-close-markets-mixed-but-dow-hits-one-month-high--23895308.html" }
+      ]
+    },
+    {
+      "titulo": "Apple y Meta frenan al Nasdaq",
+      "resumen": "Las caídas de varias grandes tecnológicas, entre ellas Apple y Meta, dejaron al Nasdaq apenas en baja.",
+      "afecta": ["Tecnología", "Comunicaciones"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-10202026-nid20102026/" }
+      ]
+    },
+    {
+      "titulo": "Propuesta de paz EE.UU.-Irán sacude al petróleo",
+      "resumen": "Versiones de una propuesta de paz llevaron al WTI desde ~102,9 hasta ~97,4 USD antes de rebotar. El WTI de noviembre cerró en 101,79 USD (-1,8%).",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-10-20" },
+        { "nombre": "Nation Thailand", "url": "https://www.nationthailand.com/news/world/40072559" }
+      ]
+    },
+    {
+      "titulo": "El dólar cae con los titulares de un acuerdo",
+      "resumen": "El índice del dólar bajó 0,2% a cerca de 101,7 y el bono a 10 años cedió a ~5,12%. El Dow y las empresas chicas fueron los que más subieron.",
+      "afecta": ["Dólar", "Bonos"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-oct-usd-falls-as-deal-headlines-swing-oil-dow-and-small-caps-outperform/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Salud", "tono": "positivo", "porque": "El sector marcó un récord dentro del S&P 500." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó con las versiones de paz con Irán." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Alivio por el petróleo más barato." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Apple bajó y frenó al Nasdaq." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Meta cayó antes de sus resultados." }
+  ],
+  "riesgoHoy": "El riesgo mayor estuvo en la energía, con el petróleo saltando 5 USD en minutos según los titulares sobre Irán.",
+  "proximos": [
+    "Miércoles 21 en adelante: resultados de Tesla, Netflix y Meta.",
+    "Novedades sobre la propuesta de paz entre EE.UU. e Irán.",
+    "Reunión de la Fed a fin de octubre."
+  ]
+}

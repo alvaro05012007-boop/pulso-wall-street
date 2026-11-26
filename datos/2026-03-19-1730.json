@@ -1,0 +1,61 @@
+{
+  "id": "2026-03-19-1730",
+  "fecha": "2026-03-19",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Segundo día en baja, pero con recuperación: los índices tocaron mínimos de cuatro meses y terminaron cediendo apenas entre 0,3% y 0,4%.",
+    "El petróleo bajó hacia USD 94 después de que Netanyahu dijera que Israel ayuda a EE.UU. a reabrir Ormuz.",
+    "Energía fue el único sector en alza y el oro se desplomó cerca de 6%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.606,49", "cambio": "-0,27%", "cambioPct": -0.27 },
+    { "nombre": "Dow Jones", "valor": "46.021,43", "cambio": "-0,44%", "cambioPct": -0.44 },
+    { "nombre": "Nasdaq", "valor": "22.090,69", "cambio": "-0,28%", "cambioPct": -0.28 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las bolsas recortan pérdidas desde mínimos de cuatro meses",
+      "resumen": "El S&P 500 llegó a caer 1% y terminó con -0,3%; el temor a una estanflación por la energía dominó la rueda.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "Los índices no lograron recuperar niveles técnicos clave.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/19/stocks-bounce-late-but-major-averages-fail-to-reclaim-key-technical-levels" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/534874" }
+      ]
+    },
+    {
+      "titulo": "Netanyahu: Israel ayuda a reabrir Ormuz",
+      "resumen": "El primer ministro israelí dijo que la guerra terminaría antes de lo que se piensa; el crudo retrocedió.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El petróleo estadounidense bajó hacia USD 94.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/338859/stocks-pare-losses-oil-cools-on-strait-of-hormuz-talks" }
+      ]
+    },
+    {
+      "titulo": "Wall Street suma su segundo día en rojo por la inflación",
+      "resumen": "Los inversores siguieron digiriendo la decisión de la Fed de mantener las tasas.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El oro cayó cerca de 5,9% en la sesión.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4566426" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/03/20/us-stocks-close-lower" }
+      ]
+    }
+  ],
+  "contradicciones": ["Las caídas exactas varían según la fuente: Trading Economics habla de -0,2% para S&P y Nasdaq; Briefing de -0,3%."],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Fue el único sector del S&P 500 en alza." },
+    { "sector": "Materiales", "tono": "negativo", "porque": "El oro se desplomó cerca de 6%." }
+  ],
+  "riesgoHoy": "El riesgo de estanflación por la energía cara.",
+  "proximos": ["Vencimiento trimestral de opciones el viernes 20", "Evolución de Ormuz"]
+}

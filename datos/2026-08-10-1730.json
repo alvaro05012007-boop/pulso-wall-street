@@ -1,0 +1,92 @@
+{
+  "id": "2026-08-10-1730",
+  "fecha": "2026-08-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Leves bajas: el S&P 500 cedió 0,1% desde su récord del viernes, el Dow 0,1% y el Nasdaq 0,3%.",
+    "Se enfriaron las esperanzas de una pronta reapertura del estrecho de Ormuz y el petróleo volvió a subir, reavivando el miedo a la inflación.",
+    "Apple cayó tras una baja de recomendación de Jefferies, y los chips pesaron sobre el Nasdaq."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.753,11", "cambio": "-0,06%", "cambioPct": -0.06 },
+    { "nombre": "Dow Jones", "valor": "53.975,98", "cambio": "-0,11%", "cambioPct": -0.11 },
+    { "nombre": "Nasdaq", "valor": "26.605,36", "cambio": "-0,32%", "cambioPct": -0.32 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Se enfrían las esperanzas sobre Ormuz y sube el petróleo",
+      "resumen": "Creció la incertidumbre sobre cuándo podrá reabrirse el estrecho de Ormuz y sobre una solución duradera con Irán; el crudo subió con fuerza.",
+      "afecta": ["Energía", "Transporte", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El salto del crudo volvió a alimentar el miedo a la inflación.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-end-lower-as-fading-hormuz-hopes-weigh-on-sentiment" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/3763562/stocks-finish-lower-as-soaring-crude-prices-spur-inflation-fears" }
+      ]
+    },
+    {
+      "titulo": "Apple cae tras una baja de recomendación",
+      "resumen": "Jefferies bajó su recomendación sobre Apple, y las tecnológicas y los chips pesaron sobre el mercado.",
+      "afecta": ["Apple", "Hardware", "Semiconductores"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice que más cayó.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/08/11/us-stocks-close-lower" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/574197" }
+      ]
+    },
+    {
+      "titulo": "Semana clave con la inflación de julio",
+      "resumen": "El mercado arrancó una semana que puede mover acciones y bonos, con el dato de inflación de julio el miércoles y expectativas de una Fed más dura.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Inflación",
+      "volatilidad": false,
+      "impacto": "La cautela antes del dato limitó los movimientos.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/08/wall-street-drifts-at-the-start-of-a-week-that-could-swing-stocks-and-bonds/" }
+      ]
+    },
+    {
+      "titulo": "El Senado aprueba extender el financiamiento del gobierno",
+      "resumen": "El Senado aprobó un proyecto para extender el financiamiento del gobierno del 30 de septiembre al 11 de diciembre; la Cámara votará después del receso de agosto.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Reduce el riesgo de un cierre del gobierno a fin de septiembre.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/8/10/life360-and-upwork-under-pressure-after-earnings" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió por las dudas sobre Ormuz." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Apple cayó tras una baja de recomendación." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips pesaron sobre el Nasdaq." }
+  ],
+  "riesgoHoy": "El riesgo fue el petróleo: las dudas sobre Ormuz reavivaron el miedo a la inflación justo antes del dato de precios.",
+  "proximos": [
+    "Miércoles 12: inflación (IPC) de julio.",
+    "Jueves 13: precios mayoristas (PPI) de julio.",
+    "Novedades sobre la reapertura de Ormuz."
+  ]
+}

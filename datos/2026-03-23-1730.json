@@ -1,0 +1,61 @@
+{
+  "id": "2026-03-23-1730",
+  "fecha": "2026-03-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Alivio en los mercados: Trump dijo que EE.UU. habló con Irán sobre un posible fin de la guerra y postergó ataques contra infraestructura eléctrica iraní.",
+    "El Dow ganó 631 puntos (+1,4%), el S&P 500 1,1% (su mejor día desde que empezó la guerra) y el Russell 2000 2,3%.",
+    "El Brent volvió debajo de USD 100 y los bonos del Tesoro subieron con fuerza, aunque Irán negó que hubiera conversaciones."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.581,00", "cambio": "+1,15%", "cambioPct": 1.15 },
+    { "nombre": "Dow Jones", "valor": "46.208,47", "cambio": "+1,38%", "cambioPct": 1.38 },
+    { "nombre": "Nasdaq", "valor": "21.946,76", "cambio": "+1,38%", "cambioPct": 1.38 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump dice que hubo conversaciones con Irán para terminar la guerra",
+      "resumen": "El anuncio trajo un alivio cauteloso; funcionarios iraníes negaron después que hubiera negociaciones en curso.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 tuvo su mejor día desde el inicio del conflicto.",
+      "fuentes": [
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://northeast.newschannelnebraska.com/story/215367644/how-major-us-stock-indexes-fared-monday-3232026" },
+        { "nombre": "Yahoo Finance / Barchart", "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-sharply-higher-president-trump-203744519.html" }
+      ]
+    },
+    {
+      "titulo": "Los bonos del Tesoro se disparan tras la postergación de ataques",
+      "resumen": "Trump postergó ataques a la red eléctrica de Irán y los bonos subieron con fuerza, bajando los rendimientos.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "El 10 años había tocado 4,42%, máximo desde julio de 2025, antes de retroceder.",
+      "fuentes": [
+        { "nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-23/treasuries-soar-after-trump-postpones-iran-power-strikes" }
+      ]
+    },
+    {
+      "titulo": "El Brent vuelve por debajo de USD 100",
+      "resumen": "La esperanza de un final del conflicto bajó el precio del crudo.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Las pequeñas empresas del Russell 2000 subieron 2,3%.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/03/24/us-stocks-close-higher" }
+      ]
+    }
+  ],
+  "contradicciones": ["Trump habló de conversaciones con Irán, pero funcionarios iraníes lo negaron."],
+  "sectores": [
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow subió 631 puntos." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó por la esperanza de paz." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Alivio por el combustible más barato." }
+  ],
+  "riesgoHoy": "Que la versión de negociaciones no se confirme, como sugirió la negativa iraní.",
+  "proximos": ["Confirmación de contactos con Irán", "Datos de inflación PCE a fin de mes"]
+}

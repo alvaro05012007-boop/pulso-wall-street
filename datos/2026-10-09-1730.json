@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-09-1730",
+  "fecha": "2026-10-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Wall Street cerró una semana de récords con subas: el Dow ganó 0,8%, el S&P 500 0,6% y el Nasdaq 0,6%.",
+    "El S&P 500 terminó en 7.811,54, muy cerca de su récord del martes; en la semana subió 1,2%.",
+    "Humana saltó 11,6% y el mercado ya mira la temporada de balances y los datos de inflación de la semana próxima."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.811,54", "cambio": "+0,59%", "cambioPct": 0.59 },
+    { "nombre": "Dow Jones", "valor": "51.654,95", "cambio": "+0,83%", "cambioPct": 0.83 },
+    { "nombre": "Nasdaq", "valor": "27.366,17", "cambio": "+0,64%", "cambioPct": 0.64 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street termina una semana de récords con ganancias",
+      "resumen": "El S&P 500 subió 46,18 puntos a 7.811,54, apenas debajo de su récord de 7.818,93 del martes. El Dow ganó 423,31 puntos a 51.654,95. En la semana, el S&P 500 subió 1,2%, el Dow 0,9% y el Nasdaq 0,6%.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado subió pese a los vaivenes del petróleo y los bonos.",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/" },
+        { "nombre": "AP (vía Newser)", "url": "https://www.newser.com/article/5d0f953dbf96febb0690c1aef23fa8a9/wall-street-finishes-its-record-setting-week-with-gains.html" }
+      ]
+    },
+    {
+      "titulo": "Arranca la temporada de balances y llegan datos de inflación",
+      "resumen": "Los inversores se prepararon para el inicio de los resultados del tercer trimestre, con los grandes bancos primero, y para los datos de inflación de la semana siguiente.",
+      "afecta": ["Financiero", "Todo el mercado"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Los balances y la inflación pueden dar pistas sobre lo que hará la Fed.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Devdiscourse)", "url": "https://www.devdiscourse.com/article/international/3989999-us-stocks-wall-street-posts-weekly-gains-with-earnings-inflation-data-on-tap" },
+        { "nombre": "Business Today", "url": "https://www.businesstoday.com.my/2026/10/10/wall-street-rallies-ahead-of-bank-earnings-inflation-data/" }
+      ]
+    },
+    {
+      "titulo": "Humana sube 11,6%",
+      "resumen": "Las acciones de la aseguradora de salud Humana saltaron 11,6% y ayudaron a sostener al mercado.",
+      "afecta": ["Humana", "Salud"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Fue una de las mayores subas del día.",
+      "fuentes": [
+        { "nombre": "AP (vía Newser)", "url": "https://www.newser.com/story/397900/indexes-climb-to-wrap-up-record-week.html" }
+      ]
+    },
+    {
+      "titulo": "Las minutas de la Fed muestran una postura dura",
+      "resumen": "Según el resumen semanal de Seeking Alpha, las minutas de la Fed publicadas en la semana reafirmaron una postura dura frente a la inflación.",
+      "afecta": ["Bonos", "Financiero"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Mantiene abierta la posibilidad de más subas de tasas.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/article/4953253-what-moved-markets-this-week" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Salud", "tono": "positivo", "porque": "Humana subió 11,6%." },
+    { "sector": "Financiero", "tono": "neutral", "porque": "Los bancos se preparaban para presentar balances la semana siguiente." }
+  ],
+  "riesgoHoy": "El riesgo seguía en los vaivenes del petróleo y de los bonos, más una Fed con postura dura.",
+  "proximos": [
+    "Balances de los grandes bancos la semana próxima.",
+    "Inflación de septiembre (IPC).",
+    "Reunión de la Fed del 28 de octubre."
+  ]
+}

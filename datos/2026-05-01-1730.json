@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-01-1730",
+  "fecha": "2026-05-01",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El S&P 500 y el Nasdaq cerraron en récord: subieron 0,3% y 0,9%, mientras el Dow cedió 0,3%.",
+    "Ayudaron los buenos balances de Apple, Estée Lauder y otras empresas, y una baja del petróleo.",
+    "El Brent cayó 2% a US$108,14, aunque sigue muy por encima de los ~US$70 de antes de la guerra con Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.230,12", "cambio": "+0,29%", "cambioPct": 0.29 },
+    { "nombre": "Dow Jones", "valor": "49.499,27", "cambio": "-0,31%", "cambioPct": -0.31 },
+    { "nombre": "Nasdaq", "valor": "25.114,44", "cambio": "+0,89%", "cambioPct": 0.89 },
+    { "nombre": "Bono 10 años", "valor": "~4,38%", "cambio": "-0,02 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nuevos récords para el S&P 500 y el Nasdaq",
+      "resumen": "Las megatecnológicas empujaron al Nasdaq a otro máximo y el S&P 500 sumó su sexta semana seguida de alzas.",
+      "afecta": ["Tecnología", "Apple"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Los dos índices cerraron en máximos históricos, aunque el Dow quedó en rojo.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/5/1/s-and-p-500-and-nasdq-composite-notch-record-highs-on-megacap-growth" },
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-201515173.html" }
+      ]
+    },
+    {
+      "titulo": "Apple y Estée Lauder superan lo esperado",
+      "resumen": "Una tanda de balances mejores a lo previsto sostuvo el ánimo comprador al cierre de la semana.",
+      "afecta": ["Apple", "Estée Lauder", "Consumo"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Según AP, Apple encabezó la suba hacia nuevos récords.",
+      "fuentes": [
+        { "nombre": "AP / NewsChannel 5", "url": "https://www.newschannel5.com/politics/economy/apple-leads-wall-street-toward-more-records-as-oil-prices-pull-back" }
+      ]
+    },
+    {
+      "titulo": "El petróleo devuelve parte de sus subas",
+      "resumen": "El Brent bajó 2% a US$108,14, todavía muy por encima del nivel previo a la guerra con Irán.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "La baja del crudo alivió a los bonos: el rendimiento a 10 años bajó a 4,38%.",
+      "fuentes": [
+        { "nombre": "AP / Local10", "url": "https://www.local10.com/business/2026/05/01/world-shares-are-mixed-with-most-markets-closed-for-may-day-while-oil-holds-steady-at-111-a-barrel/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un reporte de Trading Economics da otro nivel para el Dow que no coincide con AP; se usó la cifra de AP."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las megatecnológicas llevaron al Nasdaq a récord." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Estée Lauder sorprendió con sus resultados." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo retrocedió 2%." }
+  ],
+  "riesgoHoy": "El petróleo por encima de US$100 por la guerra con Irán seguía siendo la principal amenaza.",
+  "proximos": ["Más balances de empresas la semana siguiente", "Evolución del conflicto con Irán y del crudo"]
+}

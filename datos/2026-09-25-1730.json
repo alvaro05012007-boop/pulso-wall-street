@@ -1,0 +1,78 @@
+{
+  "id": "2026-09-25-1730",
+  "fecha": "2026-09-25",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Wall Street cerró la semana en alza: el S&P 500 subió 0,5%, el Dow 0,9% y el Nasdaq 0,5%.",
+    "El petróleo se calmó, con esperanzas de un final gradual de la guerra con Irán.",
+    "Fue la primera semana ganadora de las últimas tres; Microsoft y las tecnológicas ligadas a la IA empujaron."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.743,41", "cambio": "+0,51%", "cambioPct": 0.51 },
+    { "nombre": "Dow Jones", "valor": "51.828,62", "cambio": "+0,93%", "cambioPct": 0.93 },
+    { "nombre": "Nasdaq", "valor": "27.068,72", "cambio": "+0,48%", "cambioPct": 0.48 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street sube y cierra su primera semana ganadora en tres",
+      "resumen": "El S&P 500 ganó 39,28 puntos a 7.743,41 y el Dow 478,64 a 51.828,62. En la semana, el S&P 500 subió 1,2% y el Nasdaq 2,1%.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El alivio en el petróleo permitió un cierre de semana positivo.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/us-stocks-gain-ground-toward-the-finish-of-a-winning-week/" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-9252026-nid25092026/" }
+      ]
+    },
+    {
+      "titulo": "Se calma el petróleo ante señales de distensión con Irán",
+      "resumen": "Una pausa en la suba del crudo y las esperanzas de un final gradual de la guerra con Irán ayudaron a las acciones.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": false,
+      "impacto": "Menos presión del petróleo sobre la inflación y las tasas.",
+      "fuentes": [
+        { "nombre": "AP (vía Coeur d'Alene Press)", "url": "https://cdapress.com/news/2026/sep/25/a-reprieve-from-rising-oil-prices-hel/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-week-higher-on-chipmaker-strength-easing-oil-amid-signs-of-easing-us-iran-conflict-meta-cost-msft-crwd-skhy-in-focus/cZMOFkXRBOV" }
+      ]
+    },
+    {
+      "titulo": "Microsoft y las acciones de IA lideran a la tecnología",
+      "resumen": "Microsoft y otras tecnológicas vinculadas a la inteligencia artificial, junto con los fabricantes de chips, compensaron las dudas por el petróleo y las tasas.",
+      "afecta": ["Microsoft", "Tecnología", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "La tecnología volvió a ser el motor del alza.",
+      "fuentes": [
+        { "nombre": "Business Today", "url": "https://www.businesstoday.com.my/2026/09/26/wall-street-rises-as-microsoft-ai-stocks-lift-tech-rally/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Microsoft y las acciones de IA lideraron." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Los fabricantes de chips subieron con fuerza." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo se calmó ante señales de distensión con Irán." }
+  ],
+  "riesgoHoy": "El riesgo seguía en el petróleo y las tasas, atados a la evolución de la guerra con Irán.",
+  "proximos": [
+    "Datos de inflación PCE y cierre del trimestre el 30 de septiembre.",
+    "Informe de empleo de septiembre el viernes 2 de octubre.",
+    "Reunión de la Fed de octubre, con apuestas a una suba de tasas."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-09-1730",
+  "fecha": "2026-11-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Gran rebote: el S&P 500 subió 2,35%, su mejor día desde el 8 de abril. El Nasdaq ganó 2,7%, el Dow 2,15% (1.104 puntos) y el Russell 2000 3,1%.",
+    "Ayudó la caída del petróleo (WTI -4,4% a 86,85 USD) después de que Trump dijera que no es probable que haya más ataques contra Irán mientras sigan las negociaciones.",
+    "Nvidia fue la excepción: cayó 2,3% por la crisis en su conducción, después de que su directorio abriera una investigación."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.549,94", "cambio": "+2,35%", "cambioPct": 2.35 },
+    { "nombre": "Dow Jones", "valor": "52.389,75", "cambio": "+2,15%", "cambioPct": 2.15 },
+    { "nombre": "Nasdaq", "valor": "25.253,14", "cambio": "+2,74%", "cambioPct": 2.74 },
+    { "nombre": "Bono 10 años", "valor": "4,88%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "86,85 USD", "cambio": "-4,38%", "cambioPct": -4.38 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 tiene su mejor día desde abril",
+      "resumen": "Los tres índices subieron más de 2%, empujados por la baja del petróleo y la recuperación de la tecnología.",
+      "afecta": ["Todo el mercado", "Tecnología"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "StockTitan (CNBC)", "url": "https://stocktitan.net/articles/stock-market-today-live-november-9-2026" },
+        { "nombre": "Xinhua (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/11/10/us-stocks-close-higher" }
+      ]
+    },
+    {
+      "titulo": "El petróleo cae por la moderación de Trump sobre Irán",
+      "resumen": "Trump indicó que no es probable que haya nuevos ataques mientras sigan las negociaciones. El WTI cayó 3,98 USD a 86,85 y el Brent 5,75 USD a 92,57.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "NST (Reuters)", "url": "https://www.nst.com.my/amp/business/economy/2026/11/1574340/oil-falls-over-us7-trump-signals-restraint-iran" },
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-398-lower-at-8685bbl-brent-f7-settles-usd-575-lower-at-9257bbl" }
+      ]
+    },
+    {
+      "titulo": "Nvidia cae por su crisis de liderazgo",
+      "resumen": "Nvidia bajó 2,3% y fue la acción que más pesó en Wall Street, tras la investigación abierta por su directorio.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía Click2Houston)", "url": "https://www.click2houston.com/business/2026/11/09/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/" }
+      ]
+    },
+    {
+      "titulo": "L3Harris baja por el freno de vuelos de la FAA",
+      "resumen": "L3Harris cayó 2,6% después de que funcionarios del gobierno sugirieran que la contratista podría ser responsable de la suspensión nacional de vuelos del viernes.",
+      "afecta": ["Defensa", "Transporte"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía WSB-TV)", "url": "https://www.wsbtv.com/news/business/asian-shares-decline/XUWKM2NUOU5QTCGSKE27BWIFFU/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Recuperación de las tecnológicas tras la venta de la semana pasada." },
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Subieron en general, pero Nvidia cayó 2,3%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo cayó más de 4%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Combustible más barato." },
+    { "sector": "Defensa", "tono": "negativo", "porque": "L3Harris cayó por el problema de la FAA." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en Nvidia, por la incertidumbre sobre su conducción, y en la energía por la caída del crudo.",
+  "proximos": [
+    "Martes 10: inflación de octubre (CPI).",
+    "Resultados de CoreWeave en la semana.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2026-04-29-1730",
+  "fecha": "2026-04-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "La Fed dejó la tasa en 3,50%-3,75% con una votación dividida 8 a 4, la mayor disidencia desde 1992.",
+    "El Dow cayó 0,57% y sumó cinco bajas seguidas; el S&P 500 quedó casi plano (-0,04%) y el Nasdaq subió 0,04%.",
+    "El petróleo siguió subiendo y el bono a 10 años trepó más de 5 puntos básicos hasta 4,41%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.135,95", "cambio": "-0,04%", "cambioPct": -0.04 },
+    { "nombre": "Dow Jones", "valor": "48.861,81", "cambio": "-0,57%", "cambioPct": -0.57 },
+    { "nombre": "Nasdaq", "valor": "24.673,24", "cambio": "+0,04%", "cambioPct": 0.04 },
+    { "nombre": "Bono 10 años", "valor": "4,41%", "cambio": "+0,05 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed mantiene las tasas con la mayor división desde 1992",
+      "resumen": "El comité votó 8 a 4 mantener la tasa en 3,50%-3,75%; el gobernador Stephen Miran votó por un recorte.",
+      "afecta": ["Mercado en general", "Financiero"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "Los índices oscilaron después del comunicado y el 10 años subió a 4,41%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/29/stocks-finish-mixed-as-oil-surge-fed-decision-offset-earnings-strength" },
+        { "nombre": "Kiplinger", "url": "https://www.kiplinger.com/news/live/fed-meeting-updates-and-commentary-april-2026" }
+      ]
+    },
+    {
+      "titulo": "El Dow suma su quinta baja seguida",
+      "resumen": "El índice industrial perdió 280 puntos tras la decisión de la Fed.",
+      "afecta": ["Industria"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Cerró en 48.861,81.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/349015/dow-marks-5th-straight-loss-as-fed-holds-rates-steady" },
+        { "nombre": "GV Wire (Reuters)", "url": "https://gvwire.com/2026/04/29/wall-street-extends-losses-after-fed-decision-big-tech-earnings-on-tap/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sigue en alza por la incertidumbre bélica",
+      "resumen": "La suba del crudo pesó sobre la rueda, aunque las energéticas sostuvieron al mercado.",
+      "afecta": ["Energía"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Las energéticas compensaron parte de las caídas.",
+      "fuentes": [
+        { "nombre": "Sherwood News", "url": "https://www.sherwood.news/markets/market-wrap-2026-04-29-sp500-qqq/" },
+        { "nombre": "Nasdaq / Zacks", "url": "https://www.nasdaq.com/articles/stock-market-news-apr-30-2026" }
+      ]
+    },
+    {
+      "titulo": "Las grandes tecnológicas suben tras sus balances",
+      "resumen": "Después del cierre, las hiperescaladoras subieron en la operatoria posterior por sus resultados.",
+      "afecta": ["Tecnología", "Comunicaciones"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Anticipaba una rueda positiva para el jueves.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/546216" }
+      ]
+    }
+  ],
+  "contradicciones": ["Trading Economics describió la jornada como bajista, mientras Nasdaq/Zacks la calificó de mixta."],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Fed sin cambios y tasas largas en alza." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow encadenó cinco bajas." }
+  ],
+  "riesgoHoy": "Una Fed dividida y tasas largas en alza por el petróleo.",
+  "proximos": ["Reacción a los balances de Alphabet, Microsoft, Meta y Amazon", "Cierre de abril el jueves 30"]
+}

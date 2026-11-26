@@ -1,0 +1,65 @@
+{
+  "id": "2026-01-14-1730",
+  "fecha": "2026-01-14",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Segunda baja seguida: el Nasdaq perdió 1% y el S&P 500 0,53%, mientras el Dow quedó casi plano.",
+    "Nvidia encabezó las caídas tecnológicas por menor entusiasmo con la IA; software y tarjetas de crédito también sufrieron.",
+    "La energía fue el sector que subió y el oro avanzó."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.926,60", "cambio": "-0,53%", "cambioPct": -0.53 },
+    { "nombre": "Dow Jones", "valor": "49.149,63", "cambio": "-0,09%", "cambioPct": -0.09 },
+    { "nombre": "Nasdaq", "valor": "23.471,75", "cambio": "-1,00%", "cambioPct": -1.0 },
+    { "nombre": "Bono 10 años", "valor": "~4,14%", "cambio": "-0,02 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia lidera la caída tecnológica",
+      "resumen": "Los inversores se enfriaron con las apuestas a la inteligencia artificial y Nvidia encabezó las bajas.",
+      "afecta": ["Nvidia", "Tecnología", "Semiconductores"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 238 puntos.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-jan-14-223111883.html" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-wednesday-1-14-2026" }
+      ]
+    },
+    {
+      "titulo": "Software y tarjetas de crédito, entre los más castigados",
+      "resumen": "Las empresas de software y las emisoras de tarjetas cayeron con fuerza.",
+      "afecta": ["Software", "Financiero"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Contribuyeron a la segunda baja seguida del S&P 500 desde el récord.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/37027271/stocks-fall-on-weakness-in-software-and-credit-card-companies" }
+      ]
+    },
+    {
+      "titulo": "La energía sube con el crudo; el oro también avanza",
+      "resumen": "El sector energético subió mientras el petróleo buscaba su sexta suba seguida; el oro también avanzó.",
+      "afecta": ["Energía", "Oro"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Las fuentes difieren sobre el cierre del crudo: AP habla de suba y otro medio de baja por menor tensión con Irán.",
+      "fuentes": [
+        { "nombre": "Washington Times (AP)", "url": "https://m.washingtontimes.com/news/2026/jan/14/us-stocks-drop-oil-gold-prices-rise/" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/276585/stocks-drop-energy-sector-rises-as-crude-eyes-6th-day-of-gains-whats-moving-markets-wednesday" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informa que el crudo subió 0,9%, pero otro medio dice que bajó por menor tensión con Irán; queda sin dato."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Nvidia lideró las pérdidas por menor entusiasmo con la IA." },
+    { "sector": "Software", "tono": "negativo", "porque": "Fuerte caída del sector." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Las emisoras de tarjetas bajaron." },
+    { "sector": "Energía", "tono": "positivo", "porque": "Subió acompañando al crudo." }
+  ],
+  "riesgoHoy": "Las dudas sobre la valuación de las empresas ligadas a la IA.",
+  "proximos": ["Balance de TSMC el jueves 15", "Balances de Goldman Sachs y Morgan Stanley"]
+}

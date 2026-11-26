@@ -1,0 +1,72 @@
+{
+  "id": "2026-03-10-1730",
+  "fecha": "2026-03-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda casi plana: el S&P 500 cedió 0,2%, el Dow 0,1% y el Nasdaq quedó prácticamente sin cambios.",
+    "El petróleo cayó cerca de 12%, su mayor baja diaria desde marzo de 2022, en medio de mensajes contradictorios sobre escoltas navales en Ormuz.",
+    "Energía fue el sector más débil; Nvidia e Intel sostuvieron a los chips."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.781,48", "cambio": "-0,21%", "cambioPct": -0.21 },
+    { "nombre": "Dow Jones", "valor": "47.706,51", "cambio": "-0,07%", "cambioPct": -0.07 },
+    { "nombre": "Nasdaq", "valor": "22.697,10", "cambio": "+0,01%", "cambioPct": 0.01 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "83,45", "cambio": "-11,9%", "cambioPct": -11.9 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El crudo se hunde 12% en su peor día desde 2022",
+      "resumen": "El secretario de Energía publicó que la Marina había escoltado un petrolero por Ormuz, la Casa Blanca lo desmintió y el mensaje fue borrado.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El WTI cerró en USD 83,45 (-11,9%) y el Brent en USD 87,80.",
+      "fuentes": [
+        { "nombre": "World Oil (Bloomberg)", "url": "https://www.worldoil.com/news/2026/3/10/oil-drops-12-as-uncertainty-surrounds-strait-of-hormuz-tanker-traffic" },
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4562972-energy-secretarys-deleted-tweet-sparks-another-wild-oil-market-trading-day" }
+      ]
+    },
+    {
+      "titulo": "Wall Street cierra casi sin cambios tras una rueda volátil",
+      "resumen": "El S&P 500 perdió una suba temprana y terminó levemente abajo, mientras el Nasdaq quedó plano.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Russell 2000 bajó 0,2%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/3/10/stocks-finish-flattish-as-oil-pullback-meets-iran-uncertainty" },
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://central.newschannelnebraska.com/story/203987840/watch" }
+      ]
+    },
+    {
+      "titulo": "Nvidia e Intel mantienen viva la apuesta por los chips",
+      "resumen": "Las subas de los grandes fabricantes de chips compensaron la caída de energía.",
+      "afecta": ["Semiconductores", "Nvidia", "Intel"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Ayudaron a que el Nasdaq cerrara en terreno levemente positivo.",
+      "fuentes": [
+        { "nombre": "Invezz", "url": "https://invezz.com/ng/news/2026/03/10/us-stocks-close-mixed-as-nvidia-intel-rally-keeps-chip-trade-alive/" }
+      ]
+    },
+    {
+      "titulo": "Centene se desploma por advertencia sobre afiliados de ACA",
+      "resumen": "El CEO dijo que la caída de afiliados del Affordable Care Act podría ser peor de lo previsto.",
+      "afecta": ["Salud", "Centene"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Fue la peor acción del S&P 500 en el día.",
+      "fuentes": [
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://sandhills.newschannelnebraska.com/story/203987840/watch" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "negativo", "porque": "El derrumbe del crudo la hizo el sector más débil." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia e Intel subieron." },
+    { "sector": "Salud", "tono": "negativo", "porque": "Centene cayó por su advertencia sobre afiliados." }
+  ],
+  "riesgoHoy": "Los mensajes contradictorios del gobierno sobre Ormuz, que hicieron oscilar violentamente el petróleo.",
+  "proximos": ["IPC de febrero el miércoles 11", "Decisión de la AIE sobre liberar reservas de crudo"]
+}

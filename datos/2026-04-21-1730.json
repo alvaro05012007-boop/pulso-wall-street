@@ -1,0 +1,61 @@
+{
+  "id": "2026-04-21-1730",
+  "fecha": "2026-04-21",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Segundo día en baja: el S&P 500 cayó 0,63%, el Dow 0,59% y el Nasdaq 0,59%.",
+    "Los índices arrancaron en alza pero se dieron vuelta cuando el petróleo saltó por reportes de que Irán no enviaría delegados a Pakistán.",
+    "Crecían las dudas sobre si habría acuerdo antes de que venciera la tregua, en plena temporada de balances."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.064,01", "cambio": "-0,63%", "cambioPct": -0.63 },
+    { "nombre": "Dow Jones", "valor": "49.149,38", "cambio": "-0,59%", "cambioPct": -0.59 },
+    { "nombre": "Nasdaq", "valor": "24.259,96", "cambio": "-0,59%", "cambioPct": -0.59 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Irán no iría a las conversaciones y las bolsas caen",
+      "resumen": "Reportes de que Irán podría no enviar delegados a Pakistán dispararon el petróleo y borraron las subas iniciales.",
+      "afecta": ["Mercado en general", "Energía"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Los tres índices cerraron con bajas cercanas a 0,6%.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-fall-iran-refuses-attend-peace-talks" },
+        { "nombre": "StreetInsider (Reuters)", "url": "https://www.streetinsider.com/General+News/Wall+Street+falls+as+Middle+East+concerns+offset+earnings+optimism/26338976.html" }
+      ]
+    },
+    {
+      "titulo": "Incertidumbre por el vencimiento de la tregua",
+      "resumen": "Los inversores dudaban de que hubiera un acuerdo antes de que expirara el alto el fuego.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "interpretacion", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Las acciones se alejaron de sus récords.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-ahead-of-ceasefire-deadline" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/346399/stocks-settle-lower-amid-souring-peace-talk-prospects" }
+      ]
+    },
+    {
+      "titulo": "Las pequeñas empresas suben por alivio en los rendimientos",
+      "resumen": "El Russell 2000 avanzó mientras el S&P 500 y el Nasdaq sufrían por la geopolítica.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "baja", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Contraste entre pequeñas y grandes empresas.",
+      "fuentes": [
+        { "nombre": "Schwab Network", "url": "https://schwabnetwork.com/articles/closing-bell-russell-2000-rallies-on-yield-relief-as-sp-500-and-nasdaq-strain-under-geopolitical-pressure" }
+      ]
+    }
+  ],
+  "contradicciones": ["Reuters da cifras preliminares levemente distintas (S&P 500 7.064,05, Nasdaq 24.260,31, Dow 49.148,64)."],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo saltó." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó 0,59%." }
+  ],
+  "riesgoHoy": "Que la tregua venza sin acuerdo ni conversaciones.",
+  "proximos": ["Decisión sobre la extensión de la tregua", "Balances de Tesla, Texas Instruments, IBM y ServiceNow"]
+}

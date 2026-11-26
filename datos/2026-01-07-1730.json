@@ -1,0 +1,75 @@
+{
+  "id": "2026-01-07-1730",
+  "fecha": "2026-01-07",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Se frenó el arranque fuerte del año: el Dow cayó 0,94%, su peor día desde noviembre, y el S&P 500 bajó 0,34%.",
+    "Trump apuntó contra los fondos que compran viviendas y contra los pagos a accionistas de contratistas de defensa, y esas acciones sufrieron.",
+    "El Nasdaq logró subir 0,16% y la salud fue el mejor sector."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.920,93", "cambio": "-0,34%", "cambioPct": -0.34 },
+    { "nombre": "Dow Jones", "valor": "48.995,87", "cambio": "-0,94%", "cambioPct": -0.94 },
+    { "nombre": "Nasdaq", "valor": "23.584,30", "cambio": "+0,16%", "cambioPct": 0.16 },
+    { "nombre": "Bono 10 años", "valor": "4,14%", "cambio": "-0,04 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump quiere frenar la compra de casas por grandes inversores",
+      "resumen": "El presidente dijo que buscará impedir que grandes inversores institucionales compren más viviendas unifamiliares.",
+      "afecta": ["Blackstone", "Constructoras", "Inmobiliario"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Cayeron desde Blackstone hasta constructoras como PulteGroup.",
+      "fuentes": [
+        { "nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-01-07/stock-traders-whipsawed-as-trump-sets-sights-on-defense-housing" },
+        { "nombre": "Axios", "url": "https://www.axios.com/2026/01/08/trump-defense-housing-economy" }
+      ]
+    },
+    {
+      "titulo": "Golpe a los contratistas de defensa por dividendos y recompras",
+      "resumen": "Trump presionó para limitar dividendos y recompras de acciones de las firmas de defensa hasta que entreguen mejores productos.",
+      "afecta": ["Defensa", "Lockheed Martin", "RTX"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Las acciones de defensa llegaron a caer hasta 5% en el día, según Morningstar.",
+      "fuentes": [
+        { "nombre": "Morningstar", "url": "https://global.morningstar.com/en-nd/stocks/us-defense-stocks-trumps-buybacks-comment-roils-share-prices" },
+        { "nombre": "The Week", "url": "https://www.theweek.com/politics/trump-threatening-defense-firms" }
+      ]
+    },
+    {
+      "titulo": "El Dow tiene su peor día desde noviembre",
+      "resumen": "Tras dos récords, el Dow perdió 466 puntos; los industriales cayeron 1,9% y la salud fue el sector ganador.",
+      "afecta": ["Industria", "Salud", "Bancos"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El mercado se movió de un lado a otro entre las fiestas y la temporada de balances.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/1/7/stocks-finish-mostly-lower-as-cyclicals-rally-halted" },
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-jan-7-232010635.html" }
+      ]
+    },
+    {
+      "titulo": "Bajan los rendimientos del Tesoro",
+      "resumen": "El bono a 10 años cayó unos 4 puntos básicos a 4,14%.",
+      "afecta": ["Bonos"],
+      "tono": "neutral", "importancia": "baja", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Leve alivio en tasas antes del dato de empleo.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/bond-market-update/archive/2026/1/7/treasury-market-summary" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Defensa", "tono": "negativo", "porque": "Trump propuso limitar dividendos y recompras." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Plan para frenar compras de viviendas por grandes fondos." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Fue el peor sector cíclico con -1,9%." },
+    { "sector": "Salud", "tono": "positivo", "porque": "Fue el mejor sector del día." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Los bancos retrocedieron." }
+  ],
+  "riesgoHoy": "Los anuncios sorpresivos de política de Trump sobre sectores puntuales.",
+  "proximos": ["Informe de empleo de diciembre el viernes 9", "Arranque de balances bancarios la semana siguiente"]
+}

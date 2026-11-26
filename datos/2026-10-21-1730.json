@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-21-1730",
+  "fecha": "2026-10-21",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Día positivo: el S&P 500 subió 0,6% y se acercó otra vez a su récord de principios de octubre. El Nasdaq ganó 1,05% y el Dow 0,7%.",
+    "Volvieron a subir los chips y las acciones de infraestructura para IA; salud siguió fuerte.",
+    "El dólar quedó plano cerca de 101,7, cerca de su mínimo en tres semanas, mientras bajaban las tasas y el petróleo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.757,17", "cambio": "+0,58%", "cambioPct": 0.58 },
+    { "nombre": "Dow Jones", "valor": "52.856,09", "cambio": "+0,69%", "cambioPct": 0.69 },
+    { "nombre": "Nasdaq", "valor": "26.702,86", "cambio": "+1,05%", "cambioPct": 1.05 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "~101,7", "cambio": "plano", "cambioPct": 0 }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 sube y se acerca a su récord",
+      "resumen": "El índice ganó 0,6% y quedó en 7.757 puntos, más cerca de su máximo de principios de octubre. Salud lideró.",
+      "afecta": ["Todo el mercado", "Salud"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Tapeboard", "url": "https://tapeboard.com/blog/market-pulse-2026-10-21" },
+        { "nombre": "Yahoo Finance (vía Biztoc)", "url": "https://biztoc.com/x/261ab6e9f64b6384" }
+      ]
+    },
+    {
+      "titulo": "Rebotan los chips y la infraestructura para IA",
+      "resumen": "Los fabricantes de chips y las empresas de infraestructura para IA volvieron a subir y empujaron al Nasdaq más de 1%.",
+      "afecta": ["Semiconductores", "Hardware"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Barchart (vía Webull)", "url": "https://www.webull.com/news/15776827430446080" }
+      ]
+    },
+    {
+      "titulo": "Dólar cerca de su mínimo en tres semanas",
+      "resumen": "El índice del dólar terminó plano cerca de 101,7 mientras retrocedían las tasas y el petróleo. El dólar australiano lideró tras un discurso duro del banco central de Australia.",
+      "afecta": ["Dólar"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-10-21" },
+        { "nombre": "Capmad", "url": "https://www.capmad.com/post/dollar-drifts-toward-three-week-low-as-euro-and-yen-find-a-footing" }
+      ]
+    },
+    {
+      "titulo": "El Brent se mantiene cerca de 109 USD",
+      "resumen": "El Brent cerró estable en 108,82 USD el barril.",
+      "afecta": ["Energía"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "Nation Thailand", "url": "https://www.nationthailand.com/news/world/40072588" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Salud", "tono": "positivo", "porque": "Siguió liderando las subas." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nuevo rebote de los chips." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Subieron las empresas de infraestructura para IA." },
+    { "sector": "Energía", "tono": "neutral", "porque": "El Brent quedó estable cerca de 109 USD." }
+  ],
+  "riesgoHoy": "El riesgo seguía en la tecnología: los rebotes de los chips todavía dependían de los resultados de las grandes empresas de IA.",
+  "proximos": [
+    "Resultados de Tesla y otras grandes empresas.",
+    "Jueves 22 y viernes 23: más balances y datos de actividad.",
+    "Reunión de la Fed a fin de octubre."
+  ]
+}

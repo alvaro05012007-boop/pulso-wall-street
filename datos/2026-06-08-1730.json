@@ -1,0 +1,61 @@
+{
+  "id": "2026-06-08-1730",
+  "fecha": "2026-06-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rebote parcial: el Nasdaq subió 0,9% y el S&P 500 0,3%, mientras el Dow cedió 0,2%.",
+    "El índice de semiconductores saltó 5,6% y Micron recuperó cerca de 10% tras la paliza del viernes.",
+    "Ayudó una tentativa distensión entre Irán e Israel, con Irán frenando sus ataques."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.405,73", "cambio": "+0,30%", "cambioPct": 0.30 },
+    { "nombre": "Dow Jones", "valor": "50.786,01", "cambio": "-0,16%", "cambioPct": -0.16 },
+    { "nombre": "Nasdaq", "valor": "25.929,66", "cambio": "+0,86%", "cambioPct": 0.86 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los chips rebotan con fuerza",
+      "resumen": "El índice de semiconductores de Filadelfia subió 5,6% y Micron ganó cerca de 9,9%.",
+      "afecta": ["Semiconductores", "Micron"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq recuperó parte de lo perdido el viernes.",
+      "fuentes": [
+        { "nombre": "Reuters / NST", "url": "https://www.nst.com.my/amp/business/corporate/2026/06/1458633/sp-500-nasdaq-rise-tech-chipmakers-rebound" },
+        { "nombre": "AP / AJC", "url": "https://www.ajc.com/news/2026/06/wall-street-holds-steadier-as-ai-stocks-recover-some-of-their-sell-off/" }
+      ]
+    },
+    {
+      "titulo": "Tentativa distensión entre Irán e Israel",
+      "resumen": "Irán frenó sus ataques contra Israel y el petróleo se movió con volatilidad.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Anadolu atribuyó parte del cierre mayormente positivo a esa pausa.",
+      "fuentes": [
+        { "nombre": "Anadolu", "url": "https://www.aa.com.tr/en/economy/us-stocks-end-mostly-higher-as-chipmakers-rebound-iran-halts-attacks-against-israel/3960845" },
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-mixed-amid-tentative-easing-of-iran-israel-tensions" }
+      ]
+    },
+    {
+      "titulo": "Marvell se sumará al S&P 500",
+      "resumen": "Marvell subió tras conocerse su incorporación al índice.",
+      "afecta": ["Marvell", "Semiconductores"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Se sumó al rebote de los chips.",
+      "fuentes": [
+        { "nombre": "Ringside", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-jun-8/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebote de 5,6% del índice del sector." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow quedó levemente abajo." }
+  ],
+  "riesgoHoy": "La fragilidad del rebote tras el peor día del Nasdaq en más de un año.",
+  "proximos": ["Inflación (IPC) de mayo el miércoles 10", "Reunión de la Fed del 16 y 17 de junio"]
+}

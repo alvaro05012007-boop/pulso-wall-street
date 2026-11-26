@@ -1,0 +1,81 @@
+{
+  "id": "2026-09-11-1730",
+  "fecha": "2026-09-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Wall Street cortó cuatro bajas seguidas: el S&P 500 subió 0,86% y el Dow 1%.",
+    "La inflación de agosto (CPI) dio 0,4% mensual y 3,4% anual, en línea con lo esperado, aunque la núcleo vino más alta.",
+    "El Brent bajó casi 3% pero siguió arriba de 104 USD; esa baja le dio aire a las acciones.",
+    "Las apuestas a una suba de tasas de la Fed el 16 de septiembre subieron a cerca de 90%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.656,98", "cambio": "+0,86%", "cambioPct": 0.86 },
+    { "nombre": "Dow Jones", "valor": "sin dato", "cambio": "+1%", "cambioPct": 1.0 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de agosto sale en línea: 3,4% anual",
+      "resumen": "El CPI subió 0,4% en el mes, como se esperaba, y 3,4% en el año. La inflación núcleo vino más alta de lo previsto.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": true,
+      "impacto": "Las apuestas a una suba de tasas en septiembre subieron a cerca de 90%, pero la bolsa igual rebotó.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/sp-500-ends-higher-as-strong-inflation-data-cements-rate-hike-bets/" },
+        { "nombre": "TheStreet Pro", "url": "https://pro.thestreet.com/market-commentary/stocks-snap-four-day-skid-despite-hot-cpi-attention-turns-to-the-fomc" }
+      ]
+    },
+    {
+      "titulo": "El petróleo afloja y Wall Street rebota",
+      "resumen": "El Brent cerró con una baja de casi 3%, aunque todavía arriba de 104 USD por barril. El S&P 500 terminó en 7.656,98.",
+      "afecta": ["Energía", "Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "La baja del crudo alivió la presión sobre las acciones tras cuatro días de caídas.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-9112026-136375931" },
+        { "nombre": "AP (vía CDA Press)", "url": "https://cdapress.com/news/2026/sep/11/us-stocks-jump-after-oil-prices-ease-and-an-inflation-update-comes-in-near-expectations/" }
+      ]
+    },
+    {
+      "titulo": "Semana negativa pese al rebote del viernes",
+      "resumen": "En la semana, el S&P 500 perdió 0,8% según la tabla de AP. El foco pasa a la reunión de la Fed de la semana próxima.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado queda pendiente de la decisión de tasas del 16 de septiembre.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/583293" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-break-past-four-day-loss-to-end-higher-as-investors-eye-fed-meeting-next-week-dell-hpe-el-wmt-in-focus/cZtXyR4RBbK" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics calculó la baja semanal del S&P 500 en 0,6%; la tabla de AP da 0,8%."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "negativo", "porque": "El Brent cayó casi 3%." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "El alivio en el petróleo favorece al consumo." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow subió 1%." }
+  ],
+  "riesgoHoy": "El riesgo principal pasó a ser la reunión de la Fed: el mercado ya daba casi por hecha una suba de tasas.",
+  "proximos": [
+    "Martes 15 y miércoles 16: reunión de la Fed, con una suba de tasas casi descontada.",
+    "Evolución del petróleo y del conflicto en Medio Oriente."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2026-02-11-1730",
+  "fecha": "2026-02-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El informe de empleo sorprendió: se crearon 130.000 puestos en enero contra 70.000 esperados.",
+    "Las acciones abrieron en suba pero terminaron levemente abajo porque se alejaron los recortes de tasas.",
+    "El software pesó: Microsoft, Adobe y Datadog cayeron más de 2%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.941,47", "cambio": "-0,00%", "cambioPct": 0 },
+    { "nombre": "Dow Jones", "valor": "50.121,40", "cambio": "-0,13%", "cambioPct": -0.13 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "-0,2%", "cambioPct": -0.2 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Empleo de enero mucho mejor de lo esperado",
+      "resumen": "El informe de empleo, que se publicó con demora, mostró 130.000 puestos nuevos frente a 70.000 previstos.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Empleo", "volatilidad": true,
+      "impacto": "Las acciones subieron al principio y después devolvieron la suba.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4550292-sp500-nasdaq-composite-dow-jones-wall-street-news" },
+        { "nombre": "AP / Click2Houston", "url": "https://www.click2houston.com/gallery/news/2026/02/11/us-stocks-wobble-after-feeling-both-the-upside-and-downside-of-a-strong-jobs-report" }
+      ]
+    },
+    {
+      "titulo": "Se alejan los recortes de la Fed",
+      "resumen": "El buen dato laboral subió los rendimientos de los bonos y postergó las expectativas de bajas de tasas.",
+      "afecta": ["Bonos", "Financiero"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Las chances de un recorte cercano bajaron, según Barchart.",
+      "fuentes": [
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-settle-mixed-fed-rate-cut-chances-slip" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-as-jobs-data-dampens-rate-cut-hopes" }
+      ]
+    },
+    {
+      "titulo": "El software vuelve a caer",
+      "resumen": "Microsoft, Adobe y Datadog cerraron con bajas de más de 2% y arrastraron al mercado.",
+      "afecta": ["Microsoft", "Adobe", "Software"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Fue el principal freno del S&P 500 en la tarde.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-feb-11-231625314.html" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/525129" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Software", "tono": "negativo", "porque": "Microsoft, Adobe y Datadog cayeron más de 2%." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Suba de rendimientos con menos recortes de tasas a la vista." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Sector sensible a tasas más altas por más tiempo." }
+  ],
+  "riesgoHoy": "Que un empleo fuerte demore los recortes de tasas de la Fed.",
+  "proximos": ["IPC de enero", "Resultados de empresas"]
+}

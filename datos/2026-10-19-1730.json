@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-19-1730",
+  "fecha": "2026-10-19",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote de la tecnología: el Nasdaq subió 1,1% y cortó una racha de ocho bajas que lo había llevado a caer 15,7%. El S&P 500 ganó 0,4% y el Dow quedó casi plano (-0,1%).",
+    "Los chips volvieron a la vida (índice SOX +1,6%), con Micron e Intel entre los que más subieron.",
+    "El rebote fue angosto: los analistas lo vieron más como acomodamiento de posiciones que como un cambio de tendencia. La semana trae resultados de Netflix, Tesla y Meta."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.690,73", "cambio": "+0,41%", "cambioPct": 0.41 },
+    { "nombre": "Dow Jones", "valor": "51.966,03", "cambio": "-0,07%", "cambioPct": -0.07 },
+    { "nombre": "Nasdaq", "valor": "26.430,89", "cambio": "+1,11%", "cambioPct": 1.11 },
+    { "nombre": "Bono 10 años", "valor": "~5,15%", "cambio": "en alza", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~100 USD", "cambio": "plano", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "~102,0", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Nasdaq rebota 290 puntos tras ocho bajas seguidas",
+      "resumen": "El Nasdaq Composite subió 1,11% y el Nasdaq 100 tuvo su mejor día en casi un mes, con alivio en la venta de acciones de IA.",
+      "afecta": ["Tecnología", "Nasdaq"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/404241/nasdaq-roars-back-with-290-point-gain-as-tech-rallies" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-sees-best-day-in-nearly-a-month-as-ai-rout-cools-amzn-be-crwv-aapl-pltr-in-focus/cZxo2SbRBu5" }
+      ]
+    },
+    {
+      "titulo": "Micron y otros chips vuelven a subir",
+      "resumen": "Después de una semana durísima, los fabricantes de chips rebotaron; el índice de semiconductores de Filadelfia subió cerca de 1,6%.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "MarketWatch (vía Morningstar)", "url": "https://www.morningstar.com/news/marketwatch/20261019201/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff" },
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/nasdaq-climbs-chip-ai-stocks-rebound-after-selloff/" }
+      ]
+    },
+    {
+      "titulo": "Las acciones de IA suben antes de los resultados de Meta",
+      "resumen": "El mercado espera los números de Netflix, Tesla y Meta como prueba de si el gasto en IA es sostenible.",
+      "afecta": ["Comunicaciones", "Tecnología"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "Semafor", "url": "https://www.semafor.com/article/10/19/2026/ai-stocks-rally-ahead-of-meta-earnings" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años sube y el petróleo queda cerca de 100 USD",
+      "resumen": "El bono a 10 años subió hacia 5,15%, lo que pesó sobre el resto del mercado. El petróleo terminó plano cerca de 100 USD tras ir y volver.",
+      "afecta": ["Bonos", "Energía", "Inmobiliario"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-19" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebote tras ocho bajas, con Micron e Intel al frente." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Alivio en la venta de acciones ligadas a la IA." },
+    { "sector": "Industria", "tono": "neutral", "porque": "El Dow casi no se movió." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "La tasa a 10 años volvió a subir." }
+  ],
+  "riesgoHoy": "El riesgo fue que el rebote de los chips sea solo técnico, con la tasa a 10 años arriba de 5% y el petróleo en 100 USD.",
+  "proximos": [
+    "Semana con resultados de Netflix, Tesla y Meta.",
+    "Seguimiento de las negociaciones en Medio Oriente y el petróleo.",
+    "Reunión de la Fed a fin de octubre."
+  ]
+}

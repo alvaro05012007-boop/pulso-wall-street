@@ -1,0 +1,76 @@
+{
+  "id": "2026-03-02-1730",
+  "fecha": "2026-03-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Primera rueda después de los ataques de EE.UU. e Israel contra Irán del fin de semana: los índices abrieron con fuertes caídas pero se recuperaron y cerraron casi planos.",
+    "El S&P 500 subió 0,04% y el Nasdaq 0,36%, mientras el Dow cedió 0,15%.",
+    "El petróleo saltó más de 6% por el casi cierre del Estrecho de Ormuz y los bonos del Tesoro tuvieron su peor día en nueve meses."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.881,62", "cambio": "+0,04%", "cambioPct": 0.04 },
+    { "nombre": "Dow Jones", "valor": "48.904,78", "cambio": "-0,15%", "cambioPct": -0.15 },
+    { "nombre": "Nasdaq", "valor": "22.748,86", "cambio": "+0,36%", "cambioPct": 0.36 },
+    { "nombre": "Bono 10 años", "valor": "4,04%", "cambio": "+0,09 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "71,23", "cambio": "+6,3%", "cambioPct": 6.3 },
+    { "nombre": "Dólar (DXY)", "valor": "98,39", "cambio": "+0,8%", "cambioPct": 0.8 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street borra una apertura en rojo tras el ataque a Irán",
+      "resumen": "Las bolsas cayeron fuerte al arranque por la guerra con Irán, pero una ola de compras en baja dejó los índices cerca de cero al cierre.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Dow fue el único índice grande que cerró en baja; la tecnología ayudó a compensar el golpe geopolítico.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Zacks", "url": "https://www.nasdaq.com/articles/stock-market-news-mar-3-2026" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/2/tech-gains-help-overcome-geopolitical-shock" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/03/how-major-us-stock-indexes-fared-monday-3-2-2026" }
+      ]
+    },
+    {
+      "titulo": "El petróleo se dispara por la casi parálisis de Ormuz",
+      "resumen": "El tránsito por el Estrecho de Ormuz quedó casi frenado y hubo problemas en una refinería grande de Arabia Saudita.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El Brent cerró cerca de USD 78 (+6,7%) y el WTI en USD 71,23 (+6,3%).",
+      "fuentes": [
+        { "nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/crude-oil-jumps-100-per-050300469.html" }
+      ]
+    },
+    {
+      "titulo": "Los bonos del Tesoro sufren su peor venta en nueve meses",
+      "resumen": "El miedo a que el petróleo caro reavive la inflación hizo subir el rendimiento del bono a 10 años unos 9 puntos básicos.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El 10 años pasó de menos de 4% a cerca de 4,05%, la mayor suba diaria desde junio.",
+      "fuentes": [
+        { "nombre": "MarketWatch / Morningstar", "url": "https://www.morningstar.com/news/marketwatch/20260302112/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/529773" }
+      ]
+    },
+    {
+      "titulo": "Energía y defensa suben; aerolíneas y cruceros caen",
+      "resumen": "Las petroleras y las de defensa lideraron, mientras las aerolíneas y los cruceros sufrieron por el costo del combustible.",
+      "afecta": ["Energía", "Defensa", "Transporte"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Fuerte dispersión entre sectores según su exposición al petróleo.",
+      "fuentes": [
+        { "nombre": "AOL / Motley Fool", "url": "https://www.aol.com/finance/stock-market-today-mar-2-152605542.html" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/529784" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El salto del crudo por la guerra con Irán impulsó a las petroleras." },
+    { "sector": "Defensa", "tono": "positivo", "porque": "El conflicto armado favoreció a los contratistas militares." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las tecnológicas encabezaron la recuperación intradiaria." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Aerolíneas y cruceros cayeron por el combustible más caro." }
+  ],
+  "riesgoHoy": "La escalada militar con Irán y el freno al tránsito por Ormuz, que disparó el petróleo.",
+  "proximos": ["Evolución de la guerra con Irán y del tránsito por Ormuz", "Informe de empleo de febrero el viernes 6"]
+}

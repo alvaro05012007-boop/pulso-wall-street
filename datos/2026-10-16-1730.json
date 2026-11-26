@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-16-1730",
+  "fecha": "2026-10-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Viernes pesado: el Nasdaq cayó 2,1% y el S&P 500 1,1% por las dudas sobre la IA y el petróleo caro. Fue la peor semana para ambos desde junio.",
+    "Los chips cayeron por octava rueda seguida (índice de chips -2,5%, Broadcom -3,6%).",
+    "El petróleo saltó más de 3% y quedó cerca de 100 USD por los temores de oferta en Medio Oriente. Las chances de una suba de tasas en diciembre subieron a 74%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.659,44", "cambio": "-1,09%", "cambioPct": -1.09 },
+    { "nombre": "Dow Jones", "valor": "52.002,41", "cambio": "-0,34%", "cambioPct": -0.34 },
+    { "nombre": "Nasdaq", "valor": "26.140,03", "cambio": "-2,14%", "cambioPct": -2.14 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~99,9 USD", "cambio": "+2,87%", "cambioPct": 2.87 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street cae por la IA y el petróleo",
+      "resumen": "El S&P 500 perdió 1,1% y el Nasdaq 2,1%. En la semana, el S&P cayó 1,9% y el Nasdaq 4,5%; el Dow subió 0,7%.",
+      "afecta": ["Todo el mercado", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10162026-nid16102026/" },
+        { "nombre": "Reuters (vía GV Wire)", "url": "https://gvwire.com/2026/10/16/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh/" }
+      ]
+    },
+    {
+      "titulo": "Octava baja seguida de los chips",
+      "resumen": "Crecen las dudas sobre cuánto puede durar la fiebre de inversión en IA. Broadcom cayó 3,6% y el índice de chips PHLX 2,5%.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Star-Advertiser", "url": "https://www.staradvertiser.com/2026/10/16/breaking-news/wall-street-ends-down-sharply-as-ai-stocks-oil-prices-weigh/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo salta más de 3%",
+      "resumen": "El WTI de diciembre llegó a cerca de 99,9 USD por los temores de cortes de oferta en Medio Oriente.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Ahram Online", "url": "https://english.ahram.org.eg/News/580660.aspx" }
+      ]
+    },
+    {
+      "titulo": "Sube la apuesta a una suba de tasas en diciembre",
+      "resumen": "Se espera que la Fed no toque las tasas este mes, pero la probabilidad de una suba en diciembre pasó a 74,3% desde 50,2% un mes antes.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Good Morning America (AP)", "url": "https://www.goodmorningamerica.com/news/story/wall-street-loses-ground-pressure-rising-oil-prices-137499720" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Octava baja seguida por dudas sobre el boom de la IA." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq tuvo su peor semana desde junio." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió más de 3%." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible cerca de 100 USD encarece la operación." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Más chances de suba de tasas en diciembre." }
+  ],
+  "riesgoHoy": "El riesgo se concentró en chips e IA, más el petróleo cerca de 100 USD que alimenta la inflación.",
+  "proximos": [
+    "Semana próxima: resultados de grandes tecnológicas y más empresas del S&P 500.",
+    "Seguimiento del conflicto en Medio Oriente y su efecto en el petróleo.",
+    "Reunión de la Fed a fin de octubre."
+  ]
+}

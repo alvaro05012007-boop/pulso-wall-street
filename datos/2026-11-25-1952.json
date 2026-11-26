@@ -1,0 +1,176 @@
+{
+  "id": "2026-11-25-1952",
+  "fecha": "2026-11-25",
+  "hora": "19:52",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Día de montaña rusa: el Dow llegó a perder más de 1.100 puntos y el Nasdaq 4,6%, pero se recuperaron sobre el final; el Dow cerró +0,33%, el S&P 500 -0,25% y el Nasdaq -0,62%.",
+    "Volvió la venta de acciones de IA y chips: Nvidia cayó 3,9% después del salto de 31,5% del lunes por la vuelta de Jensen Huang.",
+    "La inflación PCE de octubre dio 3,8% anual y la núcleo 3,3% (por encima de lo esperado), mientras el PIB del tercer trimestre se corrigió hacia arriba a 4,3%: el mercado apuesta a una suba de tasas de la Fed en diciembre.",
+    "El petróleo bajó por avances diplomáticos entre EE.UU. e Irán y el bono a 10 años aflojó a la zona de 4,86%-4,89%.",
+    "Mañana jueves la bolsa está cerrada por Acción de Gracias."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.182,78", "cambio": "-0,25%", "cambioPct": -0.25 },
+    { "nombre": "Dow Jones", "valor": "50.182,95", "cambio": "+0,33%", "cambioPct": 0.33 },
+    { "nombre": "Nasdaq", "valor": "23.585,80", "cambio": "-0,62%", "cambioPct": -0.62 },
+    { "nombre": "Bono 10 años", "valor": "4,86%", "cambio": "-0,07 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "81,09 USD", "cambio": "-1,17%", "cambioPct": -1.17 },
+    { "nombre": "Dólar (DXY)", "valor": "103,76", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street borra una caída enorme y cierra mixto antes de Acción de Gracias",
+      "resumen": "En su peor momento el S&P 500 perdía 3,2%, el Nasdaq 4,6% y el Dow más de 1.100 puntos. Una recuperación fuerte sobre el final dejó al Dow en +0,33%, al S&P 500 en -0,25% y al Nasdaq en -0,62%. La plata salió de tecnología y fue a sectores 'de la vieja economía'.",
+      "afecta": ["S&P 500", "Dow Jones", "Nasdaq"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": true,
+      "impacto": "Volatilidad intradiaria muy alta, con rotación de tecnología hacia consumo e industria.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-25-221745503.html" },
+        { "nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html" }
+      ]
+    },
+    {
+      "titulo": "Inflación PCE de octubre: 3,8% anual y la núcleo por encima de lo esperado",
+      "resumen": "El índice de precios preferido por la Fed subió 0,3% en el mes y 3,8% anual, en línea con lo previsto. La medida núcleo (sin alimentos ni energía) dio 3,3% anual contra 3,2% esperado. El ingreso personal subió 0,7% y el gasto 0,3%.",
+      "afecta": ["Fed", "Bonos", "Tecnología"],
+      "tono": "negativo",
+      "hora": "08:30",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": true,
+      "impacto": "Según Benzinga, reforzó las apuestas a una suba de tasas en diciembre y pesó sobre las acciones de crecimiento.",
+      "fuentes": [
+        { "nombre": "Benzinga", "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate" },
+        { "nombre": "BEA", "url": "https://www.bea.gov/sites/default/files/2026-11/pi1026.pdf" }
+      ]
+    },
+    {
+      "titulo": "El mercado ya descuenta una suba de tasas de la Fed en diciembre",
+      "resumen": "Con la inflación firme y la economía fuerte, los operadores pasaron a apostar a una suba de tasas en lugar de un recorte. Un informe cita datos de CME FedWatch con probabilidades cercanas a la certeza para diciembre.",
+      "afecta": ["Financiero", "Tecnología", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hipotesis",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las fuentes lo vinculan a la debilidad de las acciones de crecimiento y tecnológicas.",
+      "fuentes": [
+        { "nombre": "Benzinga", "url": "https://benzinga.com/trading-ideas/movers/26/11/63633422/alphabet-stock-slips-whats-going-on" }
+      ]
+    },
+    {
+      "titulo": "Vuelve la venta en acciones de IA: Nvidia cae 3,9%",
+      "resumen": "Después de subir 31,5% el lunes por la restitución de Jensen Huang, Nvidia llegó a caer 8,5% en la apertura y cerró -3,91% a 149,30 dólares. También bajaron Micron, Sandisk, Oracle, AMD y Broadcom. Las fuentes citan dudas sobre el retorno del gasto en IA, el costo récord de asegurar deuda del sector, tasas más altas y temores por nuevos aranceles.",
+      "afecta": ["Nvidia", "Micron", "Oracle", "Semiconductores"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "Ocho pesos pesados ligados a la IA le restaron unos 67 puntos básicos al S&P 500, más del doble de su caída total.",
+      "fuentes": [
+        { "nombre": "CNN", "url": "https://edition.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return" },
+        { "nombre": "ABC News", "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070" },
+        { "nombre": "Forbes Middle East", "url": "https://www.forbesmiddleeast.com/money/markets/nasdaq-sp-500-extend-losses-as-ai-stocks-come-under-pressure" }
+      ]
+    },
+    {
+      "titulo": "El PIB del tercer trimestre se corrige a 4,3% y los pedidos de desempleo tocan mínimo del año",
+      "resumen": "La segunda estimación elevó el crecimiento a 4,3% anualizado (antes 3,4%, esperado 3,5%), impulsado por la inversión empresaria, sobre todo en software. Los pedidos iniciales de subsidio por desempleo bajaron a 189.000, contra 200.000 esperados, igualando el mínimo de 2026.",
+      "afecta": ["Economía de EE.UU.", "Fed"],
+      "tono": "mixto",
+      "hora": "08:30",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": true,
+      "impacto": "Una economía fuerte con inflación firme refuerza la idea de tasas más altas, según la cobertura.",
+      "fuentes": [
+        { "nombre": "Axios", "url": "https://www.axios.com/2026/11/25/incomes-layoffs-rates-pce-ai" },
+        { "nombre": "Benzinga", "url": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate" }
+      ]
+    },
+    {
+      "titulo": "Resultados: caen Dell, Workday y Ambarella; sube HP",
+      "resumen": "Dell bajó cerca de 12% pese a superar lo esperado en el tercer trimestre. Workday cayó alrededor de 7% por un flujo de caja libre flojo y Ambarella se desplomó por ingresos débiles y advertencias de escasez de memoria. HP subió cerca de 11% tras superar estimaciones, aunque con perspectivas cautas para 2027.",
+      "afecta": ["Dell", "HP", "Workday", "Ambarella", "Hardware", "Software"],
+      "tono": "mixto",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Movimientos fuertes en acciones puntuales de hardware y software.",
+      "fuentes": [
+        { "nombre": "Investing.com", "url": "https://investing.com/news/stock-market-news/dell-hp-autodesk-and-workday-earnings-what-to-watch-today-93CH-5048981" },
+        { "nombre": "Investing.com", "url": "https://investing.com/news/stock-market-news/micron-nvidia-among-market-cap-stock-movers-on-wednesday-93CH-5051354" }
+      ]
+    },
+    {
+      "titulo": "Las minoristas suben antes del Black Friday",
+      "resumen": "Las acciones de comercio minorista subieron con resultados mejores a lo esperado y con la rotación fuera de tecnología. Kohl's saltó cerca de 14% y Abercrombie & Fitch superó estimaciones, mientras Urban Outfitters cayó cerca de 13% por ventas comparables más débiles.",
+      "afecta": ["Kohl's", "Abercrombie & Fitch", "Urban Outfitters", "Consumo"],
+      "tono": "positivo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El sector consumo fue de los beneficiados por la rotación del día.",
+      "fuentes": [
+        { "nombre": "Investing.com", "url": "https://investing.com/news/stock-market-news/retail-stocks-surge-into-black-friday-amid-earnings-beats-5048699" }
+      ]
+    },
+    {
+      "titulo": "Bajan el petróleo y los rendimientos de los bonos",
+      "resumen": "El WTI cayó 1,17% a 81,09 dólares y el Brent 0,77% a 90,70, atribuido a avances diplomáticos entre EE.UU. e Irán. El rendimiento del bono del Tesoro a 10 años bajó a 4,86% desde 4,93% del martes.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "mixto",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Presión bajista sobre las petroleras y algo de alivio en tasas largas.",
+      "fuentes": [
+        { "nombre": "MarketScreener (Dow Jones)", "url": "https://www.marketscreener.com/news/u-s-treasury-yields-european-bond-yields-fall-as-oil-prices-remain-under-pressure-update-ce7851dbd88ef42d" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Cierres: la mayoría de las fuentes da S&P 500 7.182,78 y Dow 50.182,95; otros reportes dan S&P 7.183,40-7.185,40 y Dow 50.230,90-50.237,37 (probablemente distinto horario de captura).",
+    "Bono a 10 años: MarketScreener dice 4,86%; Trading Economics 4,88% e Investing.com 4,888%.",
+    "Dólar: un reporte dice que se fortaleció 0,25% contra el euro (1,0938); otro dice que el índice DXY se debilitó a 103,76.",
+    "Ambarella: las caídas reportadas van de cerca de 20% a 40% según la fuente.",
+    "Nvidia: CNN informó una baja de 8,5% tras la apertura y Yahoo de 7%, pero el cierre fue -3,91% (las cifras más altas son intradiarias)."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia, Micron, AMD y Broadcom siguieron cayendo por dudas sobre el retorno del gasto en IA." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Ocho grandes de la IA explicaron más que toda la caída del S&P 500." },
+    { "sector": "Hardware", "tono": "mixto", "porque": "Dell cayó cerca de 12% tras resultados, mientras HP subió cerca de 11%." },
+    { "sector": "Software", "tono": "negativo", "porque": "Workday bajó cerca de 7% y Oracle se hundió con la venta de IA." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Minoristas como Kohl's subieron con buenos resultados antes del Black Friday." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó por avances diplomáticos entre EE.UU. e Irán." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "La perspectiva de suba de tasas de la Fed cambia el panorama para bancos y crédito." }
+  ],
+  "riesgoHoy": "Según las noticias, el mayor riesgo está en semiconductores y acciones ligadas a la IA, por la venta en curso, el costo récord de asegurar su deuda y la posible suba de tasas. La inflación firme también presiona a los sectores sensibles a tasas.",
+  "proximos": [
+    "Jueves 26/11: bolsa de Nueva York cerrada por Acción de Gracias.",
+    "Viernes 27/11: rueda corta por Black Friday; atención a las ventas minoristas de la temporada.",
+    "Diciembre: reunión de la Fed, donde el mercado descuenta una suba de tasas.",
+    "Inicio de diciembre: informe de empleo de noviembre (nóminas no agrícolas)."
+  ]
+}

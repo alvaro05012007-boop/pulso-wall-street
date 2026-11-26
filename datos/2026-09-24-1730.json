@@ -1,0 +1,93 @@
+{
+  "id": "2026-09-24-1730",
+  "fecha": "2026-09-24",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda nerviosa con varios cambios de dirección: el S&P 500 terminó casi igual (-0,02%), el Dow bajó 0,3% y el Nasdaq quedó plano.",
+    "Las tasas de los bonos y el petróleo se movieron juntos por la incertidumbre de la guerra con Irán, y al final las tasas subieron.",
+    "Al cierre aparecieron informes de que EE.UU. e Irán estaban más cerca de un acuerdo para reabrir el paso de petroleros por Ormuz."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.704,13", "cambio": "-0,02%", "cambioPct": -0.02 },
+    { "nombre": "Dow Jones", "valor": "51.349,98", "cambio": "-0,31%", "cambioPct": -0.31 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "+0,01%", "cambioPct": 0.01 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street termina casi sin cambios tras varios giros",
+      "resumen": "El S&P 500 perdió 1,90 puntos y cerró en 7.704,13; el Dow cayó 161,61 puntos a 51.349,98. El mercado frenó su suba desde que el S&P 500 rozó su récord a comienzos de semana.",
+      "afecta": ["Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": true,
+      "impacto": "La presión del mercado de bonos frenó el impulso reciente de las acciones.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9242026-136734081" },
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/us-stocks-end-barely-changed-on-a-newly-shaky-wall-street-after-a-couple-reversals/" }
+      ]
+    },
+    {
+      "titulo": "Tasas y petróleo, atados a la guerra con Irán",
+      "resumen": "Las tasas del Tesoro siguieron el recorrido errático del petróleo, que depende de cuándo vuelva a fluir libremente el crudo de Medio Oriente. Al final del día las tasas subieron.",
+      "afecta": ["Bonos", "Energía"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "La volatilidad del petróleo se trasladó a los bonos y de ahí a las acciones.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/us-stocks-swing-with-bond-yields-and-oil-prices-before-recovering-much-of-their-losses/" },
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mostly-flat-amid-bond-sell-off,-oil-price-surge" }
+      ]
+    },
+    {
+      "titulo": "Señales de acuerdo entre EE.UU. e Irán por Ormuz",
+      "resumen": "Hubo informes de que los negociadores de EE.UU. e Irán estaban más cerca de un acuerdo para restablecer el tránsito de petroleros por el estrecho de Ormuz; el petróleo recortó su suba.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hipotesis",
+      "categoria": "Geopolítica",
+      "volatilidad": false,
+      "impacto": "La baja del petróleo alivió las tasas de corto plazo al final de la rueda.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/586657" }
+      ]
+    },
+    {
+      "titulo": "Everpure sube 11%; Oracle cae por un problema en un centro de datos",
+      "resumen": "Everpure ganó 11,2% tras ratificar sus proyecciones. Oracle bajó después de declarar fuerza mayor por un contratiempo en un centro de datos en Nuevo México.",
+      "afecta": ["Everpure", "Oracle", "Software", "Hardware"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Movimientos puntuales de empresas en un día sin dirección.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/us-stocks-end-barely-changed-on-a-newly-shaky-wall-street-after-a-couple-reversals/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/586657" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "mixto", "porque": "El petróleo subió y luego recortó por las señales de acuerdo con Irán." },
+    { "sector": "Software", "tono": "negativo", "porque": "Oracle cayó por el problema en su centro de datos." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas terminaron en suba." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en los bonos y el petróleo, que dependían de las noticias sobre la guerra con Irán.",
+  "proximos": [
+    "Viernes 25: cierre de semana, con el petróleo y las negociaciones por Ormuz en foco.",
+    "Datos de inflación PCE.",
+    "Reunión de la Fed de octubre."
+  ]
+}

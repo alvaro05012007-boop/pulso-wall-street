@@ -1,0 +1,81 @@
+{
+  "id": "2026-09-10-1730",
+  "fecha": "2026-09-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Cuarta baja seguida: el S&P 500 perdió 0,58%, el Nasdaq 0,8% y el Dow unos 316 puntos; el S&P 500 acumula su peor racha de cuatro días desde junio.",
+    "La inflación mayorista (PPI) de agosto subió 5,4% anual y reforzó la idea de una suba de tasas de la Fed este mes.",
+    "La tasa a 10 años saltó a 4,92%, la más alta desde octubre de 2023, y el petróleo siguió arriba de 100 USD.",
+    "Apple subió 3,6% tras presentar nuevos productos, entre ellos un iPhone plegable."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.591,75", "cambio": "-0,58%", "cambioPct": -0.58 },
+    { "nombre": "Dow Jones", "valor": "sin dato", "cambio": "-0,6% (-316 puntos)", "cambioPct": -0.6 },
+    { "nombre": "Nasdaq", "valor": "26.044,34", "cambio": "-0,80%", "cambioPct": -0.80 },
+    { "nombre": "Bono 10 años", "valor": "4,92%", "cambio": "+8 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación mayorista sube 5,4% anual en agosto",
+      "resumen": "Los precios al productor subieron 0,4% en el mes y 5,4% en el año. La núcleo subió 0,2% mensual (algo menos de lo esperado) pero 4,6% anual, por encima del 4,2% de julio.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": true,
+      "impacto": "El dato aumentó las apuestas a una suba de tasas de la Fed en septiembre.",
+      "fuentes": [
+        { "nombre": "Reuters (vía GV Wire)", "url": "https://gvwire.com/2026/09/10/wall-street-slips-after-hotter-than-expected-producer-inflation-data/" },
+        { "nombre": "Honolulu Star-Advertiser", "url": "https://www.staradvertiser.com/2026/09/10/breaking-news/wall-street-slides-as-august-ppi-data-fuels-fed-rate-hike-worries/" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años llega a 4,92%, máximo desde octubre de 2023",
+      "resumen": "El rendimiento del bono a 10 años subió 8 puntos básicos mientras el conflicto en Medio Oriente mantenía el petróleo arriba de 100 USD.",
+      "afecta": ["Bonos", "Inmobiliario", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "El Nasdaq fue el índice más golpeado por la suba de tasas.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/582901" },
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/sp-500-falls-treasury-yields-inflation-concerns/" }
+      ]
+    },
+    {
+      "titulo": "Apple sube 3,6% con su iPhone plegable; Oracle salta después del cierre",
+      "resumen": "Apple recuperó terreno tras presentar nuevos productos, como el iPhone Duo plegable. Meta (-1,4%) y Palantir (-2,2%) bajaron. Oracle subió más de 4% fuera de hora por resultados mejores a lo esperado.",
+      "afecta": ["Apple", "Oracle", "Meta", "Palantir", "Hardware", "Software"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Algunas grandes empresas se movieron por noticias propias en un día negativo para el mercado.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/582826" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó una baja de 1,1% para el Nasdaq; otras fuentes dieron -0,80% a 26.044,34. Se tomó esta última, que coincide con el cierre del día anterior."
+  ],
+  "sectores": [
+    { "sector": "Hardware", "tono": "positivo", "porque": "Apple subió 3,6% por sus lanzamientos." },
+    { "sector": "Software", "tono": "negativo", "porque": "Palantir cayó 2,2% en un día de tasas al alza." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "La tasa a 10 años tocó máximos desde 2023." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo siguió arriba de 100 USD." }
+  ],
+  "riesgoHoy": "El riesgo mayor fue la inflación: el PPI caliente y el petróleo caro llevaron las tasas a máximos y acercaron una suba de la Fed.",
+  "proximos": [
+    "Viernes 11: inflación al consumidor (CPI) de agosto.",
+    "Reunión de la Fed del 15 y 16 de septiembre."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2026-08-27-1730",
+  "fecha": "2026-08-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Nvidia y Salesforce encendieron a la tecnología: el Nasdaq subió 1,6%, el S&P 500 0,7% y el Dow 0,2%.",
+    "El sector tecnológico ganó 3,4% y fue el único en alza del S&P 500; la mayoría de las acciones bajó.",
+    "La cautela antes del discurso de Warsh en Jackson Hole limitó la suba del resto del mercado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.730,99", "cambio": "+0,72%", "cambioPct": 0.72 },
+    { "nombre": "Dow Jones", "valor": "53.569,44", "cambio": "+0,20%", "cambioPct": 0.2 },
+    { "nombre": "Nasdaq", "valor": "26.541,35", "cambio": "+1,57%", "cambioPct": 1.57 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia impulsa a la tecnología tras su balance",
+      "resumen": "La previsión de ventas optimista de Nvidia levantó a todo el sector: tecnología subió 3,4%.",
+      "afecta": ["Nvidia", "Semiconductores", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Tecnología fue el único sector en alza de los 11 del S&P 500.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-climb-as-nvidia-and-salesforce-spark-broad-tech-rally" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stock-indices-settle-higher-nvidia-earnings-spur-tech-stock-rally" }
+      ]
+    },
+    {
+      "titulo": "Salesforce también suma a la suba",
+      "resumen": "Salesforce acompañó a Nvidia y ayudó a una suba amplia de las tecnológicas.",
+      "afecta": ["Salesforce", "Software"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "El software se sumó al rebote del Nasdaq.",
+      "fuentes": [
+        { "nombre": "Newser", "url": "https://www.newser.com/story/395436/nvidia-salesforce-help-raise-indexes.html" }
+      ]
+    },
+    {
+      "titulo": "Cautela antes de Jackson Hole",
+      "resumen": "Fuera de la tecnología, la mayoría de las acciones del S&P 500 bajó por la cautela antes del discurso del presidente de la Fed.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La suba quedó muy concentrada en pocas empresas grandes.",
+      "fuentes": [
+        { "nombre": "Metrobank (Reuters)", "url": "https://wealthinsights.metrobank.com.ph/news/global-markets-stock-indexes-gain-as-nvidia-boost-offsets-caution-on-fed-event" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/nasdaq-sp500-rise-nvidia-forecast-fed-speech/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó una suba del S&P 500 de 0,4%, menor que el 0,7% de otras fuentes."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Subió 3,4%, único sector en alza." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia empujó a los chips." },
+    { "sector": "Software", "tono": "positivo", "porque": "Salesforce subió tras su balance." }
+  ],
+  "riesgoHoy": "El riesgo fue la concentración: la suba dependió casi solo de la tecnología mientras la mayoría de las acciones caía.",
+  "proximos": [
+    "Viernes 28: discurso de Warsh en Jackson Hole.",
+    "Lunes 31: último día de agosto.",
+    "Informe de empleo de agosto a principios de septiembre."
+  ]
+}

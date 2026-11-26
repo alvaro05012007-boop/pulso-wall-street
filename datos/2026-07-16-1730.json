@@ -1,0 +1,93 @@
+{
+  "id": "2026-07-16-1730",
+  "fecha": "2026-07-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Los chips y las acciones de IA volvieron a caer: el Nasdaq perdió 1,5%, el S&P 500 0,5% y el Dow 0,2%.",
+    "Las ventas minoristas de junio subieron 0,2%, apenas debajo de lo esperado.",
+    "UnitedHealth saltó 4,6% por un trimestre muy bueno, y Netflix bajó después del cierre tras su balance."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.533,77", "cambio": "-0,51%", "cambioPct": -0.51 },
+    { "nombre": "Dow Jones", "valor": "52.552,97", "cambio": "-0,20%", "cambioPct": -0.2 },
+    { "nombre": "Nasdaq", "valor": "25.902,95", "cambio": "-1,47%", "cambioPct": -1.47 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Otra caída de los chips y las acciones de IA",
+      "resumen": "Los fabricantes de chips y otras ganadoras de la IA arrastraron a las bolsas del mundo. El Nasdaq 100 cayó 1,62%.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "Las ganancias del resto del mercado no alcanzaron para compensar la baja de las tecnológicas.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-chipmakers-and-ai-stocks-slump" },
+        { "nombre": "AP (vía Ahram)", "url": "https://english.ahram.org.eg/News/572977.aspx" }
+      ]
+    },
+    {
+      "titulo": "Ventas minoristas de junio, apenas por debajo de lo esperado",
+      "resumen": "Las ventas minoristas subieron 0,2% contra 0,3% esperado; sin autos cayeron 0,2%. El dato de mayo se corrigió al alza a 1%.",
+      "afecta": ["Consumo"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": false,
+      "impacto": "El consumo muestra cierta moderación, sin señales de derrumbe.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/16/growth-stocks-retreat-as-chipmakers-remain-under-pressure" }
+      ]
+    },
+    {
+      "titulo": "UnitedHealth salta 4,6% por un trimestre muy fuerte",
+      "resumen": "La aseguradora de salud presentó un balance muy superior a lo esperado y ayudó a que el Dow cayera menos que los demás índices.",
+      "afecta": ["UnitedHealth", "Salud"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Salud y financieras limitaron las pérdidas de Wall Street.",
+      "fuentes": [
+        { "nombre": "Proactive Investors", "url": "https://www.proactiveinvestors.com/companies/news/1095562/nasdaq-slides-as-chip-selloff-drags-wall-street-lower-1095562.html" },
+        { "nombre": "Ground News (AP)", "url": "https://ground.news/article/s-and-p-500-stock-market-today-s-and-p-500-slips-as-tech-stocks-decline-while-healthcare-and-financial-shares-limit-wall-street-losses-heres-what-i" }
+      ]
+    },
+    {
+      "titulo": "Netflix cae después del cierre tras su balance",
+      "resumen": "Las acciones de Netflix bajaron en las operaciones posteriores al cierre después de presentar sus resultados.",
+      "afecta": ["Netflix", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "La reacción se verá en la rueda del viernes.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/7/16/netflix-streams-lower-after-earnings-report" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Siguió la venta de chips." },
+    { "sector": "Salud", "tono": "positivo", "porque": "UnitedHealth subió 4,6% por su balance." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Las financieras ayudaron a limitar la baja." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Ventas minoristas apenas por debajo de lo previsto." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue la caída repetida de los chips, que pone en duda el liderazgo de la IA en el mercado.",
+  "proximos": [
+    "Viernes 17: reacción al balance de Netflix.",
+    "Semana próxima: balances de Alphabet y Tesla.",
+    "Reunión de la Fed a fin de mes."
+  ]
+}

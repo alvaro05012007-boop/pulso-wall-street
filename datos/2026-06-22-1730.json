@@ -1,0 +1,63 @@
+{
+  "id": "2026-06-22-1730",
+  "fecha": "2026-06-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto: el Nasdaq cayó 1,3% y el S&P 500 0,4%, mientras el Dow subió 0,3% y las pequeñas empresas 0,8%.",
+    "SpaceX se desplomó 16% y Alphabet cerca de 5% por la salida de otro investigador clave de IA a un rival.",
+    "El petróleo bajó por expectativas de que vuelva la oferta de Medio Oriente; el bono a 10 años subió a 4,51%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.472,79", "cambio": "-0,37%", "cambioPct": -0.37 },
+    { "nombre": "Dow Jones", "valor": "51.712,71", "cambio": "+0,29%", "cambioPct": 0.29 },
+    { "nombre": "Nasdaq", "valor": "26.166,60", "cambio": "-1,32%", "cambioPct": -1.32 },
+    { "nombre": "Bono 10 años", "valor": "4,51%", "cambio": "+0,06 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "SpaceX cae 16% y arrastra a la tecnología",
+      "resumen": "La fuerte baja de SpaceX se sumó a una venta más amplia de tecnológicas.",
+      "afecta": ["SpaceX", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Pesó más que el optimismo por las negociaciones con Irán.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-drop-as-space-x-broader-tech-weakness-outweighs-us-iran-hopes-spcx-googl-nflx-coin-mu-in-focus/cZKMJLHR79B?.tsrc=rss" },
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-mixed-on-tech-weakness,-spacex-and-alphabet-drop" }
+      ]
+    },
+    {
+      "titulo": "Alphabet pierde 5% por fuga de talento en IA",
+      "resumen": "Un reporte sobre la salida de otro investigador top de IA hacia un rival golpeó a Alphabet; también cayeron Amazon, Microsoft y Nike.",
+      "afecta": ["Alphabet", "Amazon", "Microsoft", "Comunicaciones"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Briefing.com señaló que la debilidad de las megacaps pesó más que la suba de los chips.",
+      "fuentes": [
+        { "nombre": "AP / KSL", "url": "https://www.ksl.com/article/news/business/us-stocks-drift-near-their-records-in-mixed-trading-after-oil-prices-fall/51514603" },
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/6/22/megacap-weakness-outweighs-semiconductor-momentum-and-rotational-buying" }
+      ]
+    },
+    {
+      "titulo": "Baja el crudo y suben los rendimientos",
+      "resumen": "El petróleo cayó por expectativas de que se restablezca la oferta de Medio Oriente; el bono a 10 años subió 6 puntos básicos a 4,51%.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "El S&P 500 quedó 1,8% debajo de su récord.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-monday-6-22-2026/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Debilidad de las megacaps." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Alphabet cayó cerca de 5%." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Siguieron con impulso, según Briefing.com." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó." }
+  ],
+  "riesgoHoy": "La debilidad de las megatecnológicas y los rendimientos en alza.",
+  "proximos": ["Balance de Micron", "Avances en la paz con Irán"]
+}

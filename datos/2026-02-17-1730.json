@@ -1,0 +1,73 @@
+{
+  "id": "2026-02-17-1730",
+  "fecha": "2026-02-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Tras el feriado, los índices cerraron apenas arriba, alrededor de 0,1%, después de grandes vaivenes.",
+    "El S&P 500 llegó a perder casi 1% por las dudas sobre la IA y luego se recuperó.",
+    "Los bancos fueron el mejor sector del día, y Apple y las aerolíneas ayudaron al rebote."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.843,22", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Dow Jones", "valor": "49.533,19", "cambio": "+0,07%", "cambioPct": 0.07 },
+    { "nombre": "Nasdaq", "valor": "22.578,38", "cambio": "+0,14%", "cambioPct": 0.14 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Cierre tranquilo que esconde grandes vaivenes",
+      "resumen": "El S&P 500 osciló entre una suba de 0,5% y una baja de casi 1% antes de terminar levemente arriba.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Los tres índices ganaron alrededor de 0,1%.",
+      "fuentes": [
+        { "nombre": "CommBank (AP)", "url": "https://www.commbank.com.au/articles/newsroom/2026/02/us-stocks-edge-higher-after-worries-about-ai-and-economy.html" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-tuesday-2-17-2026/" }
+      ]
+    },
+    {
+      "titulo": "Los bancos lideran y la tecnología rebota desde sus mínimos",
+      "resumen": "Según Reuters, las tecnológicas se recuperaron de los mínimos del día y el sector financiero subió 1,2%.",
+      "afecta": ["Financiero", "Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El financiero fue el mejor de los 11 sectores del S&P 500.",
+      "fuentes": [
+        { "nombre": "StreetInsider (Reuters)", "url": "https://www.streetinsider.com/Reuters/Equities+close+with+slight+gains+as+tech+shares+recover/26005304.html" }
+      ]
+    },
+    {
+      "titulo": "Apple y las aerolíneas empujan la recuperación",
+      "resumen": "Las subas de Apple y de las aerolíneas ayudaron a revertir las pérdidas de la mañana.",
+      "afecta": ["Apple", "Aerolíneas"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Los índices pasaron de rojo a verde.",
+      "fuentes": [
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-recover-strength-apple-and-airline-stocks" }
+      ]
+    },
+    {
+      "titulo": "Amazon frena su caída",
+      "resumen": "Amazon cortó la racha bajista que venía por los temores sobre su gasto en IA.",
+      "afecta": ["Amazon", "Consumo"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Alivio parcial para las grandes tecnológicas.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-feb-17-221222504.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Una nota de AAP ubicó al Dow en 49.553,19; NBC/CNN lo dio en 49.533,19 con +0,07%, que es coherente con la suba informada y es el que se usó."
+  ],
+  "sectores": [
+    { "sector": "Financiero", "tono": "positivo", "porque": "Mejor sector del día, con +1,2%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Las aerolíneas subieron." },
+    { "sector": "Tecnología", "tono": "mixto", "porque": "Rebotó desde mínimos, pero sigue la ansiedad por la IA." }
+  ],
+  "riesgoHoy": "La ansiedad por la IA, que provocó fuertes vaivenes dentro del día.",
+  "proximos": ["Minutas de la última reunión de la Fed", "Resultados de Nvidia a fin de mes"]
+}

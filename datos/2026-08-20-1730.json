@@ -1,0 +1,80 @@
+{
+  "id": "2026-08-20-1730",
+  "fecha": "2026-08-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte caída: el Dow perdió 1,3% (más de 700 puntos), el Nasdaq 1% y el S&P 500 0,9%.",
+    "Walmart se hundió cerca de 9%, su peor día en cuatro años, porque sus ventas comparables no alcanzaron lo esperado por la nafta cara.",
+    "Nuevas amenazas económicas de EE.UU. contra Irán empujaron el petróleo y las tasas de los bonos."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.641,16", "cambio": "-0,87%", "cambioPct": -0.87 },
+    { "nombre": "Dow Jones", "valor": "52.759,21", "cambio": "-1,32%", "cambioPct": -1.32 },
+    { "nombre": "Nasdaq", "valor": "26.067,17", "cambio": "-1,00%", "cambioPct": -1.0 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "cerca de +3%", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Walmart se hunde cerca de 9%",
+      "resumen": "Walmart superó en ingresos y ganancias y subió su previsión anual, pero sus ventas comparables decepcionaron, algo que los inversores atribuyeron a la nafta cara.",
+      "afecta": ["Walmart", "Consumo"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Fue la peor rueda de Walmart en cuatro años y arrastró a los sectores de consumo.",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/investing/2026/08/20/walmart-plunge-weighs-on-all-three-major-indexes/" },
+        { "nombre": "Honolulu Star-Advertiser", "url": "https://www.staradvertiser.com/2026/08/20/breaking-news/dow-drops-700-points-as-walmart-quarterly-results-disappoint/" }
+      ]
+    },
+    {
+      "titulo": "Amenazas de 'guerra económica' contra Irán suben el petróleo",
+      "resumen": "Nuevas amenazas económicas de EE.UU. contra Irán empujaron el WTI cerca de 3%, a unos 86,8 USD, y el Brent a 93,78 USD.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El crudo caro reavivó el miedo a la inflación.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-lower-as-trump-s-economic-warfare-threats-push-yields-oil-higher/cZYeR5dRJZA" },
+        { "nombre": "Axios Closer", "url": "https://www.axios.com/newsletters/axios-closer-cc8621a3-3045-4a0d-954c-365cd2d2c906" }
+      ]
+    },
+    {
+      "titulo": "Las tasas vuelven a subir pese a las recompras del Tesoro",
+      "resumen": "Aunque el Tesoro anunció recompras de bonos mucho mayores a las esperadas, las tasas subieron otra vez y la de 30 años siguió cerca de máximos de varias décadas.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las tasas altas sumaron presión sobre todo el mercado.",
+      "fuentes": [
+        { "nombre": "Commonwealth Bank (Reuters)", "url": "https://www.commbank.com.au/articles/newsroom/2026/08/us-stocks-close-lower-as-bond-yields-rise.html" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-street-sinks-as-bond-yields-rise-walmart-results-disappoint/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Consumo", "tono": "negativo", "porque": "Walmart arrastró a consumo básico y discrecional." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió cerca de 3%." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas largas siguieron altas." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Combustible más caro." }
+  ],
+  "riesgoHoy": "El riesgo fue ver que la nafta cara ya golpea el consumo, justo cuando el petróleo vuelve a subir.",
+  "proximos": [
+    "Viernes 21: datos de actividad empresarial.",
+    "Semana próxima: balance de Nvidia e inflación PCE.",
+    "Discurso de Warsh en Jackson Hole."
+  ]
+}

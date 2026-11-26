@@ -1,0 +1,62 @@
+{
+  "id": "2026-06-02-1730",
+  "fecha": "2026-06-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Récords en los tres índices: el Dow subió 0,4%, el S&P 500 0,1% y el Nasdaq quedó casi plano.",
+    "Los fabricantes de chips y la infraestructura de IA empujaron, mientras Alphabet cayó 3,9% por anunciar que levantará US$80.000 millones para invertir en IA.",
+    "El petróleo subió por la incertidumbre sobre la guerra con Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.609,78", "cambio": "+0,13%", "cambioPct": 0.13 },
+    { "nombre": "Dow Jones", "valor": "51.307,79", "cambio": "+0,45%", "cambioPct": 0.45 },
+    { "nombre": "Nasdaq", "valor": "27.093,90", "cambio": "+0,03%", "cambioPct": 0.03 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los chips llevan al S&P 500 a otro récord",
+      "resumen": "El comercio de infraestructura de IA volvió a impulsar a los fabricantes de chips.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El S&P 500 sumó su noveno día seguido de suba.",
+      "fuentes": [
+        { "nombre": "Motley Fool / Nasdaq", "url": "https://nasdaq.com/articles/stock-market-today-june-2-chipmakers-drive-sp-500-another-record-close" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/2/ai-infrastructure-trade-fuels-another-record-push" }
+      ]
+    },
+    {
+      "titulo": "Alphabet cae 3,9% por una emisión de US$80.000 millones",
+      "resumen": "La empresa dijo que recaudará US$80.000 millones para financiar inversiones en IA.",
+      "afecta": ["Alphabet", "Comunicaciones"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Fue uno de los mayores lastres del S&P 500.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-2-2026/" }
+      ]
+    },
+    {
+      "titulo": "La IA pesa más que las tensiones en Medio Oriente",
+      "resumen": "Reuters señaló que el entusiasmo por la IA compensó la tensión con Irán y la suba del crudo.",
+      "afecta": ["Energía", "Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "interpretacion", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Russell 2000 superó a los grandes índices con +0,9%.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-st-ai-enthusiasm-offsets-middle-east-tensions/" },
+        { "nombre": "Schwab Network", "url": "https://schwabnetwork.com/articles/closing-bell-sp-500-hits-fresh-record-as-middle-east-tensions-escalate" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron por la infraestructura de IA." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Alphabet cayó 3,9%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "Subió el crudo." }
+  ],
+  "riesgoHoy": "La escalada en Medio Oriente y el costo creciente de la carrera por la IA.",
+  "proximos": ["Informe de empleo de mayo el viernes 5"]
+}

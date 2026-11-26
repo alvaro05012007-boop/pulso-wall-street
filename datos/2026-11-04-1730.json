@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-04-1730",
+  "fecha": "2026-11-04",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Los demócratas ganaron el control del Congreso y Wall Street festejó: el Dow saltó 1.569 puntos (3%), su mejor día post-elecciones de medio término en 44 años. El S&P 500 subió 1,6% y el Nasdaq 1,4%.",
+    "El petróleo se derrumbó casi 8% (WTI a 88,51 USD) después de que el vicepresidente JD Vance culpara a la guerra con Irán por la derrota republicana.",
+    "No todo subió: Nvidia cayó 3% y un ETF de infraestructura para IA perdió 9%. Microsoft y Amazon ganaron más de 6%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.688,62", "cambio": "+1,58%", "cambioPct": 1.58 },
+    { "nombre": "Dow Jones", "valor": "53.356,12", "cambio": "+3,03%", "cambioPct": 3.03 },
+    { "nombre": "Nasdaq", "valor": "25.736,51", "cambio": "+1,44%", "cambioPct": 1.44 },
+    { "nombre": "Bono 10 años", "valor": "4,89%", "cambio": "-0,06 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "88,51 USD", "cambio": "-7,89%", "cambioPct": -7.89 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "en baja", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow sube más de 1.500 puntos tras el triunfo demócrata",
+      "resumen": "Con los demócratas al frente del Congreso, el Dow tuvo su mejor día desde abril de 2025 y el S&P 500 su segunda mayor suba post-elecciones de medio término desde 1982.",
+      "afecta": ["Todo el mercado", "Industria", "Financiero"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "WTTW", "url": "https://news.wttw.com/2026/11/04/dow-has-best-post-midterm-elections-day-44-years-democrats-take-control-congress" },
+        { "nombre": "ABC30", "url": "https://abc30.com/post/dow-surges-1000-points-democrats-take-control-congress/20015354/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo se hunde por las palabras de Vance sobre Irán",
+      "resumen": "El WTI cayó 7,58 USD a 88,51. El oro subió 135 USD a 4.063 y la tasa a 10 años bajó a 4,89%.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-oil-crushed-as-republicans-blame-war-for-loss/" }
+      ]
+    },
+    {
+      "titulo": "La infraestructura para IA, a contramano",
+      "resumen": "Nvidia cayó 3% y un ETF de infraestructura para IA se desplomó 9%, mientras Microsoft y Amazon subían más de 6%.",
+      "afecta": ["Semiconductores", "Software", "Consumo"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-1142026-nid04112026/" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/416102/midterms-helped-the-dow-score-its-best-day-of-the-year" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow tuvo su mejor día post-elecciones en 44 años." },
+    { "sector": "Software", "tono": "positivo", "porque": "Microsoft subió más de 6%." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Amazon subió más de 6%." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia cayó 3% y la infraestructura para IA se desplomó." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo cayó casi 8%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "El combustible bajó fuerte." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en la infraestructura para IA, que cayó fuerte aun en un día de euforia general, y en la energía.",
+  "proximos": [
+    "Jueves 5: Banco de Inglaterra y más balances.",
+    "Viernes 6: informe de empleo de octubre.",
+    "Seguimiento de las negociaciones con Irán."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-02-1730",
+  "fecha": "2026-11-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda mixta: el Dow subió 0,4% pero el S&P 500 cayó 0,5% (borró una suba de 1,1%) y el Nasdaq perdió 1,1%. Siguió la salida de la tecnología por miedo al gasto en IA.",
+    "El petróleo se desplomó más de 7% (WTI a 96,46 USD) por la esperanza de conversaciones entre EE.UU. e Irán con mediación de Qatar.",
+    "Semana clave: elecciones de medio término el martes y datos de empleo el viernes."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.541,40", "cambio": "-0,51%", "cambioPct": -0.51 },
+    { "nombre": "Dow Jones", "valor": "51.983,98", "cambio": "+0,41%", "cambioPct": 0.41 },
+    { "nombre": "Nasdaq", "valor": "25.164,32", "cambio": "-1,07%", "cambioPct": -1.07 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "96,46 USD", "cambio": "-7,36%", "cambioPct": -7.36 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "en baja", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La tecnología vuelve a caer y el Dow sube",
+      "resumen": "Los inversores siguieron saliendo de la IA por las dudas sobre el gasto en infraestructura. El Nasdaq 100 cayó 1,4%.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-drop-as-capex-concerns-grip-tech-investors-outweighing-us-iran-diplomacy-hope/cNGQZKqR9PD" },
+        { "nombre": "Anadolu", "url": "https://aa.com.tr/en/americas/us-stocks-close-mixed-as-tech-shares-surrender-early-gains/4109253" }
+      ]
+    },
+    {
+      "titulo": "El petróleo cae más de 7% por la esperanza de paz con Irán",
+      "resumen": "El WTI cayó 7,66 USD a 96,46 y el Brent 8,66 USD a 104,77, tras reuniones entre Irán y mediadores de Qatar. Analistas piden cautela por los muchos falsos comienzos.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Nation Thailand", "url": "https://www.nationthailand.com/news/world/40073041" },
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-z6-settles-usd-766-lower-at-9646bbl" }
+      ]
+    },
+    {
+      "titulo": "Apple baja y las elecciones en la mira",
+      "resumen": "El S&P 500 cerró en baja con Apple entre las que más pesaron, a un día de las elecciones de medio término.",
+      "afecta": ["Tecnología", "Hardware"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/sp-500-lower-apple-dips-quarterly-report-midterm-elections/" }
+      ]
+    },
+    {
+      "titulo": "Sigue la rotación fuera de la tecnología",
+      "resumen": "Con el petróleo en baja, la plata siguió pasando de la tecnología a otros sectores del mercado.",
+      "afecta": ["Industria", "Consumo"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-oil-prices-fall,-rotation-out-of-tech-stocks-continues" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Siguió la venta por el gasto en IA." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo cayó más de 7%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Alivio por el combustible más barato." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow subió con la rotación." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en la energía (caída de 7% del petróleo en un día) y en la tecnología, con las elecciones al día siguiente.",
+  "proximos": [
+    "Martes 3: elecciones de medio término.",
+    "Miércoles 4 y jueves 5: reacción a los resultados electorales.",
+    "Viernes 6: informe de empleo de octubre."
+  ]
+}

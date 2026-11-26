@@ -1,0 +1,74 @@
+{
+  "id": "2026-02-18-1730",
+  "fecha": "2026-02-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Suba general: el Nasdaq ganó 0,78%, el S&P 500 0,56% y el Dow 0,26%.",
+    "Nvidia encabezó el rebote de la tecnología y hubo datos que mostraron fortaleza de la economía.",
+    "El mercado digirió las minutas de la Fed; Palo Alto Networks cayó 6,8% por recortar su pronóstico."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.881,31", "cambio": "+0,56%", "cambioPct": 0.56 },
+    { "nombre": "Dow Jones", "valor": "49.662,66", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Nasdaq", "valor": "22.753,63", "cambio": "+0,78%", "cambioPct": 0.78 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia lidera la suba de la tecnología",
+      "resumen": "Las tecnológicas rebotaron con Nvidia al frente; el S&P 500 llegó a subir 1% antes de moderarse.",
+      "afecta": ["Nvidia", "Semiconductores", "Tecnología"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq sumó 0,78%.",
+      "fuentes": [
+        { "nombre": "AP / Star Tribune", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-wednesday-2182026/601584625" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/314967/dow-nasdaq-tack-on-triple-digits-as-tech-stocks-bounce" }
+      ]
+    },
+    {
+      "titulo": "Datos que muestran una economía firme",
+      "resumen": "Nuevos indicadores económicos de EE.UU. salieron mejor de lo esperado y apoyaron a las acciones.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Las acciones cerraron en alza, según Barchart.",
+      "fuentes": [
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-signs-us-economic-strength" }
+      ]
+    },
+    {
+      "titulo": "El mercado absorbe las minutas de la Fed",
+      "resumen": "Las minutas de la última reunión de la Fed se publicaron por la tarde y las acciones mantuvieron sus subas.",
+      "afecta": ["Bonos", "Financiero"],
+      "tono": "neutral", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "No hubo cambios bruscos tras la publicación.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/2/18/stocks-finish-higher-as-market-absorbs-fomc-minutes" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/526801" }
+      ]
+    },
+    {
+      "titulo": "Palo Alto Networks cae por su pronóstico",
+      "resumen": "La empresa de ciberseguridad recortó su previsión anual de ganancias.",
+      "afecta": ["Palo Alto Networks", "Software"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "La acción cayó 6,8%, según Reuters.",
+      "fuentes": [
+        { "nombre": "GV Wire (Reuters)", "url": "https://gvwire.com/?p=233623" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó al Dow con +0,31% (49.688); NBC/CNN dio +0,26% (49.662,66) y es el que se usó."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia lideró la suba." },
+    { "sector": "Software", "tono": "mixto", "porque": "Palo Alto cayó por su pronóstico." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Rebote de las grandes tecnológicas." }
+  ],
+  "riesgoHoy": "El tono de las minutas de la Fed sobre futuras bajas de tasas.",
+  "proximos": ["Dato de PCE e informe del PIB", "Resultados de Walmart y Nvidia"]
+}

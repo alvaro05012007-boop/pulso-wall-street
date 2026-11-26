@@ -1,0 +1,72 @@
+{
+  "id": "2026-04-14-1730",
+  "fecha": "2026-04-14",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Wall Street quedó al borde de su máximo histórico: el S&P 500 subió 1,18% y el Nasdaq 1,96%.",
+    "El WTI cayó más de 7% por la esperanza de que EE.UU. e Irán retomen las negociaciones.",
+    "Los precios mayoristas (PPI) subieron menos de lo esperado y arrancaron los balances de los bancos."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.967,38", "cambio": "+1,18%", "cambioPct": 1.18 },
+    { "nombre": "Dow Jones", "valor": "48.535,99", "cambio": "+0,66%", "cambioPct": 0.66 },
+    { "nombre": "Nasdaq", "valor": "23.639,08", "cambio": "+1,96%", "cambioPct": 1.96 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "-7%", "cambioPct": -7 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las bolsas suben por la apuesta a la diplomacia",
+      "resumen": "El impulso para retomar las negociaciones entre EE.UU. e Irán llevó a los índices cerca de sus récords.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Las megacapitalizadas tomaron la delantera.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-rally-push-diplomacy-end-us-iran-war" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/14/market-climbs-toward-recordhighs-as-oil-slides-and-megacaps-take-charge--megacaps" }
+      ]
+    },
+    {
+      "titulo": "El WTI cae más de 7%",
+      "resumen": "El crudo se hundió por la expectativa de nuevas negociaciones para terminar la guerra.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Alivió los temores de inflación.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-rally-push-diplomacy-end-us-iran-war" }
+      ]
+    },
+    {
+      "titulo": "El PPI de marzo sale más bajo de lo esperado",
+      "resumen": "Los precios mayoristas subieron 0,5% mensual y 4,0% anual, por debajo de las estimaciones.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "Dio soporte adicional a las acciones.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-rally-push-diplomacy-end-us-iran-war" }
+      ]
+    },
+    {
+      "titulo": "Llegan los balances bancarios del primer trimestre",
+      "resumen": "Los grandes bancos empezaron a reportar resultados y el Dow ganó 318 puntos.",
+      "afecta": ["Financiero"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Los bancos acompañaron la suba.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-q1-bank-earnings-roll-in" },
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://panhandle.newschannelnebraska.com/story/239956965/how-major-us-stock-indexes-fared-tuesday-4142026" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las megacapitalizadas lideraron." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Balances bancarios del primer trimestre." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El WTI cayó más de 7%." }
+  ],
+  "riesgoHoy": "Que las negociaciones no se retomen y el bloqueo naval vuelva a tensar el petróleo.",
+  "proximos": ["Más balances bancarios", "Novedades sobre la extensión de la tregua"]
+}

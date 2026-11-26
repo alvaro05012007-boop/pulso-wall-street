@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-14-1730",
+  "fecha": "2026-07-14",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "La inflación de junio salió mejor de lo esperado y las acciones subieron: el S&P 500 ganó 0,4%, el Nasdaq 0,9% y el Dow quedó plano.",
+    "La chance de una suba de tasas de la Fed en julio se desplomó y la tasa a 10 años bajó a 4,55%.",
+    "IBM se hundió más de 25%, su peor día desde al menos 1968, por resultados preliminares flojos. Goldman Sachs y JPMorgan subieron por buenos balances."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.543,59", "cambio": "+0,38%", "cambioPct": 0.38 },
+    { "nombre": "Dow Jones", "valor": "52.508,27", "cambio": "+0,02%", "cambioPct": 0.02 },
+    { "nombre": "Nasdaq", "valor": "26.128,01", "cambio": "+0,90%", "cambioPct": 0.9 },
+    { "nombre": "Bono 10 años", "valor": "4,55%", "cambio": "-7 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de junio sorprende a la baja",
+      "resumen": "Los precios al consumidor cayeron 0,4% en junio (se esperaba -0,1%) y la inflación núcleo quedó en 0%. La interanual bajó a 3,5% desde 4,2% en mayo.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": true,
+      "impacto": "La probabilidad de que la Fed mantenga la tasa en julio subió a 83,4% desde 58,3%, según CME FedWatch.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/14/semiconductors-rebound-as-softer-inflation-lifts-stocks" },
+        { "nombre": "Briefing.com (Page One)", "url": "https://briefing.com/page-one/archive/2026/7/14/june-cpi-a-salve-for-july-rate-hike-concerns" }
+      ]
+    },
+    {
+      "titulo": "IBM se hunde más de 25%, su peor día desde 1968",
+      "resumen": "IBM presentó resultados preliminares del segundo trimestre por debajo de lo esperado y su acción cayó más de 25%.",
+      "afecta": ["IBM", "Software"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Fue la peor rueda de IBM desde al menos 1968 según Bloomberg y le restó puntos al Dow.",
+      "fuentes": [
+        { "nombre": "AP (vía Anchorage Daily News)", "url": "https://www.adn.com/business-economy/2026/07/14/us-stocks-rise-after-data-shows-slowing-inflation-even-as-ibm-plunges/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/566902" }
+      ]
+    },
+    {
+      "titulo": "Buenos balances de los grandes bancos",
+      "resumen": "Goldman Sachs subió más de 9% y JPMorgan 2,5% tras presentar resultados sólidos que dieron confianza para la temporada de balances.",
+      "afecta": ["Financiero", "Goldman Sachs", "JPMorgan"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Los bancos compensaron en parte la caída de IBM dentro del Dow.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-eke-out-gains-as-cpi-cools,-bank-earnings-impress" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-on-cooling-inflation-signs-strong-big-bank-earnings/cZZ28svR7qU?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "Rebotan los chips con Nvidia a la cabeza",
+      "resumen": "Nvidia subió 4% y los semiconductores recuperaron parte de la caída del lunes, mientras el petróleo seguía en alza por la tensión con Irán.",
+      "afecta": ["Semiconductores", "Nvidia"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Nasdaq ganó 233 puntos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/14/softer-inflation-and-chip-rebound-lift-stocks" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un artículo de Cboe tituló que la inflación general bajó a 3,2%, mientras Briefing.com y otros informaron 3,5% interanual."
+  ],
+  "sectores": [
+    { "sector": "Financiero", "tono": "positivo", "porque": "Goldman Sachs y JPMorgan subieron por buenos balances." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebote con Nvidia +4%." },
+    { "sector": "Software", "tono": "negativo", "porque": "IBM cayó más de 25%." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Bajaron las tasas tras el dato de inflación." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en los balances: el desplome de IBM mostró cómo castiga el mercado a quien decepciona.",
+  "proximos": [
+    "Más balances bancarios y de empresas tecnológicas.",
+    "Precios mayoristas y ventas minoristas de junio.",
+    "Reunión de la Fed a fin de mes; el mercado seguía viendo posible una suba en septiembre."
+  ]
+}

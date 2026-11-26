@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-15-1730",
+  "fecha": "2026-10-15",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rotación fuerte: la plata salió de la IA y fue a salud, consumo y empresas chicas. El Dow subió 1,1% y el Russell 2000 1,4%, mientras el Nasdaq quedó casi plano.",
+    "Los precios mayoristas (PPI) salieron muy altos (6,3% anual contra ~5,3% esperado), pero los bonos subieron igual y la tasa a 10 años bajó a ~5,09%.",
+    "El petróleo siguió en alza tras una fuerte caída de inventarios en EE.UU."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.744,06", "cambio": "+0,33%", "cambioPct": 0.33 },
+    { "nombre": "Dow Jones", "valor": "52.177,69", "cambio": "+1,08%", "cambioPct": 1.08 },
+    { "nombre": "Nasdaq", "valor": "26.713,03", "cambio": "+0,08%", "cambioPct": 0.08 },
+    { "nombre": "Bono 10 años", "valor": "~5,09%", "cambio": "-0,10 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~97,6 USD", "cambio": "+2,6% (intradiario)", "cambioPct": 2.6 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "en baja", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow salta 1,1% con la rotación fuera de la tecnología",
+      "resumen": "Los inversores pasaron de la IA a salud y consumo (Eli Lilly, UnitedHealth). Nike, Salesforce y Home Depot lideraron el Dow; 8 de 11 sectores subieron.",
+      "afecta": ["Salud", "Consumo", "Industria"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "TS2", "url": "https://ts2.tech/en/dow-jumps-1-1-russell-2000-rises-1-4-as-broad-rotation-beats-tech/" },
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/sp-500-rises-investors-shift-ai-healthcare-stocks/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/592512" }
+      ]
+    },
+    {
+      "titulo": "PPI muy por encima de lo esperado",
+      "resumen": "Los precios mayoristas subieron 6,3% anual contra ~5,3% previsto, la mayor suba desde 2022 por un salto récord de la energía. El núcleo subió 0,7% en el mes contra 0,3%.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "TheStreet", "url": "https://pro.thestreet.com/market-commentary/producer-prices-jump-the-most-since-2022-on-record-energy-surge" },
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-yields-continue-to-fall-even-after-hot-ppi-data/" }
+      ]
+    },
+    {
+      "titulo": "Las tasas bajan pese al dato caliente",
+      "resumen": "El dólar y las tasas saltaron con el PPI pero se dieron vuelta en minutos. El bono a 10 años terminó cerca de 5,09%, unos 10 puntos básicos abajo.",
+      "afecta": ["Bonos", "Dólar", "Inmobiliario"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-15" }
+      ]
+    },
+    {
+      "titulo": "Fuerte caída de inventarios de crudo",
+      "resumen": "Los inventarios de EE.UU. bajaron 8,56 millones de barriles y el WTI llegó a operar cerca de 98 USD.",
+      "afecta": ["Energía"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Equiti", "url": "https://www.equiti.com/uae-en/news/market-news/us-ppi-beats-forecasts-as-oil-inventories-drop-sharply-global-industry-weakens/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Salud", "tono": "positivo", "porque": "Lideró las subas con Eli Lilly y UnitedHealth." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Nike y Home Depot empujaron al Dow." },
+    { "sector": "Software", "tono": "positivo", "porque": "Salesforce estuvo entre las que más subieron del Dow." },
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "La venta de chips se frenó pero no hubo rebote fuerte." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió por la caída de inventarios." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Alivio por la baja de la tasa a 10 años." }
+  ],
+  "riesgoHoy": "El riesgo principal fue la inflación mayorista: un PPI de 6,3% mantiene viva la chance de una suba de tasas de la Fed.",
+  "proximos": [
+    "Viernes 16: vencimiento mensual de opciones y más resultados.",
+    "Semana próxima: resultados de grandes tecnológicas.",
+    "Reunión de la Fed a fin de octubre."
+  ]
+}

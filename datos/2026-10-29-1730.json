@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-29-1730",
+  "fecha": "2026-10-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Alphabet se desplomó 12,6%, su peor día desde que cotiza, y arrastró al mercado: el Nasdaq cayó 1,4%, el S&P 500 0,3% y el Dow 0,25%.",
+    "Ojo: cuatro de cada cinco acciones del S&P 500 subieron. Sin Alphabet, el índice habría cerrado en alza. Las empresas chicas subieron bien.",
+    "El PIB del tercer trimestre creció 3,4% anualizado (más de lo esperado) y la inflación PCE núcleo se moderó un poco. Las tasas bajaron desde sus máximos."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.720,39", "cambio": "-0,30%", "cambioPct": -0.3 },
+    { "nombre": "Dow Jones", "valor": "52.342,56", "cambio": "-0,25%", "cambioPct": -0.25 },
+    { "nombre": "Nasdaq", "valor": "26.184,72", "cambio": "-1,38%", "cambioPct": -1.38 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "en baja", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Caída histórica de Alphabet",
+      "resumen": "La acción clase A cayó 12,6%, su peor día en más de 20 años de historia: las ventas quedaron por debajo de lo esperado y preocupó el gasto en IA.",
+      "afecta": ["Comunicaciones", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía ITV)", "url": "https://www.itv.com/news/2026-10-29/a-potentially-historic-drop-for-alphabets-stock-drags-the-us-market-lower" },
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/" }
+      ]
+    },
+    {
+      "titulo": "Sin Alphabet, el S&P 500 habría subido",
+      "resumen": "Cuatro de cada cinco acciones del índice subieron y las empresas chicas avanzaron, pero chips y software también vendieron.",
+      "afecta": ["Semiconductores", "Software", "Todo el mercado"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/10/a-historic-drop-for-alphabets-stock-drags-the-us-market-lower/" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-megacap-technology-stocks-slide" }
+      ]
+    },
+    {
+      "titulo": "El PIB crece 3,4% y el PCE núcleo se modera",
+      "resumen": "El PIB del tercer trimestre subió 3,4% anualizado (contra 2,2% del segundo). El PCE núcleo mensual dio 0,32% contra 0,34% esperado, pero sigue arriba de 3% anual.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "TheStreet", "url": "https://pro.thestreet.com/market-commentary/q3-gdp-beats-on-strong-consumers-and-equipment-spending" },
+        { "nombre": "Mortgage News Daily", "url": "https://www.mortgagenewsdaily.com/markets/mbs-morning-10292026" }
+      ]
+    },
+    {
+      "titulo": "Intel y Amazon caen después del cierre",
+      "resumen": "Tras la rueda, Intel y Amazon se desplomaron por sus resultados y anticiparon un viernes difícil para la tecnología.",
+      "afecta": ["Semiconductores", "Consumo"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/stocks/nasdaq-leads-stocks-lower-intel-and-amazon-tumble-after-hours" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Alphabet tuvo su peor día histórico." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips vendieron más allá de Alphabet." },
+    { "sector": "Software", "tono": "negativo", "porque": "Dudas sobre el gasto en IA." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "La mayoría de las acciones fuera de la tecnología subió." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Las tasas bajaron desde sus máximos." }
+  ],
+  "riesgoHoy": "El riesgo se concentró en las megatecnológicas: un solo balance flojo (Alphabet) alcanzó para tirar abajo al índice.",
+  "proximos": [
+    "Viernes 30: reacción a los resultados de Amazon e Intel.",
+    "Martes 3 de noviembre: elecciones de medio término.",
+    "Viernes 6 de noviembre: datos de empleo."
+  ]
+}

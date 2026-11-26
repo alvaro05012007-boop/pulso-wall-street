@@ -1,0 +1,72 @@
+{
+  "id": "2026-02-05-1730",
+  "fecha": "2026-02-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte caída general: el Nasdaq perdió 1,59%, el S&P 500 1,23% y el Dow 1,20%.",
+    "Siguieron las dudas sobre el gasto en IA; Alphabet anunció inversiones de cerca de 180.000 millones para 2026 y cerró apenas abajo.",
+    "Datos laborales flojos, venta de bitcoin y suba de la volatilidad; Amazon cayó después del cierre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.798,40", "cambio": "-1,23%", "cambioPct": -1.23 },
+    { "nombre": "Dow Jones", "valor": "48.908,72", "cambio": "-1,20%", "cambioPct": -1.2 },
+    { "nombre": "Nasdaq", "valor": "22.540,59", "cambio": "-1,59%", "cambioPct": -1.59 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las dudas sobre la IA golpean otra vez a la tecnología",
+      "resumen": "La preocupación por el gasto en inteligencia artificial castigó a las tecnológicas y arrastró a todo el mercado.",
+      "afecta": ["Tecnología", "Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Los tres índices cayeron más de 1% y la volatilidad saltó.",
+      "fuentes": [
+        { "nombre": "NST (Reuters)", "url": "https://www.nst.com.my/amp/business/corporate/2026/02/1371509/wall-street-ends-down-ai-worries-slam-tech-stocks" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/2/5/tech-lags-amid-broad-weakness-volatility-jumps" }
+      ]
+    },
+    {
+      "titulo": "Alphabet planea gastar cerca de 180.000 millones en IA",
+      "resumen": "Alphabet anunció un fuerte aumento de su inversión en IA para 2026; la acción cayó y luego se recuperó.",
+      "afecta": ["Alphabet", "Comunicaciones"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Cerró en 331,25 dólares, con baja de 0,54%.",
+      "fuentes": [
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-feb-5-230338065.html" }
+      ]
+    },
+    {
+      "titulo": "Amazon decepciona después del cierre",
+      "resumen": "Amazon presentó resultados por debajo de lo esperado tras la campana.",
+      "afecta": ["Amazon", "Consumo"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Sus acciones llegaron a caer 9% en las operaciones fuera de hora.",
+      "fuentes": [
+        { "nombre": "CommBank", "url": "https://www.commbank.com.au/articles/newsroom/2026/02/wall-street-ends-sharply-down-as-ai-worries-weigh.html" }
+      ]
+    },
+    {
+      "titulo": "Datos laborales y venta de bitcoin suman temor",
+      "resumen": "Los inversores evaluaron nuevos datos del mercado laboral mientras el bitcoin se vendía por temores económicos.",
+      "afecta": ["Bitcoin", "Bonos"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empleo", "volatilidad": true,
+      "impacto": "Aumentó la aversión al riesgo.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-bonds-bitcoin-165908443.html" },
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4547681-sp500-nasdaq-dow-jones-outlook-stock-market" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Dudas sobre el retorno del gasto en IA." },
+    { "sector": "Comunicaciones", "tono": "mixto", "porque": "Alphabet osciló tras su plan de inversión." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Amazon cayó después del cierre." }
+  ],
+  "riesgoHoy": "El temor a que el enorme gasto en IA no se recupere.",
+  "proximos": ["Reacción a Amazon el viernes 6", "Informe de empleo de enero"]
+}

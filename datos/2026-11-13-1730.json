@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-13-1730",
+  "fecha": "2026-11-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Viernes en baja para la tecnología: el Nasdaq cayó 0,9% y el S&P 500 0,4%; el Dow subió 0,1%.",
+    "Pesaron la salida de Huang de Nvidia y datos de inflación que no ceden.",
+    "Igual fue una buena semana: el S&P 500 ganó 2,5%, el Nasdaq 2,3% y el Dow 2,1%, cortando cuatro semanas seguidas de bajas."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.561,67", "cambio": "-0,40%", "cambioPct": -0.4 },
+    { "nombre": "Dow Jones", "valor": "52.347,55", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Nasdaq", "valor": "25.136,27", "cambio": "-0,91%", "cambioPct": -0.91 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "S&P 500 y Nasdaq bajan por las dudas sobre la IA",
+      "resumen": "La tecnología fue el principal lastre, con la renuncia de Huang todavía pesando y una inflación que no afloja.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/422772/sp-500-nasdaq-lower-as-ai-uncertainties-linger" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11132026-nid13112026/" }
+      ]
+    },
+    {
+      "titulo": "Semana ganadora después de días turbulentos",
+      "resumen": "El S&P 500 y el Nasdaq cortaron una racha de cuatro semanas en baja.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Boston Globe (AP)", "url": "https://bostonglobe.com/2026/11/13/business/stocks-fall-wall-street-notches-winning-week-after-several-turbulent-days" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/3030162/stock-market-news-for-nov-16-2026" }
+      ]
+    },
+    {
+      "titulo": "Las apuestas a una suba de la Fed en diciembre",
+      "resumen": "En la semana crecieron las apuestas a que la Fed suba las tasas en diciembre, lo que movió al dólar y a los bonos.",
+      "afecta": ["Financiero", "Dólar", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/analysis/forex-weekly-recap-fed-hike-bets-uk-gdp-major-currencies-november-9-13-2026" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Fue el principal lastre del día." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Sigue pesando la salida de Huang de Nvidia." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow cerró levemente arriba." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Más apuestas a una suba de tasas en diciembre." }
+  ],
+  "riesgoHoy": "El riesgo seguía en la tecnología y en la inflación, que mantiene viva una suba de tasas en diciembre.",
+  "proximos": [
+    "Semana próxima: resultados de Nvidia.",
+    "Datos de inflación y actividad.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-10-1730",
+  "fecha": "2026-11-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La inflación de octubre salió peor de lo esperado y las acciones bajaron: S&P 500 -0,4%, Nasdaq -0,7% y Dow -0,3%.",
+    "La tasa a 10 años saltó de 4,88% a 4,99%, aunque el petróleo siguió bajando (Brent -1,2% a 91,49 USD).",
+    "El dato refuerza la idea de una suba de tasas de la Fed en diciembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.520,93", "cambio": "-0,38%", "cambioPct": -0.38 },
+    { "nombre": "Dow Jones", "valor": "52.231,89", "cambio": "-0,30%", "cambioPct": -0.3 },
+    { "nombre": "Nasdaq", "valor": "25.065,88", "cambio": "-0,74%", "cambioPct": -0.74 },
+    { "nombre": "Bono 10 años", "valor": "4,99%", "cambio": "+0,11 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de octubre decepciona",
+      "resumen": "El informe mostró que la inflación en el país fue peor de lo que esperaban los economistas, y la bolsa bajó.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía ITV)", "url": "https://www.itv.com/news/2026-11-10/us-stocks-slip-following-a-discouraging-update-on-inflation" },
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/11/us-stocks-slip-following-a-discouraging-update-on-inflation/" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 10 años salta a 4,99%",
+      "resumen": "El rendimiento del bono a 10 años subió 11 puntos básicos en un día, después de venir bajando desde que superó 5,30% a principios de octubre.",
+      "afecta": ["Bonos", "Inmobiliario", "Servicios públicos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/11/us-stocks-slip-following-a-discouraging-update-on-inflation/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sigue cayendo",
+      "resumen": "El Brent bajó 1,2% a 91,49 USD, en contra de la suba de las tasas.",
+      "afecta": ["Energía"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/36637232/wall-street-slips-as-oil-prices-keep-dropping" }
+      ]
+    },
+    {
+      "titulo": "Leve baja de los tres índices",
+      "resumen": "El S&P 500 terminó en 7.520,93, el Nasdaq en 25.065,88 y el Dow en 52.231,89.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Tapeboard", "url": "https://tapeboard.com/blog/market-pulse-2026-11-10" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Saltó la tasa a 10 años." },
+    { "sector": "Servicios públicos", "tono": "negativo", "porque": "Sensibles a la suba de tasas." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq fue el que más cayó." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo siguió bajando." }
+  ],
+  "riesgoHoy": "El riesgo principal fue la inflación: un CPI peor de lo esperado aumenta la presión para que la Fed suba las tasas.",
+  "proximos": [
+    "Miércoles 11: resultados de CoreWeave.",
+    "Jueves 12 y viernes 13: más datos de precios.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

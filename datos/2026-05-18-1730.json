@@ -1,0 +1,60 @@
+{
+  "id": "2026-05-18-1730",
+  "fecha": "2026-05-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto: el Dow subió 0,3% mientras el S&P 500 cedió 0,1% y el Nasdaq 0,5%.",
+    "Las acciones de memoria y chips cayeron por toma de ganancias; el bono a 10 años cerró en 4,62%.",
+    "Un repunte tardío llegó con esperanzas de un acuerdo de paz entre EE.UU. e Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.403,05", "cambio": "-0,07%", "cambioPct": -0.07 },
+    { "nombre": "Dow Jones", "valor": "49.686,12", "cambio": "+0,32%", "cambioPct": 0.32 },
+    { "nombre": "Nasdaq", "valor": "26.090,73", "cambio": "-0,51%", "cambioPct": -0.51 },
+    { "nombre": "Bono 10 años", "valor": "4,62%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Toma de ganancias en chips y memorias",
+      "resumen": "Las firmas de memoria y semiconductores lideraron la baja del Nasdaq.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 0,5% y el S&P 500 sumó su segunda baja seguida.",
+      "fuentes": [
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/05/18/dow-climbs-as-profit-taking-pressures-nasdaq" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-monday-5-18-2026/" }
+      ]
+    },
+    {
+      "titulo": "Volatilidad del crudo y rendimientos altos",
+      "resumen": "El petróleo osciló con fuerza y el rendimiento a 10 años se ubicó en 4,62%.",
+      "afecta": ["Bonos", "Energía"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "Briefing.com describe una rueda 'entrecortada'.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/18/oil-volatility-and-tech-weakness-lead-to-choppy-session" }
+      ]
+    },
+    {
+      "titulo": "Esperanzas de paz impulsan un repunte tardío",
+      "resumen": "Las acciones recortaron pérdidas sobre el final por expectativas de acuerdo entre EE.UU. e Irán tras un mensaje de Trump.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Dow terminó en alza con 23 de sus 30 componentes positivos.",
+      "fuentes": [
+        { "nombre": "Sharecast / LSE", "url": "https://www.lse.co.uk/news/us-close-stocks-mixed-but-peace-deal-hopes-drive-late-rally-btpb0qsoltgtzui.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Toma de ganancias en memorias y chips." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow cerró arriba." }
+  ],
+  "riesgoHoy": "Los rendimientos de los bonos altos (4,62%) y la volatilidad del petróleo.",
+  "proximos": ["Balance de Nvidia el miércoles 20", "Minutas de la Fed"]
+}

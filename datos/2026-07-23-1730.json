@@ -1,0 +1,80 @@
+{
+  "id": "2026-07-23-1730",
+  "fecha": "2026-07-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Peor día en un mes: el S&P 500 cayó 1,2%, el Nasdaq 2,2% y el Dow 1%.",
+    "Tesla se hundió 14,6% y Alphabet 6,9% tras sus balances; el mercado volvió a dudar de lo que rinde el enorme gasto en IA.",
+    "El petróleo siguió subiendo por más combates en Medio Oriente: el Brent llegó a su nivel más alto desde mayo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.408,30", "cambio": "-1,21%", "cambioPct": -1.21 },
+    { "nombre": "Dow Jones", "valor": "51.711,65", "cambio": "-0,97%", "cambioPct": -0.97 },
+    { "nombre": "Nasdaq", "valor": "25.158,70", "cambio": "-2,15%", "cambioPct": -2.15 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "92,09 USD", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Tesla cae 14,6% y Alphabet 6,9% tras sus balances",
+      "resumen": "Tesla no alcanzó las ganancias esperadas y Alphabet subió su previsión de inversiones. Fueron los dos mayores lastres del mercado.",
+      "afecta": ["Tesla", "Alphabet", "Consumo", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Comunicaciones cayó 2,5% y consumo discrecional fue de los peores sectores.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/23/megacap-weakness-pressures-stocks-as-oil-extends-rally" },
+        { "nombre": "AP (vía Las Vegas Sun)", "url": "https://lasvegassun.com/news/2026/jul/23/how-major-us-stock-indexes-fared-thursday-7232026/" }
+      ]
+    },
+    {
+      "titulo": "El mercado revisa cuánto cuesta el gasto en IA",
+      "resumen": "Los inversores se preocuparon por los retornos del gigantesco gasto en infraestructura de las grandes tecnológicas. Amazon y Salesforce también cayeron fuerte.",
+      "afecta": ["Tecnología", "Software", "Amazon"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "interpretacion",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "Las bajas superaron a las subas 3 a 1 tanto en la Bolsa de Nueva York como en el Nasdaq.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/23/stocks-slide-as-investors-reassess-ai-spending-outlook" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/569374" }
+      ]
+    },
+    {
+      "titulo": "El Brent toca su nivel más alto desde mayo",
+      "resumen": "Más combates en Medio Oriente amenazaron el flujo mundial de crudo. La guerra entre EE.UU. e Irán no mostró señales de calmarse y empujó también las tasas.",
+      "afecta": ["Energía", "Transporte", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El petróleo caro y las tasas en alza sumaron presión sobre las acciones de crecimiento.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-over-capex-concerns-surging-oil/cZZFcFFR7Un?.tsrc=rss" },
+        { "nombre": "O Povo", "url": "https://www.opovo.com.br/noticias/economia/2026/07/23/amp/bolsas-de-ny-fecham-em-baixa-com-receio-por-gastos-em-ia-pesando-em-techs-e-petroleo-a-uss-100.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Alphabet arrastró al sector, que cayó 2,5%." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Tesla y Amazon cayeron con fuerza." },
+    { "sector": "Software", "tono": "negativo", "porque": "Salesforce estuvo entre las mayores bajas del Dow." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo siguió en alza." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue la duda sobre el gasto en IA, sumada a un petróleo que no para de subir.",
+  "proximos": [
+    "Viernes 24: reacción al balance de Intel.",
+    "Semana próxima: reunión de la Fed y más balances de grandes tecnológicas.",
+    "Evolución de la guerra entre EE.UU. e Irán."
+  ]
+}

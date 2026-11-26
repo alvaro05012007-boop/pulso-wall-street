@@ -1,0 +1,61 @@
+{
+  "id": "2026-04-01-1730",
+  "fecha": "2026-04-01",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Segundo día de subas: el Nasdaq ganó 1,16%, el S&P 500 0,72% y el Dow 0,48%.",
+    "El petróleo bajó por segundo día seguido ante la esperanza de que la guerra con Irán termine pronto.",
+    "Aun así, el S&P 500 seguía abajo cerca de 3,9% en el año."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.575,32", "cambio": "+0,72%", "cambioPct": 0.72 },
+    { "nombre": "Dow Jones", "valor": "46.565,74", "cambio": "+0,48%", "cambioPct": 0.48 },
+    { "nombre": "Nasdaq", "valor": "21.840,95", "cambio": "+1,16%", "cambioPct": 1.16 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las bolsas arrancan abril en verde",
+      "resumen": "La esperanza de un pronto final del conflicto con Irán sostuvo las compras.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Russell 2000 subió 0,6%.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/538477" },
+        { "nombre": "NBC Palm Springs", "url": "https://www.nbcpalmsprings.com/2026/04/01/stocks-close-higher-wednesday-as-dow-sp-500-and-nasdaq-post-gains" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja por segundo día",
+      "resumen": "El crudo siguió retrocediendo con las señales de desescalada.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Alivió los temores de inflación.",
+      "fuentes": [
+        { "nombre": "AOL / Motley Fool", "url": "https://www.aol.com/finance/stock-market-today-april-1-214107160.html" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq lidera las ganancias",
+      "resumen": "Las tecnológicas siguieron recuperando terreno después del salto del martes.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq subió 250 puntos.",
+      "fuentes": [
+        { "nombre": "Ground News (AP)", "url": "https://ground.news/article/us-stock-market-today-dow-rallies-nasdaq-and-s-and-p-500-gain-as-oil-surges-past-117-on-de-escalation-signals-in-middle-east-gold-and-silver-rise" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq lideró con +1,16%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó por segundo día." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Alivio por el combustible." }
+  ],
+  "riesgoHoy": "Que el optimismo por el fin de la guerra se desarme con nuevos ataques.",
+  "proximos": ["Discurso de Trump sobre Irán", "Feriado de Viernes Santo y empleo de marzo"]
+}

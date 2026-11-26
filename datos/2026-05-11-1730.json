@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-11-1730",
+  "fecha": "2026-05-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El S&P 500 cerró por primera vez arriba de 7.400 (+0,2%) y el Nasdaq también marcó récord (+0,1%); el Dow subió 0,2%.",
+    "Los semiconductores lideraron: Micron ganó 6,5% y Lumentum saltó 16,5% por su ingreso al Nasdaq-100.",
+    "El entusiasmo por la IA pesó más que el estancamiento de la paz con Irán y la suba del crudo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.412,84", "cambio": "+0,19%", "cambioPct": 0.19 },
+    { "nombre": "Dow Jones", "valor": "49.704,47", "cambio": "+0,19%", "cambioPct": 0.19 },
+    { "nombre": "Nasdaq", "valor": "26.274,13", "cambio": "+0,10%", "cambioPct": 0.10 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 cierra por primera vez arriba de 7.400",
+      "resumen": "Nuevo récord para el S&P 500 y el Nasdaq, con liderazgo de los semiconductores.",
+      "afecta": ["Semiconductores", "Micron"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Micron subió 6,5%.",
+      "fuentes": [
+        { "nombre": "Schaeffer's / Finviz", "url": "https://finviz.com/news/353114/sp-500-hits-new-record-with-first-close-above-7400" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/11/record-highs-persist-amid-semiconductor-leadership" }
+      ]
+    },
+    {
+      "titulo": "Lumentum se dispara por su ingreso al Nasdaq-100",
+      "resumen": "La empresa de componentes ópticos saltó cerca de 16,5% tras anunciarse que se sumará al índice.",
+      "afecta": ["Lumentum", "Hardware"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Fue una de las mayores subas del día.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/11/record-highs-persist-amid-semiconductor-leadership" }
+      ]
+    },
+    {
+      "titulo": "La IA pesa más que el estancamiento con Irán",
+      "resumen": "Trump rechazó una oferta de paz iraní y el crudo subió, pero el mercado igual cerró en alza.",
+      "afecta": ["Energía", "Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Reuters describe un cierre levemente positivo impulsado por la IA.",
+      "fuentes": [
+        { "nombre": "Reuters / Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-subdued-u-113337427.html" },
+        { "nombre": "LSE / Alliance News", "url": "https://www.lse.co.uk/news/us-close-stocks-advance-despite-trumps-dismissal-of-iran-peace-offer-absh6kvpbymja6z.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un posteo de Trendlyne dijo que el Dow cayó 0,13%, en contra de AP y Reuters, que lo dan en alza."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Micron y Lumentum lideraron." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió por el estancamiento con Irán." }
+  ],
+  "riesgoHoy": "El rechazo de Trump a la propuesta de paz iraní y la suba del crudo.",
+  "proximos": ["Inflación (IPC) de abril el martes 12"]
+}

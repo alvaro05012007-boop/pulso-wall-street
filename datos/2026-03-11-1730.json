@@ -1,0 +1,74 @@
+{
+  "id": "2026-03-11-1730",
+  "fecha": "2026-03-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El IPC de febrero salió como se esperaba (2,4% anual) y el mercado lo pasó casi por alto.",
+    "El foco siguió en la guerra: tres buques de carga fueron atacados frente a Irán y el petróleo volvió a subir 5%, pese a que la AIE acordó liberar un récord de 400 millones de barriles.",
+    "El Dow cayó 0,61%, el S&P 500 0,08% y el Nasdaq subió 0,08% gracias a Oracle."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.775,80", "cambio": "-0,08%", "cambioPct": -0.08 },
+    { "nombre": "Dow Jones", "valor": "47.415,39", "cambio": "-0,61%", "cambioPct": -0.61 },
+    { "nombre": "Nasdaq", "valor": "22.714,27", "cambio": "+0,08%", "cambioPct": 0.08 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "87,65", "cambio": "+5%", "cambioPct": 5 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de febrero sale en línea: 2,4% anual",
+      "resumen": "El IPC general quedó en 2,4% interanual y el núcleo en 2,5% por segundo mes seguido.",
+      "afecta": ["Mercado en general"],
+      "tono": "neutral", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "El dato no movió demasiado al mercado, más pendiente de la guerra y el petróleo.",
+      "fuentes": [
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/cpi-keeps-steady-24-yoy" },
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4563029-sp500-nasdaq-dow-jones-outlook-stock-market-cpi" }
+      ]
+    },
+    {
+      "titulo": "La AIE libera un récord de 400 millones de barriles, pero el crudo sube",
+      "resumen": "Los 32 países de la Agencia Internacional de Energía acordaron la liberación; el ataque a tres buques frente a Irán pesó más.",
+      "afecta": ["Energía"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El WTI subió 5% hasta unos USD 87,65; la noticia de la AIE ya estaba descontada.",
+      "fuentes": [
+        { "nombre": "AOL / Motley Fool", "url": "https://www.aol.com/finance/stock-market-today-march-11-215513191.html" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/11/stocks-churn-as-oil-rebounds-amid-strait-of-hormuz-tensions" },
+        { "nombre": "PBS (AP)", "url": "https://www.pbs.org/newshour/world/most-u-s-stocks-fall-as-oil-prices-get-back-to-rising" }
+      ]
+    },
+    {
+      "titulo": "Oracle se dispara por resultados y guía mejores a lo esperado",
+      "resumen": "La empresa superó estimaciones y elevó sus previsiones gracias a la demanda de IA.",
+      "afecta": ["Software", "Oracle"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Oracle subió alrededor de 9% y sostuvo al Nasdaq.",
+      "fuentes": [
+        { "nombre": "Invezz", "url": "https://invezz.com/ca/news/2026/03/11/us-stocks-mixed-as-dow-dips-oracle-surges-on-ai-inflation-cools/" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/697895/stocks-pressured-by-higher-oil-prices-but-positive-oracle-ai-news-helps-tech-stocks" }
+      ]
+    },
+    {
+      "titulo": "Gestoras de activos caen por preocupaciones con el crédito privado",
+      "resumen": "Las administradoras de fondos sufrieron por temores sobre el crédito privado.",
+      "afecta": ["Financiero"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Contribuyeron a la baja del Dow.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/us-stocks-fall-iran-conflict-oil-inflation" }
+      ]
+    }
+  ],
+  "contradicciones": ["Reuters describió la inflación como una suba esperada, mientras Invezz tituló que la inflación se enfrió."],
+  "sectores": [
+    { "sector": "Software", "tono": "positivo", "porque": "Oracle saltó por sus resultados." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Gestoras golpeadas por dudas sobre el crédito privado." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo rebotó 5%." }
+  ],
+  "riesgoHoy": "Los ataques a buques cerca de Irán, que anularon el efecto de la liberación récord de reservas.",
+  "proximos": ["Índice de precios mayoristas (PPI)", "Reunión de la Fed del 17 y 18 de marzo"]
+}

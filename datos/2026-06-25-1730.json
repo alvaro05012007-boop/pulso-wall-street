@@ -1,0 +1,64 @@
+{
+  "id": "2026-06-25-1730",
+  "fecha": "2026-06-25",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Índices casi planos: el Dow subió 0,1%, el S&P 500 quedó prácticamente sin cambios y el Nasdaq cayó 0,5%.",
+    "Micron voló 15,7% tras superar lo esperado y subir sus proyecciones; Apple cayó más de 6% tras subir precios de Mac y iPad por el costo de la memoria.",
+    "La inflación PCE se aceleró a 4,1% en mayo desde 3,8% y alimentó las apuestas a una suba de tasas de la Fed."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.357,49", "cambio": "-0,01%", "cambioPct": -0.01 },
+    { "nombre": "Dow Jones", "valor": "51.920,62", "cambio": "+0,14%", "cambioPct": 0.14 },
+    { "nombre": "Nasdaq", "valor": "~25.359", "cambio": "-0,46%", "cambioPct": -0.46 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Micron se dispara tras un balance excelente",
+      "resumen": "Micron superó las expectativas y elevó sus proyecciones; su acción subió 15,7%.",
+      "afecta": ["Micron", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Fue de las mejores del día y sostuvo a los chips.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/25/microns-beat-sparks-divergent-tech-performance" },
+        { "nombre": "AP / Local10", "url": "https://www.local10.com/business/2026/06/25/wall-street-drifts-to-a-mixed-finish-after-micron-soars-and-apple-drops/" }
+      ]
+    },
+    {
+      "titulo": "Apple cae más de 6% por subir precios",
+      "resumen": "Apple aumentó los precios de Mac y iPad por la suba del costo de las memorias.",
+      "afecta": ["Apple", "Hardware", "Consumo"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "La debilidad de las megacaps compensó la suba de los chips.",
+      "fuentes": [
+        { "nombre": "Motley Fool / Nasdaq", "url": "https://www.nasdaq.com/articles/micron-soars-apple-sinks-and-indexes-tread-water" },
+        { "nombre": "Reuters / NST", "url": "https://www.nst.com.my/amp/business/corporate/2026/06/1473010/wall-st-ends-mixed-tech-megacap-declines-outweigh-upbeat-chip" }
+      ]
+    },
+    {
+      "titulo": "La inflación PCE sube a 4,1%",
+      "resumen": "El índice de precios del consumo personal se aceleró a 4,1% anual en mayo desde 3,8% en abril.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "Reforzó las expectativas de una suba de tasas de la Fed.",
+      "fuentes": [
+        { "nombre": "Xinhua / The Star", "url": "https://www.thestar.com.my/news/world/2026/06/26/us-stocks-close-mixed-as-mega-cap-tech-weakness-offsets-chip-rally" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Briefing.com dio el Nasdaq en 25.379,60; el nivel usado (~25.359) surge del cierre de AP del día anterior menos los 118 puntos de baja, coherente con los cierres posteriores."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Micron subió 15,7%." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Apple cayó más de 6%." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Suba de precios de productos Apple." }
+  ],
+  "riesgoHoy": "Una inflación PCE de 4,1% que acerca una suba de tasas.",
+  "proximos": ["Cierre de semana el viernes 26", "Cierre del trimestre el martes 30"]
+}

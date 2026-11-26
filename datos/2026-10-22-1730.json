@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-22-1730",
+  "fecha": "2026-10-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Volvió la venta de la IA: el Nasdaq se hundió 2,6% (694 puntos) y el S&P 500 cayó 1,2%. El Dow quedó plano.",
+    "Tesla y Meta superaron lo esperado en sus resultados, pero sus acciones bajaron y reavivaron las dudas sobre cuánto gastan en IA.",
+    "El petróleo subió por versiones de que EE.UU. e Israel podrían volver a atacar a Irán. Los inversores buscaron refugio en bonos: la tasa a 10 años bajó a ~4,96%, mínimo en casi un mes."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.663,43", "cambio": "-1,21%", "cambioPct": -1.21 },
+    { "nombre": "Dow Jones", "valor": "52.867,98", "cambio": "+0,02%", "cambioPct": 0.02 },
+    { "nombre": "Nasdaq", "valor": "26.008,86", "cambio": "-2,60%", "cambioPct": -2.6 },
+    { "nombre": "Bono 10 años", "valor": "~4,96%", "cambio": "-0,17 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~99,3 USD (intradiario)", "cambio": "+2,2% (intradiario)", "cambioPct": 2.2 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Nasdaq pierde 694 puntos por el miedo al gasto en IA",
+      "resumen": "Tecnología y comunicaciones lideraron las caídas; consumo básico y servicios públicos subieron.",
+      "afecta": ["Tecnología", "Comunicaciones", "Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/406964/nasdaq-sinks-694-points-as-ai-spending-fears-resurface" },
+        { "nombre": "Tapeboard", "url": "https://tapeboard.com/blog/market-pulse-2026-10-22" }
+      ]
+    },
+    {
+      "titulo": "Tesla y Meta superan lo esperado, pero caen",
+      "resumen": "Ambas empresas presentaron buenos números, pero el mercado castigó sus planes de gasto y eso arrastró al resto de la IA.",
+      "afecta": ["Consumo", "Comunicaciones"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/us-market-wrap-tech-hit-on-ai-concerns-while-middle-east-tensions-grow" },
+        { "nombre": "Schwab", "url": "https://advisorservices.schwab.com/story/stock-market-update-open" }
+      ]
+    },
+    {
+      "titulo": "La IA arrastra a las bolsas del mundo y el petróleo toca máximo desde mayo",
+      "resumen": "El Kospi cayó 3,5%, el Hang Seng 3% y el Nikkei 2,7%. El petróleo subió por el temor a nuevos ataques contra Irán.",
+      "afecta": ["Tecnología", "Energía"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía ADN)", "url": "https://www.adn.com/business-economy/2026/10/22/ai-stocks-undercut-markets-worldwide-as-oil-climbs-to-its-highest-price-since-may/" }
+      ]
+    },
+    {
+      "titulo": "Los bonos funcionan como refugio",
+      "resumen": "La tasa a 10 años bajó de 5,13% a cerca de 4,96%, su nivel más bajo en casi un mes.",
+      "afecta": ["Bonos", "Inmobiliario", "Servicios públicos"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "RTTNews", "url": "https://www.rttnews.com/3701899/ai-jitters-rattle-markets.aspx" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Volvió la venta por el gasto en IA." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Meta cayó pese a superar lo esperado." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Tesla bajó, pero el consumo básico subió como refugio." },
+    { "sector": "Servicios públicos", "tono": "positivo", "porque": "Ganaron como refugio y con tasas más bajas." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió por la tensión con Irán." }
+  ],
+  "riesgoHoy": "El riesgo más alto estuvo en las grandes tecnológicas: incluso con buenos resultados, el mercado castigó el gasto en IA.",
+  "proximos": [
+    "Viernes 23: cierre de una semana movida, con más balances.",
+    "Semana próxima: reunión de la Fed (se espera que no toque las tasas).",
+    "3 de noviembre: elecciones de medio término en EE.UU."
+  ]
+}

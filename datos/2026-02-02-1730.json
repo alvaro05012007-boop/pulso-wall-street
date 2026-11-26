@@ -1,0 +1,61 @@
+{
+  "id": "2026-02-02-1730",
+  "fecha": "2026-02-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Febrero arrancó en alza: el Dow ganó 1,05%, el S&P 500 0,54% y el Nasdaq 0,56%.",
+    "Wall Street dejó atrás la caída de las criptomonedas y los metales, que siguieron muy volátiles.",
+    "Fue tras una noche de fuertes vaivenes: caídas en Asia y subas en Europa."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.976,44", "cambio": "+0,54%", "cambioPct": 0.54 },
+    { "nombre": "Dow Jones", "valor": "49.407,66", "cambio": "+1,05%", "cambioPct": 1.05 },
+    { "nombre": "Nasdaq", "valor": "23.592,11", "cambio": "+0,56%", "cambioPct": 0.56 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street sube pese al derrumbe de cripto y metales",
+      "resumen": "Los inversores miraron más allá de la caída del bitcoin, el oro y la plata, que siguieron volátiles.",
+      "afecta": ["Mercado en general", "Oro", "Bitcoin"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El Dow ganó 515 puntos.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-dow-turns-in-solid-performance-as-markets-look-past-crypto,-metals-rout" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-plunge-ahead-of-week-defined-by-trumps-fed-pick-jobs-data-002413401.html" }
+      ]
+    },
+    {
+      "titulo": "La tecnología empuja la suba",
+      "resumen": "Las acciones cerraron arriba con fuerza en el sector tecnológico.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Los tres índices terminaron con ganancias.",
+      "fuentes": [
+        { "nombre": "Nasdaq.com (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-strength-tech?rand=266" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/02/03/us-stocks-close-higher" }
+      ]
+    },
+    {
+      "titulo": "Noche de vaivenes en los mercados globales",
+      "resumen": "Las bolsas asiáticas cayeron y Europa subió antes de la apertura de Wall Street.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Wall Street terminó del lado positivo.",
+      "fuentes": [
+        { "nombre": "Star Tribune (AP)", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-monday-222026/601575541" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la suba del día." },
+    { "sector": "Materiales", "tono": "negativo", "porque": "Los metales siguieron volátiles tras el derrumbe." }
+  ],
+  "riesgoHoy": "La volatilidad extrema en metales y criptomonedas.",
+  "proximos": ["Balances de Alphabet y Amazon", "Informe de empleo de enero"]
+}

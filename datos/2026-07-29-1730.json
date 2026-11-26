@@ -1,0 +1,80 @@
+{
+  "id": "2026-07-29-1730",
+  "fecha": "2026-07-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La Fed mantuvo la tasa entre 3,50% y 3,75%, pero tres miembros votaron por subirla. Las acciones rebotaron un rato y después se desplomaron.",
+    "El Dow perdió 1.153 puntos (-2,2%), el S&P 500 1,5% y el Nasdaq 1,7%; el Nasdaq 100 ya está 11% debajo de su récord de junio.",
+    "El petróleo saltó cerca de 7% por nuevos ataques entre EE.UU. e Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.316,15", "cambio": "-1,52%", "cambioPct": -1.52 },
+    { "nombre": "Dow Jones", "valor": "51.594,14", "cambio": "-2,19%", "cambioPct": -2.19 },
+    { "nombre": "Nasdaq", "valor": "24.463,95", "cambio": "-1,74%", "cambioPct": -1.74 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "cerca de +7%", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed mantiene la tasa, pero tres miembros piden subirla",
+      "resumen": "La Fed dejó la tasa en el rango de 3,50% a 3,75%, como se esperaba. La votación fue 9 a 3: tres presidentes regionales querían una suba de 0,25 puntos. Fue la segunda decisión de Kevin Warsh como presidente.",
+      "afecta": ["Todo el mercado", "Financiero", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "El mercado leyó la decisión como una 'pausa dura' que deja abierta una suba en septiembre.",
+      "fuentes": [
+        { "nombre": "Investing.com (Reuters)", "url": "https://www.investing.com/news/economic-indicators/instant-view-fed-holds-rates-steady-as-three-policymakers-dissent-for-a-hike-4821495" },
+        { "nombre": "Khaleej Times (Reuters)", "url": "https://www.khaleejtimes.com/business/economy/feds-hawkish-hold-muddies-path-for-stocks-and-bonds" }
+      ]
+    },
+    {
+      "titulo": "Se esfuma el alivio post-Fed y el Dow pierde más de 1.100 puntos",
+      "resumen": "Las acciones de crecimiento subieron tras la decisión, pero a la tarde cayeron con fuerza. Tecnología (-2,5%) estuvo entre los peores sectores por la nueva baja de los chips.",
+      "afecta": ["Tecnología", "Semiconductores", "Industria"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": true,
+      "impacto": "Fue uno de los peores días del Dow en más de un año y el Nasdaq 100 quedó en zona de corrección.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/29/fed-relief-rally-fades-as-oil-semiconductors-weigh-on-stocks" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-ends-sees-worst-day-in-over-a-year-nasdaq-enters-correction-territory/cZNT9JSRJTp?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "El petróleo salta cerca de 7% por nuevos ataques entre EE.UU. e Irán",
+      "resumen": "El crudo volvió a dispararse tras nuevos ataques; el Brent subió 7,3% y cerró arriba de 88 USD. Energía fue el único sector claramente ganador (+2,1%).",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El crudo en alza sumó miedo a la inflación justo cuando la Fed debate subir tasas.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/570857" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-pressured-renewed-us-iran-hostilities" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Cayó 2,5% y perdió toda la suba posterior a la Fed." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips retomaron la caída." },
+    { "sector": "Energía", "tono": "positivo", "porque": "Único sector ganador, con +2,1%." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow perdió más de 2%." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue la combinación de una Fed dividida, con votos por subir tasas, y el petróleo otra vez en alza.",
+  "proximos": [
+    "Jueves 30: PIB del segundo trimestre, inflación PCE de junio y reacción a Microsoft y Meta.",
+    "Balances de Apple y Amazon.",
+    "Informe de empleo de julio la semana próxima."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2026-08-24-1730",
+  "fecha": "2026-08-24",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Lunes mixto: el Dow subió 0,3%, pero el S&P 500 cayó 0,3% y el Nasdaq 100 1% por una fuerte baja de los chips.",
+    "Micron perdió 5,8%, Sandisk 6,4% y Nvidia 2,9% antes de su balance del miércoles.",
+    "La tasa a 30 años pasó 5,3%, cerca de su máximo en casi dos décadas; el Brent bajó 2,3% a 90,54 USD."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.652,86", "cambio": "-0,28%", "cambioPct": -0.28 },
+    { "nombre": "Dow Jones", "valor": "53.417,16", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Nasdaq", "valor": "25.980,19", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Fuerte baja de los chips antes del balance de Nvidia",
+      "resumen": "Broadcom cayó 2,6%, Micron 5,8%, AMD 3,5%, Intel 3,1%, Sandisk 6,4% y Nvidia 2,9%.",
+      "afecta": ["Semiconductores", "Nvidia", "Micron"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "Los chips arrastraron al S&P 500 y al Nasdaq.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-on-chipmaker-weakness/cZYKu7wRJFn?.tsrc=rss" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stock-indices-finish-mostly-lower-chipmaker-weakness" }
+      ]
+    },
+    {
+      "titulo": "La tasa a 30 años supera 5,3%",
+      "resumen": "La tasa del bono a 30 años pasó 5,3%, su nivel más alto en casi dos décadas, aunque otras tasas se aflojaron.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las tasas largas siguen siendo un freno para las valuaciones.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-on-chipmaker-weakness/cZYKu7wRJFn?.tsrc=rss" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-chip-stocks-drag-despite-easing-treasury-yields" }
+      ]
+    },
+    {
+      "titulo": "Baja el petróleo",
+      "resumen": "El Brent cayó 2,3% a 90,54 USD por barril.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Ayudó al Dow, que siguió subiendo.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-on-chipmaker-weakness/cZYKu7wRJFn?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "Una semana que puede mover acciones y bonos",
+      "resumen": "El mercado arrancó una semana con el balance de Nvidia, la inflación PCE y el discurso del presidente de la Fed en Jackson Hole.",
+      "afecta": ["Todo el mercado"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La cautela dominó la rueda.",
+      "fuentes": [
+        { "nombre": "AP (vía Local 10)", "url": "https://www.local10.com/news/2026/08/24/wall-street-drifts-at-the-start-of-a-week-that-could-swing-stocks-and-bonds/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Caídas fuertes en Micron, Sandisk, AMD e Intel." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Sandisk cayó 6,4%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow subió por tercer día." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en los chips antes del balance de Nvidia, con las tasas largas cerca de máximos.",
+  "proximos": [
+    "Miércoles 26: balance de Nvidia e inflación PCE.",
+    "Viernes 28: discurso de Warsh en Jackson Hole.",
+    "Tensión con Irán."
+  ]
+}

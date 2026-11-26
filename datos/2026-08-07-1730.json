@@ -1,0 +1,93 @@
+{
+  "id": "2026-08-07-1730",
+  "fecha": "2026-08-07",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Sorpresa en el empleo: en julio se perdieron 23.000 puestos de trabajo, y eso alejó la idea de una suba de tasas de la Fed.",
+    "El S&P 500 subió 0,6% hasta un récord, el Nasdaq 1,3% y el Dow 0,3%.",
+    "La chance de una suba de tasas en la próxima reunión bajó a cerca de 44%, desde 67% una semana antes."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.757,64", "cambio": "+0,62%", "cambioPct": 0.62 },
+    { "nombre": "Dow Jones", "valor": "54.036,93", "cambio": "+0,28%", "cambioPct": 0.28 },
+    { "nombre": "Nasdaq", "valor": "26.711,63", "cambio": "+1,30%", "cambioPct": 1.3 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Se pierden 23.000 empleos en julio",
+      "resumen": "Los empleadores recortaron inesperadamente 23.000 puestos en julio. La tasa a 2 años bajó a 4,20% desde 4,22% y llegó a tocar 4,15%.",
+      "afecta": ["Todo el mercado", "Bonos", "Financiero"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Empleo",
+      "volatilidad": true,
+      "impacto": "El mercado celebró el dato flojo porque reduce la presión para que la Fed suba tasas.",
+      "fuentes": [
+        { "nombre": "AP (vía Local 10)", "url": "https://www.local10.com/news/2026/08/07/us-stocks-jump-as-employers-unexpectedly-cut-23000-jobs-raising-hopes-that-rate-hikes-can-wait/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/7/employment-report-tempers-fed-tightening-expectations" }
+      ]
+    },
+    {
+      "titulo": "Bajan las apuestas a una suba de tasas",
+      "resumen": "La probabilidad de una suba de la Fed en su próxima reunión cayó a cerca de 44%, desde 55% el día anterior y 67% una semana antes, según Reuters.",
+      "afecta": ["Bonos", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las acciones de crecimiento lideraron la suba y el S&P 500 cerró en récord.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/sp-record-high-soft-us-jobs-report-rate-hike/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/7/growth-stocks-lead-as-fed-tightening-expectations-ease" }
+      ]
+    },
+    {
+      "titulo": "El oro gana 7,1% en la semana",
+      "resumen": "El dato de empleo débil aumentó las esperanzas de tasas más bajas y el oro cerró una semana con una suba de 7,1%.",
+      "afecta": ["Materiales"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Tasas más bajas favorecen al oro, que no paga intereses.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/7/gold-surges-71-for-week-as-weak-jobs-data-boosts-fed-rate-cut-hopes" }
+      ]
+    },
+    {
+      "titulo": "Una baja tardía del petróleo empuja a las acciones",
+      "resumen": "El retroceso del crudo en el final de la rueda le dio un impulso extra a las acciones.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Petróleo más barato y tasas más bajas fueron una buena combinación para el mercado.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/7/oil-retreat-boosts-stocks-late" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las acciones de crecimiento lideraron con tasas en baja." },
+    { "sector": "Materiales", "tono": "positivo", "porque": "El oro siguió subiendo." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó al final de la rueda." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Bajaron las tasas." }
+  ],
+  "riesgoHoy": "El riesgo es que el empleo débil, que hoy alivia a la Fed, también puede ser la primera señal de una economía que se frena.",
+  "proximos": [
+    "Semana próxima: inflación (IPC) de julio, clave para la decisión de la Fed.",
+    "Negociaciones con Irán.",
+    "Últimos balances de la temporada."
+  ]
+}

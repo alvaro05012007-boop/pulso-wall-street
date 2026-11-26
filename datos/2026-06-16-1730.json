@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-16-1730",
+  "fecha": "2026-06-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto: el Dow subió 0,6% a su segundo récord seguido, pero el S&P 500 cayó 0,55% y el Nasdaq 1,15%.",
+    "Toma de ganancias en chips y acciones de IA tras el rally del lunes.",
+    "El petróleo tocó un mínimo de tres meses y favoreció a bancos e industriales."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.512,44", "cambio": "-0,55%", "cambioPct": -0.55 },
+    { "nombre": "Dow Jones", "valor": "51.999,67", "cambio": "+0,64%", "cambioPct": 0.64 },
+    { "nombre": "Nasdaq", "valor": "26.376,34", "cambio": "-1,15%", "cambioPct": -1.15 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Toma de ganancias en semiconductores",
+      "resumen": "Los chips y las acciones de IA retrocedieron tras la fuerte suba del lunes; el Nasdaq-100 cayó cerca de 1,9%.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 308 puntos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/6/16/profittaking-hits-semiconductors-oil-retreat-supports-cyclicals" },
+        { "nombre": "Barchart / Nasdaq", "url": "https://www.nasdaq.com/articles/stocks-indexes-finish-mostly-lower-chipmakers-retreat" }
+      ]
+    },
+    {
+      "titulo": "El Dow, en récord con bancos e industriales",
+      "resumen": "Las financieras y las industriales subieron y llevaron al Dow cerca de los 52.000.",
+      "afecta": ["Financiero", "Industria"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Segundo cierre récord seguido del Dow.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/dow-record-high-nasdaq-sp-500-slip-tech-selloff/" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-16-2026/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo, en mínimo de tres meses",
+      "resumen": "El crudo siguió bajando por el progreso en las negociaciones con Irán.",
+      "afecta": ["Energía", "Petróleo", "Transporte"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "La baja del crudo sostuvo a los sectores cíclicos.",
+      "fuentes": [
+        { "nombre": "Schwab Network", "url": "https://schwabnetwork.com/articles/6162026-closing-bell-dow-hits-high-oil-at-3-month-low-spacex-up-despite-weak-tech" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Reuters dio un cierre preliminar del Dow de 52.016,57; el cierre final informado es 51.999,67."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Toma de ganancias tras el rally." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Impulsó el récord del Dow." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Se benefició del crudo barato." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Crudo en mínimo de tres meses." }
+  ],
+  "riesgoHoy": "La decisión de la Fed del día siguiente con la inflación todavía alta.",
+  "proximos": ["Decisión de la Fed el miércoles 17", "Feriado de Juneteenth el viernes 19"]
+}

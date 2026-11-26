@@ -1,0 +1,93 @@
+{
+  "id": "2026-09-30-1730",
+  "fecha": "2026-09-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre de trimestre dividido: el Dow cayó 0,9%, el S&P 500 bajó 0,3% y el Nasdaq subió 0,2% gracias a la tecnología.",
+    "La inflación PCE salió más suave de lo esperado, pero la suba de las tasas y el rebote del petróleo se comieron ese alivio.",
+    "En septiembre el Dow perdió 4,3%, el S&P 500 0,5% y el Nasdaq ganó 1,9%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.651,54", "cambio": "-0,25%", "cambioPct": -0.25 },
+    { "nombre": "Dow Jones", "valor": "50.906,05", "cambio": "-0,86%", "cambioPct": -0.86 },
+    { "nombre": "Nasdaq", "valor": "26.861,06", "cambio": "+0,24%", "cambioPct": 0.24 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación PCE sale más suave, pero las tasas igual suben",
+      "resumen": "El dato de inflación PCE fue menor a lo esperado. Aun así, las tasas del Tesoro subieron y el mercado de acciones terminó mixto.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": false,
+      "impacto": "El mercado ignoró el dato suave y siguió esperando una suba de tasas de la Fed en octubre.",
+      "fuentes": [
+        { "nombre": "Anadolu Agency", "url": "https://www.aa.com.tr/en/americas/us-stocks-close-mixed-as-treasury-yields-rise-despite-softer-inflation/4074278" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-investors-shrug-off-cooler-than-expected-inflation-data-mgm-spcx-aapl-tsm-in-focus/cZMFmUrRBL1" }
+      ]
+    },
+    {
+      "titulo": "El Dow cae 444 puntos y cierra un trimestre flojo",
+      "resumen": "El Dow perdió unos 444 puntos a 50.906,05 y cortó una racha de cinco meses en alza. El S&P 500 cerró en 7.651,54 y el Nasdaq subió a 26.861,06.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Septiembre terminó con caídas en el Dow y el S&P 500 y suba en el Nasdaq.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-9302026-136901112" },
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/09/30/dow-snaps-5-month-win-streak-suffers-steep-q3-slide" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2998590/stock-market-news-for-oct-1-2026" }
+      ]
+    },
+    {
+      "titulo": "Rebota el petróleo y el Brent sigue sobre 100 dólares",
+      "resumen": "Un rebote del crudo limitó las ganancias que había generado el dato de inflación. El Brent seguía por encima de 100 dólares por las tensiones en Medio Oriente.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": true,
+      "impacto": "El petróleo caro mantiene vivo el temor inflacionario.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/588368" }
+      ]
+    },
+    {
+      "titulo": "El S&P 500 cierra el tercer trimestre con suba de 2,3%",
+      "resumen": "Según LPL, el S&P 500 bajó 0,35% en septiembre, con poca amplitud, pero terminó el trimestre con una ganancia de 2,3%.",
+      "afecta": ["Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "La suba del trimestre se concentró en pocas acciones, sobre todo tecnológicas.",
+      "fuentes": [
+        { "nombre": "LPL Financial", "url": "https://www.lpl.com/research/blog/weekly-market-performance-october-2-2026.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "La tecnología llevó al Nasdaq a terreno positivo." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo rebotó y el Brent siguió sobre 100 dólares." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas siguieron subiendo." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en las tasas largas, que subieron incluso con una inflación más suave.",
+  "proximos": [
+    "Informe de empleo de septiembre el viernes 2 de octubre.",
+    "Reunión de la Fed de octubre, con una suba de tasas esperada.",
+    "Comienzo de la temporada de balances del tercer trimestre."
+  ]
+}

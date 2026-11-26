@@ -1,0 +1,63 @@
+{
+  "id": "2026-03-12-1730",
+  "fecha": "2026-03-12",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte caída: el Dow perdió 739 puntos (-1,6%), el S&P 500 1,5% y el Nasdaq 1,8% por la intensificación de la guerra con Irán.",
+    "El Brent cerró por encima de USD 100 el barril.",
+    "Nvidia arrastró a los fabricantes de chips y el Russell 2000 cayó 2,1%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.672,62", "cambio": "-1,52%", "cambioPct": -1.52 },
+    { "nombre": "Dow Jones", "valor": "46.677,85", "cambio": "-1,56%", "cambioPct": -1.56 },
+    { "nombre": "Nasdaq", "valor": "22.311,98", "cambio": "-1,78%", "cambioPct": -1.78 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las bolsas se hunden mientras se intensifica la guerra",
+      "resumen": "Los tres índices principales cayeron más de 1,5% y el Dow perdió 739 puntos.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Russell 2000 de pequeñas empresas cayó 2,1%.",
+      "fuentes": [
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://plattevalley.newschannelnebraska.com/story/204788183/how-major-us-stock-indexes-fared-thursday-3122026-1" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/03/13/us-stocks-close-lower" }
+      ]
+    },
+    {
+      "titulo": "El Brent vuelve a superar los USD 100",
+      "resumen": "El crudo de referencia internacional cerró por encima de los USD 100 por la guerra contra Irán.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Se reavivaron los temores de inflación.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4563766-sp500-nasdaq-composite-dow-jones-stock-news" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/852007/stocks-finish-lower-as-iran-war-spurs-inflation-concerns?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "Nvidia pesa sobre los fabricantes de chips",
+      "resumen": "La caída de Nvidia arrastró al sector de semiconductores.",
+      "afecta": ["Semiconductores", "Nvidia"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice que más cayó.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-finish-mostly-lower-nvidia-weighs-chipmakers" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/stocks-finish-mostly-lower-nvidia-213427581.html" }
+      ]
+    }
+  ],
+  "contradicciones": ["Un resumen de Zacks dijo que el Nasdaq terminó en positivo, en contra de AP y Xinhua, que informan -1,8%."],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia arrastró al sector." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El Brent superó los USD 100." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cayó más de 700 puntos." }
+  ],
+  "riesgoHoy": "La escalada de la guerra con el Brent por encima de USD 100.",
+  "proximos": ["Cierre de la semana el viernes 13", "Reunión de la Fed del 17 y 18 de marzo"]
+}

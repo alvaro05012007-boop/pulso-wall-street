@@ -1,0 +1,74 @@
+{
+  "id": "2026-04-17-1730",
+  "fecha": "2026-04-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Irán declaró el Estrecho de Ormuz 'completamente abierto' al tráfico comercial y el petróleo se desplomó cerca de 11%.",
+    "El Dow saltó 869 puntos (+1,79%) y el S&P 500 (+1,2%) y el Nasdaq (+1,52%) marcaron su tercer récord seguido.",
+    "Trump aclaró que el bloqueo naval a los puertos iraníes sigue vigente hasta que haya un acuerdo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.126,06", "cambio": "+1,20%", "cambioPct": 1.2 },
+    { "nombre": "Dow Jones", "valor": "49.447,43", "cambio": "+1,79%", "cambioPct": 1.79 },
+    { "nombre": "Nasdaq", "valor": "24.468,48", "cambio": "+1,52%", "cambioPct": 1.52 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "-11%", "cambioPct": -11 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Irán reabre Ormuz y el petróleo se desploma",
+      "resumen": "El canciller iraní dijo que el estrecho está completamente abierto al tráfico comercial tras la tregua.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El crudo estadounidense cayó cerca de 11%, aunque sigue arriba de los USD 70 de antes de la guerra.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/04/oil-prices-drop-9-and-wall-street-rallies-to-a-record-after-iran-reopens-the-strait-of-hormuz/" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/04/17/oil-is-back-to-early-war-days-sp-500-jumps-to-all-time-high/" }
+      ]
+    },
+    {
+      "titulo": "Tercer récord seguido del S&P 500 y el Nasdaq",
+      "resumen": "El S&P 500 cerró en 7.126,06 y acumuló una suba de 4% en la semana.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Aerolíneas y cruceros estuvieron entre las mayores subas.",
+      "fuentes": [
+        { "nombre": "ABC News", "url": "https://abcnews.com/Business/sp-500-hits-record-high-us-iran-ceasefire/story?id=132056503" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/17/stocks-extend-record-push-as-oil-plunges-ratecut-odds-improve" }
+      ]
+    },
+    {
+      "titulo": "Mejoran las chances de recortes de tasas",
+      "resumen": "La caída del petróleo y una inflación al consumidor menor a la esperada aliviaron las preocupaciones.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "positivo", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El mercado volvió a pensar en recortes de la Fed.",
+      "fuentes": [
+        { "nombre": "Proactive Investors", "url": "https://www.proactiveinvestors.com/companies/news/1090745/dow-jones-to-lead-wall-street-higher-as-peace-hopes-and-earnings-drive-sentiment-1090745.html?.tsrc=rss" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/17/stocks-extend-record-push-as-oil-plunges-ratecut-odds-improve" }
+      ]
+    },
+    {
+      "titulo": "El bloqueo naval a Irán sigue 'en plena vigencia'",
+      "resumen": "Trump dijo que el bloqueo de los puertos iraníes se mantiene hasta que se cierre un acuerdo sobre la guerra.",
+      "afecta": ["Energía", "Defensa"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "La reapertura de Ormuz podría ser solo temporal.",
+      "fuentes": [
+        { "nombre": "BNN Bloomberg (AP)", "url": "https://www.bnnbloomberg.ca/markets/oil/2026/04/17/oil-tumbles-10-as-wall-street-rallies-to-another-record-after-iran-reopens-the-strait-of-hormuz/" }
+      ]
+    }
+  ],
+  "contradicciones": ["Las caídas del crudo informadas van de 9% a 13% según el medio, la referencia (WTI o Brent) y la hora de la medición."],
+  "sectores": [
+    { "sector": "Transporte", "tono": "positivo", "porque": "Aerolíneas y cruceros entre las mayores subas." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Cayó 2,9% con el desplome del crudo." },
+    { "sector": "Servicios públicos", "tono": "negativo", "porque": "Cedió 0,4%, uno de los dos sectores en baja." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow saltó casi 870 puntos." }
+  ],
+  "riesgoHoy": "Que la reapertura de Ormuz sea temporal mientras sigue el bloqueo naval.",
+  "proximos": ["Vencimiento de la tregua y posible extensión", "Balances de tecnológicas la semana siguiente"]
+}

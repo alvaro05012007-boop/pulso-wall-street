@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-26-1730",
+  "fecha": "2026-05-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Tras el feriado, el S&P 500 (+0,6%) y el Nasdaq (+1,2%) cerraron en récord; el Dow cedió 0,2%.",
+    "Micron saltó 19,3% y encabezó una fuerte suba de los semiconductores.",
+    "Trump dijo que las conversaciones con Irán 'avanzan bien' y el petróleo bajó."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.519,12", "cambio": "+0,61%", "cambioPct": 0.61 },
+    { "nombre": "Dow Jones", "valor": "50.461,68", "cambio": "-0,23%", "cambioPct": -0.23 },
+    { "nombre": "Nasdaq", "valor": "26.656,18", "cambio": "+1,19%", "cambioPct": 1.19 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Micron vuela 19% y los chips llevan a récords",
+      "resumen": "Micron subió 19,3% y fue la acción que más empujó al S&P 500, en una suba generalizada de semiconductores.",
+      "afecta": ["Micron", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq ganó 312 puntos y cerró en máximo histórico.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-tuesday-5-26-2026/" },
+        { "nombre": "Schaeffer's / Finviz", "url": "https://finviz.com/news/357125/nasdaq-sp-500-mark-record-closes-amid-semiconductor-surge" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja con optimismo sobre Irán",
+      "resumen": "Trump dijo que las conversaciones para terminar la guerra 'avanzan bien' y el crudo retrocedió.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Briefing.com atribuye los récords a los chips y a la baja del crudo.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/26/semiconductors-and-falling-oil-prices-fuel-fresh-record-highs" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-and-nasdaq-close-at-record-highs-dow-climbs-amid-hopes-of-diplomatic-resolution-between-us-and-iran-mu-qcom-lunr-lly-codx-in-focus/cZgOiKbReqx" }
+      ]
+    },
+    {
+      "titulo": "Las medianas y pequeñas empresas se suman",
+      "resumen": "El Russell 2000 subió 1,8% y el S&P MidCap 400 1,5%, por encima de los grandes índices.",
+      "afecta": ["Pequeñas empresas"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Solo el Dow quedó en rojo.",
+      "fuentes": [
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-surging-chip-stocks-push-s-and-p-500,-nasdaq-to-new-highs" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un resumen de Zacks muestra cifras del viernes 22 en vez del martes; se usaron las de AP y Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Micron subió 19,3%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó por el optimismo con Irán." }
+  ],
+  "riesgoHoy": "La euforia concentrada en chips, con subas muy fuertes en pocos días.",
+  "proximos": ["Inflación PCE de abril", "Novedades de las negociaciones con Irán"]
+}

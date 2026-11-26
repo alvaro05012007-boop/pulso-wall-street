@@ -1,0 +1,73 @@
+{
+  "id": "2026-01-29-1730",
+  "fecha": "2026-01-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Microsoft cayó 10%, su peor día desde marzo de 2020, por las dudas sobre su gasto en IA.",
+    "Meta subió fuerte y compensó buena parte; el Nasdaq bajó 0,72% y el S&P 500 0,13%.",
+    "El Dow subió 0,11% y el oro dio un golpe de timón a la baja."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.969,01", "cambio": "-0,13%", "cambioPct": -0.13 },
+    { "nombre": "Dow Jones", "valor": "49.071,56", "cambio": "+0,11%", "cambioPct": 0.11 },
+    { "nombre": "Nasdaq", "valor": "23.685,12", "cambio": "-0,72%", "cambioPct": -0.72 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Microsoft se hunde 10% y reaviva el temor por el gasto en IA",
+      "resumen": "Pese a buenas ganancias, el mercado castigó el gasto en inteligencia artificial; la acción cerró en 433,50 dólares.",
+      "afecta": ["Microsoft", "Software", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Bloomberg calculó una pérdida de 357.000 millones de dólares en valor, la mayor desde el golpe de DeepSeek a Nvidia.",
+      "fuentes": [
+        { "nombre": "Bloomberg Government", "url": "https://news.bgov.com/capital-markets/microsofts-357-billion-rout-is-worst-since-deepseek-hit-nvidia" },
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/01/29/stock-market-today-jan-29-microsoft-slides-and-meta-surges" }
+      ]
+    },
+    {
+      "titulo": "Meta se dispara y amortigua la caída",
+      "resumen": "Una fuerte suba de Meta Platforms compensó casi todo el daño de Microsoft en los índices.",
+      "afecta": ["Meta", "Comunicaciones"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Los índices terminaron cerca de sus máximos tras recuperar en la tarde.",
+      "fuentes": [
+        { "nombre": "PBS (AP)", "url": "https://www.pbs.org/newshour/amp/economy/microsoft-weighs-on-wall-street-as-golds-price-suddenly-snaps-back" }
+      ]
+    },
+    {
+      "titulo": "El software siente el golpe",
+      "resumen": "Todo el sector de software sufrió mientras se agotaba la paciencia del mercado con Microsoft.",
+      "afecta": ["Software"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice más castigado.",
+      "fuentes": [
+        { "nombre": "TheStreet Pro", "url": "https://pro.thestreet.com/market-commentary/software-sector-feels-the-pain-as-markets-patience-with-microsoft-thins" },
+        { "nombre": "Nasdaq.com (Zacks)", "url": "https://www.nasdaq.com/articles/cold-feet-over-ai-spending-brings-nasdaq-down" }
+      ]
+    },
+    {
+      "titulo": "Bitcoin cae 5% y el oro retrocede de golpe",
+      "resumen": "Bitcoin cayó cerca de 5% y el precio del oro dio marcha atrás de forma repentina.",
+      "afecta": ["Oro", "Bitcoin"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Señal de salida de posiciones especulativas.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/292290/microsoft-stocks-worst-day-since-march-2020-bitcoin-plunges-5-whats-moving-markets-thursday" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Motley Fool informó una baja de 0,17% para el S&P 500; con los cierres de 6.978,03 y 6.969,01 la baja es 0,13%."
+  ],
+  "sectores": [
+    { "sector": "Software", "tono": "negativo", "porque": "Microsoft arrastró al sector." },
+    { "sector": "Comunicaciones", "tono": "positivo", "porque": "Meta subió con fuerza tras su balance." }
+  ],
+  "riesgoHoy": "El temor a que el gasto en IA no rinda lo esperado.",
+  "proximos": ["Nominación de Trump para presidir la Fed", "Índice de precios al productor el viernes 30"]
+}

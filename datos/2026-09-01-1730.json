@@ -1,0 +1,95 @@
+{
+  "id": "2026-09-01-1730",
+  "fecha": "2026-09-01",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Septiembre arrancó con la tercera baja seguida: el S&P 500 cayó 0,7%, el Dow 0,8% y el Nasdaq 1%.",
+    "La venta global de bonos llevó la tasa a 10 años a 4,79%, su nivel más alto desde enero de 2025.",
+    "El petróleo saltó más de 5% después de que dos superpetroleros fueron atacados al salir del estrecho de Ormuz, en medio de nuevos choques entre EE.UU. e Irán.",
+    "El mercado ya ponía en 66% la chance de que la Fed suba la tasa en septiembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.631,47", "cambio": "-0,71%", "cambioPct": -0.71 },
+    { "nombre": "Dow Jones", "valor": "52.766,88", "cambio": "-0,79%", "cambioPct": -0.79 },
+    { "nombre": "Nasdaq", "valor": "26.099,77", "cambio": "-1,03%", "cambioPct": -1.03 },
+    { "nombre": "Bono 10 años", "valor": "4,79%", "cambio": "+4 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "90,22 USD", "cambio": "+5,2%", "cambioPct": 5.2 },
+    { "nombre": "Dólar (DXY)", "valor": "99,68", "cambio": "+0,27%", "cambioPct": 0.27 }
+  ],
+  "noticias": [
+    {
+      "titulo": "La venta global de bonos empuja la tasa a 10 años a máximos desde enero de 2025",
+      "resumen": "La tasa del Tesoro a 10 años llegó a 4,79% y la de Japón tocó 3% por primera vez desde 1996. El miedo a más inflación por el petróleo alimentó la venta.",
+      "afecta": ["Bonos", "Inmobiliario", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las tasas más altas presionaron a las acciones de crecimiento y a todo el mercado.",
+      "fuentes": [
+        { "nombre": "AP (vía BNN Bloomberg)", "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/09/01/bond-sell-off-heats-up-as-oil-prices-continue-to-rise/" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/09/01/oil-prices-bond-yields-inflation-fe/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo salta más de 5% por ataques a petroleros en Ormuz",
+      "resumen": "El WTI cerró en 90,22 USD (+5,2%) y el Brent en 94,65 USD (+4,6%) después de que dos superpetroleros fueron alcanzados por proyectiles al intentar salir del estrecho de Ormuz.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "Fue el primer cierre del WTI arriba de 90 USD en más de un mes y reavivó el miedo a la inflación.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-drop-on-bond-sell-off,-oil-price-surge" },
+        { "nombre": "Metrobank", "url": "https://wealthinsights.metrobank.com.ph/news/global-markets-global-bonds-extend-selloff-oil-prices-surge-on-renewed-us-iran-strikes" }
+      ]
+    },
+    {
+      "titulo": "Tercera baja seguida en Wall Street",
+      "resumen": "El Dow perdió 419 puntos y el Nasdaq cayó 1%, con bajas en fabricantes de chips como Nvidia, AMD y Micron.",
+      "afecta": ["Semiconductores", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Septiembre, históricamente el peor mes para las acciones, empezó en rojo.",
+      "fuentes": [
+        { "nombre": "La Nación (AP)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-912026-nid01092026/" },
+        { "nombre": "PBS", "url": "https://pbs.org/newshour/economy/stocks-slip-on-wall-street-under-pressure-from-rising-oil-prices-bond-sell-off" }
+      ]
+    },
+    {
+      "titulo": "Crecen las apuestas a una suba de tasas de la Fed en septiembre",
+      "resumen": "Según CME FedWatch, el mercado asignaba 66% de probabilidad a una suba de tasas en la reunión de septiembre. Las vacantes laborales de julio (JOLTS) dieron 7,27 millones, apenas debajo de lo esperado.",
+      "afecta": ["Financiero", "Bonos"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La posibilidad de una suba de tasas sumó presión a bonos y acciones.",
+      "fuentes": [
+        { "nombre": "Ringside (Buttondown)", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-september-1/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió más de 5% por los ataques en Ormuz." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia, AMD y Micron cayeron con la suba de tasas." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas largas en máximos de más de un año golpean al sector." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible más caro pesa sobre los costos." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue la combinación de petróleo arriba de 90 USD y tasas largas en máximos, que alimentó la idea de una Fed más dura.",
+  "proximos": [
+    "Viernes 4: informe de empleo de agosto.",
+    "Discursos de funcionarios de la Fed antes de la reunión de septiembre.",
+    "Evolución del conflicto con Irán y del tránsito por Ormuz."
+  ]
+}

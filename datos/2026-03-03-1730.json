@@ -1,0 +1,71 @@
+{
+  "id": "2026-03-03-1730",
+  "fecha": "2026-03-03",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Los tres índices cerraron en baja por la guerra con Irán, aunque lejos de los mínimos del día: el Dow llegó a perder más de 1.200 puntos y terminó cediendo 403.",
+    "El S&P 500 cayó 0,94% y tocó su nivel más bajo en algo más de tres meses.",
+    "El petróleo siguió subiendo y el VIX marcó su cierre más alto desde noviembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.816,63", "cambio": "-0,94%", "cambioPct": -0.94 },
+    { "nombre": "Dow Jones", "valor": "48.501,27", "cambio": "-0,83%", "cambioPct": -0.83 },
+    { "nombre": "Nasdaq", "valor": "22.516,69", "cambio": "-1,02%", "cambioPct": -1.02 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow recorta una caída de 1.200 puntos y cierra con -403",
+      "resumen": "La ampliación de la guerra en Medio Oriente y el miedo a más inflación golpearon a las acciones, que igual se recuperaron sobre el final.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 bajó 0,94% y el Nasdaq 1,02%.",
+      "fuentes": [
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/03/how-major-us-stock-indexes-fared-tuesday-3-3-2026/" },
+        { "nombre": "Shaw Local (AP)", "url": "https://www.shawlocal.com/news/2026/03/03/dow-drops-400-after-trimming-an-early-plunge-of-1200-as-oil-prices-climb-even-higher/" }
+      ]
+    },
+    {
+      "titulo": "El crudo trepa a máximos desde enero de 2025",
+      "resumen": "El WTI se movió cerca de USD 77 en la rueda, extendiendo la suba del lunes; Irak recortó producción por exportaciones bloqueadas.",
+      "afecta": ["Energía"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Trump dijo que no tenía apuro en terminar el conflicto, lo que sostuvo los precios.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil/news/530289" }
+      ]
+    },
+    {
+      "titulo": "El VIX sube por cuarto día seguido",
+      "resumen": "El índice del miedo de Wall Street marcó su cierre más alto desde el 20 de noviembre.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Los inversores pagaron más por cobertura ante la incertidumbre bélica.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/328852/vix-logs-highest-close-since-november-despite-easing-fears" }
+      ]
+    },
+    {
+      "titulo": "Venta de chips en Corea del Sur arrastra a las tecnológicas",
+      "resumen": "La presión vendedora sobre fabricantes de chips en Asia se sumó a las caídas en Wall Street.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice que más cayó.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4560124-sp500-nasdaq-composite-dow-jones-wall-street" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Ventas de chips en Corea del Sur contagiaron al sector." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo siguió subiendo por la guerra." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible más caro siguió pesando sobre aerolíneas." }
+  ],
+  "riesgoHoy": "La ampliación de la guerra con Irán y su efecto en el petróleo y la inflación.",
+  "proximos": ["Señales de negociación o escalada con Irán", "Informe de empleo del viernes 6"]
+}

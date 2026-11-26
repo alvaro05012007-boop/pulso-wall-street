@@ -1,0 +1,95 @@
+{
+  "id": "2026-07-24-1730",
+  "fecha": "2026-07-24",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre de semana mixto: el Dow subió 0,5%, el S&P 500 quedó casi plano y el Nasdaq cayó 0,6% por la debilidad de los chips.",
+    "El petróleo bajó por primera vez en una semana: el WTI cayó 3% a 89,34 USD tras versiones de negociaciones.",
+    "Intel superó las estimaciones. En la semana los tres índices bajaron y el Nasdaq perdió 2,1%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.411,98", "cambio": "+0,05%", "cambioPct": 0.05 },
+    { "nombre": "Dow Jones", "valor": "51.947,25", "cambio": "+0,46%", "cambioPct": 0.46 },
+    { "nombre": "Nasdaq", "valor": "24.996,83", "cambio": "-0,64%", "cambioPct": -0.64 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "89,34 USD", "cambio": "-3,0%", "cambioPct": -3.0 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo baja por primera vez en una semana",
+      "resumen": "El WTI cayó 2,75 USD (-3%) a 89,34 USD y el Brent casi 4% a 96,78 USD, después de un salto temprano, por versiones de negociaciones para terminar la guerra.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "La baja del crudo ayudó a que la mayoría de las acciones subiera.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/24/semiconductor-weakness-trims-broad-market-gains" },
+        { "nombre": "LPL Research", "url": "https://www.lpl.com/research/blog/weekly-market-performance-july-24-2026.html" }
+      ]
+    },
+    {
+      "titulo": "Los chips recortan la suba del mercado",
+      "resumen": "La debilidad de los semiconductores limitó las ganancias y dejó al Nasdaq en baja.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Nasdaq cerró su peor semana en varias, con -2,1%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/24/semiconductor-weakness-trims-broad-market-gains" },
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-friday-7-24-2026/" }
+      ]
+    },
+    {
+      "titulo": "Intel supera las estimaciones",
+      "resumen": "Intel presentó resultados por encima de lo esperado, aunque el mercado se mantuvo cauteloso.",
+      "afecta": ["Intel", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "El buen balance no alcanzó para sostener al resto del sector.",
+      "fuentes": [
+        { "nombre": "Mezha", "url": "https://mezha.net/eng/bukvy/98c2800c_us_stocks_rise/" }
+      ]
+    },
+    {
+      "titulo": "Tercera semana seguida de baja para el Dow",
+      "resumen": "El Dow cerró en alza el viernes pero sumó su tercera semana negativa seguida; el S&P 500 perdió 0,6% en la semana.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado llega a la semana de la Fed con tres semanas de debilidad.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/372503/dow-finishes-3rd-losing-week-on-a-high-note" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 24.975,82; con la baja de 161,87 puntos sobre el cierre de Briefing.com da 24.996,83. Zacks publicó por error el cierre del Dow del jueves."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo cayó 3%." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "La debilidad de los chips recortó la suba." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "El combustible bajó." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow subió 0,5%." }
+  ],
+  "riesgoHoy": "El riesgo siguió siendo el petróleo, muy volátil según las noticias de la guerra y de posibles negociaciones.",
+  "proximos": [
+    "Semana próxima: reunión de la Fed.",
+    "Balances de Microsoft, Meta, Apple y Amazon.",
+    "Informe de empleo de julio el viernes 7 de agosto."
+  ]
+}

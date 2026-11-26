@@ -1,0 +1,94 @@
+{
+  "id": "2026-07-07-1730",
+  "fecha": "2026-07-07",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Bajada general: el S&P 500 cayó 0,45%, el Nasdaq 1,2% y el Dow 0,25% después de tocar otro récord a la mañana.",
+    "El petróleo saltó más de 7% tras ataques de Irán a barcos en el estrecho de Ormuz, y EE.UU. anunció que revoca la licencia que permitía ventas de crudo iraní.",
+    "SpaceX cayó más de 6% en su primer día dentro del Nasdaq 100 y los chips volvieron a bajar."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.503,85", "cambio": "-0,45%", "cambioPct": -0.45 },
+    { "nombre": "Dow Jones", "valor": "52.925,15", "cambio": "-0,25%", "cambioPct": -0.25 },
+    { "nombre": "Nasdaq", "valor": "25.818,69", "cambio": "-1,16%", "cambioPct": -1.16 },
+    { "nombre": "Bono 10 años", "valor": "4,55%", "cambio": "+8 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "más de +7%", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo salta más de 7% por ataques en Ormuz",
+      "resumen": "Irán atacó barcos en el estrecho de Ormuz y el Tesoro de EE.UU. anunció que revoca la licencia que permitía ventas de petróleo iraní.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "La suba del crudo empujó las tasas y pesó sobre las acciones.",
+      "fuentes": [
+        { "nombre": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/ezines/2026/07/07/dow-pulls-back-from-record-as-chip-stocks-tumble" },
+        { "nombre": "Proactive Investors", "url": "https://www.proactiveinvestors.com/companies/news/1095341/wall-street-closes-lower-as-chip-selloff-and-oil-surge-weigh-on-markets-1095341.html" }
+      ]
+    },
+    {
+      "titulo": "Se apaga el rebote de los chips y el Nasdaq cae 1,2%",
+      "resumen": "Los inversores volvieron a salir de las acciones ligadas a la IA y el Nasdaq perdió 302 puntos. El Dow había tocado un récord a la mañana pero terminó en baja.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Fue la primera baja del S&P 500 en tres ruedas.",
+      "fuentes": [
+        { "nombre": "Thrive in Markets", "url": "https://thriveinmarkets.com/es/market-insights/evening-review-2026-07-07/" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/07/08/us-stocks-close-lower-on-ai-trade-rotation-rising-oil-prices" }
+      ]
+    },
+    {
+      "titulo": "SpaceX cae más de 6% en su debut en el Nasdaq 100",
+      "resumen": "A pesar de unos 4.300 millones de dólares de compras obligadas de fondos índice y de recomendaciones favorables, la acción de SpaceX bajó más de 6%.",
+      "afecta": ["SpaceX", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": true,
+      "impacto": "La caída mostró que las compras de los fondos ya estaban descontadas.",
+      "fuentes": [
+        { "nombre": "Thrive in Markets", "url": "https://thriveinmarkets.com/es/market-insights/evening-review-2026-07-07/" },
+        { "nombre": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/07/07/stock-market-live-july-7-2026-sp-500-spy-drops-on-tech-concerns/" }
+      ]
+    },
+    {
+      "titulo": "Preocupa el déficit comercial",
+      "resumen": "El mercado también siguió los datos de balanza comercial, que se sumaron a las tensiones en Medio Oriente.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": false,
+      "impacto": "El dato sumó cautela, aunque el movimiento lo dominaron el petróleo y los chips.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-amid-geopolitical-worries,-tradedeficit-concerns" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo saltó más de 7% por los ataques en Ormuz." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips volvieron a caer tras el rebote del lunes." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible más caro sube los costos." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "SpaceX cayó más de 6% en su debut en el Nasdaq 100." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue el regreso de la tensión en Ormuz, que disparó el petróleo y las tasas.",
+  "proximos": [
+    "Minutas de la Fed el miércoles.",
+    "Evolución de la tregua entre EE.UU. e Irán.",
+    "Ventas preliminares de Samsung."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "2026-07-02-1730",
+  "fecha": "2026-07-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El Dow subió 1,1% y cerró en récord, el S&P 500 quedó plano y el Nasdaq cayó 0,8% por otra baja de los chips.",
+    "El informe de empleo de junio salió flojo: 57.000 puestos nuevos contra 110.000 esperados, y eso bajó el miedo a una suba de tasas de la Fed.",
+    "La tasa a 10 años quedó en 4,48% y el dólar cayó 0,5%. El viernes 3 la bolsa no abre por el feriado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.483,24", "cambio": "0,00%", "cambioPct": 0.0 },
+    { "nombre": "Dow Jones", "valor": "52.900,07", "cambio": "+1,14%", "cambioPct": 1.14 },
+    { "nombre": "Nasdaq", "valor": "25.832,67", "cambio": "-0,80%", "cambioPct": -0.8 },
+    { "nombre": "Bono 10 años", "valor": "4,48%", "cambio": "-0,2 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "68,68 USD", "cambio": "0,0%", "cambioPct": 0.0 },
+    { "nombre": "Dólar (DXY)", "valor": "100,87", "cambio": "-0,5%", "cambioPct": -0.5 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Empleo flojo en junio: 57.000 puestos contra 110.000 esperados",
+      "resumen": "La economía sumó 57.000 empleos en junio, muy por debajo de lo previsto, y mayo se corrigió a la baja a 129.000. El desempleo bajó a 4,2%.",
+      "afecta": ["Todo el mercado", "Financiero"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Empleo",
+      "volatilidad": true,
+      "impacto": "El dato débil calmó el miedo a una suba de tasas: la probabilidad de un aumento en julio bajó a 17,6% desde 28,9%, según CME FedWatch.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-after-weak-jobs-report,-dow-hits-new-high" },
+        { "nombre": "Ringside (Buttondown)", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-jul-2/" }
+      ]
+    },
+    {
+      "titulo": "El Dow cierra en récord mientras los chips siguen cayendo",
+      "resumen": "El Dow ganó 594 puntos hasta 52.900,07. Más de dos tercios de las acciones del S&P 500 subieron, pero los chips y otras ganadoras de la IA lo dejaron plano.",
+      "afecta": ["Semiconductores", "Industria", "Financiero"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "En la semana el Dow ganó cerca de 2%, el S&P 500 1,8% y el Nasdaq 2,1%.",
+      "fuentes": [
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-thursday-7-2-2026/" },
+        { "nombre": "Anchorage Daily News (AP)", "url": "https://www.adn.com/business-economy/2026/07/02/the-dow-hits-record-as-most-of-wall-street-rises-but-slumping-ai-stocks-keep-indexes-mixed/" }
+      ]
+    },
+    {
+      "titulo": "Tesla cae 8% pese a buenas entregas",
+      "resumen": "Las acciones de Tesla perdieron alrededor de 8% en la rueda aunque el reporte de entregas del trimestre fue fuerte.",
+      "afecta": ["Tesla", "Consumo"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": true,
+      "impacto": "La baja de Tesla sumó presión sobre el Nasdaq.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-closes-at-record-high-as-weak-jobs-data-calm-rate-hike-fears-while-chipmakers-weigh-on-s-and-p-500-nasdaq-wmt-meta-gm-kr-qcom-in-focus/cZmeyHpR7j7" }
+      ]
+    },
+    {
+      "titulo": "Bajan la tasa a 10 años y el dólar; el petróleo, en mínimos de varios meses",
+      "resumen": "La tasa a 10 años terminó en 4,48% tras tocar 4,50%, el índice dólar cayó 0,5% a 100,87 y el WTI quedó cerca de 68,7 USD, en la zona de mínimos de unos cuatro meses.",
+      "afecta": ["Bonos", "Energía"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Tasas y dólar más bajos son un alivio para las acciones, en especial las de empresas chicas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/bond-market-update/archive/2026/7/2/treasury-market-summary" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stock-indexes-settle-mixed-chipmakers-retreat" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips siguieron cayendo por segundo día." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Las acciones cíclicas empujaron al Dow a un récord." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Menos miedo a una suba de tasas ayudó al sector." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Tesla cayó 8%, pero la mayoría de las acciones de consumo subió." }
+  ],
+  "riesgoHoy": "El riesgo principal fue la debilidad del empleo, que alivia a la Fed pero también puede anticipar una economía más lenta.",
+  "proximos": [
+    "Viernes 3: mercado cerrado por el feriado del 4 de julio.",
+    "Minutas de la última reunión de la Fed la semana próxima.",
+    "Evolución de las acciones de chips e IA."
+  ]
+}

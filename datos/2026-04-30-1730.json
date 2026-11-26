@@ -1,0 +1,73 @@
+{
+  "id": "2026-04-30-1730",
+  "fecha": "2026-04-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Cierre de abril en récords: el S&P 500 subió 1,02% hasta 7.209,01 y el Nasdaq 0,89%; el Dow ganó 790 puntos (+1,62%).",
+    "Los balances empujaron: Alphabet levantó a comunicaciones y Caterpillar al Dow.",
+    "El S&P 500 y el Nasdaq tuvieron su mejor mes desde 2020, aunque el Brent llegó a superar USD 125 por la guerra."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.209,01", "cambio": "+1,02%", "cambioPct": 1.02 },
+    { "nombre": "Dow Jones", "valor": "49.652,14", "cambio": "+1,62%", "cambioPct": 1.62 },
+    { "nombre": "Nasdaq", "valor": "24.892,31", "cambio": "+0,89%", "cambioPct": 0.89 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 y el Nasdaq cierran su mejor mes desde 2020",
+      "resumen": "Abril terminó con récords de cierre para ambos índices gracias a los balances corporativos.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Las mayores subas mensuales en años.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-street-s-p-500-nasdaq-biggest-monthly-gains/" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/349637/sp-500-nasdaq-finish-best-month-since-2020-with-records" }
+      ]
+    },
+    {
+      "titulo": "Alphabet y Caterpillar lideran tras sus resultados",
+      "resumen": "El balance de Alphabet impulsó a comunicaciones y Caterpillar empujó al Dow.",
+      "afecta": ["Comunicaciones", "Industria", "Alphabet", "Caterpillar"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "El Dow fue el índice que más subió (+1,62%).",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-apr-30-151918957.html" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/30/stocks-end-april-at-record-highs-on-strong-earnings-growth" }
+      ]
+    },
+    {
+      "titulo": "Resultados mixtos entre las tecnológicas",
+      "resumen": "No todas las grandes tecnológicas convencieron y el Nasdaq 100 quedó rezagado frente al Dow.",
+      "afecta": ["Tecnología", "Software"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "El Nasdaq subió menos que el Dow y el S&P 500.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/546819" }
+      ]
+    },
+    {
+      "titulo": "El Brent supera USD 125 por la guerra con Irán",
+      "resumen": "El crudo internacional saltó por encima de USD 125 mientras las bolsas del mundo retrocedían.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Wall Street lo pasó por alto gracias a los balances.",
+      "fuentes": [
+        { "nombre": "KSAT (AP)", "url": "https://www.ksat.com/business/2026/04/30/brent-crude-tops-125-a-barrel-on-iran-war-worries-while-world-stocks-retreat/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Comunicaciones", "tono": "positivo", "porque": "Alphabet impulsó al sector." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Caterpillar empujó al Dow." },
+    { "sector": "Tecnología", "tono": "mixto", "porque": "Balances dispares entre las grandes." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El Brent superó USD 125." }
+  ],
+  "riesgoHoy": "El petróleo en máximos de la guerra mientras las bolsas cotizan en récords.",
+  "proximos": ["Informe de empleo de abril", "Balance de Apple", "Evolución de las negociaciones con Irán"]
+}

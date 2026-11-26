@@ -1,0 +1,94 @@
+{
+  "id": "2026-08-14-1730",
+  "fecha": "2026-08-14",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Las ventas minoristas cayeron 0,6% en julio, la peor baja desde mayo de 2025, y las acciones se alejaron un poco de sus récords.",
+    "El S&P 500 cedió 0,2%, el Dow 0,2% y el Nasdaq 0,3%; Applied Materials cayó 5% pese a superar estimaciones.",
+    "Igual, el S&P 500 y el Nasdaq sumaron su tercera semana seguida en alza. El petróleo cerró la semana en 82,17 USD."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.785,76", "cambio": "-0,17%", "cambioPct": -0.17 },
+    { "nombre": "Dow Jones", "valor": "53.732,41", "cambio": "-0,20%", "cambioPct": -0.2 },
+    { "nombre": "Nasdaq", "valor": "26.729,16", "cambio": "-0,28%", "cambioPct": -0.28 },
+    { "nombre": "Bono 10 años", "valor": "4,69%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "82,17 USD", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las ventas minoristas caen 0,6% en julio",
+      "resumen": "Fue la mayor baja desde mayo de 2025, cuando se esperaba una leve suba. Parte se explica porque junio estuvo inflado por el Mundial y por el Prime Day de Amazon.",
+      "afecta": ["Consumo", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": false,
+      "impacto": "Alimentó las dudas sobre el consumidor, aunque algunos analistas pidieron no sobrerreaccionar.",
+      "fuentes": [
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/sp-500-eases-its-record-consumer-finally-blinks" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/08/15/us-stocks-close-lower-on-weak-retail-sales-data" }
+      ]
+    },
+    {
+      "titulo": "Cae la confianza del consumidor",
+      "resumen": "El índice preliminar de la Universidad de Michigan para agosto bajó a 51,0, peor de lo esperado.",
+      "afecta": ["Consumo"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "PIB",
+      "volatilidad": false,
+      "impacto": "Se sumó a las señales de enfriamiento de la economía.",
+      "fuentes": [
+        { "nombre": "Vermögenszentrum (Alliance News)", "url": "https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/new-york-market-close-shares-lower-retail-sales-sentiment-slump" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/3859003/stocks-close-lower-on-worries-about-us-economy" }
+      ]
+    },
+    {
+      "titulo": "Applied Materials cae 5% pese a superar estimaciones",
+      "resumen": "El fabricante de equipos para chips bajó 5% después de su balance y fue una de las peores acciones del S&P 500.",
+      "afecta": ["Applied Materials", "Semiconductores"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Pesó sobre el Nasdaq y el sector de chips.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/sp-500-dips-applied-materials-middle-east-tensions/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube 6% en la semana y empuja las tasas",
+      "resumen": "El crudo fue un viento en contra toda la semana y cerró en 82,17 USD. La tasa a 10 años siguió al petróleo y subió a 4,69%.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Las tasas más altas limitaron el entusiasmo por la inflación más tranquila.",
+      "fuentes": [
+        { "nombre": "Briefing.com (Weekly Wrap)", "url": "https://www.briefing.com/weekly-wrap/archive/2026/8/14/weekly-wrap-for-august-10-2026" },
+        { "nombre": "Ground News", "url": "https://ground.news/article/dollar-drops-while-weak-us-sales-meet-oils-6-weekly-gain" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Consumo", "tono": "negativo", "porque": "Ventas minoristas y confianza en baja." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Applied Materials cayó 5%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo cerró una semana con fuerte suba." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "La tasa a 10 años subió a 4,69%." }
+  ],
+  "riesgoHoy": "El riesgo fue la señal de que el consumidor empieza a flojear mientras el petróleo y las tasas siguen altos.",
+  "proximos": [
+    "Semana próxima: balances de Walmart y otros minoristas.",
+    "Minutas de la Fed.",
+    "Novedades sobre Ormuz."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2026-03-30-1730",
+  "fecha": "2026-03-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda mixta: el Dow subió 0,11% pero el S&P 500 cayó 0,39% y el Nasdaq 0,73%, arrastrados por los fabricantes de chips.",
+    "El crudo estadounidense cerró por encima de USD 100 por primera vez desde 2022 tras una nueva advertencia de Trump a Teherán.",
+    "Micron, Lam Research y Western Digital cayeron cerca de 7%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.343,72", "cambio": "-0,39%", "cambioPct": -0.39 },
+    { "nombre": "Dow Jones", "valor": "45.216,14", "cambio": "+0,11%", "cambioPct": 0.11 },
+    { "nombre": "Nasdaq", "valor": "20.794,64", "cambio": "-0,73%", "cambioPct": -0.73 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "más de 100", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El WTI cierra arriba de USD 100 por primera vez desde 2022",
+      "resumen": "La nueva advertencia de Trump a Irán y la ampliación de la guerra empujaron al crudo estadounidense.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El petróleo caro alimentó un tono de aversión al riesgo.",
+      "fuentes": [
+        { "nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-30/us-crude-oil-settles-above-100-for-first-time-since-2022" },
+        { "nombre": "World Oil", "url": "https://www.worldoil.com/news/2026/3/30/wti-settles-above-100-for-first-time-since-2022-amid-iran-war-escalation" }
+      ]
+    },
+    {
+      "titulo": "Los chips se hunden y frenan el rebote",
+      "resumen": "Las fuertes caídas de semiconductores compensaron las subas de financieras y servicios públicos.",
+      "afecta": ["Semiconductores", "Micron", "Lam Research", "Western Digital"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Micron, Lam Research y Western Digital cayeron cerca de 7%.",
+      "fuentes": [
+        { "nombre": "IBTimes", "url": "https://www.ibtimes.com/sp-500-nasdaq-fall-chipmakers-struggle-dow-jones-climbs-3804420" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-and-nasdaq-slip-as-chip-stocks-tank-oil-surges-193559576.html" }
+      ]
+    },
+    {
+      "titulo": "Las bolsas pierden el rebote inicial antes del fin de trimestre",
+      "resumen": "Los índices arrancaron en alza pero la debilidad tecnológica los dio vuelta.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Solo el Dow logró cerrar en positivo.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/30/stocks-fade-after-early-bounce-as-tech-weakness-weighs-ahead-of-quarter-end" },
+        { "nombre": "StreetInsider (Reuters)", "url": "https://streetinsider.com/Reuters/Wall+Street+indexes+mostly+fall+as+Iran+war+widens/26236078.html" }
+      ]
+    }
+  ],
+  "contradicciones": ["Algunas fuentes dan la caída del Nasdaq en 0,8% y otras en 0,7%."],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Micron, Lam y Western Digital cayeron cerca de 7%." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Subió y compensó parte de la baja." },
+    { "sector": "Servicios públicos", "tono": "positivo", "porque": "Funcionó como refugio." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El WTI superó los USD 100." }
+  ],
+  "riesgoHoy": "La ampliación de la guerra con el crudo estadounidense por encima de USD 100.",
+  "proximos": ["Cierre de trimestre el martes 31", "Informe de empleo de marzo"]
+}

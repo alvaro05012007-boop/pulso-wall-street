@@ -1,0 +1,72 @@
+{
+  "id": "2026-03-17-1730",
+  "fecha": "2026-03-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Segunda suba seguida, aunque moderada: el S&P 500 ganó 0,25% y el Nasdaq 0,47%.",
+    "El mercado esperaba que la Fed dejara las tasas sin cambios al empezar su reunión de dos días.",
+    "El petróleo siguió subiendo, pero los chips y la infraestructura de IA sostuvieron a los índices."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.716,09", "cambio": "+0,25%", "cambioPct": 0.25 },
+    { "nombre": "Dow Jones", "valor": "46.993,26", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Nasdaq", "valor": "22.479,53", "cambio": "+0,47%", "cambioPct": 0.47 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las bolsas suben a la espera de la Fed",
+      "resumen": "Los inversores apostaban a que la Reserva Federal mantendría las tasas en su reunión.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El Russell 2000 subió 0,7%.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4565282-sp500-nasdaq-composite-dow-jones-stock-market-news" },
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://sandhills.newschannelnebraska.com/story/208746423/how-major-us-stock-indexes-fared-tuesday-3172026" }
+      ]
+    },
+    {
+      "titulo": "Se calman los temores de disrupción por la IA",
+      "resumen": "Chips e infraestructura de IA ayudaron a que el mercado mire más allá de nuevas preocupaciones por la guerra.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice que más subió.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-ai-disruption-fears-ease" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sigue en alza con la guerra",
+      "resumen": "El crudo volvió a subir, pero las acciones lo dejaron en segundo plano.",
+      "afecta": ["Energía"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Las subas de los índices fueron moderadas.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/us-stocks-close-higher-on-tuesday-as-oil-continues-gains/cZ3Ejt7RIXD" },
+        { "nombre": "Anadolu", "url": "https://www.aa.com.tr/en/americas/us-stocks-close-with-gains-on-middle-east-tensions-oil-volatility/3868879" }
+      ]
+    },
+    {
+      "titulo": "Trade Desk cae más de 7%",
+      "resumen": "La empresa de publicidad digital estuvo entre las peores del S&P 500.",
+      "afecta": ["Comunicaciones", "Trade Desk"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Una de las mayores bajas del índice en el día.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/338061/stocks-log-more-wins-as-investors-eye-fomc-meeting" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Chips de IA impulsaron al mercado." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo siguió subiendo." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Trade Desk cayó más de 7%." }
+  ],
+  "riesgoHoy": "Que la Fed suene más dura de lo esperado por el impacto inflacionario del petróleo.",
+  "proximos": ["Decisión de la Fed y conferencia de Powell el miércoles 18"]
+}

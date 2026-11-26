@@ -1,0 +1,64 @@
+{
+  "id": "2026-03-06-1730",
+  "fecha": "2026-03-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Golpe doble: la economía perdió 92.000 empleos en febrero y el petróleo saltó 12% por la guerra con Irán.",
+    "El S&P 500 cayó 1,33% y el Nasdaq 1,59%; el Dow y el S&P tocaron mínimos de más de tres meses.",
+    "El VIX cerró en 29,49, su nivel más alto desde abril de 2022, y el crudo tuvo la mejor semana de su historia."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.740,02", "cambio": "-1,33%", "cambioPct": -1.33 },
+    { "nombre": "Dow Jones", "valor": "47.501,55", "cambio": "-0,95%", "cambioPct": -0.95 },
+    { "nombre": "Nasdaq", "valor": "22.387,68", "cambio": "-1,59%", "cambioPct": -1.59 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "+12%", "cambioPct": 12 },
+    { "nombre": "Dólar (DXY)", "valor": "98,97", "cambio": "-0,4%", "cambioPct": -0.4 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Se pierden 92.000 empleos en febrero",
+      "resumen": "El informe de empleo mostró una caída inesperada de puestos y el desempleo subió a 4,4%.",
+      "afecta": ["Mercado en general", "Consumo"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Empleo", "volatilidad": true,
+      "impacto": "Subieron las apuestas a un recorte de tasas en abril, aunque casi nadie lo espera para marzo.",
+      "fuentes": [
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/non-farm-payrolls-sink-92k-february" },
+        { "nombre": "The National", "url": "https://www.thenationalnews.com/news/us/2026/03/06/us-stocks-down-and-oil-surges-as-job-losses-rattle-traders" }
+      ]
+    },
+    {
+      "titulo": "El crudo salta 12% y cierra por encima de USD 90",
+      "resumen": "El petróleo estadounidense registró la mejor semana de su historia por la guerra en Medio Oriente.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Las energéticas subieron mientras el resto del mercado caía.",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/03/06/stock-market-today-march-6-energy-stocks-rise-as-oil-closes-over-usd90-on-middle-east-tensions/" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/332877/stocks-sink-as-oil-logs-best-weekly-performance-on-record" }
+      ]
+    },
+    {
+      "titulo": "Los índices caen a mínimos de más de tres meses",
+      "resumen": "El Dow y el S&P 500 tocaron su nivel más bajo en más de tres meses y el VIX trepó a 29,49.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El índice del miedo marcó su cierre más alto desde abril de 2022.",
+      "fuentes": [
+        { "nombre": "Profit (Reuters)", "url": "https://profit.pakistantoday.com.pk/2026/03/07/wall-streets-three-main-indexes-close-down-as-oil-spikes-12-job-market-weakens" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/531505" }
+      ]
+    }
+  ],
+  "contradicciones": ["Las fuentes difieren levemente en la caída del Dow: entre -0,94% y -1%."],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo por encima de USD 90 impulsó a las petroleras." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "La pérdida de empleos y la nafta cara golpean al consumidor." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq fue el índice que más cayó." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El salto del combustible castigó a aerolíneas." }
+  ],
+  "riesgoHoy": "La combinación de un mercado laboral que se enfría con petróleo disparado (riesgo de estanflación).",
+  "proximos": ["Dato de inflación (IPC) de febrero la semana siguiente", "Evolución del conflicto con Irán y de Ormuz"]
+}

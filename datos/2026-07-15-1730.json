@@ -1,0 +1,80 @@
+{
+  "id": "2026-07-15-1730",
+  "fecha": "2026-07-15",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Segunda buena noticia de inflación en dos días: los precios mayoristas bajaron 0,3% en junio y las acciones subieron.",
+    "El S&P 500 ganó 0,4%, el Nasdaq 0,6% y el Dow 0,3%, con Microsoft, Amazon y Alphabet al frente mientras los chips volvían a caer.",
+    "El petróleo se mantuvo cerca de sus máximos en un mes por la tensión con Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.572,40", "cambio": "+0,38%", "cambioPct": 0.38 },
+    { "nombre": "Dow Jones", "valor": "52.658,64", "cambio": "+0,29%", "cambioPct": 0.29 },
+    { "nombre": "Nasdaq", "valor": "26.290,23", "cambio": "+0,62%", "cambioPct": 0.62 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los precios mayoristas bajan 0,3% en junio",
+      "resumen": "El índice de precios al productor cayó 0,3%, más que la baja de 0,1% esperada, y confirmó el enfriamiento que había mostrado el IPC del martes.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": false,
+      "impacto": "Las tasas de los bonos bajaron y eso le dio impulso a las acciones.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-7152026-134796014" },
+        { "nombre": "Commonwealth Bank (AP)", "url": "https://www.commbank.com.au/articles/newsroom/2026/July/wall-street-closes-higher-as-inflation-cools-for-a-second-day.html" }
+      ]
+    },
+    {
+      "titulo": "Las grandes tecnológicas suben pese a otra baja de los chips",
+      "resumen": "Microsoft, Amazon y Alphabet subieron, pero los fabricantes de chips volvieron a caer y el Nasdaq 100 terminó con una baja de 0,3%.",
+      "afecta": ["Tecnología", "Semiconductores", "Microsoft", "Amazon", "Alphabet"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "La plata se movió de los chips a las empresas que compran esos chips.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/15/megacap-tech-lifts-market-despite-semiconductor-weakness" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/567311" }
+      ]
+    },
+    {
+      "titulo": "Bancos con buenos balances compensan la tensión en Medio Oriente",
+      "resumen": "Los resultados de los bancos siguieron siendo sólidos y ayudaron al S&P 500 y al Dow, mientras el petróleo rondaba máximos de un mes.",
+      "afecta": ["Financiero", "Energía"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Los balances bancarios sostienen la idea de una economía todavía firme.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-edge-higher-as-bank-earnings-offset-middle-east-oil-concerns-aapl-skhy-asml-pypl-in-focus/cZZPKc1R7rK?.tsrc=rss" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-finish-higher-as-cooling-inflation-offsets-iran-tensions" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Microsoft, Amazon y Alphabet subieron." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los chips volvieron a caer." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Siguieron los buenos balances bancarios." },
+    { "sector": "Energía", "tono": "mixto", "porque": "El crudo osciló cerca de máximos de un mes." }
+  ],
+  "riesgoHoy": "El riesgo siguió en el petróleo, que se mantuvo alto por la tensión con Irán aunque la inflación se enfría.",
+  "proximos": [
+    "Jueves 16: ventas minoristas de junio.",
+    "Balance de Netflix después del cierre del jueves.",
+    "Reunión de la Fed a fin de mes."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2026-08-18-1730",
+  "fecha": "2026-08-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Tercera baja seguida: el Nasdaq cayó 1,3%, el S&P 500 0,7% y el Dow 0,2%.",
+    "La tasa del bono a 30 años superó 5,33%, su nivel más alto en 19 años, por la incertidumbre en Medio Oriente.",
+    "Los chips y las acciones de IA lideraron la caída; tecnología perdió 1,9%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.691,76", "cambio": "-0,69%", "cambioPct": -0.69 },
+    { "nombre": "Dow Jones", "valor": "53.343,40", "cambio": "-0,22%", "cambioPct": -0.22 },
+    { "nombre": "Nasdaq", "valor": "26.289,71", "cambio": "-1,33%", "cambioPct": -1.33 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La tasa a 30 años, en su nivel más alto en 19 años",
+      "resumen": "La incertidumbre en Medio Oriente y el petróleo caro llevaron las tasas de los bonos a máximos de varios años; la de 30 años superó 5,33%.",
+      "afecta": ["Bonos", "Inmobiliario", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las tasas altas golpearon a las acciones de crecimiento.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-tech-stocks-weigh-as-bond-yields-grind-higher" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/tech-selloff-weighs-down-wall-street-as-bond-yields-climb/" }
+      ]
+    },
+    {
+      "titulo": "Los chips y la IA arrastran a la tecnología",
+      "resumen": "El sector de tecnología cayó 1,9% y fue el mayor lastre del S&P 500, con los semiconductores al frente de las bajas.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "El Nasdaq fue el índice que más cayó.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-finish-lower-chipmakers-and-ai-stocks-fall" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/08/19/us-stocks-close-lower-as-tech-shares-sink" }
+      ]
+    },
+    {
+      "titulo": "Tres ruedas seguidas en baja por tasas y petróleo",
+      "resumen": "Las tasas de los bonos más altas y el petróleo caro pesaron por tercer día seguido sobre Wall Street.",
+      "afecta": ["Todo el mercado", "Energía"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El S&P 500 ya está más de 1% debajo de su récord del jueves 13.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/Markets/Equity/us-stocks-end-third-session-lower-as-higher-treasury-yields-oil-prices-weigh/cZYcnUERJjD" },
+        { "nombre": "AP (vía WTOP)", "url": "https://app.new.wtop.com/europe/2026/08/how-major-us-stock-indexes-fared-tuesday-8-18-2026/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Cayó 1,9%, el peor sector del día." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Lideraron las bajas." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Tasas largas en máximos de 19 años." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo siguió alto." }
+  ],
+  "riesgoHoy": "El mayor riesgo fueron las tasas largas en máximos de casi dos décadas, que encarecen el crédito y castigan a las acciones de crecimiento.",
+  "proximos": [
+    "Balances de grandes minoristas.",
+    "Simposio de la Fed en Jackson Hole.",
+    "Balance de Nvidia la semana próxima."
+  ]
+}

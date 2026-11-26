@@ -1,0 +1,94 @@
+{
+  "id": "2026-08-06-1730",
+  "fecha": "2026-08-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "El petróleo volvió a subir y las acciones se alejaron de sus récords: el Dow cayó 0,9% y el S&P 500 0,2%; el Nasdaq quedó casi plano.",
+    "Un ataque de los hutíes a un petrolero saudí en el mar Rojo llevó al WTI a 77,27 USD (+2,8%).",
+    "Las aerolíneas y las transportadoras sufrieron por el combustible más caro; Sandisk decepcionó con su previsión."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.709,96", "cambio": "-0,18%", "cambioPct": -0.18 },
+    { "nombre": "Dow Jones", "valor": "53.885,10", "cambio": "-0,85%", "cambioPct": -0.85 },
+    { "nombre": "Nasdaq", "valor": "26.369,37", "cambio": "-0,06%", "cambioPct": -0.06 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "77,27 USD", "cambio": "+2,8%", "cambioPct": 2.8 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los hutíes atacan un petrolero saudí y sube el crudo",
+      "resumen": "Reportes de un ataque hutí a un petrolero con bandera saudí en el mar Rojo empujaron el WTI a 77,27 USD, una suba de 2,8%.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "Energía fue el sector más fuerte; aerolíneas y transportadoras de carga cayeron.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/6/crude-oil-settles-firmly-higher" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-middle-east-tensions-rise" }
+      ]
+    },
+    {
+      "titulo": "El petróleo reaviva el miedo a la inflación",
+      "resumen": "El crudo más caro empujó las tasas de los bonos y borró un rebote temprano de las tecnológicas.",
+      "afecta": ["Bonos", "Tecnología", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": false,
+      "impacto": "El Dow perdió 464 puntos después de cinco días en alza.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/6/oil-surge-weighs-on-stocks-after-early-tech-rebound" },
+        { "nombre": "Commonwealth Bank (Reuters)", "url": "https://www.commbank.com.au/articles/newsroom/2026/08/us-stocks-retreat-as-oil-prices-reignite-inflation-worries.html" }
+      ]
+    },
+    {
+      "titulo": "Sandisk decepciona con su previsión",
+      "resumen": "Sandisk presentó resultados fuertes, pero su previsión no convenció a los inversores; Western Digital también bajó.",
+      "afecta": ["Sandisk", "Western Digital", "Hardware"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Sumó presión sobre el sector de memorias y almacenamiento.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/8/5/sandisk-and-western-digital-lower-after-earnings" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/6/oil-surge-weighs-on-stocks-after-early-tech-rebound" }
+      ]
+    },
+    {
+      "titulo": "Vence el período de bloqueo de acciones de SpaceX",
+      "resumen": "Terminó el período en que los accionistas iniciales de SpaceX no podían vender, lo que sumó incertidumbre al mercado.",
+      "afecta": ["SpaceX", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "El fin del bloqueo puede sumar oferta de acciones de SpaceX.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/08/us-futures-mixed-with-iran-uncertainty-hanging-over-markets-lockup-period-for-spacex-shares-expires/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Fue el sector destacado con el crudo en alza." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Aerolíneas y transportadoras cayeron por el combustible." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Sandisk y Western Digital bajaron tras sus balances." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cayó 0,9%." }
+  ],
+  "riesgoHoy": "El riesgo volvió a ser el petróleo: un solo ataque en el mar Rojo alcanzó para frenar la suba.",
+  "proximos": [
+    "Viernes 7: informe de empleo de julio.",
+    "Semana próxima: inflación (IPC) de julio.",
+    "Negociaciones con Irán y seguridad en el mar Rojo."
+  ]
+}

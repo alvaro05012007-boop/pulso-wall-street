@@ -1,0 +1,64 @@
+{
+  "id": "2026-05-20-1730",
+  "fecha": "2026-05-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote fuerte: el Dow ganó 1,3% y volvió a 50.000, el S&P 500 1,1% y el Nasdaq 1,5%.",
+    "El petróleo cayó cerca de 6% después de que Trump dijo que las negociaciones con Irán estaban en la etapa final, y bajaron los rendimientos.",
+    "Nvidia superó lo esperado tras el cierre, pero no proyectó ventas a China y su acción cedió 0,7% fuera de hora."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.432,67", "cambio": "+1,08%", "cambioPct": 1.08 },
+    { "nombre": "Dow Jones", "valor": "50.009,35", "cambio": "+1,31%", "cambioPct": 1.31 },
+    { "nombre": "Nasdaq", "valor": "26.270,36", "cambio": "+1,54%", "cambioPct": 1.54 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "~-6%", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump dice que la negociación con Irán está en su etapa final",
+      "resumen": "El crudo se desplomó cerca de 6% y los rendimientos de los bonos bajaron.",
+      "afecta": ["Energía", "Petróleo", "Bonos"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Russell 2000 saltó 2,6% tras tres bajas seguidas.",
+      "fuentes": [
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-jump-as-bond-yields-ease,-oil-price-sinks-on-peace-deal-hopes" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/20/semiconductors-surge-as-falling-yields-and-oil-prices-lift-stocks" }
+      ]
+    },
+    {
+      "titulo": "Nvidia supera expectativas pero no da guía para China",
+      "resumen": "La empresa superó lo esperado en ingresos y ganancias, pero evitó proyectar ventas a China.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "La acción subió 1,3% en la rueda y bajó 0,7% después del cierre.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/552420" },
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-street-rises-chip-stocks-nvidia-results/" }
+      ]
+    },
+    {
+      "titulo": "Los chips se disparan",
+      "resumen": "Los semiconductores lideraron la suba ayudados por la baja de tasas y del petróleo.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq fue el índice de mayor suba.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-clocks-best-day-so-far-this-month-s-and-p-500-and-nasdaq-climb-as-oil-yields-cool-off-meta-low-has-nvda-intu-in-focus/cZXxB4ORenn" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Las fuentes difieren levemente en la suba del Nasdaq (entre 1,4% y 1,5%) y del Dow (621 o 645 puntos)."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron antes del balance de Nvidia." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo cayó cerca de 6%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Se benefician de un combustible más barato." }
+  ],
+  "riesgoHoy": "Que las negociaciones con Irán no lleguen a buen puerto después del optimismo.",
+  "proximos": ["Reacción a Nvidia el jueves", "Confianza del consumidor de la Universidad de Michigan"]
+}

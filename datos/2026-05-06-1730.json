@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-06-1730",
+  "fecha": "2026-05-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Fuerte suba: el S&P 500 ganó 1,5% a otro récord, el Nasdaq 2% y el Dow 1,2%.",
+    "El Brent cayó por debajo de US$102 por esperanzas de paz con Irán, y el balance de AMD reactivó el entusiasmo por la IA.",
+    "Con la suba de más de 600 puntos, el Dow salió de zona de corrección."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.365,12", "cambio": "+1,46%", "cambioPct": 1.46 },
+    { "nombre": "Dow Jones", "valor": "49.910,59", "cambio": "+1,24%", "cambioPct": 1.24 },
+    { "nombre": "Nasdaq", "valor": "25.838,94", "cambio": "+2,02%", "cambioPct": 2.02 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "AMD dispara al sector de IA",
+      "resumen": "La suba de AMD tras su balance y sus proyecciones levantó a todo el grupo ligado a la inteligencia artificial.",
+      "afecta": ["AMD", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "El Nasdaq subió 2% y cerró en máximo histórico.",
+      "fuentes": [
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/05/06/fresh-record-closes-for-s-p-500-nasdaq-amid-ai-gains" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/6/ai-and-earnings-fuel-record-rally-as-oil-eases" }
+      ]
+    },
+    {
+      "titulo": "Esperanzas de paz con Irán bajan el crudo",
+      "resumen": "El Brent cayó por debajo de US$102 por barril.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El alivio en el crudo ayudó a una suba amplia; el Russell 2000 ganó 1,5%.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-wednesday-5-6-2026/" }
+      ]
+    },
+    {
+      "titulo": "El Dow sale de la corrección",
+      "resumen": "Con más de 600 puntos de suba, el Dow dejó atrás la zona de corrección.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "En el año, el S&P 500 acumula 7,6% de suba según AP.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/1722746/s-p-500-and-nasdaq-100-post-record-highs-on-tech-strength" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "AMD encabezó la suba de los chips." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq ganó 2%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó con las esperanzas de paz." }
+  ],
+  "riesgoHoy": "Que las esperanzas de paz con Irán no se concreten y el crudo vuelva a subir.",
+  "proximos": ["Informe de empleo de abril del viernes 8", "Resultados de DoorDash y otras empresas"]
+}

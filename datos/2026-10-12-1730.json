@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-12-1730",
+  "fecha": "2026-10-12",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda mixta y con poco volumen por el feriado de Columbus Day (el mercado de bonos estuvo cerrado): el S&P 500 bajó apenas 0,06% y quedó a 0,15% de su récord del 6 de octubre.",
+    "El Dow subió 0,38% y el Nasdaq cayó 0,44%, arrastrado por los fabricantes de chips.",
+    "El petróleo volvió a subir por la tensión en Medio Oriente y el dólar se fortaleció: el euro tocó su mínimo de 2026.",
+    "El mercado se preparaba para una semana cargada: bancos grandes presentan resultados y el miércoles sale la inflación (CPI)."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.807,24", "cambio": "-0,06%", "cambioPct": -0.06 },
+    { "nombre": "Dow Jones", "valor": "51.850,55", "cambio": "+0,38%", "cambioPct": 0.38 },
+    { "nombre": "Nasdaq", "valor": "27.245,90", "cambio": "-0,44%", "cambioPct": -0.44 },
+    { "nombre": "Bono 10 años", "valor": "~5,24%", "cambio": "sin cambio (bonos cerrados)", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "93,74 USD", "cambio": "+2,06%", "cambioPct": 2.06 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street mixto, cerca de máximos y con poco volumen",
+      "resumen": "El S&P 500 terminó en 7.807,24 puntos, a solo 11,69 puntos de su récord. El volumen fue 55% menor al promedio de tres meses por el feriado.",
+      "afecta": ["Todo el mercado"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "TS2", "url": "https://ts2.tech/en/sp-500-ends-0-15-below-record-as-holiday-volume-falls-55/" },
+        { "nombre": "AP (vía CDA Press)", "url": "https://cdapress.com/news/2026/oct/12/us-stocks-hover-near-their-latest-record-in-mixed-trading-on-wall-street/" }
+      ]
+    },
+    {
+      "titulo": "Los chips bajan y frenan al Nasdaq",
+      "resumen": "Los fabricantes de chips cayeron y llevaron al Nasdaq a perder 0,44%, mientras el Dow subía con las acciones más tradicionales.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Babypips", "url": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-12" },
+        { "nombre": "Sharecast", "url": "https://www.sharecast.com/scroll_10/news/market-report-us-close/us-close-stocks-mixed-as-investors-brace-for-earnings-deluge-key-inflation-prints--23827362.html" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube por Medio Oriente y Rusia-Ucrania",
+      "resumen": "El WTI cerró en 93,74 USD (+1,89 USD) y el Brent en 106,65 USD, con nueva incertidumbre en Medio Oriente y más tensión entre Rusia y Ucrania.",
+      "afecta": ["Energía"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-x6-settles-usd-189-higher-at-9374bbl" },
+        { "nombre": "Virginia Business", "url": "https://gvwire.com/2026/10/12/wall-street-mixed-as-oil-prices-surge-investors-await-earnings-economic-data/" }
+      ]
+    },
+    {
+      "titulo": "El dólar sube y el euro toca su mínimo del año",
+      "resumen": "El dólar se fortaleció contra las principales monedas y el EUR/USD marcó su nivel más bajo de 2026.",
+      "afecta": ["Dólar", "Materiales"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-12-oct-usd-climbs-eurusd-hits-a-2026-low-as-oil-rises-and-stocks-finish-mixed/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Los fabricantes de chips cayeron y arrastraron al Nasdaq." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió más de 2% por los riesgos de oferta en Medio Oriente." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow, con más peso de empresas tradicionales, subió 0,38%." },
+    { "sector": "Financiero", "tono": "neutral", "porque": "A la espera de los resultados de los grandes bancos." }
+  ],
+  "riesgoHoy": "El mayor riesgo estuvo en los chips y en la energía: el petróleo cerca de 94 USD alimenta el miedo a más inflación justo antes del CPI.",
+  "proximos": [
+    "Martes 13 y miércoles 14: resultados de los grandes bancos.",
+    "Miércoles 14: inflación de septiembre (CPI).",
+    "Reunión de la Fed a fin de octubre; el mercado empieza a hablar de una suba de tasas."
+  ]
+}

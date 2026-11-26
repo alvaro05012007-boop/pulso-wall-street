@@ -1,0 +1,63 @@
+{
+  "id": "2026-03-31-1730",
+  "fecha": "2026-03-31",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Mejor día desde la primavera pasada: el Dow saltó 1.125 puntos (+2,5%), el S&P 500 2,9% y el Nasdaq 3,8%.",
+    "Hubo reportes de que el presidente de Irán estaba abierto a terminar las hostilidades con ciertas garantías.",
+    "El Brent bajó 3,2% a USD 103,97 y Nvidia subió 5,6% en el cierre de trimestre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.528,52", "cambio": "+2,91%", "cambioPct": 2.91 },
+    { "nombre": "Dow Jones", "valor": "46.341,51", "cambio": "+2,49%", "cambioPct": 2.49 },
+    { "nombre": "Nasdaq", "valor": "21.590,63", "cambio": "+3,83%", "cambioPct": 3.83 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street vuela por señales de Irán sobre el fin de la guerra",
+      "resumen": "Reportes de que el presidente iraní aceptaría terminar las hostilidades con garantías dispararon las compras.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 tuvo su mayor suba desde mayo y el Dow ganó más de 1.100 puntos.",
+      "fuentes": [
+        { "nombre": "WECT (AP)", "url": "https://www.wect.com/2026/03/31/dow-surges-more-than-1100-points-wall-street-soars-its-best-day-since-last-spring/" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/537989" }
+      ]
+    },
+    {
+      "titulo": "Baja el petróleo: el Brent cede 3,2%",
+      "resumen": "Las esperanzas de paz bajaron el crudo, que igual siguió por encima de USD 100.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El Brent cerró en USD 103,97; energía fue el único sector en alza en todo marzo (+11%).",
+      "fuentes": [
+        { "nombre": "BNN Bloomberg (AP)", "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/03/31/wall-street-jolts-higher-and-recovers-some-of-its-wartime-losses/" },
+        { "nombre": "Brecorder (Reuters)", "url": "https://www.brecorder.com/news/amp/40414090" }
+      ]
+    },
+    {
+      "titulo": "La tecnología lidera, con Nvidia +5,6%",
+      "resumen": "Las tecnológicas encabezaron el rebote; el cierre de trimestre sumó volumen.",
+      "afecta": ["Tecnología", "Semiconductores", "Nvidia"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq igual sigue técnicamente en corrección.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Motley Fool", "url": "https://nasdaq.com/articles/sp-500-nasdaq-surge-investors-weigh-fed-comments-and-geopolitical-developments" },
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/month-march-goes-out-bull" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró el rebote." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia subió 5,6%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó con las señales de paz." }
+  ],
+  "riesgoHoy": "Que las señales de Irán no se traduzcan en un acuerdo concreto.",
+  "proximos": ["Discurso de Trump sobre Irán", "Informe de empleo de marzo", "Feriado de Viernes Santo el 3 de abril"]
+}

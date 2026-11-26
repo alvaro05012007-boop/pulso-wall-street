@@ -1,0 +1,101 @@
+// Actualizador independiente de Claude: precios + indicadores (acciones.mjs) y reconstrucción del historial (datos.mjs),
+// con reintentos, bloqueo contra ejecuciones simultáneas y registro en logs/. Lo puede llamar cualquier programador de tareas.
+//   node actualizar.mjs            -> corre ahora
+//   node actualizar.mjs --si-toca  -> corre solo en las ventanas de Nueva York (antes de la apertura y después del cierre)
+//                                    y una sola vez por ventana; pensado para un programador que lo llama cada 15 minutos.
+// Los horarios se calculan en America/New_York, así que los cambios de horario de verano se respetan solos.
+import { spawnSync } from 'node:child_process';
+import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync, unlinkSync, statSync, cpSync } from 'node:fs';
+
+const raiz = new URL('./', import.meta.url), logs = new URL('./logs/', import.meta.url);
+mkdirSync(logs, { recursive: true });
+// shortcut: feriados de la bolsa de NY cargados hasta 2027 (igual que en app.js); sumar los de 2028 cuando se publiquen
+const FERIADOS = new Set(('2026-01-01 2026-01-19 2026-02-16 2026-04-03 2026-05-25 2026-06-19 2026-07-03 2026-09-07 2026-11-26 2026-12-25 ' +
+  '2027-01-01 2027-01-18 2027-02-15 2027-03-26 2027-05-31 2027-06-18 2027-07-05 2027-09-06 2027-11-25 2027-12-24').split(' '));
+const VENTANAS = [['apertura', 9 * 60, 9 * 60 + 45], ['cierre', 16 * 60 + 20, 17 * 60 + 30]]; // minutos, hora de NY
+
+export function ventanaNY(fecha = new Date()) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23', weekday: 'short' })
+    .formatToParts(fecha).map(x => [x.type, x.value]));
+  const dia = `${p.year}-${p.month}-${p.day}`, min = +p.hour * 60 + +p.minute;
+  if (['Sat', 'Sun'].includes(p.weekday) || FERIADOS.has(dia)) return null;
+  const v = VENTANAS.find(([, a, b]) => min >= a && min <= b);
+  return v ? `${dia}-${v[0]}` : null;
+}
+
+// Pruebas de horario: invierno (UTC-5), verano (UTC-4), feriado y fin de semana
+import assert from 'node:assert';
+assert.equal(ventanaNY(new Date('2026-11-24T14:30:00Z')), '2026-11-24-apertura'); // 9:30 en NY, horario de invierno
+assert.equal(ventanaNY(new Date('2026-07-01T13:30:00Z')), '2026-07-01-apertura'); // 9:30 en NY, horario de verano
+assert.equal(ventanaNY(new Date('2026-11-24T21:45:00Z')), '2026-11-24-cierre');   // 16:45 en NY
+assert.equal(ventanaNY(new Date('2026-11-26T14:30:00Z')), null);                  // Thanksgiving
+assert.equal(ventanaNY(new Date('2026-11-28T14:30:00Z')), null);                  // sábado
+assert.equal(ventanaNY(new Date('2026-11-24T18:00:00Z')), null);                  // mediodía: fuera de ventana
+
+const espera = ms => new Promise(r => setTimeout(r, ms));
+function correr(script, ...args) {
+  const r = spawnSync(process.execPath, [decodeURIComponent(new URL(script, raiz).pathname).replace(/^\/([A-Za-z]:)/, '$1'), ...args], { encoding: 'utf8', timeout: 15 * 60e3, cwd: new URL('.', raiz) });
+  return { ok: r.status === 0, codigo: r.status, salida: ((r.stdout || '') + (r.stderr || '')).trim().slice(-800) };
+}
+// Copia diaria del historial (datos/) en ../backups/auto/AAAA-MM-DD. No borra copias viejas: cada una pesa unos 150 KB.
+function respaldo() {
+  const hoy = new Date().toISOString().slice(0, 10), destino = new URL(`../backups/auto/${hoy}/`, raiz);
+  if (existsSync(destino)) return { paso: 'respaldo', ok: true, omitido: true, salida: 'ya existe la copia de hoy' };
+  try { cpSync(new URL('./datos/', raiz), destino, { recursive: true }); return { paso: 'respaldo', ok: true, salida: `copia en backups/auto/${hoy}` }; }
+  catch (e) { return { paso: 'respaldo', ok: false, salida: e.message }; }
+}
+// Una vez por semana revisa si las dependencias (librería de Anthropic) tienen vulnerabilidades conocidas.
+function auditoria() {
+  const marca = new URL('auditoria.json', logs);
+  if (existsSync(marca) && Date.now() - statSync(marca).mtimeMs < 7 * 864e5) return { paso: 'dependencias', ok: true, omitido: true, salida: 'revisadas esta semana' };
+  const [cmd, ...args] = process.platform === 'win32' ? ['cmd.exe', '/d', '/c', 'npm', 'audit', '--omit=dev', '--json'] : ['npm', 'audit', '--omit=dev', '--json'];
+  const r = spawnSync(cmd, args, { encoding: 'utf8', cwd: new URL('.', raiz), timeout: 120000 });
+  try {
+    const v = JSON.parse(r.stdout).metadata.vulnerabilities, total = Object.values(v).reduce((a, b) => a + b, 0);
+    writeFileSync(marca, JSON.stringify({ fecha: new Date().toISOString(), ...v }));
+    return { paso: 'dependencias', ok: total === 0, salida: total ? `${total} vulnerabilidades: correr npm audit fix en bolsa-ny` : 'sin vulnerabilidades conocidas' };
+  } catch { return { paso: 'dependencias', ok: true, omitido: true, salida: 'npm audit no respondió (sin internet?)' }; }
+}
+function registrar(e) {
+  appendFileSync(new URL('ejecuciones.jsonl', logs), JSON.stringify(e) + '\n');
+  const ultimas = readFileSync(new URL('ejecuciones.jsonl', logs), 'utf8').trim().split('\n').slice(-60).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+  writeFileSync(new URL('ejecuciones.js', logs), 'window.EJECUCIONES = ' + JSON.stringify(ultimas) + ';\n');
+}
+
+const siToca = process.argv.includes('--si-toca');
+let ventana = null;
+if (siToca) {
+  ventana = ventanaNY();
+  if (!ventana) process.exit(0); // fuera de horario: nada que hacer, no ensucia el registro
+  const estadoF = new URL('ultima-ventana.txt', logs);
+  if (existsSync(estadoF) && readFileSync(estadoF, 'utf8').trim() === ventana) process.exit(0); // ya corrió en esta ventana
+}
+const lock = new URL('.ejecutando', logs);
+if (existsSync(lock) && Date.now() - statSync(lock).mtimeMs < 20 * 60e3) { console.log('Ya hay una actualización en curso.'); process.exit(0); }
+writeFileSync(lock, String(process.pid));
+
+const inicio = new Date(), pasos = [];
+try {
+  let precios;
+  for (let intento = 1; intento <= 3; intento++) { // reintentos espaciados: 0, 1 y 3 minutos
+    precios = { paso: 'precios', intentos: intento, ...correr('acciones.mjs') };
+    if (precios.ok) break;
+    if (intento < 3) await espera(intento === 1 ? 60e3 : 180e3);
+  }
+  pasos.push(precios);
+  if (ventana || process.argv.includes('--noticias')) { // noticias por API: solo si hay clave en .env (salida 3 = sin clave, se omite)
+    const n = { paso: 'noticias', intentos: 1, ...correr('noticias.mjs', ventana ? ventana.split('-').at(-1) : '') };
+    if (n.codigo === 3) { n.ok = true; n.omitido = true; }
+    pasos.push(n);
+  }
+  pasos.push({ paso: 'historial', intentos: 1, ...correr('datos.mjs') });
+  pasos.push({ paso: 'alertas', intentos: 1, ...correr('alertas.mjs') });
+  pasos.push(respaldo(), auditoria());
+} finally {
+  const ok = pasos.length >= 2 && pasos.every(p => p.ok);
+  registrar({ inicio: inicio.toISOString(), segundos: Math.round((Date.now() - inicio) / 1000), motivo: siToca ? 'programada ' + ventana : 'manual', ok, pasos });
+  if (ok && ventana) writeFileSync(new URL('ultima-ventana.txt', logs), ventana);
+  try { unlinkSync(lock); } catch { /* ya no estaba */ }
+  console.log(ok ? 'Actualización completa.' : 'La actualización tuvo errores: ver logs/ejecuciones.jsonl');
+  process.exitCode = ok ? 0 : 1;
+}

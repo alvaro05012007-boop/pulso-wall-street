@@ -1,0 +1,79 @@
+{
+  "id": "2026-09-17-1730",
+  "fecha": "2026-09-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote fuerte un día después de la suba de tasas: el S&P 500 ganó 1,1%, el Nasdaq 1,7% y el Dow 316 puntos.",
+    "La baja del petróleo y de las tasas de los bonos calmó el miedo a la inflación.",
+    "Los chips y el hardware para IA lideraron: Intel subió más de 7%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "sin dato", "cambio": "+1,1%", "cambioPct": 1.1 },
+    { "nombre": "Dow Jones", "valor": "sin dato", "cambio": "+0,6% (+316 puntos)", "cambioPct": 0.6 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "+1,7%", "cambioPct": 1.7 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La baja del petróleo impulsa a Wall Street",
+      "resumen": "El crudo y las tasas de los bonos bajaron, lo que alivió las preocupaciones por la inflación un día después de la suba de tasas de la Fed.",
+      "afecta": ["Todo el mercado", "Energía"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Los tres índices cerraron con subas fuertes y recuperaron gran parte de lo perdido en la semana.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/584713" },
+        { "nombre": "AP (vía InsuranceNewsNet)", "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-thursday-9-17-2026" }
+      ]
+    },
+    {
+      "titulo": "Chips y hardware para IA lideran la suba; Intel salta más de 7%",
+      "resumen": "Las acciones de hardware para IA y semiconductores subieron con fuerza; Nvidia estuvo en foco e Intel ganó más de 7%.",
+      "afecta": ["Semiconductores", "Hardware", "Intel", "Nvidia"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "El Nasdaq fue el índice que más subió.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/tech-leads-wall-street-rally-oil-prices-ease/" },
+        { "nombre": "Eastmoney", "url": "https://finance.eastmoney.com/a/202609173877547584.html" }
+      ]
+    },
+    {
+      "titulo": "La Fed deja la puerta abierta a otra suba este año",
+      "resumen": "Las proyecciones de los miembros de la Fed muestran consenso en que haría falta otra suba de tasas antes de fin de año.",
+      "afecta": ["Bonos", "Financiero"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El mercado igual rebotó porque la baja del petróleo pesó más.",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2991207/stock-market-news-for-sep-17-2026" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-higher-amid-drop-in-oil-prices/cZtscNsRBdY" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Intel subió más de 7% y los chips lideraron." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "El hardware para IA tuvo un día muy fuerte." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Fue el sector que más subió del S&P 500." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó." }
+  ],
+  "riesgoHoy": "El riesgo bajó con el petróleo, pero seguía la posibilidad de más subas de tasas de la Fed.",
+  "proximos": [
+    "Viernes 18: vencimiento trimestral de opciones (triple witching).",
+    "Seguimiento del petróleo y del conflicto en Medio Oriente."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2026-03-13-1730",
+  "fecha": "2026-03-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Tercera semana seguida de caídas: el S&P 500 bajó 0,61% y marcó su cierre más bajo de 2026.",
+    "El petróleo siguió subiendo por el cierre de Ormuz: el WTI terminó en USD 98,71 y el Brent en USD 103,14.",
+    "El Nasdaq cayó 0,93% y el Dow 0,26%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.632,19", "cambio": "-0,61%", "cambioPct": -0.61 },
+    { "nombre": "Dow Jones", "valor": "46.558,47", "cambio": "-0,26%", "cambioPct": -0.26 },
+    { "nombre": "Nasdaq", "valor": "22.105,36", "cambio": "-0,93%", "cambioPct": -0.93 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "98,71", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 cierra en su nivel más bajo del año",
+      "resumen": "El petróleo en alza por la guerra con Irán volvió a pesar y los índices encadenaron su tercera semana negativa.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 terminó en 6.632,19, mínimo de cierre de 2026.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/337288/stocks-rocked-by-oil-suffer-3rd-straight-weekly-drop" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/03/14/us-stocks-close-lower" }
+      ]
+    },
+    {
+      "titulo": "El crudo se acerca a USD 100 por el cierre continuado de Ormuz",
+      "resumen": "Los futuros de petróleo volvieron a subir porque el estrecho seguía bloqueado.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El WTI cerró en USD 98,71 y el Brent en USD 103,14, según Reuters.",
+      "fuentes": [
+        { "nombre": "Profit (Reuters)", "url": "https://profit.pakistantoday.com.pk/2026/03/14/crude-futures-turn-positive-on-continued-hormuz-closure/" },
+        { "nombre": "Invezz", "url": "https://invezz.com/news/2026/03/13/us-stocks-close-in-red-as-sp-500-dips-on-oil-rally-and-geopolitics/" }
+      ]
+    },
+    {
+      "titulo": "Aversión al riesgo antes de la Fed",
+      "resumen": "Los inversores redujeron exposición antes de la reunión de la Reserva Federal de la semana siguiente.",
+      "afecta": ["Mercado en general", "Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El Nasdaq volvió a ser el índice más golpeado.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/533450" },
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/iran-war-drags-stocks-lower" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo cerca de USD 100 favoreció a las petroleras." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó casi 1%." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible caro siguió presionando." }
+  ],
+  "riesgoHoy": "El cierre prolongado del Estrecho de Ormuz con el petróleo cerca de los USD 100.",
+  "proximos": ["Decisión de tasas de la Fed el 18 de marzo", "Evolución del bloqueo de Ormuz"]
+}

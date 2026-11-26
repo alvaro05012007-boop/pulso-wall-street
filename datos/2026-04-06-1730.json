@@ -1,0 +1,61 @@
+{
+  "id": "2026-04-06-1730",
+  "fecha": "2026-04-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Subas moderadas a la espera de avances hacia un alto el fuego entre EE.UU. e Irán: el S&P 500 ganó 0,44% y sumó cuatro días seguidos en alza.",
+    "Trump amenazó con destruir la infraestructura eléctrica y los puentes de Irán si no reabre Ormuz antes del martes a las 20 (hora de Nueva York).",
+    "El índice ISM de servicios bajó a 54,0, por debajo de lo esperado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.611,83", "cambio": "+0,44%", "cambioPct": 0.44 },
+    { "nombre": "Dow Jones", "valor": "46.669,88", "cambio": "+0,36%", "cambioPct": 0.36 },
+    { "nombre": "Nasdaq", "valor": "21.996,34", "cambio": "+0,54%", "cambioPct": 0.54 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las bolsas suben con la esperanza de un alto el fuego",
+      "resumen": "Los inversores buscaron señales de progreso hacia un acuerdo con Irán, pese a las amenazas cruzadas.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El VIX igual subió 1,26% hasta 24,17.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-finish-higher-iran-ceasefire-hopes" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-st-rises-us-iran-talks-threats/" }
+      ]
+    },
+    {
+      "titulo": "Trump fija plazo a Irán para reabrir Ormuz",
+      "resumen": "El presidente advirtió que atacará la red eléctrica y los puentes iraníes si el estrecho no se reabre antes del martes a las 20.",
+      "afecta": ["Energía", "Defensa"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El panorama entre EE.UU. e Irán siguió confuso.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/342614/spx-logs-4-straight-despite-murky-us-iran-picture" },
+        { "nombre": "Newser (AP)", "url": "https://www.newser.com/story/386818/stocks-drift-higher-ahead-of-trumps-iran-deadline.html" }
+      ]
+    },
+    {
+      "titulo": "El ISM de servicios cae más de lo esperado",
+      "resumen": "El índice de actividad de servicios de marzo bajó 2,1 puntos hasta 54,0, contra 54,9 esperado.",
+      "afecta": ["Consumo"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "PIB", "volatilidad": false,
+      "impacto": "Señal de cierta desaceleración en los servicios.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/1164954/stocks-finish-higher-on-iran-ceasefire-hopes" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq lideró con +0,54%." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "El ISM de servicios decepcionó." }
+  ],
+  "riesgoHoy": "El ultimátum de Trump a Irán sobre Ormuz, que vencía el martes a la noche.",
+  "proximos": ["Vencimiento del plazo de Trump el martes 7 a las 20", "IPC de marzo el viernes 10"]
+}

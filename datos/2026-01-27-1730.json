@@ -1,0 +1,72 @@
+{
+  "id": "2026-01-27-1730",
+  "fecha": "2026-01-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El S&P 500 cerró en récord (+0,41%) y quedó cerca de los 7.000 puntos; el Nasdaq subió 0,91%.",
+    "El Dow cayó 0,83% porque UnitedHealth se desplomó casi 20% tras anticipar su primera baja anual de ingresos en tres décadas.",
+    "Las aseguradoras de salud sufrieron por las tarifas de Medicare; la tecnología lideró con +1,4% y el dólar siguió cayendo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.978,60", "cambio": "+0,41%", "cambioPct": 0.41 },
+    { "nombre": "Dow Jones", "valor": "49.003,41", "cambio": "-0,83%", "cambioPct": -0.83 },
+    { "nombre": "Nasdaq", "valor": "23.817,10", "cambio": "+0,91%", "cambioPct": 0.91 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "UnitedHealth se derrumba casi 20%",
+      "resumen": "La aseguradora advirtió su primera caída anual de ingresos en tres décadas, en medio de tarifas de Medicare que golpearon al sector.",
+      "afecta": ["UnitedHealth", "Salud"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Cerró en 282,70 dólares (-19,61%) y le restó más de 400 puntos al Dow.",
+      "fuentes": [
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-01-27/sp-500-marks-closing-record-corporate-earnings-roll-medicare-rates-hit" },
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-jan-27-171324613.html" }
+      ]
+    },
+    {
+      "titulo": "Récord del S&P 500 impulsado por la tecnología",
+      "resumen": "El S&P 500 marcó su cuarto cierre récord del año y tocó máximo intradiario cerca de 7.000.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El sector tecnológico subió 1,4% y lideró entre los 11 sectores.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/289055/sp-500-nabs-record-close-dow-sheds-408-points" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-tuesday-1-27-2026" }
+      ]
+    },
+    {
+      "titulo": "Balances mixtos de GM y otras empresas",
+      "resumen": "Las acciones zigzaguearon con resultados mixtos de UnitedHealth, General Motors y otras compañías.",
+      "afecta": ["General Motors", "Consumo"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Rueda de vaivenes antes del cierre en récord.",
+      "fuentes": [
+        { "nombre": "Washington Times (AP)", "url": "https://www.washingtontimes.com/news/2026/jan/27/stocks-zigzag-wall-street-following-mixed-profit-reports-gm/" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/01/27/wall-street-flirts-with-record-high-as-gm-unitedhealth-report-earnings/" }
+      ]
+    },
+    {
+      "titulo": "El dólar vuelve a perder valor",
+      "resumen": "El dólar siguió deslizándose mientras Wall Street marcaba récord.",
+      "afecta": ["Dólar"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "Sin cifra de cierre en las fuentes leídas.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha (AP)", "url": "https://seekingalpha.com/pr/20376613" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Salud", "tono": "negativo", "porque": "UnitedHealth y otras aseguradoras cayeron por Medicare." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Subió 1,4% y lideró el S&P 500." }
+  ],
+  "riesgoHoy": "El golpe a las aseguradoras de salud por las tarifas de Medicare.",
+  "proximos": ["Decisión de la Fed el miércoles 28", "Balances de Microsoft, Meta y Tesla"]
+}

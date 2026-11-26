@@ -1,0 +1,75 @@
+{
+  "id": "2026-02-27-1730",
+  "fecha": "2026-02-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Los índices cerraron en baja: el Dow perdió 1,05%, el Nasdaq 0,92% y el S&P 500 0,43%.",
+    "La inflación mayorista subió más de lo esperado y aumentaron las tensiones con Irán, con el petróleo en alza.",
+    "Siguió el castigo a los posibles perdedores de la IA, incluidos bancos y firmas de capital privado; el Dow tuvo su peor semana desde mediados de noviembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.878,88", "cambio": "-0,43%", "cambioPct": -0.43 },
+    { "nombre": "Dow Jones", "valor": "48.977,92", "cambio": "-1,05%", "cambioPct": -1.05 },
+    { "nombre": "Nasdaq", "valor": "22.668,21", "cambio": "-0,92%", "cambioPct": -0.92 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación mayorista se acelera",
+      "resumen": "El índice de precios al productor (PPI) subió más de lo esperado y decepcionó al mercado.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "Las acciones cayeron desde la apertura.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-fall-as-ppi-data,-iran-tensions-hit-sentiment" },
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/articles/stock-market-today-feb-27-145102350.html" }
+      ]
+    },
+    {
+      "titulo": "Tensiones con Irán y suba del petróleo",
+      "resumen": "Las preocupaciones por un posible conflicto bélico empujaron el precio del crudo.",
+      "afecta": ["Petróleo", "Energía", "Defensa"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El petróleo subió mientras las acciones caían.",
+      "fuentes": [
+        { "nombre": "Boston.com (AP)", "url": "https://www.boston.com/news/business/2026/02/27/us-stocks-sink-and-oil-prices-rise-as-worries-about-ai-inflation-and-war-hit-wall-street/" }
+      ]
+    },
+    {
+      "titulo": "Se profundiza la venta de bancos y capital privado por la IA",
+      "resumen": "Los inversores siguieron castigando a empresas que podrían perder con la IA, ahora también bancos y firmas de capital privado.",
+      "afecta": ["Financiero"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Dow cayó más de 500 puntos.",
+      "fuentes": [
+        { "nombre": "Finviz (Yahoo Finance)", "url": "https://finviz.com/news/325574/bank-private-equity-stock-rout-deepens-as-ai-fears-mount-whats-moving-markets-friday" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/325756/markets-finish-february-in-a-slough-dow-suffers-steep-drop" }
+      ]
+    },
+    {
+      "titulo": "Febrero termina en baja",
+      "resumen": "Wall Street cerró el mes con pérdidas por la incertidumbre sobre la IA, los aranceles y la geopolítica.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 2,5% en la semana y el Dow tuvo su peor semana desde mediados de noviembre.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://dev.wtop.com/uncategorized/2026/02/how-major-us-stock-indexes-fared-friday-2-27-2026/" },
+        { "nombre": "Money Times", "url": "https://www.moneytimes.com.br/wall-street-marca-quedas-mensais-por-combinacao-de-incerteza-sobre-ia-tarifas-e-geopolitica/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics dio al Dow en 48.930 (-1,15%) y Sharecast al Nasdaq en -0,8%; AP y Xinhua dieron 48.977,92 (-1,05%) y 22.668,21 (-0,92%), que son los que se usaron."
+  ],
+  "sectores": [
+    { "sector": "Financiero", "tono": "negativo", "porque": "Bancos y capital privado castigados por temor a la IA." },
+    { "sector": "Energía", "tono": "positivo", "porque": "Suba del petróleo por las tensiones con Irán." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Siguieron las dudas sobre la IA." }
+  ],
+  "riesgoHoy": "La mezcla de inflación más alta, posible guerra con Irán y temor a la IA.",
+  "proximos": ["Evolución del conflicto con Irán", "Informe de empleo de febrero"]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2026-07-08-1730",
+  "fecha": "2026-07-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Trump dijo que la tregua con Irán se terminó: el petróleo volvió a subir y el Dow cayó 1,1%.",
+    "El S&P 500 bajó 0,3% después de llegar a perder 1,1% en la rueda; el Nasdaq subió 0,2% gracias a los chips.",
+    "Broadcom ganó 4,8% por ampliar su acuerdo con Apple y Nvidia 3,6% por versiones de más compras chinas de chips H200."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.482,71", "cambio": "-0,28%", "cambioPct": -0.28 },
+    { "nombre": "Dow Jones", "valor": "52.348,39", "cambio": "-1,09%", "cambioPct": -1.09 },
+    { "nombre": "Nasdaq", "valor": "25.870,65", "cambio": "+0,20%", "cambioPct": 0.2 },
+    { "nombre": "Bono 10 años", "valor": "4,57%", "cambio": "+2 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "más de +4%", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump da por terminada la tregua con Irán y sube el petróleo",
+      "resumen": "El presidente dijo que el alto el fuego con Irán se había terminado. El crudo subió con fuerza y las bolsas del mundo cayeron.",
+      "afecta": ["Energía", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El WTI subió más de 4% y llegó a máximos de dos semanas.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC13)", "url": "https://abc13.com/amp/post/oil-prices-jump-more-6-trump-says-ceasefire-iran-is-over/19468900/" },
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-pressured-us-iran-hostilities-resume" }
+      ]
+    },
+    {
+      "titulo": "El Dow cae 577 puntos; el Nasdaq se salva por los chips",
+      "resumen": "El índice de semiconductores subió 2,2%, lo que ayudó a que el S&P 500 cayera mucho menos que su versión de igual ponderación, que perdió 1,2%.",
+      "afecta": ["Semiconductores", "Industria"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": true,
+      "impacto": "La mayoría de las acciones bajó; los chips evitaron una caída mayor.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-782026-134596966" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/8/oil-surge-pressures-stocks-as-tech-limits-losses" }
+      ]
+    },
+    {
+      "titulo": "Broadcom amplía su acuerdo con Apple y Nvidia sube por China",
+      "resumen": "Broadcom ganó 4,8% tras ampliar su acuerdo con Apple y Nvidia 3,6% por reportes de que empresas chinas planean comprar más chips H200.",
+      "afecta": ["Broadcom", "Nvidia", "Apple"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Las dos subas sostuvieron al Nasdaq en terreno positivo.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC7)", "url": "https://abc7news.com/19468900/" }
+      ]
+    },
+    {
+      "titulo": "Suben las tasas por miedo a la inflación energética",
+      "resumen": "La tasa a 10 años rozó 4,60% y terminó en 4,57%, contra 4,55% del martes.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "Las tasas más altas pesan sobre las acciones sensibles al crédito.",
+      "fuentes": [
+        { "nombre": "AP (vía KTTC)", "url": "https://www.kttc.com/2026/07/08/oil-prices-jump-more-than-6-after-trump-says-ceasefire-with-iran-is-over/?outputType=amp" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "El índice del sector subió 2,2% con Nvidia y Broadcom." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió tras el fin de la tregua con Irán." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Las acciones cíclicas arrastraron al Dow." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Subieron las tasas largas." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue el fin de la tregua con Irán, que reavivó el miedo a más inflación por el petróleo.",
+  "proximos": [
+    "Pedidos de subsidio por desempleo el jueves.",
+    "Reacción de Irán y del tránsito por Ormuz.",
+    "Arranque de la temporada de balances con los bancos la semana próxima."
+  ]
+}

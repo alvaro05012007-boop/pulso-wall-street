@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-28-1730",
+  "fecha": "2026-10-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "La Fed dejó las tasas entre 3,75% y 4,00%, como se esperaba, pero dos miembros (Cook y Hammack) votaron por subirlas. El mercado le da ~85% de chances a una suba en diciembre.",
+    "Las bolsas subieron levemente: S&P 500 +0,3% (tercera suba seguida), Nasdaq +0,3% y Dow +0,2%.",
+    "Después del cierre, Alphabet presentó resultados flojos y los futuros del Nasdaq cayeron."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.743,98", "cambio": "+0,28%", "cambioPct": 0.28 },
+    { "nombre": "Dow Jones", "valor": "52.475,10", "cambio": "+0,19%", "cambioPct": 0.19 },
+    { "nombre": "Nasdaq", "valor": "26.549,85", "cambio": "+0,27%", "cambioPct": 0.27 },
+    { "nombre": "Bono 10 años", "valor": "5,03%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed mantiene las tasas, con dos votos por subirlas",
+      "resumen": "La tasa quedó entre 3,75% y 4,00% en una votación 10 a 2. La Fed dijo que la economía crece a buen ritmo y que más datos ayudarán a la próxima decisión.",
+      "afecta": ["Financiero", "Inmobiliario", "Bonos"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "StockAnalysis", "url": "https://stockanalysis.com/news/fed-holds-rates-steady-oct-2026/" },
+        { "nombre": "investingLive", "url": "https://investinglive.com/central-banks/fomc-decision-oct-28/" }
+      ]
+    },
+    {
+      "titulo": "Wall Street sube tras la Fed y mira los balances",
+      "resumen": "Las acciones oscilaron durante la conferencia de Kevin Warsh pero cerraron arriba; el S&P 500 sumó su tercera suba seguida.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/" },
+        { "nombre": "Bernama", "url": "https://bernama.com/en/world/news.php?id=2627208" }
+      ]
+    },
+    {
+      "titulo": "Los bonos se mueven pero las acciones aguantan",
+      "resumen": "La tasa a 10 años cerró en 5,03% después de tocar 5,051% en el día.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "AP (vía CDA Press)", "url": "https://cdapress.com/news/2026/oct/28/the-bond-market-swings-but-us-stocks-remain-steady-after-the-fed-says-it-wont-raise-interest-rates/" }
+      ]
+    },
+    {
+      "titulo": "Alphabet decepciona después del cierre",
+      "resumen": "Los resultados de Alphabet, más flojos de lo esperado, reavivaron las dudas sobre el gasto en IA y bajaron los futuros del Nasdaq.",
+      "afecta": ["Comunicaciones", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-dip-as-weaker-than-expected-alphabet-earnings-reignite-ai-spending-worries-googl-msft-orcl-nvda-mrvl-in-focus/cZUQ2gwR9Gq" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Financiero", "tono": "mixto", "porque": "La Fed no tocó las tasas pero dejó abierta una suba en diciembre." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "La tasa a 10 años sigue arriba de 5%." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Alphabet decepcionó después del cierre." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Subió en la rueda, antes de los resultados de Alphabet." }
+  ],
+  "riesgoHoy": "El mayor riesgo fue la combinación de una Fed dividida (dos votos por subir) con resultados flojos de Alphabet justo después del cierre.",
+  "proximos": [
+    "Jueves 29: PIB del tercer trimestre, inflación PCE y pedidos de subsidio por desempleo.",
+    "Jueves 29 después del cierre: Amazon e Intel.",
+    "3 de noviembre: elecciones de medio término."
+  ]
+}

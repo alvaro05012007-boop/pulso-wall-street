@@ -1,0 +1,70 @@
+{
+  "id": "2026-10-27-1730",
+  "fecha": "2026-10-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Las acciones de IA empujaron otra vez: el Nasdaq subió 1,2% y el S&P 500 0,6%. El Dow quedó casi plano.",
+    "Las empresas chicas también subieron (Russell 2000 +1,2%).",
+    "El mercado esperaba el anuncio de la Fed del miércoles, con buena parte de los inversores mirando ya la reunión de diciembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.722,60", "cambio": "+0,60%", "cambioPct": 0.6 },
+    { "nombre": "Dow Jones", "valor": "52.377,57", "cambio": "+0,03%", "cambioPct": 0.03 },
+    { "nombre": "Nasdaq", "valor": "26.477,81", "cambio": "+1,18%", "cambioPct": 1.18 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La IA vuelve a empujar a Wall Street",
+      "resumen": "Las acciones ligadas a la IA lideraron la suba; el S&P 500 ganó 0,6% y el Nasdaq 1,2%.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-rises-ai-momentum-earnings/" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-10272026-nid27102026/" }
+      ]
+    },
+    {
+      "titulo": "Rally de las tecnológicas",
+      "resumen": "Las tecnológicas encabezaron la jornada mientras el mercado se acomodaba antes de la Fed.",
+      "afecta": ["Tecnología", "Software"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-tech-stocks-rally/" }
+      ]
+    },
+    {
+      "titulo": "Subasta de bonos a 5 años con algo de debilidad",
+      "resumen": "La subasta de bonos a 5 años salió algo floja, aunque mucho mejor que la de septiembre.",
+      "afecta": ["Bonos"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "TheStreet", "url": "https://pro.thestreet.com/stock-market-today/5-year-auction-tails-but-big-improvement-from-septembers-rout" }
+      ]
+    },
+    {
+      "titulo": "Buenos balances sostienen el ánimo",
+      "resumen": "El mercado sigue apoyado en una temporada de resultados mejor de lo esperado, con el trade de la IA renovado.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/3016660/stock-market-news-for-oct-28-2026" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la suba con el trade de la IA." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Los chips acompañaron el rally de la IA." },
+    { "sector": "Industria", "tono": "neutral", "porque": "El Dow casi no se movió." }
+  ],
+  "riesgoHoy": "El riesgo estaba en la Fed: dos días antes del anuncio, cualquier señal de suba de tasas podía cortar el rebote de la tecnología.",
+  "proximos": [
+    "Miércoles 28: decisión de la Fed y conferencia de Kevin Warsh.",
+    "Miércoles 28 después del cierre: resultados de Alphabet.",
+    "Jueves 29: PIB del tercer trimestre e inflación PCE."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2026-01-30-1730",
+  "fecha": "2026-01-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Trump nominó a Kevin Warsh para presidir la Fed; el dólar subió y el oro y la plata se desplomaron.",
+    "El oro cayó 11% y la plata más de 30%, su peor día desde 1980.",
+    "Las acciones bajaron: el Nasdaq 0,94%, el S&P 500 0,43% y el Dow 0,36%; además los precios mayoristas salieron más altos de lo esperado."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.939,03", "cambio": "-0,43%", "cambioPct": -0.43 },
+    { "nombre": "Dow Jones", "valor": "48.892,47", "cambio": "-0,36%", "cambioPct": -0.36 },
+    { "nombre": "Nasdaq", "valor": "23.461,82", "cambio": "-0,94%", "cambioPct": -0.94 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump elige a Kevin Warsh para la Fed",
+      "resumen": "La nominación generó dudas sobre la independencia de la Fed; Warsh plantea achicar su rol y repensar la política.",
+      "afecta": ["Fed", "Dólar", "Bonos"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "El dólar subió con fuerza tras la confirmación de la nominación.",
+      "fuentes": [
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/01/31/what-happened-gold-silver-dollar-markets-kevin-warsh-fed-reaction/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/1/30/gold-tumbles-11-as-warsh-fed-nomination-lifts-dollar-triggers-crowded-long-unwind" }
+      ]
+    },
+    {
+      "titulo": "Desplome histórico del oro y la plata",
+      "resumen": "El oro cayó 11% y la plata más de 30%; el fondo SPDR Gold Shares perdió 12%, su peor día desde 2004.",
+      "afecta": ["Oro", "Plata", "Mineras", "Materiales"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Varias mineras de oro cayeron más de 10%.",
+      "fuentes": [
+        { "nombre": "AP / Yahoo Finance", "url": "https://finance.yahoo.com/news/asian-shares-mostly-lower-wild-025429296.html" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/293927/trumps-fed-chair-pick-triggers-gold-silvers-worst-day-since-1980-whats-moving-markets-friday" }
+      ]
+    },
+    {
+      "titulo": "Precios mayoristas por encima de lo esperado",
+      "resumen": "El índice de precios al productor salió más alto que lo previsto, sumando temor por la inflación.",
+      "afecta": ["Bonos", "Mercado en general"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Inflación", "volatilidad": false,
+      "impacto": "Contribuyó a la baja junto con el riesgo de cierre del gobierno y balances mixtos.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-lower-as-trump-announces-fed-pick,-ppi-comes-in-hotter-than-expected" },
+        { "nombre": "Kiplinger", "url": "https://www.kiplinger.com/investing/stocks/stocks-close-down-as-gold-silver-spiral-stock-market-today" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Materiales", "tono": "negativo", "porque": "Las mineras de oro y plata se desplomaron." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq fue el que más cayó." }
+  ],
+  "riesgoHoy": "El derrumbe de los metales y las dudas sobre la futura conducción de la Fed.",
+  "proximos": ["Posible cierre parcial del gobierno", "Informe de empleo de enero", "Balances de Alphabet y Amazon"]
+}

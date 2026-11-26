@@ -1,0 +1,73 @@
+{
+  "id": "2026-04-23-1730",
+  "fecha": "2026-04-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Las bolsas tocaron récords intradiarios y después cayeron: el S&P 500 bajó 0,41%, el Nasdaq 0,89% y el Dow 0,36%.",
+    "ServiceNow se hundió 17,5%, su peor día de la historia, y arrastró al software.",
+    "El estancamiento entre EE.UU. e Irán llevó al Brent por encima de USD 107 por momentos."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.108,40", "cambio": "-0,41%", "cambioPct": -0.41 },
+    { "nombre": "Dow Jones", "valor": "49.310,32", "cambio": "-0,36%", "cambioPct": -0.36 },
+    { "nombre": "Nasdaq", "valor": "24.438,50", "cambio": "-0,89%", "cambioPct": -0.89 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "ServiceNow se desploma 17,5% en su peor día",
+      "resumen": "La empresa recortó su previsión de margen y advirtió que la compra de Armis pesará sobre márgenes y flujo de caja en 2026.",
+      "afecta": ["Software", "ServiceNow"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Arrastró a todo el sector de software.",
+      "fuentes": [
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/servicenow-shares-fall-18-solid-earnings-fail-impress-investors" },
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-us-iran-stalemate" }
+      ]
+    },
+    {
+      "titulo": "El estancamiento con Irán lleva al Brent arriba de USD 107",
+      "resumen": "La falta de avances y el bloqueo de Ormuz hicieron subir el crudo.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 cortó su racha alcista.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance (AP)", "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-retreat-oil-tops-045518832.html" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/347391/stocks-settle-lower-as-middle-east-uncertainty-grips-wall-street" }
+      ]
+    },
+    {
+      "titulo": "Tesla pesa por su gasto en fábricas",
+      "resumen": "Las preocupaciones por las inversiones de Tesla en plantas se sumaron a la baja.",
+      "afecta": ["Consumo", "Tesla"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Contribuyó a la caída del Nasdaq.",
+      "fuentes": [
+        { "nombre": "ABC News (AP)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-4232026-132327428" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-retreat-as-blue-chip-earnings-disappoint,-oil-prices-rise" }
+      ]
+    },
+    {
+      "titulo": "Intel se dispara después del cierre por su balance",
+      "resumen": "Intel superó las estimaciones y elevó su previsión.",
+      "afecta": ["Semiconductores", "Intel"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Las acciones subieron fuerte en la operatoria posterior al cierre.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/after-hours-report/archive/2026/4/23/intel-powering-higher-on-strong-beat-and-upside-guide" }
+      ]
+    }
+  ],
+  "contradicciones": ["Un resumen de Zacks fechado el 23 informa subas que corresponden al día anterior."],
+  "sectores": [
+    { "sector": "Software", "tono": "negativo", "porque": "ServiceNow cayó 17,5%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El Brent superó USD 107 por momentos." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Tesla presionó a la baja." }
+  ],
+  "riesgoHoy": "El estancamiento de las negociaciones con el bloqueo de Ormuz vigente.",
+  "proximos": ["Reacción al balance de Intel el viernes 24", "Más balances de grandes tecnológicas"]
+}

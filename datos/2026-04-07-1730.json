@@ -1,0 +1,61 @@
+{
+  "id": "2026-04-07-1730",
+  "fecha": "2026-04-07",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda muy volátil antes del plazo de Trump a Irán: el S&P 500 llegó a caer 1,2% y terminó subiendo 0,08%.",
+    "El repunte llegó en la última hora, cuando el primer ministro de Pakistán pidió extender dos semanas el plazo y que Irán abra Ormuz ese tiempo.",
+    "El Dow cedió 0,18%; el WTI cerró en USD 112,41."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.616,85", "cambio": "+0,08%", "cambioPct": 0.08 },
+    { "nombre": "Dow Jones", "valor": "46.584,46", "cambio": "-0,18%", "cambioPct": -0.18 },
+    { "nombre": "Nasdaq", "valor": "22.017,85", "cambio": "+0,10%", "cambioPct": 0.1 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "112,41", "cambio": "+0,78%", "cambioPct": 0.78 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Pakistán pide extender el plazo y las bolsas dan vuelta",
+      "resumen": "El primer ministro paquistaní propuso dos semanas más de plazo y la apertura temporal de Ormuz; Irán dijo que lo analiza 'positivamente'.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 pasó de -1,2% a un leve positivo.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance (AP)", "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-inch-lower-115826959.html" },
+        { "nombre": "Inquirer (AP)", "url": "https://business.inquirer.net/584063/us-stocks-swing-from-losses-to-a-tiny-gain" }
+      ]
+    },
+    {
+      "titulo": "Volatilidad máxima antes del ultimátum sobre Ormuz",
+      "resumen": "El mercado osciló toda la rueda a la espera del plazo de las 20 para que Irán reabra el estrecho.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Ocho de los once sectores del S&P 500 terminaron en alza.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/7/mixed-choppy-session-as-iran-deadline-drives-volatility" },
+        { "nombre": "NST (Reuters)", "url": "https://www.nst.com.my/amp/business/corporate/2026/04/1412681/wall-street-ends-mixed-progress-builds-trumps-iran-deadline" }
+      ]
+    },
+    {
+      "titulo": "El WTI se mantiene arriba de USD 112",
+      "resumen": "El crudo para mayo subió 0,78% y cerró en USD 112,41 por barril.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "El petróleo seguía en niveles de crisis.",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2895462/stock-market-news-for-apr-7,-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El WTI por encima de USD 112." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cerró en baja." }
+  ],
+  "riesgoHoy": "El vencimiento del ultimátum a Irán con amenaza de ataques a su infraestructura.",
+  "proximos": ["Respuesta de Irán a la propuesta de Pakistán", "IPC de marzo el viernes 10"]
+}

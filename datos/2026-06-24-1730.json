@@ -1,0 +1,64 @@
+{
+  "id": "2026-06-24-1730",
+  "fecha": "2026-06-24",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto: el Dow subió 0,4%, mientras el S&P 500 cedió 0,1% y el Nasdaq 0,4% por nuevas caídas de las grandes tecnológicas.",
+    "El petróleo bajó por el avance de las negociaciones EE.UU.-Irán y más tráfico por el estrecho de Ormuz, lo que ayudó a las industriales.",
+    "Dentro del S&P 500 subieron más acciones de las que bajaron; energía fue el peor sector."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.358,22", "cambio": "-0,10%", "cambioPct": -0.10 },
+    { "nombre": "Dow Jones", "valor": "51.848,90", "cambio": "+0,35%", "cambioPct": 0.35 },
+    { "nombre": "Nasdaq", "valor": "25.476,64", "cambio": "-0,43%", "cambioPct": -0.43 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Más tráfico por Ormuz y baja del petróleo",
+      "resumen": "El avance en las negociaciones con Irán y el mayor paso de buques por el estrecho de Ormuz bajaron el crudo.",
+      "afecta": ["Energía", "Industria", "Transporte"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Las industriales subieron y energía fue el sector más débil.",
+      "fuentes": [
+        { "nombre": "AP / ADN", "url": "https://www.adn.com/business-economy/2026/06/24/us-stocks-rise-as-falling-oil-prices-ease-pressure-on-the-market/" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-24-2026" }
+      ]
+    },
+    {
+      "titulo": "Nuevas caídas de las tecnológicas gigantes",
+      "resumen": "Microsoft perdió 2,27% y las dudas sobre las valuaciones de la IA volvieron a pesar.",
+      "afecta": ["Microsoft", "Tecnología", "Software"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 110 puntos.",
+      "fuentes": [
+        { "nombre": "Proactive Investors", "url": "https://www.proactiveinvestors.com/companies/news/1094417/dow-closes-in-the-green-despite-renewed-ai-valuation-concerns-1094417.html" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/561640" }
+      ]
+    },
+    {
+      "titulo": "Volatilidad en chips, pero más amplitud",
+      "resumen": "Briefing.com destacó que la volatilidad de los semiconductores ocultó una mejora en el resto del mercado.",
+      "afecta": ["Semiconductores", "Pequeñas empresas"],
+      "tono": "mixto", "importancia": "baja", "tipo": "interpretacion", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Russell 2000 subió 0,4%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/24/semiconductor-volatility-masks-broadening-strength" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Briefing.com dio el Nasdaq en 25.497,63; AP en 25.476,64."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "negativo", "porque": "Fue el peor sector con la baja del crudo." },
+    { "sector": "Industria", "tono": "positivo", "porque": "Se benefició del petróleo más barato." },
+    { "sector": "Software", "tono": "negativo", "porque": "Microsoft cayó 2,27%." }
+  ],
+  "riesgoHoy": "Las dudas sobre las valuaciones de las empresas de IA.",
+  "proximos": ["Balance de Micron", "Inflación PCE de mayo"]
+}

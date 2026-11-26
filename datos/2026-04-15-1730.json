@@ -1,0 +1,73 @@
+{
+  "id": "2026-04-15-1730",
+  "fecha": "2026-04-15",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Récord histórico: el S&P 500 cerró en 7.022,95 (+0,80%) y superó su máximo de enero; el Nasdaq también marcó récord con +1,59%.",
+    "EE.UU. e Irán llegaron a un acuerdo en principio para extender la tregua y dar lugar a más diplomacia.",
+    "El Dow cedió 0,15% por la debilidad de las industriales ante temores por aranceles a los metales."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.022,95", "cambio": "+0,80%", "cambioPct": 0.8 },
+    { "nombre": "Dow Jones", "valor": "48.463,72", "cambio": "-0,15%", "cambioPct": -0.15 },
+    { "nombre": "Nasdaq", "valor": "24.016,02", "cambio": "+1,59%", "cambioPct": 1.59 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 y el Nasdaq marcan récords históricos",
+      "resumen": "El S&P 500 superó su máximo de enero tras un rally de dos semanas apoyado en la esperanza de fin de la guerra.",
+      "afecta": ["Mercado en general", "Tecnología"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Nasdaq extendió a 11 días su racha ganadora.",
+      "fuentes": [
+        { "nombre": "PBS (AP)", "url": "https://www.pbs.org/newshour/economy/wall-street-hits-record-as-sp-500-continues-2-week-rally-boosted-by-hopes-for-iran-wars-end" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/344954/sp-500-nasdaq-nab-record-closes-as-geopolitical-fears-fade" }
+      ]
+    },
+    {
+      "titulo": "Acuerdo en principio para extender la tregua con Irán",
+      "resumen": "Según AP, ambos países acordaron en principio prolongar el alto el fuego para seguir negociando.",
+      "afecta": ["Mercado en general", "Energía"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Sostuvo el optimismo en las bolsas.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/04/16/us-stocks-close-mixed-with-sp-500-nasdaq-hitting-record-highs" },
+        { "nombre": "Anadolu", "url": "https://www.aa.com.tr/en/americas/us-stocks-end-mostly-higher-as-sp-500-nasdaq-close-at-records-on-iran-war-optimism/3907209" }
+      ]
+    },
+    {
+      "titulo": "Balances bancarios fuertes impulsan el rally",
+      "resumen": "Los resultados de los bancos se sumaron al optimismo por la tregua.",
+      "afecta": ["Financiero"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Las megacapitalizadas y los bancos lideraron.",
+      "fuentes": [
+        { "nombre": "InvestmentNews", "url": "https://www.investmentnews.com/equities/sp-500-closes-at-record-as-ceasefire-optimism-bank-earnings-power-rally/266166" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/15/s-and-p-500-notches-record-highs-on-continued-megacap-strength" }
+      ]
+    },
+    {
+      "titulo": "Las industriales caen por temores a aranceles sobre metales",
+      "resumen": "La preocupación por aranceles de EE.UU. a los metales pesó sobre las industriales y el Dow.",
+      "afecta": ["Industria", "Materiales"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Dow fue el único índice grande en baja.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-nasdaq-posts-record-high-tech-strength" }
+      ]
+    }
+  ],
+  "contradicciones": ["Una fuente preliminar da el Dow en 48.460,55 (-0,16%) en lugar de 48.463,72 (-0,15%)."],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq marcó récord." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Buenos balances bancarios." },
+    { "sector": "Industria", "tono": "negativo", "porque": "Temores por aranceles a los metales." }
+  ],
+  "riesgoHoy": "Que el mercado ya en récords quede expuesto a cualquier revés en la tregua.",
+  "proximos": ["Balances de tecnológicas", "Formalización de la extensión de la tregua"]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "2026-09-08-1730",
+  "fecha": "2026-09-08",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Vuelta del feriado en rojo: el Dow cayó 1,2% (628 puntos), el S&P 500 0,6% y el Nasdaq 0,3%.",
+    "La tensión en Medio Oriente subió el petróleo y el Brent pasó los 100 USD; las petroleras fueron de las pocas en verde.",
+    "Las empresas de software cayeron por dudas sobre el efecto de la inteligencia artificial, y crecieron las apuestas a una suba de tasas en la reunión del 15 y 16."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.673,52", "cambio": "-0,58%", "cambioPct": -0.58 },
+    { "nombre": "Dow Jones", "valor": "52.786,07", "cambio": "-1,18%", "cambioPct": -1.18 },
+    { "nombre": "Nasdaq", "valor": "26.421,41", "cambio": "-0,32%", "cambioPct": -0.32 },
+    { "nombre": "Bono 10 años", "valor": "4,80%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Brent supera los 100 USD por la tensión en Medio Oriente",
+      "resumen": "Las dudas sobre la oferta y un nuevo rebrote de tensión en Medio Oriente llevaron al Brent arriba de 100 USD por barril.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "Subieron las petroleras pero el resto del mercado cayó por el miedo a más inflación antes del dato de precios de la semana.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Zawya)", "url": "https://www.zawya.com/en/capital-markets/us-stocks-sp-500-ends-down-as-oil-tops-100-per-barrel-521392" },
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/oil-prices-keep-rising-and-weigh-on-wall-street/" }
+      ]
+    },
+    {
+      "titulo": "Las dudas por la IA golpean al software",
+      "resumen": "Las empresas de software cayeron por preocupaciones sobre cómo la inteligencia artificial puede afectar su negocio.",
+      "afecta": ["Software"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El software fue uno de los sectores que más arrastró al S&P 500.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Kitco)", "url": "https://www.kitco.com/news/off-the-wire/2026-09-08/sp-500-falls-ai-worries-hit-software-makers" }
+      ]
+    },
+    {
+      "titulo": "El Dow pierde 628 puntos y la tasa a 10 años sigue cerca de máximos",
+      "resumen": "El Dow cerró en 52.786,07. La tasa a 10 años quedó en torno a 4,80%, cerca de su nivel más alto desde fines de 2023, y crecieron las apuestas a una suba de tasas.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El mercado se puso a la defensiva antes del CPI y de la reunión de la Fed.",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2986777/stock-market-news-for-sep-9-2026" },
+        { "nombre": "Ringside (Buttondown)", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-september-8-7078/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Las fuentes dan cifras distintas de la tasa a 10 años: AP dice 4,79% y Ringside 4,80%."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Fue de los pocos sectores en suba por el petróleo." },
+    { "sector": "Software", "tono": "negativo", "porque": "Cayó por dudas sobre el impacto de la IA." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El petróleo caro sube los costos de combustible." }
+  ],
+  "riesgoHoy": "El petróleo arriba de 100 USD (Brent) y la posible suba de tasas de la Fed fueron los mayores riesgos del día.",
+  "proximos": [
+    "Datos de inflación de agosto (PPI y CPI) en la semana.",
+    "Reunión de la Fed del 15 y 16 de septiembre."
+  ]
+}

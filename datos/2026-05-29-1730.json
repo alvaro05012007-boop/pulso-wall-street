@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-29-1730",
+  "fecha": "2026-05-29",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Los tres índices cerraron en récord: el Dow subió 0,7% y superó por primera vez 51.000; S&P 500 y Nasdaq +0,2%.",
+    "Dell se disparó 33%, su mejor día de la historia.",
+    "Mayo cerró con el Nasdaq +8%, el S&P 500 +5% y el Dow casi +3%; el S&P 500 suma nueve semanas seguidas de alzas."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.580,06", "cambio": "+0,22%", "cambioPct": 0.22 },
+    { "nombre": "Dow Jones", "valor": "51.032,46", "cambio": "+0,72%", "cambioPct": 0.72 },
+    { "nombre": "Nasdaq", "valor": "26.972,62", "cambio": "+0,20%", "cambioPct": 0.20 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Dell sube 33% en su mejor día",
+      "resumen": "Dell se disparó tras su balance y fue la gran protagonista de la rueda.",
+      "afecta": ["Dell", "Hardware"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Ayudó a llevar al Nasdaq a un nuevo récord.",
+      "fuentes": [
+        { "nombre": "AP / NY1", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/05/29/us-stocks-gain-ground-adding-to-their-records-as-dell-soars" },
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-friday-5-29-2026/" }
+      ]
+    },
+    {
+      "titulo": "Apuestas a una tregua con Irán y el Dow pasa los 51.000",
+      "resumen": "El optimismo por el fin de la guerra con Irán ayudó al Dow a su primer cierre arriba de 51.000.",
+      "afecta": ["Industria", "Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El S&P 500 encadenó siete subas diarias seguidas.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-jumps-for-ninth-week-longest-since-2023-with-dell-leading-nasdaq-to-record-highs-while-positive-us-iran-ceasefire-bets-aid-dow-umg-coin-mnkd-astc-asts-in-focus/cZgjRJKReMz?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "Récords con amplitud débil",
+      "resumen": "Briefing.com señaló que la suba tecnológica convivió con debilidad en el resto del mercado; el Russell 2000 cayó 0,6%.",
+      "afecta": ["Pequeñas empresas", "Tecnología"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El mes cerró con fuertes ganancias lideradas por la tecnología.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/29/tech-rally-prompts-fresh-record-highs-despite-broader-weakness" },
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-wall-street-hits-fresh-records-as-tech-leads-monthly-gains" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un resumen de Zacks repite las cifras del jueves; se usaron las de AP, Briefing.com y Xinhua."
+  ],
+  "sectores": [
+    { "sector": "Hardware", "tono": "positivo", "porque": "Dell subió 33%." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró las ganancias del mes." }
+  ],
+  "riesgoHoy": "Una suba concentrada en tecnología mientras las pequeñas empresas retroceden.",
+  "proximos": ["Informe de empleo de mayo el viernes 5 de junio", "Firma de un acuerdo con Irán"]
+}

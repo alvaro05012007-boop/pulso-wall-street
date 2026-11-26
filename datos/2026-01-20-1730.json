@@ -1,0 +1,64 @@
+{
+  "id": "2026-01-20-1730",
+  "fecha": "2026-01-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Peor día desde octubre: el Dow cayó unos 870 puntos (-1,76%), el S&P 500 2,06% y el Nasdaq 2,39%.",
+    "Trump amenazó con aranceles a ocho países de la OTAN hasta lograr la compra de Groenlandia.",
+    "S&P 500 y Nasdaq borraron lo ganado en el año; el oro marcó récord y el VIX pasó de 20."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.796,86", "cambio": "-2,06%", "cambioPct": -2.06 },
+    { "nombre": "Dow Jones", "valor": "48.488,59", "cambio": "-1,76%", "cambioPct": -1.76 },
+    { "nombre": "Nasdaq", "valor": "22.954,32", "cambio": "-2,39%", "cambioPct": -2.39 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump amenaza con aranceles a Europa por Groenlandia",
+      "resumen": "Propuso aranceles a ocho miembros de la OTAN: 10% desde el 1 de febrero y 25% desde el 1 de junio, hasta acordar la compra de Groenlandia.",
+      "afecta": ["Mercado en general", "Europa"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Desató una venta global de acciones en EE.UU. y Europa.",
+      "fuentes": [
+        { "nombre": "ABC7", "url": "https://abc7.com/post/dow-closes-down-870-points-trump-threatens-tariffs-greenland/18439611/" },
+        { "nombre": "Kitco (Reuters)", "url": "https://www.kitco.com/news/off-the-wire/2026-01-20/wall-street-ends-lower-amid-global-selloff-trump-greenland-tariff" }
+      ]
+    },
+    {
+      "titulo": "Las tecnológicas, el mayor lastre; Nvidia cae 4,4%",
+      "resumen": "Las grandes tecnológicas fueron las que más pesaron en la baja.",
+      "afecta": ["Nvidia", "Tecnología", "Semiconductores"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 2,39% y volvió a terreno negativo en el año.",
+      "fuentes": [
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-jan-20-223639262.html" }
+      ]
+    },
+    {
+      "titulo": "Huida a refugios: oro en récord y miedo en alza",
+      "resumen": "El oro superó los 4.750 dólares la onza y el índice de volatilidad VIX pasó de 20 por primera vez desde noviembre.",
+      "afecta": ["Oro", "Materiales"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Señal de mayor aversión al riesgo.",
+      "fuentes": [
+        { "nombre": "Washington Times", "url": "https://m.washingtontimes.com/news/2026/jan/20/wall-street-suffers-worst-day-since-october-trumps-greenland-tariff/" },
+        { "nombre": "Scripps News", "url": "https://www.scrippsnews.com/politics/economy/stocks-in-us-europe-sink-as-trump-threatens-tariffs-on-nato-members" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "El cierre del Dow difiere apenas entre fuentes: 48.488,59 (UPI) y 48.490,15 (Reuters)."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las grandes tecnológicas lideraron la caída." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia perdió 4,4%." },
+    { "sector": "Materiales", "tono": "positivo", "porque": "El oro marcó récord como refugio." }
+  ],
+  "riesgoHoy": "Una guerra comercial con Europa por Groenlandia.",
+  "proximos": ["Discurso de Trump en Davos", "Inicio de aranceles previsto para el 1 de febrero"]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "2026-06-03-1730",
+  "fecha": "2026-06-03",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Se cortó la racha: el S&P 500 cayó 0,7% tras nueve subas seguidas; el Dow perdió 1,2% y el Nasdaq 0,9%.",
+    "El petróleo subió por las últimas amenazas a la tregua entre EE.UU. e Irán.",
+    "Las megatecnológicas se debilitaron y las pequeñas empresas cayeron 1,3%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.553,68", "cambio": "-0,74%", "cambioPct": -0.74 },
+    { "nombre": "Dow Jones", "valor": "50.687,07", "cambio": "-1,21%", "cambioPct": -1.21 },
+    { "nombre": "Nasdaq", "valor": "26.853,98", "cambio": "-0,89%", "cambioPct": -0.89 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Suba del crudo por amenazas a la tregua con Irán",
+      "resumen": "El petróleo se disparó por nuevas amenazas al alto el fuego y frenó la racha de récords.",
+      "afecta": ["Energía", "Petróleo", "Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Dow perdió 621 puntos.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-3-2026/" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/3/oil-surge-and-megacap-weakness-halt-record-run" }
+      ]
+    },
+    {
+      "titulo": "Debilidad de las megatecnológicas",
+      "resumen": "Las grandes tecnológicas retrocedieron y arrastraron al Nasdaq.",
+      "afecta": ["Tecnología"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq perdió 240 puntos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/3/oil-surge-and-megacap-weakness-halt-record-run" }
+      ]
+    },
+    {
+      "titulo": "Fin de la racha de nueve subas del S&P 500",
+      "resumen": "El índice cortó su serie ganadora más larga en años; en 2026 sigue arriba 10,4%.",
+      "afecta": ["Mercado en general", "Pequeñas empresas"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Russell 2000 fue el más golpeado con -1,3%.",
+      "fuentes": [
+        { "nombre": "News on AIR", "url": "https://newsonair.gov.in/us-stock-indices-end-winning-streak-amid-geopolitical-concerns/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió con fuerza." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las megacaps se debilitaron." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Combustible más caro." }
+  ],
+  "riesgoHoy": "Las amenazas a la tregua entre EE.UU. e Irán y su efecto en el petróleo.",
+  "proximos": ["Evolución de la tregua con Irán", "Informe de empleo de mayo el viernes 5"]
+}

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Pulso de Wall Street</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="wrap" id="pagina">
+  <header class="top">
+    <div class="marca"><i aria-hidden="true"></i>Pulso de Wall Street</div>
+    <div class="estado">
+      <span>Nueva York <strong id="relojNY">--:--</strong></span>
+      <span id="estadoMercado"></span>
+      <button class="icono chico" id="ayuda" aria-label="Cómo se usa esta página" title="Cómo se usa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7M12 17h.01"/></svg></button>
+      <button class="icono chico" id="ajustes" aria-label="Estado del sistema y preferencias" title="Estado y preferencias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    </div>
+  </header>
+
+  <section class="bienvenida" id="bienvenida" aria-labelledby="bienvenidaTitulo" hidden>
+    <h2 id="bienvenidaTitulo">Así se usa, en 30 segundos</h2>
+    <ol>
+      <li><b>Hoy:</b> qué pasó en la bolsa, explicado simple. Con las flechas ‹ › ves días anteriores.</li>
+      <li><b>Mercado:</b> todo de un vistazo (Panorama) y el informe con causas y riesgos (Análisis).</li>
+      <li><b>Empresas:</b> las 100 empresas más grandes. Tocá una para ver su gráfico; marcala con ★ para seguirla.</li>
+      <li><b>Historia:</b> cada día guardado, las tendencias y los últimos 5 años.</li>
+      <li><b>Mis listas:</b> tus empresas seguidas y alertas que te avisan.</li>
+    </ol>
+    <p class="nota">Las palabras subrayadas se explican al tocarlas. Nada de esto es un consejo de inversión. El engranaje de arriba tiene el estado del sistema y las preferencias.</p>
+    <button class="chip primario" id="bienvenidaOk">Entendido</button>
+  </section>
+
+  <div class="cinta" id="cinta" aria-hidden="true"><div class="cinta-pista" id="cintaPista"></div></div>
+
+  <section class="hero" aria-labelledby="titulo">
+    <div class="hero-texto" id="heroTexto">
+      <div class="navdia">
+        <button class="icono" id="anterior" aria-label="Resumen anterior" title="Resumen anterior (flecha izquierda)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="icono" id="siguiente" aria-label="Resumen siguiente" title="Resumen siguiente (flecha derecha)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+        <button class="chip" id="alUltimo" hidden>Ir al más reciente</button>
+      </div>
+      <h1 id="titulo">Esperando el primer resumen</h1>
+      <p class="meta" id="meta"></p>
+      <p class="titular" id="titular"></p>
+      <ul class="claves" id="claves"></ul>
+      <button class="enlace ver-mas" id="verMasClaves" hidden></button>
+      <details class="cambios-det" id="cambiosDet" hidden><summary id="cambiosSum"></summary><div class="cambios" id="cambios"></div></details>
+      <div class="acciones">
+        <button class="chip primario" id="presentar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.5v13l10.5-6.5z" fill="currentColor"/></svg>Ver presentación</button>
+        <button class="chip" id="copiar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>Copiar</button>
+        <button class="chip" id="informePdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-6h16v6h-2M8 14h8v7H8z"/></svg>PDF</button>
+      </div>
+    </div>
+    <div class="orbe-col">
+      <div class="orbe" id="orbe">
+        <div class="lectura"><b id="lecturaV">—</b><span id="lecturaN">S&amp;P 500</span></div>
+      </div>
+      <div class="vix" id="vix" hidden>
+        <div class="vix-cab"><span>Nerviosismo (<dfn class="term" tabindex="0">VIX</dfn>) <span id="vixFecha"></span></span><b id="vixV">—</b></div>
+        <div class="vix-pista" aria-hidden="true"><span></span><span></span><span></span><span></span><div class="vix-marca" id="vixMarca"></div></div>
+        <div class="vix-zonas" aria-hidden="true"><span>Calma</span><span>Normal</span><span>Nervioso</span><span>Miedo</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="indices" id="indices"></div>
+  <section class="favoritas" id="favoritas" aria-labelledby="favTitulo" hidden>
+    <h2 id="favTitulo">Tus favoritas</h2>
+    <div class="fav-lista" id="favLista"></div>
+  </section>
+
+  <nav class="secciones" id="secciones" aria-label="Secciones">
+    <button data-seccion="hoy">Hoy</button>
+    <button data-seccion="mercado">Mercado</button>
+    <button data-seccion="empresas">Empresas</button>
+    <button data-seccion="historia">Historia</button>
+    <button data-seccion="listas">Mis listas</button>
+  </nav>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Partes de la sección">
+    <button role="tab" aria-selected="true" aria-controls="p-resumen" id="t-resumen">Resumen</button>
+    <button role="tab" aria-selected="false" aria-controls="p-terminal" id="t-terminal" tabindex="-1">Panorama</button>
+    <button role="tab" aria-selected="false" aria-controls="p-inteligencia" id="t-inteligencia" tabindex="-1">Análisis</button>
+    <button role="tab" aria-selected="false" aria-controls="p-ranking" id="t-ranking" tabindex="-1">Ranking</button>
+    <button role="tab" aria-selected="false" aria-controls="p-comparar" id="t-comparar" tabindex="-1">Comparar</button>
+    <button role="tab" aria-selected="false" aria-controls="p-historial" id="t-historial" tabindex="-1">Días</button>
+    <button role="tab" aria-selected="false" aria-controls="p-tendencias" id="t-tendencias" tabindex="-1">Tendencias</button>
+    <button role="tab" aria-selected="false" aria-controls="p-historia5" id="t-historia5" tabindex="-1">5 años</button>
+    <button role="tab" aria-selected="false" aria-controls="p-listas" id="t-listas" tabindex="-1">Mis listas</button>
+    <button role="tab" aria-selected="false" aria-controls="p-estado" id="t-estado" tabindex="-1">Estado y preferencias</button>
+  </nav>
+
+  <section class="panel" id="p-terminal" role="tabpanel" aria-labelledby="t-terminal" hidden>
+    <div id="terminal"></div>
+  </section>
+
+  <section class="panel" id="p-inteligencia" role="tabpanel" aria-labelledby="t-inteligencia" hidden>
+    <details class="leyenda-origen"><summary>¿Qué significan las etiquetas Dato, Noticia e Interpretación?</summary>
+      <span class="origen o-dato">Dato</span> medido en el mercado,
+      <span class="origen o-noticia">Noticia</span> lo dice una fuente citada,
+      <span class="origen o-interpretacion">Interpretación</span> regla explícita aplicada a los datos,
+      <span class="origen o-desconocido">Sin datos</span> no hay información suficiente.</details>
+    <div id="intel"></div>
+  </section>
+
+  <section class="panel" id="p-resumen" role="tabpanel" aria-labelledby="t-resumen">
+    <div class="grilla">
+      <div>
+        <div id="verificacion"></div>
+        <div class="bloque"><h2>Noticias clave</h2><div id="noticias"></div></div>
+        <details class="bloque guia-riesgo">
+          <summary><h2>Guía: cuánto riesgo tiene cada tipo de inversión</h2></summary>
+          <p class="nota">Cuánto suele moverse el precio de cada tipo de activo según el plazo. Es una referencia educativa, no una recomendación.</p>
+          <div class="tabla-wrap"><table class="riesgo">
+            <thead><tr><th>Tipo de activo</th><th>Corto<br>&lt;1 año</th><th>Medio<br>1-5 años</th><th>Largo<br>&gt;5 años</th><th>Por qué</th></tr></thead>
+            <tbody>
+              <tr><td>Letras del Tesoro cortas</td><td class="niv sube">Bajo</td><td class="niv sube">Bajo</td><td class="niv sube">Bajo</td><td>El precio casi no se mueve. El riesgo es que la inflación le gane al rendimiento.</td></tr>
+              <tr><td>Bonos del Tesoro largos</td><td class="niv t-mixto">Medio</td><td class="niv t-mixto">Medio</td><td class="niv t-mixto">Medio</td><td>Su precio sube o baja bastante cuando cambian las tasas.</td></tr>
+              <tr><td>ETF de índice amplio</td><td class="niv baja">Alto</td><td class="niv t-mixto">Medio</td><td class="niv t-mixto">Medio/bajo</td><td>Puede caer fuerte en semanas, pero históricamente se recuperó en plazos largos.</td></tr>
+              <tr><td>ETF sectoriales</td><td class="niv baja">Alto</td><td class="niv baja">Alto</td><td class="niv t-mixto">Medio</td><td>Menos diversificación: un solo tema arrastra a todo el sector.</td></tr>
+              <tr><td>Acciones individuales</td><td class="niv baja">Muy alto</td><td class="niv baja">Alto</td><td class="niv baja">Alto</td><td>Dependen de una sola empresa y de sus noticias.</td></tr>
+            </tbody>
+          </table></div>
+        </details>
+      </div>
+      <aside>
+        <div class="bloque"><h2>Clima por sector</h2><div id="sectores"></div></div>
+        <div class="bloque"><h2>Dónde hay más riesgo hoy</h2><div class="aviso-riesgo" id="riesgoHoy"></div></div>
+        <div class="bloque"><h2>Para seguir</h2><ul class="proximos" id="proximos"></ul></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="panel" id="p-historial" role="tabpanel" aria-labelledby="t-historial" hidden>
+    <div class="controles">
+      <input id="buscar" class="buscar" type="search" placeholder="Buscar una empresa, un sector o un tema" aria-label="Buscar en todos los resúmenes">
+      <span class="nota" id="buscarInfo" aria-live="polite"></span>
+    </div>
+    <div id="calendario"></div>
+    <div class="cal-leyenda" aria-hidden="true">
+      <span style="--c:var(--sube)">Positivo</span><span style="--c:var(--mixto)">Mixto</span><span style="--c:var(--baja)">Negativo</span><span style="--c:var(--panel-2)">Rueda sin resumen</span><span class="ley-feriado">Feriado (bolsa cerrada)</span><span class="ley-futuro">Todavía no llegó</span>
+      <span style="--c:transparent">Más intenso: el S&amp;P 500 se movió más ese día</span>
+    </div>
+    <div id="historial"></div>
+  </section>
+
+  <section class="panel" id="p-tendencias" role="tabpanel" aria-labelledby="t-tendencias" hidden>
+    <div class="horizontes segmento" role="group" aria-label="Plazo">
+      <button data-dias="7">Corto: 7 días</button><button data-dias="90">Medio: 90 días</button><button data-dias="0">Largo: todo</button>
+    </div>
+    <div class="stats" id="tendStats"></div>
+    <div class="bloque" id="tendGraficoBloque">
+      <h2>El S&amp;P 500 y tus resúmenes</h2>
+      <p class="explica">Cada punto es un día con resumen, pintado según el tono de sus noticias. Tocalo para abrirlo.</p>
+      <div class="tarjeta" id="tendGrafico"></div>
+    </div>
+    <div class="bloque">
+      <h2>Tono de las noticias por sector</h2>
+      <p class="explica">El porcentaje es la parte de las menciones de cada sector que fueron positivas en el plazo elegido, con todo el historial guardado y no solo el día de hoy. Mide el tono de las noticias, no si una inversión es segura: un sector con buenas noticias también puede caer.</p>
+      <div class="leyenda" aria-hidden="true"><span style="--c:var(--sube)">Positivo</span><span style="--c:var(--mixto)">Mixto o neutral</span><span style="--c:var(--baja)">Negativo</span><span class="ley-nota">Los puntitos muestran cada mención, de la más vieja a la más nueva</span></div>
+      <div id="tendencias"></div>
+    </div>
+    <div class="bloque">
+      <h2>Temas más mencionados</h2>
+      <p class="explica">Tocá un tema para ver todos los resúmenes que lo nombran.</p>
+      <div class="temas" id="temas"></div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-ranking" role="tabpanel" aria-labelledby="t-ranking" hidden>
+    <div class="controles"><div class="segmento" role="group" aria-label="Tipo de ranking"><button data-modo="estable">Más estables</button><button data-modo="riesgo">Más riesgo y crecimiento</button><button data-modo="historico">Más riesgo histórico</button></div></div>
+    <h2 id="rankTitulo"></h2>
+    <p class="explica" id="rankTexto"></p>
+    <p class="vacio" id="rankingSinDatos" hidden>Todavía no hay datos de acciones. Se cargan en la próxima corrida del resumen.</p>
+    <div id="rankingCuerpo">
+      <div class="tarjeta detalle" id="detalle"></div>
+      <div class="controles">
+        <input id="buscarEmpresa" class="buscar" type="search" placeholder="Buscar empresa o ticker" aria-label="Buscar empresa">
+        <div class="segmento" role="group" aria-label="Vista"><button data-vista="tabla">Tabla</button><button data-vista="mapa">Mapa del día</button></div>
+        <button class="chip" id="soloFav" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>Solo favoritas</button>
+      </div>
+      <div class="filtro-sectores" id="filtroSectores" role="group" aria-label="Filtrar por sector"></div>
+      <p class="vacio" id="rankingVacio" hidden></p>
+      <div class="tabla-wrap" id="vistaTabla"><table class="ranking">
+        <thead id="rankingCab"><tr>
+          <th scope="col"><span class="sr">Favorita</span></th>
+          <th scope="col" class="num">#</th>
+          <th scope="col" data-k="nombre"><button>Empresa</button></th>
+          <th scope="col" class="num" data-k="precio"><button>Precio</button></th>
+          <th scope="col" class="num" data-k="cambio1d"><button title="Variación de la última rueda">Día</button></th>
+          <th scope="col" class="num opc" data-k="retorno1a"><button>1 año</button></th>
+          <th scope="col" data-k="estabilidad" id="thPuntaje"><button id="thPuntajeTxt">Estabilidad</button></th>
+          <th scope="col" class="num opc" data-k="volatilidad"><button>Volatilidad</button></th>
+          <th scope="col" class="num opc" data-k="caidaMax"><button>Peor caída</button></th>
+          <th scope="col" class="num opc opc3" data-k="ret3a"><button>3 años</button></th>
+          <th scope="col" class="num opc opc3" data-k="sharpe"><button>Sharpe</button></th>
+          <th scope="col" class="num opc opc3" data-k="beta"><button>Beta</button></th>
+          <th scope="col" class="num opc opc3" data-k="relSP"><button title="Rendimiento del último año menos el del S&amp;P 500">vs S&amp;P</button></th>
+        </tr></thead>
+        <tbody id="ranking"></tbody>
+      </table></div>
+      <div class="mapa" id="vistaMapa" hidden></div>
+      <p class="nota" id="rankingFecha"></p>
+      <details class="formulas">
+        <summary>Cómo se calculan los puntajes y columnas</summary>
+        <ul>
+          <li><b>Volatilidad:</b> desvío de los rendimientos diarios logarítmicos del último año, multiplicado por √252 (anualizada).</li>
+          <li><b>Peor caída:</b> la mayor baja desde un máximo previo dentro del período.</li>
+          <li><b>Estabilidad (1 a 100):</b> promedio de dos puestos dentro del grupo de 100: volatilidad del año y peor caída del año. Menos de ambas da más puntos.</li>
+          <li><b>Riesgo y crecimiento (1 a 100):</b> promedio del puesto en suba del último año y del puesto en volatilidad. Más de ambas da más puntos.</li>
+          <li><b>Riesgo histórico (1 a 100):</b> promedio del puesto en volatilidad del año, peor caída de 5 años y beta.</li>
+          <li><b>Beta:</b> covarianza de los rendimientos diarios de la acción con los del S&amp;P 500 dividida la varianza del S&amp;P 500, en el último año.</li>
+          <li><b>Sharpe:</b> (rendimiento del año − tasa de la letra del Tesoro a 13 semanas) ÷ volatilidad del año.</li>
+          <li><b>vs S&amp;P:</b> rendimiento del año de la acción menos el del S&amp;P 500.</li>
+          <li><b>3 años:</b> variación del precio de cierre en las últimas 756 ruedas.</li>
+        </ul>
+        <p>Los puntajes ordenan el pasado dentro de este grupo de 100 empresas. Un buen puntaje no anticipa el rendimiento futuro ni es una recomendación.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="panel" id="p-historia5" role="tabpanel" aria-labelledby="t-historia5" hidden>
+    <div id="historia5"></div>
+  </section>
+
+  <section class="panel" id="p-comparar" role="tabpanel" aria-labelledby="t-comparar" hidden>
+    <h2>Comparador de activos</h2>
+    <p class="explica">Elegí hasta 5 empresas o índices. El gráfico arranca a todos en 100 al inicio del período, así se comparan aunque sus precios sean muy distintos.</p>
+    <div id="comparador"></div>
+  </section>
+
+  <section class="panel" id="p-listas" role="tabpanel" aria-labelledby="t-listas" hidden>
+    <h2>Mis listas y alertas</h2>
+    <p class="explica">Tus listas, tus alertas y lo que cambió desde tu última visita se guardan solo en este navegador. Las alertas se revisan cada vez que llegan datos nuevos con la página abierta; con "Avisar también con la página cerrada", el actualizador de Windows las avisa con una notificación.</p>
+    <div id="listas"></div>
+  </section>
+
+  <section class="panel" id="p-estado" role="tabpanel" aria-labelledby="t-estado" hidden>
+    <section class="tarjeta preferencias">
+      <h3>Preferencias</h3>
+      <label class="interruptor"><input type="checkbox" id="compacto"> Vista compacta: más datos por pantalla</label>
+      <label class="interruptor"><input type="checkbox" id="autoShow"> Mostrar la presentación sola cuando llega un resumen nuevo</label>
+      <p class="nota">Atajos de teclado: <kbd>←</kbd> <kbd>→</kbd> cambian de día, <kbd>1</kbd> a <kbd>5</kbd> cambian de sección, <kbd>/</kbd> busca y <kbd>P</kbd> abre la presentación.</p>
+    </section>
+    <h2>Estado del sistema</h2>
+    <p class="explica">De dónde sale cada dato, cuándo se actualizó, qué falló y el registro de las últimas actualizaciones automáticas.</p>
+    <div id="estado"></div>
+  </section>
+
+  <footer>
+    <p><span id="proximo"></span>. Precios de Yahoo Finance. Es información, no asesoramiento financiero: no dice qué comprar ni vender.</p>
+  </footer>
+</div>
+
+<div class="show" id="show" role="dialog" aria-modal="true" aria-label="Presentación del resumen" hidden>
+  <div class="show-barras" id="showBarras" aria-hidden="true"></div>
+  <div class="show-cuerpo" id="showCuerpo" aria-live="polite"></div>
+  <div class="show-orbe" id="showOrbe"></div>
+  <div class="show-controles">
+    <button class="icono" id="showAnt" aria-label="Diapositiva anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button class="icono" id="showPausa" aria-label="Pausar"></button>
+    <button class="icono" id="showSig" aria-label="Diapositiva siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+    <span class="show-pos" id="showPos"></span>
+    <button class="chip" id="showVoz" aria-pressed="false"></button>
+    <button class="chip" id="showCerrar">Cerrar <kbd>Esc</kbd></button>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="version.js"></script>
+<script src="datos.js"></script>
+<script src="acciones.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="logs/ejecuciones.js"></script>
+<script src="app.js"></script>
+<script src="motor-noticias.js"></script>
+<script src="terminal.js"></script>
+<script src="inteligencia.js"></script>
+<script src="historia.js"></script>
+<script src="comparador.js"></script>
+<script src="listas.js"></script>
+<script src="estado.js"></script>
+<script src="informe.js"></script>
+</body>
+</html>

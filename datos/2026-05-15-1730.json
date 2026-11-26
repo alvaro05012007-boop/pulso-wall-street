@@ -1,0 +1,61 @@
+{
+  "id": "2026-05-15-1730",
+  "fecha": "2026-05-15",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Fuerte baja desde los récords: el S&P 500 cayó 1,2%, el Dow 1,1% y el Nasdaq 1,5%.",
+    "Un salto del petróleo y de los rendimientos de los bonos reavivó el temor a la inflación.",
+    "Las tecnológicas ligadas a la IA lideraron la caída y las pequeñas empresas perdieron 2,4%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.408,50", "cambio": "-1,24%", "cambioPct": -1.24 },
+    { "nombre": "Dow Jones", "valor": "49.526,17", "cambio": "-1,07%", "cambioPct": -1.07 },
+    { "nombre": "Nasdaq", "valor": "26.225,14", "cambio": "-1,54%", "cambioPct": -1.54 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Suben el crudo y los rendimientos; caen las acciones",
+      "resumen": "El salto del petróleo y de las tasas de los bonos del Tesoro alimentó el temor a una inflación persistente.",
+      "afecta": ["Mercado en general", "Bonos", "Energía"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "Los tres índices perdieron más de 1%.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/15/stocks-pull-back-from-record-highs-amid-inflation-concerns" },
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-street-falls-inflation-crude-prices/" }
+      ]
+    },
+    {
+      "titulo": "La IA lidera la caída",
+      "resumen": "Las tecnológicas, en especial las ligadas a la inteligencia artificial, fueron las más vendidas.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 410 puntos.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/551214" }
+      ]
+    },
+    {
+      "titulo": "Semana casi plana pese a los récords",
+      "resumen": "En la semana el S&P 500 ganó apenas 0,1% y el Nasdaq cedió 0,1%; en el año el S&P 500 sube 8,2%.",
+      "afecta": ["Mercado en general"],
+      "tono": "neutral", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El Russell 2000 fue el más golpeado del día con -2,4%.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-friday-5-15-2026/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las firmas de IA lideraron la caída." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Toma de ganancias tras los récords." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo se disparó." }
+  ],
+  "riesgoHoy": "La combinación de petróleo y rendimientos en alza que alimenta el miedo a la inflación.",
+  "proximos": ["Balances de Nvidia y minoristas la semana siguiente", "Novedades sobre Irán"]
+}

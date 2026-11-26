@@ -1,0 +1,63 @@
+{
+  "id": "2026-04-13-1730",
+  "fecha": "2026-04-13",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Las conversaciones de paz del fin de semana en Islamabad terminaron sin acuerdo y EE.UU. empezó a bloquear los puertos iraníes, pero Wall Street igual cerró en alza.",
+    "El Dow llegó a perder más de 400 puntos y terminó subiendo 0,63%; el S&P 500 ganó 1,02% y tocó máximo de cinco semanas.",
+    "El giro llegó cuando Trump habló de 'novedades positivas' sobre nuevas conversaciones; Salesforce y Microsoft lideraron."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.886,24", "cambio": "+1,02%", "cambioPct": 1.02 },
+    { "nombre": "Dow Jones", "valor": "48.218,25", "cambio": "+0,63%", "cambioPct": 0.63 },
+    { "nombre": "Nasdaq", "valor": "23.183,73", "cambio": "+1,23%", "cambioPct": 1.23 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "baja", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Fracasan las conversaciones en Islamabad y empieza el bloqueo a Irán",
+      "resumen": "Las negociaciones del fin de semana terminaron sin acuerdo y entró en vigor el bloqueo marítimo de los puertos iraníes.",
+      "afecta": ["Energía", "Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Las bolsas abrieron en baja y el Dow llegó a caer 0,9%.",
+      "fuentes": [
+        { "nombre": "Spokesman-Review (AP)", "url": "https://www.spokesman.com/stories/2026/apr/13/wall-street-scales-highs-oil-drops-on-hopes-for-re/" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2898620/stock-market-news-for-apr-13-2026" }
+      ]
+    },
+    {
+      "titulo": "Trump habla de novedades positivas y el mercado da vuelta",
+      "resumen": "Las esperanzas de desescalada llevaron a los índices a cerrar con subas claras.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 tocó un máximo de cinco semanas y el dólar bajó.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-hopes-agreement-end-iran-war" },
+        { "nombre": "Anadolu", "url": "https://aa.com.tr/en/economy/us-stocks-close-higher-as-sp-500-nasdaq-wipe-out-iran-war-driven-losses-on-hopes-for-deal/3904502" }
+      ]
+    },
+    {
+      "titulo": "Salesforce y Microsoft lideran; Goldman Sachs cae",
+      "resumen": "Salesforce subió 4,8% y Microsoft 3,6%; Goldman Sachs, Walmart y Verizon fueron las peores del Dow.",
+      "afecta": ["Software", "Financiero", "Salesforce", "Microsoft", "Goldman Sachs"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Goldman Sachs cayó 1,8% pese a arrancar la temporada de balances bancarios.",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2898620/stock-market-news-for-apr-13-2026" },
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-street-rises-on-us-iran-resolution-earnings/" }
+      ]
+    }
+  ],
+  "contradicciones": ["Un resumen de Zacks da una caída del Dow a 47.916,57, que corresponde al viernes anterior; la mayoría informa +0,6% a 48.218,25."],
+  "sectores": [
+    { "sector": "Software", "tono": "positivo", "porque": "Salesforce y Microsoft subieron con fuerza." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Goldman Sachs cayó tras sus resultados." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Verizon entre las peores del Dow." }
+  ],
+  "riesgoHoy": "El bloqueo naval a Irán tras el fracaso de las negociaciones.",
+  "proximos": ["Posible regreso de los negociadores a Islamabad", "Balances de grandes bancos y PPI de marzo"]
+}

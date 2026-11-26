@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-06-1730",
+  "fecha": "2026-11-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El empleo salió muy fuerte: se crearon 165.000 puestos en octubre (se esperaban 65.000) y el desempleo bajó a 4,1%.",
+    "La tecnología rebotó (Nasdaq +1,1%) y el S&P 500 subió 0,3%, pero el Dow cayó 0,5%. Igual, los cuatro índices cerraron la semana en baja.",
+    "Las tasas de los bonos subieron (10 años ~4,88%) porque el dato refuerza la idea de una suba de la Fed en diciembre (~75% de probabilidad)."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.376,86", "cambio": "+0,31%", "cambioPct": 0.31 },
+    { "nombre": "Dow Jones", "valor": "51.285,73", "cambio": "-0,46%", "cambioPct": -0.46 },
+    { "nombre": "Nasdaq", "valor": "24.579,42", "cambio": "+1,09%", "cambioPct": 1.09 },
+    { "nombre": "Bono 10 años", "valor": "~4,88%", "cambio": "en alza", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~90,50 USD", "cambio": "plano", "cambioPct": 0 },
+    { "nombre": "Dólar (DXY)", "valor": "102,30", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El empleo de octubre supera ampliamente lo esperado",
+      "resumen": "Se sumaron 165.000 puestos contra 65.000 esperados; septiembre se revisó a 60.000 y el desempleo bajó de 4,2% a 4,1%.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "investingLive", "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-non-farm-payrolls-beat-estimates/" },
+        { "nombre": "Beinsure", "url": "https://beinsure.com/news/us-jobs-report-165k-payroll-lift-treasury-yields/" }
+      ]
+    },
+    {
+      "titulo": "Suben las tasas y la apuesta a una suba en diciembre",
+      "resumen": "Los futuros pasaron a darle ~77% de chance a una suba de la Fed en diciembre (desde 72%), según datos de LSEG.",
+      "afecta": ["Financiero", "Inmobiliario", "Servicios públicos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/599181" },
+        { "nombre": "RTTNews", "url": "https://www.rttnews.com/3711870/jobs-led-rate-hike-worries-push-dollar-higher.aspx" }
+      ]
+    },
+    {
+      "titulo": "Rebote parcial de la tecnología",
+      "resumen": "Los fabricantes de chips, golpeados el día anterior, recuperaron parte; el Nasdaq ganó 1,1%.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "ZeroHedge (Newsquawk)", "url": "https://zerohedge.com/markets/tech-stocks-rebound-and-yields-rise-amid-stellar-us-jobs-report-newsquawk-us-market-wrap" },
+        { "nombre": "Stock Market Watch", "url": "https://stockmarketwatch.com/digest/2026-11-06" }
+      ]
+    },
+    {
+      "titulo": "Semana en baja para los cuatro índices",
+      "resumen": "Pese al rebote del viernes, el Dow, el S&P 500, el Nasdaq y el Russell 2000 cerraron la semana en rojo.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "STL.News", "url": "https://www.stl.news/?p=663088" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Rebote parcial tras el derrumbe del jueves." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq subió 1,1%." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Subieron las tasas por el buen dato de empleo." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cerró en baja." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Buen empleo, pero más chances de tasas altas." }
+  ],
+  "riesgoHoy": "El riesgo pasó a las tasas: un empleo tan fuerte deja casi segura una suba de la Fed en diciembre.",
+  "proximos": [
+    "Semana próxima: inflación de octubre (CPI).",
+    "Resultados de Nvidia más adelante en noviembre.",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

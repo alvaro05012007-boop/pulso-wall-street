@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-05-1730",
+  "fecha": "2026-11-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Derrumbe de la IA: el Nasdaq cayó 5,5% y entró en corrección (más de 10% abajo desde su récord del 6 de octubre). El S&P 500 perdió 4,4%, su peor día desde el 'Día de la Liberación' de abril de 2025.",
+    "El Dow cayó 1.833 puntos (3,4%) y borró toda la suba del día anterior. Los 11 sectores del S&P 500 terminaron en rojo.",
+    "Pesan las dudas sobre si la construcción de centros de datos puede seguir a este ritmo, la reacción política contra esos centros y el costo del financiamiento."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.353,73", "cambio": "-4,36%", "cambioPct": -4.36 },
+    { "nombre": "Dow Jones", "valor": "51.523,06", "cambio": "-3,44%", "cambioPct": -3.44 },
+    { "nombre": "Nasdaq", "valor": "24.315,00", "cambio": "-5,52%", "cambioPct": -5.52 },
+    { "nombre": "Bono 10 años", "valor": "~4,9%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Venta brutal de la IA: peor día del S&P 500 desde abril de 2025",
+      "resumen": "El S&P 500 perdió 334,89 puntos. Las subas de la mañana se evaporaron y todos los sectores cerraron en baja.",
+      "afecta": ["Todo el mercado", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "KY3 (AP)", "url": "https://www.ky3.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/" },
+        { "nombre": "Xinhua (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/11/06/us-stocks-close-lower" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq entra en corrección",
+      "resumen": "El Nasdaq Composite cayó 5,52% y el Nasdaq 100 6,4%, su peor caída diaria desde marzo de 2020. Se evaporaron unos 2,5 billones de dólares de valor.",
+      "afecta": ["Tecnología", "Semiconductores", "Nasdaq"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "YourStory", "url": "https://yourstory.com/ai-story/ai-stocks-crash-wall-street-trillion-rout" },
+        { "nombre": "Ground News", "url": "https://ground.news/article/4f0551d9-3efb-432f-99fd-4dbbbf4f9d41" }
+      ]
+    },
+    {
+      "titulo": "El Dow pierde 1.800 puntos y borra el rally electoral",
+      "resumen": "La caída se llevó toda la ganancia del miércoles, que había sido el mejor día en tres meses.",
+      "afecta": ["Industria", "Financiero"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "ABC7", "url": "https://abc7news.com/story/dow-plunges-1200-points-nasdaq-correction-territory-midterm-results-stock-rally/20018037/" }
+      ]
+    },
+    {
+      "titulo": "Por qué cayó la IA",
+      "resumen": "Los analistas señalan dudas sobre el ritmo de construcción de centros de datos, si el gasto en IA se convertirá en ingresos y el costo de financiarlo con tasas cerca de 4,9%.",
+      "afecta": ["Semiconductores", "Hardware", "Servicios públicos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Open Magazine", "url": "https://openthemagazine.com/technology/quick-take-why-did-the-nasdaq-fall-55-seven-things-to-know-about-wall-streets-ai-sell-off" },
+        { "nombre": "Trefis", "url": "https://www.trefis.com/articles/622421/what-s-happening-with-ai-stocks/2026-11-05" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Epicentro de la venta de la IA." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq entró en corrección." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Dudas sobre la construcción de centros de datos." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Los 11 sectores cerraron en baja." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow perdió 3,4%." }
+  ],
+  "riesgoHoy": "Fue un día de riesgo extremo en todo el mercado, sobre todo en chips e infraestructura para IA.",
+  "proximos": [
+    "Viernes 6: informe de empleo de octubre.",
+    "Semana próxima: inflación de octubre (CPI).",
+    "Reunión de la Fed del 8 y 9 de diciembre."
+  ]
+}

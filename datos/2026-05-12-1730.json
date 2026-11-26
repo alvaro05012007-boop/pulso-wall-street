@@ -1,0 +1,63 @@
+{
+  "id": "2026-05-12-1730",
+  "fecha": "2026-05-12",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto tras una inflación más alta de lo esperado: el Nasdaq cayó 0,7%, el S&P 500 0,2% y el Dow subió 0,1%.",
+    "El IPC anual de abril llegó a 3,8%, el más alto en tres años, y el núcleo subió a 2,8%.",
+    "Se enfriaron las apuestas a recortes de tasas de la Fed este año; Qualcomm (-11,5%) e Intel (-6,8%) lideraron las caídas."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.400,96", "cambio": "-0,16%", "cambioPct": -0.16 },
+    { "nombre": "Dow Jones", "valor": "49.760,56", "cambio": "+0,11%", "cambioPct": 0.11 },
+    { "nombre": "Nasdaq", "valor": "26.088,20", "cambio": "-0,71%", "cambioPct": -0.71 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación se acelera a 3,8% anual",
+      "resumen": "El IPC de abril subió a 3,8% interanual, máximo en tres años, y el núcleo pasó de 2,6% a 2,8%.",
+      "afecta": ["Mercado en general", "Bonos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Inflación", "volatilidad": true,
+      "impacto": "Briefing.com habló de un 'shock' de inflación y rendimientos, aunque las acciones recuperaron parte en la tarde.",
+      "fuentes": [
+        { "nombre": "Barchart / Nasdaq", "url": "https://www.nasdaq.com/articles/cpi-inflation-rate-heats-38" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/5/12/stocks-recover-ground-after-inflation-and-yield-shock" }
+      ]
+    },
+    {
+      "titulo": "Menos apuestas a recortes de la Fed",
+      "resumen": "Los operadores temen que la energía cara golpee las ganancias y redujeron las apuestas a bajas de tasas este año.",
+      "afecta": ["Financiero", "Bonos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "Las tecnológicas más caras fueron las más castigadas.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/sp-500-nasdaq-dip-inflation-iran-tensions/" }
+      ]
+    },
+    {
+      "titulo": "Qualcomm e Intel se desploman",
+      "resumen": "Qualcomm cayó 11,5% e Intel 6,8%, entre las peores del S&P 500, en un retroceso de chips y nombres de IA.",
+      "afecta": ["Qualcomm", "Intel", "Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 186 puntos.",
+      "fuentes": [
+        { "nombre": "Barchart / Nasdaq", "url": "https://www.nasdaq.com/articles/stocks-settle-mixed-tech-weakness-and-inflation-pressures" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un reporte de LSE dio el cierre del Dow en 49.790,56; AP y Reuters dicen 49.760,56."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Qualcomm e Intel lideraron las caídas." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las valuaciones altas sufren con menos recortes de tasas." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "El Dow logró cerrar levemente arriba." }
+  ],
+  "riesgoHoy": "Una inflación que se acelera por la energía y aleja los recortes de tasas.",
+  "proximos": ["Precios mayoristas (IPP) de abril", "Ventas minoristas", "Balances de Cisco y otras"]
+}

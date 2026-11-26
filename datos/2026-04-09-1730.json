@@ -1,0 +1,62 @@
+{
+  "id": "2026-04-09-1730",
+  "fecha": "2026-04-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "El S&P 500 y el Nasdaq sumaron siete días seguidos en alza con la esperanza de que la tregua con Irán se sostenga.",
+    "El S&P 500 subió 0,62%, el Nasdaq 0,83% y el Dow 0,58%, tras abrir en baja.",
+    "Los pedidos de subsidio por desempleo subieron a 219.000, máximo de ocho semanas; el software cayó."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.824,66", "cambio": "+0,62%", "cambioPct": 0.62 },
+    { "nombre": "Dow Jones", "valor": "48.185,80", "cambio": "+0,58%", "cambioPct": 0.58 },
+    { "nombre": "Nasdaq", "valor": "22.822,41", "cambio": "+0,83%", "cambioPct": 0.83 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Séptima suba seguida del S&P 500 y el Nasdaq",
+      "resumen": "Volvió el optimismo sobre la tregua entre EE.UU. e Irán después de una apertura negativa.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Russell 2000 subió 0,6%.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/343676/sp-500-nasdaq-nab-7th-straight-win-as-ceasefire-hopes-return" },
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-rebound-optimism-us-iran-ceasefire-hold" }
+      ]
+    },
+    {
+      "titulo": "Suben los pedidos de subsidio por desempleo",
+      "resumen": "Los pedidos semanales llegaron a 219.000, máximo de ocho semanas, contra 210.000 esperados.",
+      "afecta": ["Consumo"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Empleo", "volatilidad": false,
+      "impacto": "El dato débil frenó en parte el entusiasmo.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/1229930/stocks-rebound-on-optimism-us-iran-ceasefire-to-hold" }
+      ]
+    },
+    {
+      "titulo": "El software se hunde; Salesforce e IBM entre las peores",
+      "resumen": "Las acciones de software cayeron mientras el resto del mercado subía; Chevron también bajó.",
+      "afecta": ["Software", "Salesforce", "IBM", "Chevron"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El sector quedó rezagado frente al rally general.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown (Sharecast)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-indices-extend-gains-on-iran-ceasefire-hopes,-software-stocks-sink" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/4/9/stocks-extend-gains-as-geopolitical-relief-fuels-ailed-momentum" }
+      ]
+    }
+  ],
+  "contradicciones": ["Los cierres varían levemente según la hora de publicación: Briefing da el S&P 500 en 6.826,75 y Trading Economics en 6.827,34."],
+  "sectores": [
+    { "sector": "Software", "tono": "negativo", "porque": "Salesforce e IBM cayeron." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "El impulso de la IA siguió." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Chevron estuvo entre las peores." }
+  ],
+  "riesgoHoy": "Señales de enfriamiento del mercado laboral mientras la tregua sigue siendo frágil.",
+  "proximos": ["IPC de marzo el viernes 10", "Conversaciones de paz en Islamabad el sábado 11"]
+}

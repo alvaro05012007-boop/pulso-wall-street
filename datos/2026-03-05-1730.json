@@ -1,0 +1,73 @@
+{
+  "id": "2026-03-05-1730",
+  "fecha": "2026-03-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "El Dow cayó 785 puntos y marcó su cierre más bajo de 2026 por el salto del petróleo en el sexto día de la guerra con Irán.",
+    "El crudo estadounidense subió cerca de 8,5% a unos USD 81 y avivó dudas sobre recortes de tasas de la Fed.",
+    "El S&P 500 bajó 0,56% y el Nasdaq 0,26%, con un rebote parcial al final."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.830,71", "cambio": "-0,56%", "cambioPct": -0.56 },
+    { "nombre": "Dow Jones", "valor": "47.953,63", "cambio": "-1,61%", "cambioPct": -1.61 },
+    { "nombre": "Nasdaq", "valor": "22.748,99", "cambio": "-0,26%", "cambioPct": -0.26 },
+    { "nombre": "Bono 10 años", "valor": "4,15%", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "81 (aprox.)", "cambio": "+8,5%", "cambioPct": 8.5 },
+    { "nombre": "Dólar (DXY)", "valor": "99,31", "cambio": "+0,5%", "cambioPct": 0.5 }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Dow toca su peor cierre del año por el salto del crudo",
+      "resumen": "El Dow llegó a perder más de 1.000 puntos y terminó con -785, su cierre más bajo de 2026.",
+      "afecta": ["Mercado en general", "Industria"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Ocho de los once sectores del S&P 500 cerraron en rojo.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/331566/dow-logs-lowest-close-of-2026-as-iran-tensions-ramp-up" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/5/oil-surge-pressures-market-despite-late-rebound" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube 8,5% y llega a unos USD 81",
+      "resumen": "La guerra entró en su sexto día y el crudo estadounidense pegó un salto fuerte.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "Las energéticas estuvieron entre las pocas acciones en alza.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/us-stocks-fall-middle-east-oil-prices" }
+      ]
+    },
+    {
+      "titulo": "Más inflación por energía pone en duda los recortes de la Fed",
+      "resumen": "Los rendimientos del Tesoro subieron y el bono a 10 años quedó cerca de 4,15%.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "negativo", "importancia": "media", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "El dólar se apreció 0,5% hasta 99,31.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/bond-market-update/archive/2026/3/5/treasury-market-summary" },
+        { "nombre": "Morningstar (Dow Jones)", "url": "https://www.morningstar.com/news/dow-jones/202603059767/10-year-treasury-yield-rises-to-4145-data-talk" }
+      ]
+    },
+    {
+      "titulo": "Temores por controles a exportaciones de chips de IA",
+      "resumen": "Reportes sobre posibles restricciones a la exportación de chips de inteligencia artificial también pesaron.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Se sumó al castigo del día junto con el petróleo.",
+      "fuentes": [
+        { "nombre": "AOL / Motley Fool", "url": "https://www.aol.com/finance/stock-market-today-mar-5-232050089.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El salto del crudo favoreció a las petroleras." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow, con más peso industrial, fue el más castigado." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Temores por controles de exportación de chips de IA." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "El combustible caro golpeó a aerolíneas." }
+  ],
+  "riesgoHoy": "El petróleo en alza y su efecto sobre la inflación y las tasas de la Fed.",
+  "proximos": ["Informe de empleo de febrero el viernes 6", "Evolución de la guerra con Irán"]
+}

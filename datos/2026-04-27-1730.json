@@ -1,0 +1,62 @@
+{
+  "id": "2026-04-27-1730",
+  "fecha": "2026-04-27",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Arranque cauteloso de una semana cargada de balances: el S&P 500 (+0,12%) y el Nasdaq (+0,20%) marcaron nuevos récords.",
+    "Ayudó un reporte de Axios de que Irán dio a EE.UU. una nueva propuesta para reabrir Ormuz, pero la suba del petróleo limitó las ganancias.",
+    "El Dow cedió 0,13%, con McDonald's, Walmart e IBM como mayores lastres; Nvidia subió."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.173,91", "cambio": "+0,12%", "cambioPct": 0.12 },
+    { "nombre": "Dow Jones", "valor": "49.168,04", "cambio": "-0,13%", "cambioPct": -0.13 },
+    { "nombre": "Nasdaq", "valor": "24.887,10", "cambio": "+0,20%", "cambioPct": 0.2 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Irán presenta una nueva propuesta para reabrir Ormuz",
+      "resumen": "Según Axios, Irán entregó a EE.UU. una propuesta para reabrir el estrecho, lo que dio soporte a las bolsas.",
+      "afecta": ["Mercado en general", "Energía"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El S&P 500 y el Nasdaq cerraron en récords pese al estancamiento.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/tech-earnings-optimism-powers-stocks-higher" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/348000/sp-500-nasdaq-snag-records-despite-us-iran-stalemate" }
+      ]
+    },
+    {
+      "titulo": "Optimismo por los balances tecnológicos de la semana",
+      "resumen": "Los inversores se posicionaron antes de los resultados de las grandes tecnológicas.",
+      "afecta": ["Tecnología", "Nvidia"],
+      "tono": "positivo", "importancia": "media", "tipo": "interpretacion", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Nvidia estuvo entre las mayores subas.",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/sp-500-nasdaq-close-slightly-higher-cautious-trading/" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2909297/stock-market-news-for-apr-28-2026" }
+      ]
+    },
+    {
+      "titulo": "McDonald's, Walmart e IBM frenan al Dow",
+      "resumen": "Las tres acciones fueron las que más pesaron sobre el índice industrial.",
+      "afecta": ["Consumo", "Software", "McDonald's", "Walmart", "IBM"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "El Dow perdió 63 puntos.",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2909297/stock-market-news-for-apr-28-2026" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia subió." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "McDonald's y Walmart pesaron sobre el Dow." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió." }
+  ],
+  "riesgoHoy": "El petróleo en alza que limita el entusiasmo pese a los récords.",
+  "proximos": ["Reunión de la Fed del 28 y 29 de abril", "Balances de Microsoft, Alphabet, Meta y Amazon"]
+}

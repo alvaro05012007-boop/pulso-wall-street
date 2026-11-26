@@ -1,0 +1,94 @@
+{
+  "id": "2026-09-28-1730",
+  "fecha": "2026-09-28",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Wall Street cayó todo el día: el S&P 500 bajó 0,8%, el Dow 0,7% y el Nasdaq 0,9%.",
+    "La tasa del bono a 10 años saltó a 5,23%, la más alta desde 2007, y la de 30 años pasó 5,5%, máximo desde 2004.",
+    "El petróleo subió después de que Trump rechazara las condiciones de Irán para reabrir Ormuz; Nvidia fue la excepción por una recompra récord."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.683,69", "cambio": "-0,77%", "cambioPct": -0.77 },
+    { "nombre": "Dow Jones", "valor": "51.481,51", "cambio": "-0,67%", "cambioPct": -0.67 },
+    { "nombre": "Nasdaq", "valor": "26.820,38", "cambio": "-0,92%", "cambioPct": -0.92 },
+    { "nombre": "Bono 10 años", "valor": "5,23%", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en suba", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las tasas de los bonos tocan máximos de casi 20 años",
+      "resumen": "La tasa a 10 años llegó a 5,23%, la más alta desde junio de 2007, y la de 30 años superó 5,5%, máximo desde 2004. La tasa a 2 años acumulaba más de 50 puntos básicos de suba en septiembre por la expectativa de más subas de la Fed.",
+      "afecta": ["Bonos", "Inmobiliario", "Tecnología"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Las tasas altas presionaron a las acciones durante toda la rueda.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/587381" },
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/stocks-slip-on-wall-street-as-rising-treasury-yields-pressure-the-market/" }
+      ]
+    },
+    {
+      "titulo": "Wall Street cae en toda la rueda; el Nasdaq lidera las bajas",
+      "resumen": "El S&P 500 cerró en 7.683,69, el Dow perdió 347 puntos a 51.481,51 y el Nasdaq bajó 0,92% a 26.820,38.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Se cortó el impulso de la semana anterior.",
+      "fuentes": [
+        { "nombre": "Xinhua (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/09/29/us-stocks-close-lower" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-9282026-nid28092026/" }
+      ]
+    },
+    {
+      "titulo": "Trump rechaza las condiciones de Irán para reabrir Ormuz y el petróleo sube",
+      "resumen": "El crudo subió tras el rechazo de Trump a las condiciones iraníes. Más tarde hubo informes de que estaría dispuesto a dar alivio de sanciones y liberar fondos congelados, lo que moderó parte de la caída.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El petróleo más caro alimentó el temor a más inflación y subas de tasas.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-despite-rebound-following-reports-of-possible-iran-sanctions-relief" },
+        { "nombre": "CommBank Newsroom", "url": "https://www.commbank.com.au/articles/newsroom/2026/09/wall-street-falls-as-oil-and-treasury-yields-climb.html" }
+      ]
+    },
+    {
+      "titulo": "Nvidia sube por una ampliación récord de su recompra",
+      "resumen": "Nvidia ganó terreno tras ampliar en 150.000 millones de dólares su programa de recompra de acciones, un récord.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Fue una de las pocas subas destacadas en un día negativo.",
+      "fuentes": [
+        { "nombre": "CommBank Newsroom", "url": "https://www.commbank.com.au/articles/newsroom/2026/09/wall-street-falls-as-oil-and-treasury-yields-climb.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq lideró las bajas por las tasas altas." },
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Nvidia subió por su recompra mientras el resto del sector sufrió las tasas." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El petróleo subió tras el rechazo de Trump a las condiciones de Irán." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Las tasas largas tocaron máximos de casi 20 años." }
+  ],
+  "riesgoHoy": "El mayor riesgo estuvo en el mercado de bonos, con tasas en máximos desde 2007 por el temor a más inflación.",
+  "proximos": [
+    "Cierre del trimestre el miércoles 30.",
+    "Informe de empleo de septiembre el viernes 2 de octubre.",
+    "Negociaciones entre EE.UU. e Irán por Ormuz."
+  ]
+}

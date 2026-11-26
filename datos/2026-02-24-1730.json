@@ -1,0 +1,72 @@
+{
+  "id": "2026-02-24-1730",
+  "fecha": "2026-02-24",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote general: el Nasdaq ganó 1,04%, el S&P 500 0,77% y el Dow 0,76%.",
+    "El software recuperó parte de la caída del lunes; Salesforce, ServiceNow y Adobe subieron más de 4%.",
+    "Home Depot subió 2% tras superar lo esperado, y 10 de los 11 sectores terminaron arriba."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.890,07", "cambio": "+0,77%", "cambioPct": 0.77 },
+    { "nombre": "Dow Jones", "valor": "49.174,50", "cambio": "+0,76%", "cambioPct": 0.76 },
+    { "nombre": "Nasdaq", "valor": "22.863,68", "cambio": "+1,04%", "cambioPct": 1.04 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Rebota el software y se calman los temores por la IA",
+      "resumen": "El mercado recordó que la IA también tiene ventajas y compró software y chips después de la caída del lunes.",
+      "afecta": ["Software", "Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El ETF de software subió 1,9% tras caer casi 5% el día anterior.",
+      "fuentes": [
+        { "nombre": "Anchorage Daily News (AP)", "url": "https://www.adn.com/business-economy/2026/02/24/stocks-rise-on-wall-street-after-getting-a-reminder-of-ais-potential-upsides/" },
+        { "nombre": "Nasdaq (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-settle-higher-ai-disruption-fears-ease" }
+      ]
+    },
+    {
+      "titulo": "Anthropic suma herramientas que se integran con software de oficina",
+      "resumen": "Parte de las compras se vinculó con anuncios de Anthropic sobre integraciones con software de productividad y herramientas legales.",
+      "afecta": ["Software"],
+      "tono": "mixto", "importancia": "media", "tipo": "interpretacion", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Briefing.com relacionó parte del rebote con estas noticias.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/2/24/tech-bounce-leads-meaningful-rebound-effort" },
+        { "nombre": "TheStreet / AOL", "url": "https://www.aol.com/finance/stock-market-today-feb-24-152505697.html" }
+      ]
+    },
+    {
+      "titulo": "Home Depot supera lo esperado",
+      "resumen": "La cadena de mejoras para el hogar superó las estimaciones del cuarto trimestre y mantuvo sus previsiones anuales.",
+      "afecta": ["Home Depot", "Consumo"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "La acción subió 2%.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/398774/stocks-settle-higher-as-ai-disruption-fears-ease" }
+      ]
+    },
+    {
+      "titulo": "Grandes acuerdos de chips levantan el ánimo",
+      "resumen": "Anuncios de grandes acuerdos en el negocio de chips ayudaron al rebote de la tecnología.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq lideró entre los grandes índices.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-bounce-back-as-mega-chip-deals-lift-mood" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Software", "tono": "positivo", "porque": "Recuperó parte de la caída del lunes." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Grandes acuerdos de chips." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Home Depot superó lo esperado." }
+  ],
+  "riesgoHoy": "Que el rebote sea frágil mientras siguen las dudas sobre la IA y los aranceles.",
+  "proximos": ["Resultados de Nvidia (miércoles 25)"]
+}

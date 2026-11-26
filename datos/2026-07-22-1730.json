@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-22-1730",
+  "fecha": "2026-07-22",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda tranquila y en leve baja antes de los balances de Alphabet y Tesla: el S&P 500 cedió 0,1%, el Nasdaq 0,6% y el Dow quedó plano.",
+    "El petróleo subió otro 3% y empujó las tasas, alimentando el miedo a la inflación.",
+    "Después del cierre, Alphabet cayó cerca de 5% por subir su previsión de inversiones y Tesla no alcanzó las ganancias esperadas."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.498,96", "cambio": "-0,14%", "cambioPct": -0.14 },
+    { "nombre": "Dow Jones", "valor": "52.218,58", "cambio": "-0,01%", "cambioPct": -0.01 },
+    { "nombre": "Nasdaq", "valor": "25.711,91", "cambio": "-0,57%", "cambioPct": -0.57 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "+3%", "cambioPct": 3.0 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Alphabet y Tesla caen después del cierre tras sus balances",
+      "resumen": "Alphabet bajó cerca de 5% fuera de hora tras subir su previsión de inversiones para el año, pese a buenos ingresos de nube. Tesla no alcanzó las ganancias esperadas.",
+      "afecta": ["Alphabet", "Tesla", "Comunicaciones", "Consumo"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "La reacción anticipa presión sobre las grandes tecnológicas en la rueda del jueves.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/7/22/megacaps-alphabet-and-tesla-trade-lower-following-respective-earnings-reports" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/568958" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube otro 3% y empuja las tasas",
+      "resumen": "El crudo cerró con una suba cercana a 3%, con el WTI cerca de 90 USD, y las tasas de los bonos subieron por el miedo a la inflación.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": true,
+      "impacto": "El tono del mercado se volvió más defensivo.",
+      "fuentes": [
+        { "nombre": "Ringside (Buttondown)", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-jul-22/" },
+        { "nombre": "Briefing.com (Page One)", "url": "https://briefing.com/page-one/archive/2026/7/22/market-tone-turns-defensive-as-oil-prices-and-bond-yields-rise" }
+      ]
+    },
+    {
+      "titulo": "Volumen bajo y cautela antes de los grandes balances",
+      "resumen": "El volumen fue menor que lo normal. Consumo discrecional (-0,8%) y comunicaciones (-1,3%) fueron los peores sectores.",
+      "afecta": ["Consumo", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado prefirió esperar los resultados de las grandes tecnológicas.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/22/stocks-little-changed-ahead-of-alphabet-and-tesla-earnings" },
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-7222026-134997268" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "CNN informó el Nasdaq en 25.690,90 y Briefing.com en 25.711,91, con la misma baja de 146 puntos; Reuters dio al Dow con una leve suba."
+  ],
+  "sectores": [
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Fue el peor sector, con -1,3%." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Consumo discrecional cayó 0,8%." },
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo subió cerca de 3%." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Un rebote de los chips estabilizó al mercado a la mañana." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en los balances de las grandes tecnológicas: Alphabet y Tesla cayeron fuera de hora.",
+  "proximos": [
+    "Jueves 23: reacción a Alphabet y Tesla.",
+    "Más balances de grandes empresas la semana próxima.",
+    "Reunión de la Fed a fin de mes."
+  ]
+}

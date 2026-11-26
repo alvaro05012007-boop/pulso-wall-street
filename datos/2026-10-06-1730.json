@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-06-1730",
+  "fecha": "2026-10-06",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Día de récords: el S&P 500 subió 0,6% y superó su máximo de agosto; el Nasdaq ganó 0,4% y volvió a marcar récord, y el Dow subió 0,5%.",
+    "Las tasas del Tesoro se aflojaron desde sus máximos de varios años y el petróleo bajó.",
+    "Las acciones de IA lideraron: Nvidia se acercó a los 6 billones de dólares de valor y Constellation Energy firmó un gran acuerdo de electricidad con Google."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.818,93", "cambio": "+0,58%", "cambioPct": 0.58 },
+    { "nombre": "Dow Jones", "valor": "51.521,28", "cambio": "+0,49%", "cambioPct": 0.49 },
+    { "nombre": "Nasdaq", "valor": "27.599,79", "cambio": "+0,45%", "cambioPct": 0.45 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 y el Nasdaq cierran en récord",
+      "resumen": "El S&P 500 ganó 44,98 puntos a 7.818,93 y superó su récord de agosto; el Nasdaq sumó a su máximo del día anterior. Fue el récord número 28 del S&P 500 en 2026, según Crypto Briefing.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El mercado llegó a máximos antes de la temporada de balances.",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-1062026-nid06102026/" },
+        { "nombre": "Reuters (vía Khaleej Times)", "url": "https://www.khaleejtimes.com/business/sp-500-nasdaq-hit-record-highs-as-treasury-yields-stall-oil-slips" }
+      ]
+    },
+    {
+      "titulo": "Se frenan las tasas y baja el petróleo",
+      "resumen": "Las tasas del Tesoro se aflojaron desde sus máximos de varios años y el petróleo cayó, aunque sigue caro por la guerra con Irán.",
+      "afecta": ["Bonos", "Energía"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El respiro en las tasas ayudó a las acciones.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/10/global-shares-mostly-advance-after-wall-street-gains-and-oil-prices-fall/" },
+        { "nombre": "Reuters (vía Khaleej Times)", "url": "https://www.khaleejtimes.com/business/sp-500-nasdaq-hit-record-highs-as-treasury-yields-stall-oil-slips" }
+      ]
+    },
+    {
+      "titulo": "Nvidia se acerca a los 6 billones de dólares",
+      "resumen": "Nvidia subió entre 1% y 2,2% según la fuente, y su valor de mercado se acercó a los 6 billones de dólares, liderando a las acciones de IA.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "La IA volvió a ser el motor de los récords.",
+      "fuentes": [
+        { "nombre": "Sharecast", "url": "https://www.sharecast.com/scroll_1/news/market-report-us-close/us-close-sp-500-nasdaq-hit-new-highs-as-ai-stocks-rally--23775822.html" },
+        { "nombre": "Crypto Briefing", "url": "https://cryptobriefing.com/sp-500-nasdaq-record-highs-tech-stocks/" }
+      ]
+    },
+    {
+      "titulo": "Constellation Energy firma un acuerdo de electricidad con Google",
+      "resumen": "Constellation Energy anunció un acuerdo de largo plazo para darle a Google tanta electricidad como produce un reactor nuclear nuevo.",
+      "afecta": ["Constellation Energy", "Alphabet", "Servicios públicos"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Refuerza la demanda de energía que generan los centros de datos de IA.",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/10/global-shares-mostly-advance-after-wall-street-gains-and-oil-prices-fall/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia lideró la suba de las acciones de IA." },
+    { "sector": "Servicios públicos", "tono": "positivo", "porque": "Constellation Energy firmó un acuerdo de electricidad con Google." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó." }
+  ],
+  "riesgoHoy": "El riesgo seguía en el petróleo caro por la guerra con Irán, que empeoró la inflación.",
+  "proximos": [
+    "Balances de los grandes bancos a mediados de octubre.",
+    "Inflación de septiembre (IPC).",
+    "Reunión de la Fed del 28 de octubre."
+  ]
+}

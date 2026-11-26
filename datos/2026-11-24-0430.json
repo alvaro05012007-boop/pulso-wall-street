@@ -1,0 +1,118 @@
+{
+  "id": "2026-11-24-0430",
+  "fecha": "2026-11-24",
+  "hora": "04:30",
+  "momento": "apertura",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote fortísimo el lunes: el S&P 500 subió 4,7% y el Nasdaq 6,5%, su mejor día desde abril de 2025. El S&P salió de la zona de corrección después de una semana pésima.",
+    "Nvidia voló 31,5% (su mayor suba diaria desde 2003) cuando el directorio volvió a poner a Jensen Huang como CEO. Volvió la confianza en todo lo relacionado con la IA.",
+    "La Fed probablemente sube las tasas en diciembre: el mercado le da ~93% de probabilidad a una suba de 0,25 pp el 8 y 9 de diciembre. El PCE del miércoles va a decidir si se habla de 0,25 o de 0,50.",
+    "Futuros apenas en alza esta madrugada (+0,1% a +0,2%). Hoy presentan resultados Best Buy (antes de la apertura), y Dell y HP (después del cierre).",
+    "Semana corta: el jueves 26 la bolsa está cerrada por Thanksgiving y el viernes cierra temprano."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.237,17", "cambio": "+4,73%", "cambioPct": 4.73 },
+    { "nombre": "Dow Jones", "valor": "49.595,31", "cambio": "+3,01%", "cambioPct": 3.01 },
+    { "nombre": "Nasdaq", "valor": "24.089,56", "cambio": "+6,51%", "cambioPct": 6.51 },
+    { "nombre": "Bono 10 años", "valor": "~4,92%", "cambio": "+0,01 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "~80 USD", "cambio": "−0,7% a −2,2%", "cambioPct": -1.4 },
+    { "nombre": "Dólar (DXY)", "valor": "~104,08", "cambio": "+0,28%", "cambioPct": 0.28 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia vuelve a poner a Jensen Huang como CEO",
+      "resumen": "El directorio votó por unanimidad devolverle el cargo, menos de dos semanas después de su renuncia del 12/11. Colette Kress deja de ser CEO interina y sigue como directora financiera. La acción cerró en 165,05 USD (+31,5%).",
+      "afecta": ["Nvidia", "Semiconductores", "Nasdaq"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Nvidia", "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director" },
+        { "nombre": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo" },
+        { "nombre": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo-with-government-input" }
+      ]
+    },
+    {
+      "titulo": "Wall Street tiene su mejor día desde abril de 2025",
+      "resumen": "El S&P 500 subió 4,7% y volvió a superar los 7.000 puntos después de siete ruedas seguidas en baja. Los analistas dudan de que el rebote dure: preocupan las valuaciones de la IA, el gasto en infraestructura y la Fed.",
+      "afecta": ["Todo el mercado", "Tecnología"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "CNN", "url": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl" },
+        { "nombre": "CNBC", "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html" }
+      ]
+    },
+    {
+      "titulo": "La Fed, encaminada a subir las tasas en diciembre",
+      "resumen": "Los futuros daban ~93% de probabilidad de una suba de 0,25 pp el 8 y 9 de diciembre (hoy la tasa está entre 3,75% y 4,00%). El gobernador Waller llegó a mencionar 0,50 pp.",
+      "afecta": ["Financiero", "Inmobiliario", "Servicios públicos", "Bonos"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Forbes", "url": "https://www.forbes.com/sites/simonmoore/2026/11/13/waller-floats-prospect-of-larger-december-interest-rate-hike/" },
+        { "nombre": "FXEmpire", "url": "https://www.fxempire.com/forecasts/article/interest-rate-forecast-december-fed-hike-bets-support-us-dollar-1646310" }
+      ]
+    },
+    {
+      "titulo": "El miércoles sale el PCE, el dato de inflación que mira la Fed",
+      "resumen": "Hay pronósticos que ponen al PCE general en ~3,8% anual para octubre y al núcleo en 3,1%. Son proyecciones, no datos oficiales. Si sale alto, vuelve la idea de una suba de 0,50 pp.",
+      "afecta": ["Todo el mercado", "Bonos", "Dólar"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "Oxford Economics", "url": "https://www.oxfordeconomics.com/resource/us-pce-nowcast-broadening-pressures-lock-in-december-rate-hike/" }
+      ]
+    },
+    {
+      "titulo": "Fuertes movimientos en acciones ligadas a la IA",
+      "resumen": "El lunes, Dell subió ~25% y CoreWeave ~28%, mientras que CrowdStrike cayó ~10%.",
+      "afecta": ["Hardware", "Software"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "Investing.com", "url": "https://investing.com/news/stock-market-news/nvidia-intel-among-market-cap-stock-movers-on-monday-93CH-5046002" }
+      ]
+    },
+    {
+      "titulo": "Movimientos después del cierre del lunes",
+      "resumen": "Fluence Energy +17% (récord de pedidos), Agilent +6,8%, Amentum +5% (recompra de acciones por hasta 500 millones de USD). Del otro lado, HPE −6,9% y Semtech −4,6%.",
+      "afecta": ["Energía limpia", "Salud", "Defensa", "Hardware"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "StockTitan", "url": "https://stocktitan.net/articles/stock-market-today-live-november-23-2026" }
+      ]
+    },
+    {
+      "titulo": "Hoy presentan resultados Dell, HP y Best Buy",
+      "resumen": "Para Dell se espera una ganancia de ~6,62 USD por acción sobre ingresos de ~49.300 millones. Es el dato de la semana sobre la demanda de servidores para IA. Best Buy es un termómetro del consumo antes de las fiestas.",
+      "afecta": ["Hardware", "Consumo"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "TipRanks", "url": "https://tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-24-2026" }
+      ]
+    },
+    {
+      "titulo": "Petróleo en baja y dólar firme",
+      "resumen": "El WTI cayó entre 0,7% y 2,2% según la fuente (alrededor de 80 USD) y el índice del dólar subió a ~104. El bono a 10 años sigue cerca de 4,92%.",
+      "afecta": ["Energía"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Schwab", "url": "https://www.schwab.com/learn/story/stock-market-update-open" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Vuelve Huang a Nvidia y se reactiva el trade de la IA." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Dell y CoreWeave subieron fuerte, pero Dell presenta resultados hoy y HPE cayó." },
+    { "sector": "Software", "tono": "negativo", "porque": "CrowdStrike cayó ~10%." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Se espera una suba de tasas y el bono a 10 años está cerca de 4,9%." },
+    { "sector": "Servicios públicos", "tono": "negativo", "porque": "Sensibles a la suba de tasas esperada." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Best Buy presenta antes de la apertura, con las fiestas en el horizonte." },
+    { "sector": "Energía limpia", "tono": "positivo", "porque": "Fluence subió 17% después del cierre." }
+  ],
+  "riesgoHoy": "Más riesgo hoy en semiconductores e IA (movimientos de ±30% en días), en bonos largos y sectores sensibles a las tasas (por la suba esperada en diciembre) y en hardware (Dell y HP presentan resultados).",
+  "proximos": [
+    "Martes 24: Best Buy antes de la apertura; Dell y HP después del cierre.",
+    "Miércoles 25: inflación PCE de octubre, dato clave para la Fed.",
+    "Jueves 26: bolsa cerrada por Thanksgiving.",
+    "Viernes 27: media jornada. Arranca el Black Friday.",
+    "8 y 9 de diciembre: reunión de la Fed (se espera una suba de 0,25 pp)."
+  ]
+}

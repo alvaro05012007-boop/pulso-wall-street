@@ -1,0 +1,81 @@
+{
+  "id": "2026-08-26-1730",
+  "fecha": "2026-08-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Rueda de espera con leves bajas: el Dow cedió 0,2% y el S&P 500 y el Nasdaq quedaron casi planos.",
+    "La inflación PCE de julio mostró precios todavía arriba de la meta de la Fed (núcleo en 3,3%) y las tasas de los bonos subieron.",
+    "Después del cierre, Nvidia subió tras su balance y una alianza ampliada con AWS."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "sin dato", "cambio": "-0,02%", "cambioPct": -0.02 },
+    { "nombre": "Dow Jones", "valor": "53.463,88", "cambio": "-0,21%", "cambioPct": -0.21 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "-0,08%", "cambioPct": -0.08 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación PCE sigue arriba de la meta",
+      "resumen": "El índice de precios PCE de julio mostró una inflación todavía por encima del 2% que busca la Fed; la núcleo quedó en 3,3%, como se esperaba.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": false,
+      "impacto": "Las tasas de los bonos subieron y limitaron a las acciones.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/08/27/us-stocks-close-lower-on-elevated-inflation-data" },
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/08/us-stocks-drift-while-bonds-yields-rise-following-the-latest-update-on-inflation/" }
+      ]
+    },
+    {
+      "titulo": "Nvidia sube después del cierre tras su balance",
+      "resumen": "Nvidia presentó resultados y una previsión de ventas optimista, además de una alianza ampliada con Amazon Web Services, y subió fuera de hora.",
+      "afecta": ["Nvidia", "Semiconductores", "Amazon"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Los futuros subieron el jueves a la mañana tras el balance.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/8/26/nvidia-spotlights-afterhours-session-heads-higher-on-earnings-and-expanded-aws-partnership" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-track-nvidia-stock-higher/cZYVarsRJp7?.tsrc=rss" }
+      ]
+    },
+    {
+      "titulo": "Cautela antes de Nvidia",
+      "resumen": "Los índices se movieron poco durante la rueda a la espera del balance de Nvidia.",
+      "afecta": ["Todo el mercado"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Cierre con bajas mínimas.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-finish-little-changed-ahead-nvidia-earnings" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/385941/major-indexes-close-lower-ahead-of-nvidia-earnings" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Benzinga dio al S&P 500 con -0,1% (7.668,85) y al Dow en 53.446,13; Reuters y Trading Economics informaron bajas menores."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Quietos antes de Nvidia, que subió fuera de hora." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Subieron las tasas tras el PCE." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cayó 0,2%." }
+  ],
+  "riesgoHoy": "El riesgo fue la inflación que no termina de bajar, con la Fed todavía evaluando una suba.",
+  "proximos": [
+    "Jueves 27: reacción al balance de Nvidia.",
+    "Viernes 28: discurso de Warsh en Jackson Hole.",
+    "Tensión con Irán."
+  ]
+}

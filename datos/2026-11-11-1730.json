@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-11-1730",
+  "fecha": "2026-11-11",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Volvió el optimismo con la IA: el S&P 500 subió 1,3%, el Nasdaq 1,6% y el Dow 0,5%.",
+    "CoreWeave presentó resultados mejores de lo esperado y el índice de chips de Filadelfia saltó 5,7%, su mejor cierre desde el 3 de noviembre.",
+    "Nvidia se estabilizó después de dos ruedas en baja. Fue feriado de Veterans Day (la bolsa abrió normal)."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.619,38", "cambio": "+1,31%", "cambioPct": 1.31 },
+    { "nombre": "Dow Jones", "valor": "52.486,49", "cambio": "+0,49%", "cambioPct": 0.49 },
+    { "nombre": "Nasdaq", "valor": "25.466,19", "cambio": "+1,60%", "cambioPct": 1.6 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "CoreWeave impulsa a la IA",
+      "resumen": "Los resultados de CoreWeave superaron lo esperado y encendieron las subas de chips y empresas de IA.",
+      "afecta": ["Hardware", "Semiconductores"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Barchart (vía Webull)", "url": "https://www.webull.com/news/15907296618016768" },
+        { "nombre": "Newcastle Herald (Reuters)", "url": "https://www.newcastleherald.com.au/story/9390211/stocks-end-higher-as-sp-500-nasdaq-rally/" }
+      ]
+    },
+    {
+      "titulo": "Los chips saltan 5,7%",
+      "resumen": "El índice de semiconductores de Filadelfia tuvo su mejor cierre desde el 3 de noviembre; Nvidia se estabilizó.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/3028272/stock-market-news-for-nov-12-2026" }
+      ]
+    },
+    {
+      "titulo": "Los tres índices cierran en alza",
+      "resumen": "El S&P 500 terminó en 7.619,38 y acumula una suba de 11,3% en el año.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "fuentes": [
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11112026-nid11112026/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "El índice de chips subió 5,7%." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "CoreWeave superó lo esperado." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Vuelve el optimismo por la demanda de IA." }
+  ],
+  "riesgoHoy": "El riesgo seguía en Nvidia: la incertidumbre sobre su conducción podía cortar el rebote de los chips en cualquier momento.",
+  "proximos": [
+    "Jueves 12: novedades sobre la conducción de Nvidia.",
+    "Viernes 13: datos de precios mayoristas.",
+    "Resultados de Nvidia la semana próxima."
+  ]
+}

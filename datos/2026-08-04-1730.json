@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-04-1730",
+  "fecha": "2026-08-04",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Récords: el S&P 500 subió 1,8% y superó su máximo de junio, el Dow ganó 1,7% y el Nasdaq 2,6%.",
+    "Los chips rebotaron con fuerza y Palantir saltó tras su balance; las empresas siguen mostrando buenas ganancias.",
+    "El petróleo siguió bajando por el impulso para reabrir el estrecho de Ormuz."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.736,52", "cambio": "+1,79%", "cambioPct": 1.79 },
+    { "nombre": "Dow Jones", "valor": "54.085,88", "cambio": "+1,71%", "cambioPct": 1.71 },
+    { "nombre": "Nasdaq", "valor": "26.606,01", "cambio": "+2,59%", "cambioPct": 2.59 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 y el Dow marcan récords",
+      "resumen": "El S&P 500 superó su máximo de junio y el Dow logró su segundo récord seguido. El Russell 2000 de empresas chicas también cerró en récord.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Fue la cuarta suba seguida de los cuatro grandes índices.",
+      "fuentes": [
+        { "nombre": "AP (vía WTOP)", "url": "https://wtop.com/news/2026/08/how-major-us-stock-indexes-fared-tuesday-8-4-2026/" },
+        { "nombre": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/ezines/2026/08/04/dow-s-p-500-log-record-closes-as-stocks-stay-hot" }
+      ]
+    },
+    {
+      "titulo": "Fuerte rebote de los chips y buenos balances",
+      "resumen": "Los semiconductores rebotaron con fuerza y varias empresas subieron tras sus resultados, con Palantir como una de las grandes ganadoras.",
+      "afecta": ["Semiconductores", "Palantir", "Software"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "El Nasdaq ganó 671 puntos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/4/tech-rally-drives-fresh-record-highs" },
+        { "nombre": "AP (vía Las Vegas Sun)", "url": "https://lasvegassun.com/news/2026/aug/03/us-stocks-hit-records-as-profits-keep-piling-up-fo/" }
+      ]
+    },
+    {
+      "titulo": "Impulso para reabrir Ormuz y baja el petróleo",
+      "resumen": "Los avances para reabrir el estrecho de Ormuz y la distensión con Irán siguieron bajando el precio del crudo.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": false,
+      "impacto": "Menos petróleo significa menos presión inflacionaria y tasas más bajas.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://barchart.com/story/news/3646617/stocks-finish-sharply-higher-on-strong-earnings-and-push-to-reopen-hormuz" },
+        { "nombre": "Zacks", "url": "https://www.zacks.com/stock/news/2967146/stock-market-news-for-aug-4-2026" }
+      ]
+    },
+    {
+      "titulo": "SpaceX y AMD bajan después del cierre pese a superar estimaciones",
+      "resumen": "Las dos empresas presentaron resultados mejores de lo esperado, pero sus acciones cayeron en las operaciones fuera de hora.",
+      "afecta": ["SpaceX", "AMD", "Semiconductores"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "Con el mercado en récords, la vara para sorprender quedó más alta.",
+      "fuentes": [
+        { "nombre": "Briefing.com (After Hours)", "url": "https://briefing.com/after-hours-report/archive/2026/8/4/spacex-and-amd-fall-after-earnings-despite-beats" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 26.584,99 y Briefing.com en 26.606,01, con la misma suba de 671,10 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Fuerte rebote del sector." },
+    { "sector": "Software", "tono": "positivo", "porque": "Palantir saltó tras su balance." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo siguió bajando." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Combustible más barato." }
+  ],
+  "riesgoHoy": "Con el mercado en récords, el riesgo pasa a ser que cualquier balance que no deslumbre sea castigado, como pasó fuera de hora con AMD y SpaceX.",
+  "proximos": [
+    "Miércoles 5: reacción a AMD y SpaceX.",
+    "Viernes 7: informe de empleo de julio.",
+    "Negociaciones para reabrir Ormuz."
+  ]
+}

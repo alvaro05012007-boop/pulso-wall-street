@@ -1,0 +1,62 @@
+{
+  "id": "2026-03-25-1730",
+  "fecha": "2026-03-25",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Las bolsas subieron por versiones de un posible plan de paz entre EE.UU. e Irán.",
+    "El Dow ganó 0,66%, el S&P 500 0,54% y el Nasdaq cerca de 0,8%; el Russell 2000 saltó 2,2%.",
+    "Hubo idas y vueltas durante la rueda sobre el estado de las negociaciones."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.591,90", "cambio": "+0,54%", "cambioPct": 0.54 },
+    { "nombre": "Dow Jones", "valor": "46.429,49", "cambio": "+0,66%", "cambioPct": 0.66 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "+0,8%", "cambioPct": 0.8 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Suben las acciones por un posible plan de paz con Irán",
+      "resumen": "Los inversores apostaron a una desescalada en Medio Oriente ante versiones de un plan impulsado por EE.UU.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El Russell 2000 de pequeñas empresas subió 2,2%.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4568536" },
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-finish-higher-us-push-end-iran-war" }
+      ]
+    },
+    {
+      "titulo": "El Dow vuelve a subir entre idas y vueltas por el acuerdo",
+      "resumen": "Los titulares contradictorios sobre las negociaciones generaron vaivenes, pero el cierre fue positivo.",
+      "afecta": ["Industria"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Dow cerró en 46.429,49 (+0,7%).",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/340079/dow-charges-higher-again-on-peace-deal-back-and-forth" },
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://sandhills.newschannelnebraska.com/story/217787956/how-major-us-stock-indexes-fared-wednesday-3252026" }
+      ]
+    },
+    {
+      "titulo": "Apuesta a la desescalada en Medio Oriente",
+      "resumen": "Las bolsas avanzaron con la expectativa de que el conflicto se encamine a un final.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "interpretacion", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Los tres índices cerraron en verde.",
+      "fuentes": [
+        { "nombre": "NST (Reuters)", "url": "https://www.nst.com.my/amp/business/corporate/2026/03/1403785/wall-street-advances-investors-bet-mideast-de-escalation" },
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/03/26/us-stocks-close-higher" }
+      ]
+    }
+  ],
+  "contradicciones": ["Trading Economics informa el cierre del Dow en 46.422 (+0,65%), apenas distinto del de AP."],
+  "sectores": [
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow subió 0,7%." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq ganó cerca de 0,8%." }
+  ],
+  "riesgoHoy": "La fragilidad de las versiones de paz, con mensajes cruzados entre las partes.",
+  "proximos": ["Avances concretos del plan de paz", "PCE de febrero"]
+}

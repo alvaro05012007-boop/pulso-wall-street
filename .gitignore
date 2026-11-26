@@ -1,0 +1,8 @@
+# Claves y configuración local: nunca al repositorio
+.env
+node_modules/
+# Tus alertas personales (lista de seguimiento): quedan solo en esta PC
+alertas.json
+# Registros y archivos temporales del actualizador
+logs/
+*.tmp

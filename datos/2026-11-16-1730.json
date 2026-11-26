@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-16-1730",
+  "fecha": "2026-11-16",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Lunes pesado: el S&P 500 cayó 1,9% (tercera baja seguida), el Nasdaq 2,5% y el Dow 1,4%. El índice del miedo (VIX) saltó 19%.",
+    "Nvidia bajó cerca de 4% por versiones de que su directorio no piensa volver a poner a Jensen Huang, y por nuevas revelaciones sobre el ex-CEO.",
+    "Todos los sectores menos consumo básico terminaron en rojo. Bajaron el petróleo (~3%) y las tasas de los bonos, mientras el dólar se fortalecía como refugio."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.416,59", "cambio": "-1,92%", "cambioPct": -1.92 },
+    { "nombre": "Dow Jones", "valor": "51.608,17", "cambio": "-1,41%", "cambioPct": -1.41 },
+    { "nombre": "Nasdaq", "valor": "24.509,76", "cambio": "-2,49%", "cambioPct": -2.49 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "~-3%", "cambioPct": -3 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "en alza", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Nvidia arrastra a la tecnología antes de sus resultados",
+      "resumen": "Nvidia cayó ~4% por informes de que el directorio no considera devolverle el cargo a Huang. Los inversores también se acomodaban antes del balance de Nvidia y la salida a bolsa de Anthropic.",
+      "afecta": ["Semiconductores", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-investors-hold-back-ahead-of-nvidia-earnings-anthropic-ipo/cNbaf4PR9gk" },
+        { "nombre": "Finviz", "url": "https://finviz.com/news/423574/sp-500-nasdaq-log-3rd-straight-loss-as-nvidia-tanks-tech" }
+      ]
+    },
+    {
+      "titulo": "Venta generalizada: solo se salva consumo básico",
+      "resumen": "El S&P 500 perdió 145 puntos. La aversión al riesgo favoreció al dólar y a los bonos del Tesoro.",
+      "afecta": ["Todo el mercado", "Consumo"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/us-market-wrap---16th-november-2026-risk-off-trade-as-tech-rout-resumes-supporting-havens-" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo cae 3% y bajan las tasas",
+      "resumen": "Señales de que se recupera el flujo de crudo por el estrecho de Ormuz y de que EE.UU. no planea nuevos ataques a Irán bajaron el petróleo y alivian la inflación.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "mixto",
+      "fuentes": [
+        { "nombre": "The Star (Reuters)", "url": "https://www.thestar.com.my/business/business-news/2026/11/17/us-yields-ease-as-oil-prices-drop-3" }
+      ]
+    },
+    {
+      "titulo": "EE.UU. prepara reglas sobre el acceso remoto a chips de IA",
+      "resumen": "Se informó que el gobierno emitirá reglas para restringir el acceso remoto a chips avanzados de IA.",
+      "afecta": ["Semiconductores", "Hardware"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/us-market-wrap---16th-november-2026-risk-off-trade-as-tech-rout-resumes-supporting-havens-" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Nvidia cayó ~4% y se anticipan restricciones a chips de IA." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Se reanudó la venta de tecnología." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Consumo básico fue el único sector en alza." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo cayó cerca de 3%." }
+  ],
+  "riesgoHoy": "El riesgo se concentró en Nvidia y los chips, con la volatilidad (VIX) en fuerte suba antes del balance de Nvidia.",
+  "proximos": [
+    "Martes 17: ventas minoristas, producción industrial y resultados de Nvidia después del cierre.",
+    "Miércoles 18: minutas de la Fed.",
+    "Jueves 19: debut de Anthropic en la bolsa."
+  ]
+}

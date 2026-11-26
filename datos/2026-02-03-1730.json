@@ -1,0 +1,73 @@
+{
+  "id": "2026-02-03-1730",
+  "fecha": "2026-02-03",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Las acciones de software se desplomaron después de que Anthropic presentara herramientas que automatizan tareas legales, de ventas y marketing.",
+    "El Nasdaq cayó 1,43%, el S&P 500 0,84% y el Dow 0,34%, tras tocar récord durante la rueda.",
+    "Walmart superó por primera vez el billón de dólares de valor."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.917,81", "cambio": "-0,84%", "cambioPct": -0.84 },
+    { "nombre": "Dow Jones", "valor": "49.240,99", "cambio": "-0,34%", "cambioPct": -0.34 },
+    { "nombre": "Nasdaq", "valor": "23.255,19", "cambio": "-1,43%", "cambioPct": -1.43 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Una herramienta de IA de Anthropic hunde al software",
+      "resumen": "Anthropic lanzó herramientas que automatizan tareas legales, de ventas y marketing, y el mercado temió por los negocios de software y servicios de datos.",
+      "afecta": ["Software", "Servicios financieros", "Gestoras de activos"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "Una canasta de software de Goldman Sachs cayó 6%, su peor día desde abril; Bloomberg estimó una pérdida de 285.000 millones de dólares.",
+      "fuentes": [
+        { "nombre": "Bloomberg Government", "url": "https://news.bgov.com/esg/anthropics-move-into-legal-is-sinking-data-services-stocks-3" },
+        { "nombre": "Semafor", "url": "https://www.semafor.com/article/02/03/2026/software-stock-slide-worsens-on-ai-fears" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq cae 1,4% por el temor a la disrupción de la IA",
+      "resumen": "El software arrastró al resto del mercado; el Dow había tocado un récord durante la rueda.",
+      "afecta": ["Tecnología", "Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": true,
+      "impacto": "El Nasdaq 100 llegó a caer 2,4% antes de recortar.",
+      "fuentes": [
+        { "nombre": "Motley Fool / AOL", "url": "https://www.aol.com/finance/stock-market-today-feb-3-224413549.html" },
+        { "nombre": "Nasdaq.com (Barchart)", "url": "https://www.nasdaq.com/articles/stocks-tumble-ai-disruption-fears" }
+      ]
+    },
+    {
+      "titulo": "Walmart llega al billón de dólares",
+      "resumen": "Walmart subió cerca de 3% y se convirtió en el primer minorista tradicional en valer un billón de dólares.",
+      "afecta": ["Walmart", "Consumo"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": false,
+      "impacto": "Palantir también fue una rara ganadora dentro del software.",
+      "fuentes": [
+        { "nombre": "Malay Mail (Reuters)", "url": "https://www.malaymail.com/news/money/2026/02/04/software-stocks-tumble-on-ai-disruption-worries-pulling-wall-street-into-the-red/207917" }
+      ]
+    },
+    {
+      "titulo": "Bitcoin toca su nivel más bajo desde 2024",
+      "resumen": "El bitcoin cayó a mínimos desde 2024 mientras crecían los nervios por la IA y la geopolítica.",
+      "afecta": ["Bitcoin"],
+      "tono": "negativo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Más señales de aversión al riesgo.",
+      "fuentes": [
+        { "nombre": "AOL (AP)", "url": "https://www.aol.com/articles/bitcoin-hits-lowest-level-since-200126976.html" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Software", "tono": "negativo", "porque": "Temor a que la IA de Anthropic reemplace sus servicios." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Gestoras y servicios financieros también cayeron." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Walmart llegó al billón de dólares." },
+    { "sector": "Energía", "tono": "positivo", "porque": "TheStreet destacó subas del sector en un día flojo." }
+  ],
+  "riesgoHoy": "El temor a que la IA destruya negocios de software y servicios.",
+  "proximos": ["Balance de Alphabet el miércoles 4", "Balance de Amazon el jueves 5"]
+}

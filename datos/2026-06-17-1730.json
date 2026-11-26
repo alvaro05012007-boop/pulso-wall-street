@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-17-1730",
+  "fecha": "2026-06-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "La Fed mantuvo las tasas pero dejó ver una posible suba este año: el S&P 500 cayó 1,2%, el Nasdaq 1,3% y el Dow 1%.",
+    "La mediana de las proyecciones para la tasa a fin de 2026 subió a 3,8% desde 3,4% en marzo, en la primera decisión con Kevin Warsh como presidente.",
+    "Los mercados pasaron a descontar una suba completa de tasas para octubre; los 11 sectores del S&P 500 cerraron en rojo."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.420,10", "cambio": "-1,21%", "cambioPct": -1.21 },
+    { "nombre": "Dow Jones", "valor": "51.492,55", "cambio": "-0,98%", "cambioPct": -0.98 },
+    { "nombre": "Nasdaq", "valor": "26.021,66", "cambio": "-1,34%", "cambioPct": -1.34 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La Fed mantiene tasas pero anticipa una posible suba",
+      "resumen": "Las proyecciones de la Fed elevaron la tasa esperada a fin de 2026 a 3,8%, desde 3,4% en marzo.",
+      "afecta": ["Mercado en general", "Bonos", "Financiero"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "Los rendimientos de los bonos saltaron y todos los sectores del S&P 500 cayeron.",
+      "fuentes": [
+        { "nombre": "AP / ADN", "url": "https://www.adn.com/business-economy/2026/06/17/us-stocks-sink-on-worries-about-a-possible-hike-to-interest-rates-this-year-by-the-fed/" },
+        { "nombre": "Sharecast / HL", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-drop-after-hawkish-fed-outlook,-bond-yields-jump" }
+      ]
+    },
+    {
+      "titulo": "El mercado apuesta a una suba de tasas para octubre",
+      "resumen": "Tras la primera decisión de Kevin Warsh, los mercados de dinero pasaron a descontar un aumento completo de tasas en octubre.",
+      "afecta": ["Bonos", "Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "interpretacion", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "El Nasdaq perdió 355 puntos.",
+      "fuentes": [
+        { "nombre": "Reuters / Star-Advertiser", "url": "https://www.staradvertiser.com/2026/06/17/breaking-news/wall-street-sinks-on-bets-fed-will-hike-rates-this-year/" },
+        { "nombre": "Xinhua / The Star", "url": "https://www.thestar.com.my/news/world/2026/06/18/us-stocks-sink-after-hawkish-signals-from-fed" }
+      ]
+    },
+    {
+      "titulo": "El petróleo, debajo de US$80 por el acuerdo interino con Irán",
+      "resumen": "El crudo cotizó por debajo de US$80 por el optimismo sobre un acuerdo interino para la guerra con Irán.",
+      "afecta": ["Energía", "Petróleo"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "El alivio en el crudo no alcanzó para compensar el tono duro de la Fed.",
+      "fuentes": [
+        { "nombre": "AP / Click2Houston", "url": "https://www.click2houston.com/business/2026/06/17/shares-are-mixed-and-oil-trades-below-80-on-optimism-over-interim-us-iran-war-deal/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Las variaciones porcentuales difieren levemente entre medios; se usaron las de Reuters."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Las valuaciones altas sufren con tasas más altas." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Muy sensible a la suba de rendimientos." },
+    { "sector": "Financiero", "tono": "negativo", "porque": "Todos los sectores cerraron en baja." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Crudo debajo de US$80." }
+  ],
+  "riesgoHoy": "El giro de la Fed hacia posibles subas de tasas.",
+  "proximos": ["Feriado de Juneteenth el viernes 19", "Balance de Micron la semana siguiente"]
+}

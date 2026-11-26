@@ -1,0 +1,81 @@
+{
+  "id": "2026-08-19-1730",
+  "fecha": "2026-08-19",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Se cortó la racha negativa: el S&P 500 y el Dow subieron 0,2% después de que el Tesoro anunció más recompras de bonos largos.",
+    "La tasa a 30 años bajó a 5,195%, un día después de tocar su máximo en 19 años.",
+    "Salud saltó 3,5%, su mejor día desde abril de 2025, gracias a Moderna; los chips cayeron por resultados flojos de OpenAI."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.707,98", "cambio": "+0,21%", "cambioPct": 0.21 },
+    { "nombre": "Dow Jones", "valor": "53.463,05", "cambio": "+0,22%", "cambioPct": 0.22 },
+    { "nombre": "Nasdaq", "valor": "26.331,09", "cambio": "+0,16%", "cambioPct": 0.16 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El Tesoro duplica las recompras de bonos largos",
+      "resumen": "El Tesoro anunció que duplicará las operaciones de recompra de bonos de largo plazo para dar liquidez. La tasa a 30 años bajó a 5,195% desde más de 5,33%.",
+      "afecta": ["Bonos", "Inmobiliario", "Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "La baja de las tasas largas frenó tres días de caída en las acciones.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-treasury-buyback-plan-pulls-longterm-yields-lower" },
+        { "nombre": "AP (vía KOB)", "url": "https://www.kob.com/ap-top-news/us-stocks-halt-their-slide-after-the-treasury-department-moves-to-ease-pressure-from-the-bond-market/" }
+      ]
+    },
+    {
+      "titulo": "Moderna dispara a salud: el sector sube 3,5%",
+      "resumen": "Moderna saltó tras resultados positivos de fase avanzada de su vacuna contra el cáncer de piel, y el sector salud tuvo su mejor día desde abril de 2025.",
+      "afecta": ["Moderna", "Salud"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": true,
+      "impacto": "Salud fue el motor principal de la suba del S&P 500.",
+      "fuentes": [
+        { "nombre": "Metrobank (Reuters)", "url": "https://wealthinsights.metrobank.com.ph/news/us-stocks-wall-st-rises-as-yields-ease-moderna-lifts-healthcare-stocks" },
+        { "nombre": "GV Wire (Reuters)", "url": "https://gvwire.com/2026/08/19/wall-street-rises-as-yields-ease-moderna-lifts-healthcare-stocks/" }
+      ]
+    },
+    {
+      "titulo": "Resultados flojos de OpenAI golpean a los chips",
+      "resumen": "Resultados tibios de OpenAI pesaron sobre los fabricantes de chips: AMD cayó 3,7% e Intel 4%. Tecnología bajó 0,7%.",
+      "afecta": ["Semiconductores", "AMD", "Intel"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Los chips limitaron la suba del Nasdaq.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/576606" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó que el Nasdaq bajó 0,2%, mientras AP lo dio con una suba de 41,38 puntos (0,16%)."
+  ],
+  "sectores": [
+    { "sector": "Salud", "tono": "positivo", "porque": "Subió 3,5% con Moderna." },
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "AMD e Intel cayeron por OpenAI." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Bajaron las tasas largas." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Cayó 0,7%." }
+  ],
+  "riesgoHoy": "El riesgo siguió en los bonos: hizo falta una intervención del Tesoro para frenar la suba de las tasas largas.",
+  "proximos": [
+    "Balances de grandes minoristas.",
+    "Simposio de la Fed en Jackson Hole.",
+    "Balance de Nvidia la semana próxima."
+  ]
+}

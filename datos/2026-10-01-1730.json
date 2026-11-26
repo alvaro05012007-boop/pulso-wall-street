@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-01-1730",
+  "fecha": "2026-10-01",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El cuarto trimestre arrancó con un susto: el S&P 500 tocó su nivel más bajo en dos semanas por una venta global de bonos, pero se recuperó y cerró +0,2%.",
+    "El Dow y el Nasdaq terminaron casi planos (+0,04%) cuando se frenó la venta de bonos del Tesoro.",
+    "El petróleo WTI subió 2,7% a 92,85 dólares y la energía fue el mejor sector."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.666,45", "cambio": "+0,19%", "cambioPct": 0.19 },
+    { "nombre": "Dow Jones", "valor": "50.926,56", "cambio": "+0,04%", "cambioPct": 0.04 },
+    { "nombre": "Nasdaq", "valor": "26.871,60", "cambio": "+0,04%", "cambioPct": 0.04 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "92,85", "cambio": "+2,69%", "cambioPct": 2.69 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las acciones se recuperan cuando se frena la venta de bonos",
+      "resumen": "Tras caer a un mínimo de dos semanas por una venta global de bonos ligada al petróleo y la inflación, el S&P 500 dio vuelta y cerró en 7.666,45.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "La pausa en la suba de tasas permitió una recuperación desde los mínimos del día.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-rise-as-treasury-selling-pressure-subsides" },
+        { "nombre": "Reuters (vía NST)", "url": "https://www.nst.com.my/amp/business/corporate/2026/10/1545938/equities-rebound-close-higher-surging-treasury-yields-recede" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/588904" }
+      ]
+    },
+    {
+      "titulo": "El VIX sube a su nivel más alto en dos semanas",
+      "resumen": "En lo peor de la rueda, el índice de volatilidad VIX llegó a 17,07 puntos, máximo de dos semanas.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": true,
+      "impacto": "El nerviosismo creció durante la mañana y se calmó hacia el cierre.",
+      "fuentes": [
+        { "nombre": "Reuters (vía Star-Advertiser)", "url": "https://www.staradvertiser.com/2026/10/01/breaking-news/wall-street-dips-as-rising-treasury-yields-outweigh-software-gains/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube y la energía lidera",
+      "resumen": "El WTI ganó 2,69% a 92,85 dólares y el índice de energía del S&P 500 subió 1,9%, el mejor de los 11 sectores.",
+      "afecta": ["Energía"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Las petroleras se beneficiaron del crudo más caro.",
+      "fuentes": [
+        { "nombre": "Stock Market Watch", "url": "https://stockmarketwatch.com/digest/2026-10-01" },
+        { "nombre": "Reuters (vía NST)", "url": "https://www.nst.com.my/amp/business/corporate/2026/10/1545938/equities-rebound-close-higher-surging-treasury-yields-recede" }
+      ]
+    },
+    {
+      "titulo": "Disney, Amgen y Alphabet entre las más castigadas",
+      "resumen": "Walt Disney y Amgen cayeron 3,4% y Alphabet 2,7%, entre las grandes con peor desempeño del día.",
+      "afecta": ["Disney", "Amgen", "Alphabet", "Comunicaciones", "Salud"],
+      "tono": "negativo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Las caídas de estas grandes limitaron la suba de los índices.",
+      "fuentes": [
+        { "nombre": "Reuters (vía NST)", "url": "https://www.nst.com.my/amp/business/corporate/2026/10/1545938/equities-rebound-close-higher-surging-treasury-yields-recede" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Subió 1,9% con el petróleo, el mejor sector del día." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Disney y Alphabet cayeron con fuerza." },
+    { "sector": "Salud", "tono": "negativo", "porque": "Amgen bajó 3,4%." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en la venta global de bonos, que llevó al S&P 500 a un mínimo de dos semanas antes de recuperarse.",
+  "proximos": [
+    "Informe de empleo de septiembre el viernes 2.",
+    "Reunión de la Fed de octubre.",
+    "Inicio de la temporada de balances con los grandes bancos."
+  ]
+}

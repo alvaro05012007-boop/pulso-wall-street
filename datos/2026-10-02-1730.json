@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-02-1730",
+  "fecha": "2026-10-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Un informe de empleo flojo levantó a Wall Street: el S&P 500 subió 0,7%, el Nasdaq 1,2% y el Dow 0,5%.",
+    "En septiembre se crearon solo 29.000 empleos y el desempleo subió a 4,2%; las tasas bajaron y se enfriaron las apuestas a una suba de la Fed en octubre.",
+    "Nvidia tocó un récord y el Nasdaq cerró cerca de su máximo histórico."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.722,72", "cambio": "+0,73%", "cambioPct": 0.73 },
+    { "nombre": "Dow Jones", "valor": "51.176,96", "cambio": "+0,49%", "cambioPct": 0.49 },
+    { "nombre": "Nasdaq", "valor": "27.190,86", "cambio": "+1,19%", "cambioPct": 1.19 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Solo 29.000 empleos nuevos en septiembre; el desempleo sube a 4,2%",
+      "resumen": "El informe de empleo mostró un aumento de 29.000 puestos, muy por debajo de lo esperado, y una tasa de desempleo de 4,2% contra 4,1% previsto. Agosto también se revisó a la baja.",
+      "afecta": ["Bonos", "Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Empleo",
+      "volatilidad": true,
+      "impacto": "El mercado leyó el dato débil como una razón para que la Fed no suba las tasas.",
+      "fuentes": [
+        { "nombre": "Sharecast (vía Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-rise-as-jobs-slowdown-eases-rate-hike-fears" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/589194" }
+      ]
+    },
+    {
+      "titulo": "Se enfrían las apuestas a una suba de tasas en octubre",
+      "resumen": "Tras el dato, la herramienta FedWatch de CME pasó a mostrar 77,3% de probabilidad de que la Fed mantenga las tasas el 28 de octubre. Las tasas del Tesoro bajaron.",
+      "afecta": ["Bonos", "Financiero", "Inmobiliario"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "interpretacion",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La baja de las tasas fue el principal impulso para las acciones.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-week-higher-as-weak-jobs-report-cools-rate-hike-bets-nvda-ba-spcx-rivn-apld-in-focus/cZDjq3URBKF" }
+      ]
+    },
+    {
+      "titulo": "Wall Street sube; el Nasdaq cierra cerca de su récord",
+      "resumen": "El S&P 500 ganó 56,27 puntos a 7.722,72 y el Nasdaq 319,27 a 27.190,86. Aun así, el Dow y el S&P 500 tuvieron su cuarta semana negativa en cinco.",
+      "afecta": ["Todo el mercado", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "La tecnología lideró; Nvidia marcó un máximo histórico durante la rueda.",
+      "fuentes": [
+        { "nombre": "Xinhua (vía The Star)", "url": "https://www.thestar.com.my/news/world/2026/10/03/us-stocks-close-higher" },
+        { "nombre": "AP (vía La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1022026-nid02102026/" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja por una liberación de diésel del G7",
+      "resumen": "El crudo cayó después de que el G7 anunciara una liberación de reservas de diésel.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Menos presión del petróleo sobre la inflación.",
+      "fuentes": [
+        { "nombre": "Hyperdash", "url": "https://hyperdash.com/news/stocks-close-higher-as-weak-jobs-report-cements-fed-hold-oil-slides-on-g7-diesel-release" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró la suba con el Nasdaq cerca del récord." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia tocó un máximo histórico." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El petróleo bajó por la liberación de diésel del G7." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Las tasas del Tesoro bajaron." }
+  ],
+  "riesgoHoy": "El riesgo pasó a ser una economía que se enfría: el empleo creció muy poco y el desempleo subió.",
+  "proximos": [
+    "Reunión de la Fed del 28 de octubre.",
+    "Inflación de septiembre (IPC).",
+    "Balances de los grandes bancos a mediados de octubre."
+  ]
+}

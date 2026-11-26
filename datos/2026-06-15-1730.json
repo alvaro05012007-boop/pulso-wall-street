@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-15-1730",
+  "fecha": "2026-06-15",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Gran suba: el Nasdaq ganó 3,1%, el S&P 500 1,65% y el Dow 0,9% hasta un récord.",
+    "EE.UU. e Irán alcanzaron un acuerdo tentativo y el petróleo bajó.",
+    "Las megatecnológicas lideraron y SpaceX volvió a subir cerca de 20%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.554,29", "cambio": "+1,65%", "cambioPct": 1.65 },
+    { "nombre": "Dow Jones", "valor": "51.671,03", "cambio": "+0,92%", "cambioPct": 0.92 },
+    { "nombre": "Nasdaq", "valor": "26.683,94", "cambio": "+3,07%", "cambioPct": 3.07 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Acuerdo tentativo entre EE.UU. e Irán",
+      "resumen": "Las bolsas del mundo subieron y el petróleo retrocedió tras el acuerdo preliminar.",
+      "afecta": ["Mercado en general", "Energía"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El Dow marcó un cierre récord.",
+      "fuentes": [
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/2480274/stocks-settle-sharply-higher-as-us-iran-peace-deal-spurs-optimism" },
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-street-rallies-us-iran-deal-oil-price-drop/" }
+      ]
+    },
+    {
+      "titulo": "Las megatecnológicas lideran con la baja del crudo",
+      "resumen": "Briefing.com destacó el liderazgo de las grandes tecnológicas junto con el retroceso del petróleo.",
+      "afecta": ["Tecnología", "Nvidia", "Amazon"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq subió 3,07%, la mayor ganancia del día.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/6/15/stocks-surge-on-oil-retreat-megacaps-lead" },
+        { "nombre": "Xinhua / The Star", "url": "https://www.thestar.com.my/news/world/2026/06/16/us-stocks-close-higher" }
+      ]
+    },
+    {
+      "titulo": "SpaceX sigue en alza",
+      "resumen": "La acción de SpaceX cerró casi 20% arriba en su segunda rueda.",
+      "afecta": ["SpaceX"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Empresa", "volatilidad": true,
+      "impacto": "Ringside señala que el S&P 500 quedó 0,7% debajo de su récord del 2 de junio.",
+      "fuentes": [
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/dow-hits-record-high-nasdaq-and-s-and-p-500-jump-on-us-iran-deal-and-space-x-optimism-spcx-nvda-roku-crm-amzn-in-focus/cZKfwt9R73v" },
+        { "nombre": "Ringside", "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-jun-15/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "El resumen de Zacks del 15/6 muestra las cifras del viernes 12; se usaron las de Xinhua y Sharecast."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Las megacaps lideraron la suba." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia entre las destacadas." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Bajó el crudo por el acuerdo con Irán." }
+  ],
+  "riesgoHoy": "Que el acuerdo con Irán sea solo tentativo y la Fed se muestre dura.",
+  "proximos": ["Decisión de la Fed el miércoles 17", "Feriado de Juneteenth el viernes 19"]
+}

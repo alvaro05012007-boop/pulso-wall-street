@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-20-1730",
+  "fecha": "2026-11-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Viernes negro: el S&P 500 cayó 3,7% a 6.910 puntos, su séptima baja seguida, y entró en corrección. En la semana perdió 8,6%, la peor desde abril de 2025.",
+    "El Nasdaq se hundió 5,3% y ya está en negativo en 2026. Nvidia se desplomó 14% (125,53 USD) por informes de una investigación contable de la SEC.",
+    "El índice de chips de Filadelfia cayó 10,7%. Solo 122 de 503 acciones del S&P subieron; consumo básico fue el único sector en alza. El VIX cerró en 35,89."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.910,39", "cambio": "-3,70%", "cambioPct": -3.7 },
+    { "nombre": "Dow Jones", "valor": "~48.146", "cambio": "~-1,9%", "cambioPct": -1.9 },
+    { "nombre": "Nasdaq", "valor": "~22.618", "cambio": "-5,28%", "cambioPct": -5.28 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El S&P 500 entra en corrección",
+      "resumen": "Séptima baja seguida y peor semana desde abril de 2025 (-8,6%). El S&P 500 quedó más de 10% abajo de su récord del 6 de octubre.",
+      "afecta": ["Todo el mercado"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "StockTitan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026" },
+        { "nombre": "The Closing Print", "url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-20/" }
+      ]
+    },
+    {
+      "titulo": "Nvidia cae 14% por una investigación contable de la SEC",
+      "resumen": "El informe sobre una investigación contable de la SEC fue el principal disparador. Cayeron también las otras 32 empresas de chips de más de 2.000 millones de dólares.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/" },
+        { "nombre": "Trefis", "url": "https://www.trefis.com/stock/nvda/articles/627754/what-sent-nvidia-stock-lower-on-friday/2026-11-23" }
+      ]
+    },
+    {
+      "titulo": "Los chips se desploman 10,7%",
+      "resumen": "El índice de semiconductores de Filadelfia perdió 10,7%, con las empresas de memoria entre las más golpeadas. El Nasdaq quedó en negativo en el año.",
+      "afecta": ["Semiconductores", "Hardware", "Nasdaq"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Capp Notes", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026" },
+        { "nombre": "Investrade", "url": "https://investrade.com/market-review-november-20-2026/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Índice de chips -10,7% y Nvidia -14%." },
+    { "sector": "Hardware", "tono": "negativo", "porque": "Las empresas de memoria fueron muy castigadas." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq cayó 5,3% y está negativo en el año." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Consumo básico fue el único sector en alza." }
+  ],
+  "riesgoHoy": "Riesgo extremo en semiconductores e IA: la investigación de la SEC sobre Nvidia disparó la volatilidad (VIX cerca de 36).",
+  "proximos": [
+    "Semana corta: jueves 26 cerrado por Thanksgiving y viernes 27 media jornada.",
+    "Martes 24: resultados de Dell, HP y Best Buy.",
+    "Miércoles 25: inflación PCE de octubre."
+  ]
+}

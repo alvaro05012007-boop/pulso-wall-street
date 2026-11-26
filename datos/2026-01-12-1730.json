@@ -1,0 +1,60 @@
+{
+  "id": "2026-01-12-1730",
+  "fecha": "2026-01-12",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "El presidente de la Fed, Jerome Powell, reveló que el Departamento de Justicia le envió citaciones por la remodelación de la sede de la Fed.",
+    "El Dow llegó a caer casi 500 puntos pero dio vuelta y cerró en récord, con suba de 0,17%.",
+    "Bancos y emisoras de tarjetas cayeron; medios hablaron de un 'vender EE.UU.' con dólar y bonos más débiles."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.977,27", "cambio": "+0,16%", "cambioPct": 0.16 },
+    { "nombre": "Dow Jones", "valor": "49.590,20", "cambio": "+0,17%", "cambioPct": 0.17 },
+    { "nombre": "Nasdaq", "valor": "23.733,93", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Justicia investiga a Powell y él lo llama un pretexto",
+      "resumen": "Powell anunció que la Fed recibió citaciones del Departamento de Justicia por su testimonio sobre la remodelación de la sede; dijo que es un pretexto para presionar sobre las tasas.",
+      "afecta": ["Fed", "Bonos", "Dólar"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "Generó dudas sobre la independencia de la Fed y debilidad del dólar y los bonos, según medios.",
+      "fuentes": [
+        { "nombre": "Bloomberg Law", "url": "https://news.bloomberglaw.com/bloomberg-government-news/powell-says-justice-department-served-fed-with-subpoenas" },
+        { "nombre": "ABC7", "url": "https://abc7.com/post/stocks-fall-trumps-doj-opens-criminal-probe-powell/18391543/" }
+      ]
+    },
+    {
+      "titulo": "Wall Street se repone y cierra en récord",
+      "resumen": "Tras una caída temprana de casi 500 puntos, el Dow terminó arriba y en máximo; S&P 500 y Nasdaq también subieron.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El mercado dejó atrás el temor inicial por la disputa entre Trump y la Fed.",
+      "fuentes": [
+        { "nombre": "CommBank", "url": "https://www.commbank.com.au/articles/newsroom/2026/01/wall-street-records-after-shaking-off-trump-fed-feud-worries.html" },
+        { "nombre": "Argaam", "url": "https://www.argaam.com/en/reports/international_market_daily_report/55487" }
+      ]
+    },
+    {
+      "titulo": "Caen bancos y emisoras de tarjetas",
+      "resumen": "Las acciones de grandes bancos y compañías de tarjetas de crédito bajaron en la rueda.",
+      "afecta": ["Financiero", "Tarjetas de crédito"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "Medios lo vincularon con la propuesta de Trump de limitar las tasas de las tarjetas.",
+      "fuentes": [
+        { "nombre": "Washington Times", "url": "https://m.washingtontimes.com/news/2026/jan/12/wall-street-reacts-negatively-jerome-powell-probe-credit-card/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Financiero", "tono": "negativo", "porque": "Bajaron bancos y emisoras de tarjetas." }
+  ],
+  "riesgoHoy": "La independencia de la Fed frente a la presión política.",
+  "proximos": ["IPC de diciembre el martes 13", "Balance de JPMorgan el martes 13"]
+}

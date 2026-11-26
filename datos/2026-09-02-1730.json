@@ -1,0 +1,93 @@
+{
+  "id": "2026-09-02-1730",
+  "fecha": "2026-09-02",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Wall Street cortó la racha negativa: el Dow subió 0,6% y el S&P 500 y el Nasdaq 0,5%, de la mano de las grandes tecnológicas.",
+    "Nvidia subió más de 3% y Dell saltó casi 16% tras mejorar sus proyecciones.",
+    "El petróleo y las tasas de los bonos se mantuvieron relativamente quietos, lo que dio un respiro.",
+    "Las pequeñas empresas (Russell 2000) subieron más del doble que el S&P 500."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "sin dato", "cambio": "+0,5%", "cambioPct": 0.5 },
+    { "nombre": "Dow Jones", "valor": "53.061,95", "cambio": "+0,56%", "cambioPct": 0.56 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "+0,5%", "cambioPct": 0.5 },
+    { "nombre": "Bono 10 años", "valor": "4,78%", "cambio": "-1 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Las tecnológicas impulsan el rebote de Wall Street",
+      "resumen": "Nvidia subió más de 3% y llevó al Dow a ganar 0,6%. El S&P 500 y el Nasdaq subieron 0,5% después de un comienzo de semana malo.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El rebote llegó porque el petróleo y las tasas dejaron de subir con fuerza.",
+      "fuentes": [
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-922026-136155616" },
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/09/wall-street-rises-as-tech-stocks-climb-and-oil-prices-bond-yields-hold-relatively-steady/" }
+      ]
+    },
+    {
+      "titulo": "Dell se dispara 15,8% al subir su pronóstico anual",
+      "resumen": "Dell mejoró su proyección de ganancias e ingresos del año y su acción saltó 15,8%. Palo Alto, en cambio, cayó 9,3% pese a resultados mejores a lo esperado.",
+      "afecta": ["Dell", "Palo Alto Networks", "Hardware", "Software"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "Los resultados de empresas movieron fuerte acciones puntuales en ambos sentidos.",
+      "fuentes": [
+        { "nombre": "Reuters (vía GV Wire)", "url": "https://gvwire.com/2026/09/02/wall-street-ends-higher-as-stocks-reclaim-some-shine/" }
+      ]
+    },
+    {
+      "titulo": "Petróleo y bonos, más tranquilos",
+      "resumen": "El Brent subió 1% a 95,63 USD por el conflicto con Irán, pero la tasa a 10 años bajó a 4,78% desde 4,79%.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "La pausa en la suba de tasas le dio aire a las acciones.",
+      "fuentes": [
+        { "nombre": "AP (vía Nashua Telegraph)", "url": "https://www.nashuatelegraph.com/news/business/2026/09/02/stocks-slip-on-wall-street-under-pressure-from-higher-oil-prices-and-rising-bond-yields/" }
+      ]
+    },
+    {
+      "titulo": "Las pequeñas empresas lideran",
+      "resumen": "El Russell 2000 subió 1,13%, más del doble que el S&P 500.",
+      "afecta": ["Pequeñas empresas"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "La suba fue amplia, no solo de las grandes tecnológicas.",
+      "fuentes": [
+        { "nombre": "TS2", "url": "https://ts2.tech/en/small-caps-lead-1-1-wall-street-rebound-but-new-lows-still-outnumber-highs/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia subió más de 3%." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Dell saltó 15,8% por su mejor pronóstico." },
+    { "sector": "Software", "tono": "negativo", "porque": "Palo Alto cayó 9,3% pese a sus resultados." },
+    { "sector": "Energía", "tono": "neutral", "porque": "El petróleo subió poco tras el salto del día anterior." }
+  ],
+  "riesgoHoy": "El riesgo seguía en el petróleo por el conflicto con Irán y en la posible suba de tasas de la Fed.",
+  "proximos": [
+    "Viernes 4: informe de empleo de agosto.",
+    "Discursos de funcionarios de la Fed.",
+    "Reunión de la Fed de septiembre, con apuestas a una suba."
+  ]
+}

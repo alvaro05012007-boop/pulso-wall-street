@@ -1,0 +1,62 @@
+{
+  "id": "2026-06-18-1730",
+  "fecha": "2026-06-18",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote tras la Fed: el S&P 500 subió 1,1%, el Nasdaq 1,9% y el Dow 0,1%.",
+    "Los chips lideraron y bajaron el petróleo y los rendimientos de los bonos.",
+    "En la semana corta (el viernes 19 no hubo rueda por Juneteenth) el S&P 500 ganó 0,9% y el Nasdaq 2,4%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.500,58", "cambio": "+1,08%", "cambioPct": 1.08 },
+    { "nombre": "Dow Jones", "valor": "51.564,70", "cambio": "+0,14%", "cambioPct": 0.14 },
+    { "nombre": "Nasdaq", "valor": "26.517,93", "cambio": "+1,91%", "cambioPct": 1.91 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Los chips encabezan el rebote",
+      "resumen": "La fortaleza de los semiconductores y la baja del crudo ayudaron a recuperar gran parte de la caída post-Fed.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq ganó 496 puntos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/6/18/semiconductor-strength-falling-oil-help-market-rebound-from-fomcdriven-selloff" },
+        { "nombre": "AP / Washington Times", "url": "https://www.washingtontimes.com/news/2026/jun/18/stocks-rise-wall-street-erasing-much-losses-day-earlier/" }
+      ]
+    },
+    {
+      "titulo": "Bajan el petróleo y los rendimientos",
+      "resumen": "El crudo y las tasas de los bonos retrocedieron, en medio del alto el fuego con Irán.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Reuters vinculó la suba a los chips y a la tregua con Irán.",
+      "fuentes": [
+        { "nombre": "Reuters / Virginia Business", "url": "https://virginiabusiness.com/wall-street-indexes-rise-chip-gains-iran-ceasefire/" }
+      ]
+    },
+    {
+      "titulo": "Las pequeñas empresas suben 2,1%",
+      "resumen": "El Russell 2000 ganó 62 puntos hasta 2.979,77.",
+      "afecta": ["Pequeñas empresas"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El mercado cerró la semana corta en alza.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-thursday-6-18-2026/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Reuters dio cifras preliminares levemente distintas (S&P 500 7.498,41; Nasdaq 26.507,05)."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Lideraron el rebote." },
+    { "sector": "Energía", "tono": "negativo", "porque": "Bajó el crudo." }
+  ],
+  "riesgoHoy": "La posibilidad de una suba de tasas de la Fed más adelante en el año.",
+  "proximos": ["Feriado de Juneteenth el viernes 19", "Balance de Micron"]
+}

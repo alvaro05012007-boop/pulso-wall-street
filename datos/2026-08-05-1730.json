@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-05-1730",
+  "fecha": "2026-08-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Pausa después de cuatro días de suba: el Dow ganó 0,5% y marcó otro récord, pero el S&P 500 cedió 0,2% y el Nasdaq 0,8%.",
+    "SpaceX y AMD cayeron después de sus balances, pese a superar estimaciones.",
+    "El oro saltó 3,7% a un récord con un dólar más débil y tasas más bajas."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.723,55", "cambio": "-0,17%", "cambioPct": -0.17 },
+    { "nombre": "Dow Jones", "valor": "54.349,12", "cambio": "+0,49%", "cambioPct": 0.49 },
+    { "nombre": "Nasdaq", "valor": "26.384,46", "cambio": "-0,83%", "cambioPct": -0.83 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Toma de ganancias tras una suba de casi 6% en cuatro días",
+      "resumen": "Después de que el S&P 500 subiera casi 6% en cuatro ruedas hasta récords, el mercado se tomó un respiro. Los balances y los avances en Medio Oriente limitaron la baja.",
+      "afecta": ["Todo el mercado"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El Dow igual marcó su quinto día seguido en alza y un nuevo récord.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/5/stocks-pause-after-recordsetting-rally" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-markets-mixed-but-dow-still-hits-new-record" }
+      ]
+    },
+    {
+      "titulo": "SpaceX y AMD caen tras sus balances",
+      "resumen": "Las dos acciones bajaron pese a resultados mejores de lo esperado y fueron la causa de la primera baja del Nasdaq en cinco ruedas.",
+      "afecta": ["SpaceX", "AMD", "Semiconductores", "Comunicaciones"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": true,
+      "impacto": "El Nasdaq quedó 2% debajo de su récord.",
+      "fuentes": [
+        { "nombre": "Commonwealth Bank (Reuters)", "url": "https://www.commbank.com.au/articles/newsroom/2026/08/dow-closes-at-record-high-as-spacex-and-amd-drag-nasdaq-lower.html" },
+        { "nombre": "Anadolu Agency", "url": "https://aa.com.tr/en/economy/dow-closes-at-record-high-as-tech-losses-drag-sp-500-nasdaq-lower/4019585" }
+      ]
+    },
+    {
+      "titulo": "El oro salta 3,7% a un récord",
+      "resumen": "Un dólar más débil y tasas más bajas impulsaron la demanda de oro como refugio, que cerró en un nuevo máximo histórico.",
+      "afecta": ["Materiales"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "La suba muestra que parte del mercado sigue buscando protección.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/8/5/gold-surges-37-to-record-settlement-as-weaker-dollar-lower-yields-lift-safehaven-demand" }
+      ]
+    },
+    {
+      "titulo": "Esperanza de un acuerdo con Irán sostiene al mercado cerca de récords",
+      "resumen": "El petróleo se mantuvo estable mientras los inversores esperaban que se concrete un acuerdo con Irán y la reapertura de Ormuz.",
+      "afecta": ["Energía", "Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "interpretacion",
+      "categoria": "Geopolítica",
+      "volatilidad": false,
+      "impacto": "El mercado tocó récords a la mañana antes de retroceder.",
+      "fuentes": [
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/" },
+        { "nombre": "Anchorage Daily News (AP)", "url": "https://www.adn.com/business-economy/2026/08/05/stocks-waver-on-wall-street-and-hover-around-records-as-oil-prices-hold-steady/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "AP informó el Nasdaq en 26.363,44 y Briefing.com en 26.384,46, con la misma baja de 221,55 puntos; se usó la serie de Briefing.com."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "AMD cayó tras su balance." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "SpaceX cayó tras su balance." },
+    { "sector": "Materiales", "tono": "positivo", "porque": "El oro saltó a un récord." },
+    { "sector": "Industria", "tono": "positivo", "porque": "El Dow marcó otro récord." }
+  ],
+  "riesgoHoy": "El riesgo fue que el mercado, en récords, castiga incluso balances buenos cuando no superan expectativas muy altas.",
+  "proximos": [
+    "Balances de Sandisk y Western Digital después del cierre.",
+    "Viernes 7: informe de empleo de julio.",
+    "Concreción del acuerdo con Irán."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2026-01-21-1730",
+  "fecha": "2026-01-21",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote fuerte: el Dow ganó 588 puntos (+1,21%) y el S&P 500 1,16%.",
+    "En Davos, Trump abandonó los nuevos aranceles a Europa y habló de un 'marco' de acuerdo sobre Groenlandia con la OTAN.",
+    "El índice del miedo VIX bajó a 17."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.875,62", "cambio": "+1,16%", "cambioPct": 1.16 },
+    { "nombre": "Dow Jones", "valor": "49.077,23", "cambio": "+1,21%", "cambioPct": 1.21 },
+    { "nombre": "Nasdaq", "valor": "23.224,82", "cambio": "+1,18%", "cambioPct": 1.18 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump da marcha atrás con los aranceles a Europa",
+      "resumen": "Trump dijo que con el secretario general de la OTAN, Mark Rutte, armaron un marco para un futuro acuerdo sobre Groenlandia y dejó de lado los nuevos aranceles.",
+      "afecta": ["Mercado en general", "Europa"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "Las acciones recuperaron buena parte de la caída del día anterior.",
+      "fuentes": [
+        { "nombre": "Finviz", "url": "https://finviz.com/news/283001/dow-adds-588-points-after-trump-abandons-new-europe-tariffs" },
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4540971-wall-street-rallies-after-trump-speaks-at-davos" }
+      ]
+    },
+    {
+      "titulo": "El Dow rebota casi 600 puntos",
+      "resumen": "Los tres índices subieron más de 1% tras la peor rueda en tres meses.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El VIX cayó a 17, señal de menos nerviosismo.",
+      "fuentes": [
+        { "nombre": "Motley Fool / Yahoo Finance", "url": "https://finance.yahoo.com/news/stock-market-today-jan-21-225305049.html" },
+        { "nombre": "WTOP (AP)", "url": "https://wtop.com/europe/2026/01/how-major-us-stock-indexes-fared-wednesday-1-21-2026/" }
+      ]
+    },
+    {
+      "titulo": "Se calma la volatilidad, pero persisten temores comerciales",
+      "resumen": "Bloomberg señaló que el tono más suave de Trump calmó la volatilidad, aunque los temores por aranceles no desaparecieron.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "interpretacion", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "Los inversores siguieron atentos a nuevos anuncios.",
+      "fuentes": [
+        { "nombre": "Bloomberg Government", "url": "https://news.bgov.com/international-trade/stock-rally-fizzles-as-tariff-fears-override-trumps-softer-tone" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Recuperó parte de la caída del martes." }
+  ],
+  "riesgoHoy": "Que vuelvan las amenazas arancelarias contra Europa.",
+  "proximos": ["Dato de PIB el jueves 22", "Reunión de la Fed del 27-28 de enero"]
+}

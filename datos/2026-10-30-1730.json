@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-30-1730",
+  "fecha": "2026-10-30",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Peor día desde junio: el S&P 500 cayó 1,8%, el Nasdaq 2,9% y el Dow 1,1%. Fue la tercera semana seguida en baja para el S&P y el Nasdaq.",
+    "Intel se hundió 28,6%, su peor caída desde 1974, por un pronóstico flojo. Amazon también bajó tras resultados por debajo de lo esperado.",
+    "Nvidia (-4,2%) fue la que más pesó en el índice. Crece el miedo a que la euforia por la IA haya inflado demasiado los precios."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.580,07", "cambio": "-1,82%", "cambioPct": -1.82 },
+    { "nombre": "Dow Jones", "valor": "51.770", "cambio": "-1,09%", "cambioPct": -1.09 },
+    { "nombre": "Nasdaq", "valor": "25.437,00", "cambio": "-2,86%", "cambioPct": -2.86 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "en baja", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street tiene su peor día desde junio",
+      "resumen": "El S&P 500 perdió 140 puntos y el Nasdaq 2,9%. La venta de tecnología tapó la fortaleza de otros sectores.",
+      "afecta": ["Todo el mercado", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "AP (vía AJC)", "url": "https://www.ajc.com/news/2026/10/wall-street-tumbles-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/" },
+        { "nombre": "Star-Advertiser", "url": "https://www.staradvertiser.com/2026/10/30/breaking-news/tech-stocks-tumble-as-amazon-intel-fuel-ai-spending-fears/" }
+      ]
+    },
+    {
+      "titulo": "Intel tiene su peor caída desde 1974",
+      "resumen": "La acción cayó 28,6% a 65,76 USD después de que su pronóstico para el cuarto trimestre quedara corto.",
+      "afecta": ["Semiconductores"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/" }
+      ]
+    },
+    {
+      "titulo": "Amazon baja por el gasto y la caja",
+      "resumen": "Amazon cayó entre 1,4% y 2% tras resultados por debajo de lo esperado y la preocupación por cuánto efectivo quema en IA.",
+      "afecta": ["Consumo", "Tecnología"],
+      "tono": "negativo",
+      "fuentes": [
+        { "nombre": "Reuters (vía Virginia Business)", "url": "https://virginiabusiness.com/wall-street-lower-ai-cash-burn-tech-selloff/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-third-straight-week-lower-as-investors-move-away-from-tech-ai-amzn-intc-lly-rblx-in-focus/cZUKKlTR9cJ" }
+      ]
+    },
+    {
+      "titulo": "Los bonos funcionan como refugio",
+      "resumen": "Las tasas de los bonos del Tesoro bajaron porque los inversores buscaron algo más seguro.",
+      "afecta": ["Bonos"],
+      "tono": "neutral",
+      "fuentes": [
+        { "nombre": "AP (vía ADN)", "url": "https://www.adn.com/business-economy/2026/10/30/sell-off-for-tech-stocks-worsens-and-drowns-out-strength-elsewhere-on-wall-street/" }
+      ]
+    }
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Intel cayó 28,6% y Nvidia 4,2%." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "Se profundizó la venta por las valuaciones de la IA." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Amazon decepcionó." },
+    { "sector": "Salud", "tono": "positivo", "porque": "Eli Lilly estuvo entre las que se destacaron fuera de la tecnología." }
+  ],
+  "riesgoHoy": "El riesgo estuvo en semiconductores y grandes tecnológicas: los balances flojos generaron caídas de dos dígitos en un día.",
+  "proximos": [
+    "Martes 3 de noviembre: elecciones de medio término.",
+    "Lunes 2: índice manufacturero ISM.",
+    "Viernes 6: informe de empleo."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2026-04-24-1730",
+  "fecha": "2026-04-24",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Intel saltó cerca de 22%, su mejor día desde 1987, y llevó al S&P 500 (+0,80%) y al Nasdaq (+1,63%) a nuevos récords.",
+    "Los chips acompañaron: AMD subió cerca de 14% y Broadcom 11%.",
+    "El Dow cedió 0,16% y seis de los once sectores cayeron; el optimismo por las conversaciones de paz también ayudó."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.165,08", "cambio": "+0,80%", "cambioPct": 0.8 },
+    { "nombre": "Dow Jones", "valor": "49.230,71", "cambio": "-0,16%", "cambioPct": -0.16 },
+    { "nombre": "Nasdaq", "valor": "24.836,60", "cambio": "+1,63%", "cambioPct": 1.63 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Intel vive su mejor día desde 1987",
+      "resumen": "Las acciones subieron casi 22% hasta USD 82,57 tras un primer trimestre fuerte y una guía mejor a lo esperado.",
+      "afecta": ["Semiconductores", "Intel"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Lideró la suba del Nasdaq a un nuevo récord.",
+      "fuentes": [
+        { "nombre": "BNN Bloomberg (AP)", "url": "https://www.bnnbloomberg.ca/markets/2026/04/24/intels-best-day-since-1987-leads-the-us-stock-market-to-more-records/" },
+        { "nombre": "Fortune", "url": "https://fortune.com/2026/04/24/intel-blows-past-record-high-s-and-p-500/" }
+      ]
+    },
+    {
+      "titulo": "Rally de chips: AMD +14% y Broadcom +11%",
+      "resumen": "El resto del sector de semiconductores acompañó a Intel.",
+      "afecta": ["Semiconductores", "AMD", "Broadcom"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Dow, sin Intel desde noviembre de 2024, quedó rezagado.",
+      "fuentes": [
+        { "nombre": "Nasdaq / Motley Fool", "url": "https://www.nasdaq.com/articles/dow-down-while-nasdaq-100-soars-blame-chips" }
+      ]
+    },
+    {
+      "titulo": "Récords del S&P 500 y el Nasdaq en una semana agitada",
+      "resumen": "El optimismo por las conversaciones de paz se sumó a los balances, aunque seis de los once sectores cayeron.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": false,
+      "impacto": "El S&P 500 cerró en 7.165,08.",
+      "fuentes": [
+        { "nombre": "The Star (Xinhua)", "url": "https://www.thestar.com.my/news/world/2026/04/25/us-stocks-close-mixed-with-sp-500-nasdaq-hitting-new-records" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/347641/sp-500-nasdaq-close-choppy-week-with-records" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Intel, AMD y Broadcom con subas de dos dígitos." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El Nasdaq marcó récord." },
+    { "sector": "Industria", "tono": "negativo", "porque": "El Dow cerró en baja." }
+  ],
+  "riesgoHoy": "Un mercado en récords muy concentrado en los chips mientras sigue sin acuerdo con Irán.",
+  "proximos": ["Reunión de la Fed el 28 y 29 de abril", "Balances de Microsoft, Alphabet, Meta, Amazon y Apple"]
+}

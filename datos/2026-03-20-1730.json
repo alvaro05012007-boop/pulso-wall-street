@@ -1,0 +1,62 @@
+{
+  "id": "2026-03-20-1730",
+  "fecha": "2026-03-20",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Cuarta semana seguida en baja: el S&P 500 cayó 1,5% y el Nasdaq 2%, que quedó casi 10% debajo de su récord de octubre.",
+    "Otra suba del petróleo empujó los rendimientos de los bonos y borró las esperanzas de un recorte de tasas.",
+    "Fue día de vencimiento trimestral de opciones con volumen muy alto; servicios públicos cayó más de 4%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.506,48", "cambio": "-1,51%", "cambioPct": -1.51 },
+    { "nombre": "Dow Jones", "valor": "45.577", "cambio": "-0,96%", "cambioPct": -0.96 },
+    { "nombre": "Nasdaq", "valor": "21.647,61", "cambio": "-2,01%", "cambioPct": -2.01 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sube", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "El petróleo hunde a Wall Street y se esfuman los recortes de la Fed",
+      "resumen": "El crudo volvió a subir, empujó los rendimientos y el mercado dejó de esperar una baja de tasas.",
+      "afecta": ["Mercado en general"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": true,
+      "impacto": "El S&P 500 y el Dow cayeron a mínimos de tres meses y medio.",
+      "fuentes": [
+        { "nombre": "News Channel Nebraska (AP)", "url": "https://plattevalley.newschannelnebraska.com/story/211951414/how-major-us-stock-indexes-fared-friday-3202026-1" },
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/3/20/riskoff-tone-deepens-as-oil-yields-and-geopolitcal-risks-intensify" }
+      ]
+    },
+    {
+      "titulo": "El Nasdaq y el Dow, cerca de una corrección",
+      "resumen": "El Nasdaq quedó casi 10% por debajo de su máximo del 29 de octubre y el S&P 500 encadenó cuatro semanas negativas.",
+      "afecta": ["Tecnología"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "El S&P 500 acumula una baja de 5% en el año.",
+      "fuentes": [
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/339049/dow-nasdaq-near-correction-after-4th-straight-weekly-loss" },
+        { "nombre": "AOL / Motley Fool", "url": "https://www.aol.com/finance/stock-market-today-march-20-212631140.html" }
+      ]
+    },
+    {
+      "titulo": "Vencimiento trimestral de opciones con volumen récord",
+      "resumen": "Se negociaron 27.500 millones de acciones, contra un promedio de 20.100 millones en las 20 ruedas previas.",
+      "afecta": ["Mercado en general"],
+      "tono": "neutral", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": true,
+      "impacto": "Nueve de los once sectores cayeron, con servicios públicos a la cabeza (-4,11%).",
+      "fuentes": [
+        { "nombre": "Virginia Business (Reuters)", "url": "https://virginiabusiness.com/wall-street-falls-middle-east-conflict-inflation-rates" }
+      ]
+    }
+  ],
+  "contradicciones": ["El cierre del Nasdaq varía según la fuente: 21.647,61 (AP) o 21.653,71 (datos preliminares)."],
+  "sectores": [
+    { "sector": "Servicios públicos", "tono": "negativo", "porque": "Cayó 4,11% por la suba de los rendimientos." },
+    { "sector": "Tecnología", "tono": "negativo", "porque": "El Nasdaq perdió 2%." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Tasas más altas por más tiempo." }
+  ],
+  "riesgoHoy": "La suba combinada de petróleo y tasas, que borró la expectativa de recortes de la Fed.",
+  "proximos": ["Posibles ataques a infraestructura energética iraní", "Datos de PMI y confianza del consumidor"]
+}

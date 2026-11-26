@@ -1,0 +1,93 @@
+{
+  "id": "2026-07-10-1730",
+  "fecha": "2026-07-10",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Cierre de semana tranquilo y en alza: el S&P 500 subió 0,4% y el Dow y el Nasdaq 0,3%, después de abrir en rojo.",
+    "SK Hynix debutó en Wall Street y sus ADR subieron 12,8% sobre el precio de colocación, una muestra de que el apetito por la IA sigue firme.",
+    "El petróleo bajó 1% a 71,41 USD, pero la tasa a 10 años subió a 4,57%. El S&P 500 sumó su cuarta semana positiva en cinco."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.575,39", "cambio": "+0,42%", "cambioPct": 0.42 },
+    { "nombre": "Dow Jones", "valor": "52.637,01", "cambio": "+0,29%", "cambioPct": 0.29 },
+    { "nombre": "Nasdaq", "valor": "26.281,61", "cambio": "+0,29%", "cambioPct": 0.29 },
+    { "nombre": "Bono 10 años", "valor": "4,57%", "cambio": "+3 pb", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "71,41 USD", "cambio": "-1,0%", "cambioPct": -1.0 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "SK Hynix debuta en Wall Street con una suba de 12,8%",
+      "resumen": "Los ADR del fabricante surcoreano de memorias subieron 12,8% sobre su precio de colocación en su primer día en EE.UU.",
+      "afecta": ["SK Hynix", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": true,
+      "impacto": "El debut levantó el ánimo y ayudó a que los índices borraran las bajas de la apertura.",
+      "fuentes": [
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-erase-earlier-losses-as-sk-hynix-debut-lifts-sentiment" },
+        { "nombre": "AP (vía Las Vegas Sun)", "url": "https://lasvegassun.com/news/2026/jul/10/us-stocks-rise-as-wall-street-shows-its-still-hung/" }
+      ]
+    },
+    {
+      "titulo": "Semana volátil que termina estable",
+      "resumen": "Diez de los once sectores del S&P 500 subieron con la baja del petróleo. En la semana el S&P 500 ganó y el Dow perdió cerca de 0,5%, cortando una racha de cuatro semanas en alza.",
+      "afecta": ["Todo el mercado"],
+      "tono": "positivo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "El índice de volatilidad VIX tocó mínimos de casi seis meses.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/10/stocks-close-out-volatile-week-on-a-steady-note" },
+        { "nombre": "Schaeffer's Research", "url": "https://www.schaeffersresearch.com/content/ezines/2026/07/10/dow-snaps-4-week-win-streak-vix-hits-nearly-6-month-low" }
+      ]
+    },
+    {
+      "titulo": "El petróleo baja por primera vez en una semana",
+      "resumen": "El WTI cerró en 71,41 USD (-1%), mientras las negociaciones con Irán seguían frágiles. La tasa a 10 años subió a 4,57% y la de 2 años a 4,21%.",
+      "afecta": ["Energía", "Bonos"],
+      "tono": "mixto",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "En la semana, la tasa a 10 años subió 8 puntos básicos.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://briefing.com/stock-market-update/archive/2026/7/10/stocks-close-out-volatile-week-on-a-steady-note" },
+        { "nombre": "AP (vía ABC News)", "url": "https://abcnews.com/Business/wireStory/stocks-rise-wall-street-crude-oil-prices-fall-135042871" }
+      ]
+    },
+    {
+      "titulo": "Bloomberg: la IA divide al mercado como en la era punto com",
+      "resumen": "Bloomberg describió una semana de pantalla partida, con ganadoras de la IA por un lado y el resto del mercado por otro, mientras volvía la amenaza de Irán.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "tipo": "interpretacion",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "La comparación con las punto com refleja la preocupación por la concentración del mercado.",
+      "fuentes": [
+        { "nombre": "Bloomberg Law", "url": "https://news.bloomberglaw.com/artificial-intelligence/ai-echoes-the-dot-com-market-split-as-iran-threat-creeps-back" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "El debut de SK Hynix levantó a las memorias." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo bajó 1%." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Combustible más barato; Delta estaba entre las acciones seguidas." }
+  ],
+  "riesgoHoy": "El riesgo fue la fragilidad de las negociaciones con Irán, que mantienen al petróleo y a las tasas sensibles.",
+  "proximos": [
+    "Martes 14: inflación (IPC) de junio.",
+    "Balances de los grandes bancos.",
+    "Negociaciones con Irán."
+  ]
+}

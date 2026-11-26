@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-12-1730",
+  "fecha": "2026-08-12",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "La inflación de julio salió en línea con lo esperado y calmó el miedo a una suba de tasas: el S&P 500 subió 0,3% y el Nasdaq 0,7%.",
+    "Los precios subieron 0,1% en el mes y la interanual bajó a 3,4%. El Dow quedó plano.",
+    "CoreWeave y Nvidia impulsaron a las acciones de IA, mientras Microsoft, Meta y Amazon bajaron."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.748,50", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Dow Jones", "valor": "53.770,27", "cambio": "-0,04%", "cambioPct": -0.04 },
+    { "nombre": "Nasdaq", "valor": "26.588,49", "cambio": "+0,7%", "cambioPct": 0.7 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "La inflación de julio, en línea con lo esperado",
+      "resumen": "El IPC subió 0,1% en julio, como se esperaba, y la interanual bajó a 3,4% desde 3,5%. La núcleo subió 0,2% en el mes y 2,5% en el año.",
+      "afecta": ["Todo el mercado", "Bonos"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Inflación",
+      "volatilidad": true,
+      "impacto": "Los operadores redujeron las apuestas a una suba de tasas de la Fed en septiembre.",
+      "fuentes": [
+        { "nombre": "Briefing.com (Page One)", "url": "https://briefing.com/page-one/archive/2026/8/12/july-cpi-appeases-the-market" },
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/08/wall-street-rises-near-a-record-as-ai-stocks-climb-and-worries-about-inflation-ease-a-bit/" }
+      ]
+    },
+    {
+      "titulo": "CoreWeave impulsa a las acciones de IA",
+      "resumen": "El balance de CoreWeave levantó a las empresas de IA, con Nvidia entre las que más subieron.",
+      "afecta": ["CoreWeave", "Nvidia", "Semiconductores"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Resultados",
+      "volatilidad": false,
+      "impacto": "El Nasdaq lideró la suba del día.",
+      "fuentes": [
+        { "nombre": "Honolulu Star-Advertiser (Reuters)", "url": "https://www.staradvertiser.com/2026/08/12/breaking-news/sp-500-nasdaq-rise-as-coreweave-earnings-boost-ai-stocks/" },
+        { "nombre": "Barchart", "url": "https://barchart.com/story/news/3813891/stocks-close-higher-on-favorable-cpi-report-and-positive-ai-news" }
+      ]
+    },
+    {
+      "titulo": "Las grandes nubes devuelven lo ganado",
+      "resumen": "Microsoft cayó 2,3%, Meta 3,4% y Amazon 1,8% después de haber subido a la mañana.",
+      "afecta": ["Microsoft", "Meta", "Amazon", "Software"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Su baja limitó la suba del S&P 500, que quedó cerca de su récord.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/574824" },
+        { "nombre": "Anadolu Agency", "url": "https://aa.com.tr/en/economy/us-stocks-end-mostly-higher-after-inflation-data-ai-shares-rally/4025819" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Yahoo Finance informó que el S&P 500 y el Nasdaq marcaron récords; otras fuentes dicen que el S&P 500 quedó cerca de su récord."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Nvidia subió con el impulso de CoreWeave." },
+    { "sector": "Software", "tono": "negativo", "porque": "Microsoft cayó 2,3%." },
+    { "sector": "Comunicaciones", "tono": "negativo", "porque": "Meta perdió 3,4%." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "Menos miedo a una suba de tasas." }
+  ],
+  "riesgoHoy": "El riesgo quedó en la Fed: aunque la inflación se calmó, la suba de septiembre sigue sobre la mesa.",
+  "proximos": [
+    "Jueves 13: precios mayoristas (PPI) de julio.",
+    "Viernes 14: ventas minoristas.",
+    "Novedades sobre Ormuz."
+  ]
+}

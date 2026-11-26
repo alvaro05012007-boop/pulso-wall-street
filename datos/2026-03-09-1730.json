@@ -1,0 +1,64 @@
+{
+  "id": "2026-03-09-1730",
+  "fecha": "2026-03-09",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Día de montaña rusa: el S&P 500 llegó a caer 1,5% y terminó subiendo 0,83% después de que Trump dijera que la guerra con Irán estaba 'muy completa'.",
+    "El petróleo saltó a máximos desde 2022 en la madrugada y después se desinfló por debajo de los USD 100 el barril de Brent.",
+    "El Nasdaq ganó 1,4% y el Dow 0,5%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.795,99", "cambio": "+0,83%", "cambioPct": 0.83 },
+    { "nombre": "Dow Jones", "valor": "47.740,80", "cambio": "+0,50%", "cambioPct": 0.5 },
+    { "nombre": "Nasdaq", "valor": "22.695,95", "cambio": "+1,38%", "cambioPct": 1.38 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "94,77", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Trump dice que la guerra con Irán está 'muy completa' y las bolsas dan vuelta",
+      "resumen": "Los comentarios del presidente alimentaron la esperanza de un conflicto corto y los índices pasaron de pérdidas a ganancias.",
+      "afecta": ["Mercado en general"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "El S&P 500 pasó de -1,5% a +0,8% en la misma rueda.",
+      "fuentes": [
+        { "nombre": "Semafor", "url": "https://www.semafor.com/article/03/09/2026/oil-prices-dip-under-100-as-trump-says-iran-war-very-complete" },
+        { "nombre": "Finviz / Schaeffer's", "url": "https://finviz.com/news/334338/major-indexes-pivot-higher-after-trump-war-update" },
+        { "nombre": "Barchart", "url": "https://www.barchart.com/story/news/650079/stocks-close-higher-after-president-trump-says-iran-war-is-pretty-much-complete" }
+      ]
+    },
+    {
+      "titulo": "El petróleo sube a máximos de 2022 y después se desploma",
+      "resumen": "El crudo se acercó a USD 120 en la madrugada y volvió hacia los USD 90 tras los dichos de Trump.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": true,
+      "impacto": "El WTI terminó en torno a USD 94,77.",
+      "fuentes": [
+        { "nombre": "Seeking Alpha", "url": "https://seekingalpha.com/news/4562530-crude-oil-drops-below-90-after-trump-says-iran-war-could-end-very-soon" },
+        { "nombre": "Nasdaq / Barchart", "url": "https://www.nasdaq.com/articles/stocks-settle-sharply-higher-crude-oil-slumps" }
+      ]
+    },
+    {
+      "titulo": "Las tecnológicas encabezan la recuperación",
+      "resumen": "El Nasdaq fue el índice que más subió, con un salto de 308 puntos.",
+      "afecta": ["Tecnología", "Semiconductores"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Sector", "volatilidad": false,
+      "impacto": "El Nasdaq cerró en 22.695,95 (+1,4%).",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/531989" },
+        { "nombre": "Nasdaq / Zacks", "url": "https://www.zacks.com/stock/news/2881532/stock-market-news-for-mar-10-2026" }
+      ]
+    }
+  ],
+  "contradicciones": ["Las fuentes difieren en la suba del Dow: Trading Economics habla de +206 puntos y AP de +239."],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Lideró el giro al alza." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo se desinfló desde sus máximos intradiarios." },
+    { "sector": "Transporte", "tono": "positivo", "porque": "Alivio por la baja del combustible desde los máximos." }
+  ],
+  "riesgoHoy": "La volatilidad extrema del petróleo, que se movió decenas de dólares en horas según los titulares de la guerra.",
+  "proximos": ["IPC de febrero el miércoles 11", "Señales concretas de fin del conflicto con Irán"]
+}

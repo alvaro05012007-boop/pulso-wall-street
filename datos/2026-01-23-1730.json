@@ -1,0 +1,61 @@
+{
+  "id": "2026-01-23-1730",
+  "fecha": "2026-01-23",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Cierre mixto: el Dow cayó 0,58%, el S&P 500 quedó plano y el Nasdaq subió 0,28%.",
+    "Intel se desplomó 17% por un pronóstico débil para el primer trimestre.",
+    "El S&P 500 acumuló su segunda semana seguida con pérdida leve."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.915,61", "cambio": "+0,03%", "cambioPct": 0.03 },
+    { "nombre": "Dow Jones", "valor": "49.098,71", "cambio": "-0,58%", "cambioPct": -0.58 },
+    { "nombre": "Nasdaq", "valor": "23.501,24", "cambio": "+0,28%", "cambioPct": 0.28 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Intel se hunde 17% por su pronóstico",
+      "resumen": "Intel dio una guía débil para el primer trimestre de 2026, con restricciones de suministro y pérdidas en su negocio de fundición.",
+      "afecta": ["Intel", "Semiconductores"],
+      "tono": "negativo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": true,
+      "impacto": "Cerró en 45,07 dólares y arrastró al índice de semiconductores.",
+      "fuentes": [
+        { "nombre": "Nasdaq.com (Motley Fool)", "url": "https://www.nasdaq.com/articles/stock-market-today-jan-23-intel-plunges-after-weak-outlook-highlights-supply-constraints" },
+        { "nombre": "Asia Economy", "url": "https://view.asiae.co.kr/en/article/2026012409141790595" }
+      ]
+    },
+    {
+      "titulo": "El Dow baja; el Nasdaq sube apenas",
+      "resumen": "Intel, que forma parte del Dow, pesó sobre ese índice mientras el Nasdaq logró subir.",
+      "afecta": ["Mercado en general"],
+      "tono": "mixto", "importancia": "media", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "El S&P 500 quedó plano y cerró su segunda semana en baja.",
+      "fuentes": [
+        { "nombre": "Star Tribune (AP)", "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-friday-1232026/601569740" },
+        { "nombre": "MarketScreener (Reuters)", "url": "https://www.marketscreener.com/news/dow-ends-lower-with-s-p-flat-as-intel-s-outlook-weighs-on-risk-appetite-ce7e5bdadc8ff121" }
+      ]
+    },
+    {
+      "titulo": "El Banco de Japón mantiene la tasa",
+      "resumen": "Japón dejó sin cambios su tasa de interés clave, en una jornada de mercados globales mixtos.",
+      "afecta": ["Bonos", "Dólar"],
+      "tono": "neutral", "importancia": "baja", "tipo": "hecho", "categoria": "Fed y tasas", "volatilidad": false,
+      "impacto": "Sin efecto visible en Wall Street.",
+      "fuentes": [
+        { "nombre": "BNN Bloomberg (AP)", "url": "https://www.bnnbloomberg.ca/markets/2026/01/23/us-futures-slip-and-world-shares-are-mixed-as-japan-keeps-its-key-interest-rate-unchanged/" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "negativo", "porque": "Intel cayó 17% y arrastró al índice del sector." },
+    { "sector": "Tecnología", "tono": "mixto", "porque": "El Nasdaq subió pese a Intel." }
+  ],
+  "riesgoHoy": "Las guías débiles de empresas grandes en plena temporada de balances.",
+  "proximos": ["Reunión de la Fed del 27-28 de enero", "Balances de Microsoft, Meta, Tesla y Apple"]
+}

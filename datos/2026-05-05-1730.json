@@ -1,0 +1,62 @@
+{
+  "id": "2026-05-05-1730",
+  "fecha": "2026-05-05",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote general: el S&P 500 subió 0,8% y el Nasdaq 1%, ambos en récord; el Dow ganó 0,7%.",
+    "El petróleo retrocedió y una nueva tanda de balances fuertes empujó a las acciones, pese a que sigue el conflicto con Irán.",
+    "Las pequeñas empresas del Russell 2000 brillaron con una suba de 1,8%."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.259,22", "cambio": "+0,81%", "cambioPct": 0.81 },
+    { "nombre": "Dow Jones", "valor": "49.298,25", "cambio": "+0,73%", "cambioPct": 0.73 },
+    { "nombre": "Nasdaq", "valor": "25.326,13", "cambio": "+0,95%", "cambioPct": 0.95 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Récords otra vez por la baja del petróleo",
+      "resumen": "El S&P 500 superó el máximo de la semana anterior gracias al retroceso del crudo.",
+      "afecta": ["Mercado en general", "Energía"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Materias primas", "volatilidad": false,
+      "impacto": "Los tres índices recuperaron lo perdido el lunes.",
+      "fuentes": [
+        { "nombre": "AP / WTOP", "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-tuesday-5-5-2026/" },
+        { "nombre": "AP / AJC", "url": "https://www.ajc.com/news/2026/05/wall-street-rallies-to-records-after-oil-prices-ease-and-corporate-profits-keep-topping-expectations/" }
+      ]
+    },
+    {
+      "titulo": "Las ganancias corporativas siguen sorprendiendo",
+      "resumen": "Briefing.com atribuye la suba a la fortaleza de los balances y al avance de la tecnología.",
+      "afecta": ["Tecnología"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "El Nasdaq ganó casi 1% y quedó en récord.",
+      "fuentes": [
+        { "nombre": "Briefing.com", "url": "https://www.briefing.com/stock-market-update/archive/2026/5/5/earnings-strength-tech-gains-and-oil-retreat-pushes-market-higher" }
+      ]
+    },
+    {
+      "titulo": "Las pequeñas empresas, las de mejor desempeño",
+      "resumen": "El Russell 2000 subió 49 puntos, 1,8%, hasta 2.845.",
+      "afecta": ["Pequeñas empresas"],
+      "tono": "positivo", "importancia": "baja", "tipo": "hecho", "categoria": "Otro", "volatilidad": false,
+      "impacto": "La suba fue amplia, no solo de las grandes tecnológicas.",
+      "fuentes": [
+        { "nombre": "Schaeffer's", "url": "https://www.schaeffersresearch.com/content/ezines/2026/05/05/s-p-500-nasdaq-tap-more-records-as-oil-prices-cool" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Trading Economics informó una suba del Nasdaq de 1,2%; AP da 238 puntos (cerca de 0,95%)."
+  ],
+  "sectores": [
+    { "sector": "Tecnología", "tono": "positivo", "porque": "Acompañó los récords del Nasdaq." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo retrocedió." }
+  ],
+  "riesgoHoy": "El conflicto con Irán seguía abierto y podía volver a disparar el crudo.",
+  "proximos": ["Balances de AMD y otras tecnológicas", "Noticias sobre negociaciones con Irán"]
+}

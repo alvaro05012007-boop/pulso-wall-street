@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-17-1730",
+  "fecha": "2026-08-17",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "negativo",
+  "enSegundos": [
+    "Las acciones se alejaron más de sus récords: el S&P 500 cayó 0,5%, el Dow 0,5% y el Nasdaq 0,2%.",
+    "El petróleo siguió subiendo y se enfriaron las esperanzas de un acuerdo para terminar la guerra en Medio Oriente, lo que reaviva el miedo a la inflación.",
+    "Energía fue el único sector en alza; las memorias sostuvieron al Nasdaq."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.745,06", "cambio": "-0,52%", "cambioPct": -0.52 },
+    { "nombre": "Dow Jones", "valor": "53.459,78", "cambio": "-0,51%", "cambioPct": -0.51 },
+    { "nombre": "Nasdaq", "valor": "sin dato", "cambio": "-0,2%", "cambioPct": -0.2 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Sube el petróleo y se enfrían las esperanzas de paz",
+      "resumen": "El crudo subió mientras se desvanecían las esperanzas de un acuerdo para terminar la guerra en Medio Oriente.",
+      "afecta": ["Energía", "Todo el mercado"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El petróleo caro aumentó la presión sobre la inflación y las tasas; energía fue el único sector en alza.",
+      "fuentes": [
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market/news/575928" },
+        { "nombre": "Honolulu Star-Advertiser (Reuters)", "url": "https://www.staradvertiser.com/2026/08/17/breaking-news/wall-street-indexes-slip-as-oil-prices-rise-and-retail-results-loom/" }
+      ]
+    },
+    {
+      "titulo": "Suben las tasas de los bonos",
+      "resumen": "El crudo en alza y la presión inflacionaria empujaron las tasas de los bonos, otro factor en contra para las acciones.",
+      "afecta": ["Bonos", "Inmobiliario"],
+      "tono": "negativo",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El Dow cayó a mínimos de dos semanas.",
+      "fuentes": [
+        { "nombre": "Barchart (vía Nasdaq)", "url": "https://www.nasdaq.com/articles/stocks-settle-lower-rising-crude-prices-and-higher-bond-yields" },
+        { "nombre": "Hargreaves Lansdown", "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-rising-oil-prices,-bond-yields-push-stocks-lower" }
+      ]
+    },
+    {
+      "titulo": "Las memorias sostienen al Nasdaq",
+      "resumen": "Las acciones de chips de memoria subieron y limitaron la caída del Nasdaq.",
+      "afecta": ["Semiconductores"],
+      "tono": "positivo",
+      "importancia": "baja",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "El Nasdaq cayó menos que los demás índices.",
+      "fuentes": [
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/articles/dow-falls-03-while-memory-chip-stocks-keep-nasdaq-afloat" }
+      ]
+    },
+    {
+      "titulo": "Semana de minoristas y de Jackson Hole",
+      "resumen": "Los inversores esperaban los balances de grandes minoristas y el simposio de la Fed en Jackson Hole, con dudas sobre el ánimo del consumidor.",
+      "afecta": ["Consumo", "Bonos"],
+      "tono": "neutral",
+      "importancia": "media",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "La cautela limitó las compras.",
+      "fuentes": [
+        { "nombre": "AJC (AP)", "url": "https://www.ajc.com/news/2026/08/futures-mixed-in-a-big-week-for-retailers-as-new-questions-rise-over-the-consumer-state-of-mind/" },
+        { "nombre": "Yahoo (Reuters)", "url": "https://www.yahoo.com/news/articles/wall-st-futures-subdued-focus-101631103.html" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Un artículo de Reuters vía Yahoo describe un cierre casi plano, aunque no queda claro si se refiere a este lunes."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "Único sector en alza con el crudo." },
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Las memorias subieron." },
+    { "sector": "Inmobiliario", "tono": "negativo", "porque": "Subieron las tasas." },
+    { "sector": "Consumo", "tono": "negativo", "porque": "Dudas sobre el consumidor antes de los balances minoristas." }
+  ],
+  "riesgoHoy": "El riesgo fue la combinación de petróleo en alza y tasas subiendo, que pone presión sobre la Fed.",
+  "proximos": [
+    "Balances de grandes minoristas en la semana.",
+    "Simposio de la Fed en Jackson Hole.",
+    "Negociaciones en Medio Oriente."
+  ]
+}

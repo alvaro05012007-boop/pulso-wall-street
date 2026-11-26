@@ -1,0 +1,61 @@
+{
+  "id": "2026-01-15-1730",
+  "fecha": "2026-01-15",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "Rebote general: el Dow subió 0,60% y el S&P 500 0,26%.",
+    "Los chips lideraron tras el balance y el plan de inversiones de TSMC.",
+    "Goldman Sachs y Morgan Stanley subieron con buenos resultados y el petróleo cayó más de 4% tras dichos de Trump sobre Irán."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "6.944,47", "cambio": "+0,26%", "cambioPct": 0.26 },
+    { "nombre": "Dow Jones", "valor": "49.442,44", "cambio": "+0,60%", "cambioPct": 0.6 },
+    { "nombre": "Nasdaq", "valor": "~23.530", "cambio": "+0,25%", "cambioPct": 0.25 },
+    { "nombre": "Bono 10 años", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "TSMC impulsa a los semiconductores",
+      "resumen": "El balance de TSMC y su plan de inversión para 2026 entusiasmaron al sector de chips.",
+      "afecta": ["TSMC", "Semiconductores", "Nvidia"],
+      "tono": "positivo", "importancia": "alta", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Los semiconductores lideraron la suba del día.",
+      "fuentes": [
+        { "nombre": "Asia Economy", "url": "https://view.asiae.co.kr/en/article/2026011606564672814" },
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/news/stocks-boosted-chip-demand-optimism-213357977.html" }
+      ]
+    },
+    {
+      "titulo": "Goldman Sachs y Morgan Stanley suben con sus balances",
+      "resumen": "Ambos bancos presentaron resultados fuertes del cuarto trimestre.",
+      "afecta": ["Goldman Sachs", "Morgan Stanley", "Financiero"],
+      "tono": "positivo", "importancia": "media", "tipo": "hecho", "categoria": "Resultados", "volatilidad": false,
+      "impacto": "Ayudaron a la suba de casi 293 puntos del Dow.",
+      "fuentes": [
+        { "nombre": "Asia Economy", "url": "https://view.asiae.co.kr/en/article/2026011606564672814" }
+      ]
+    },
+    {
+      "titulo": "El petróleo se desploma tras dichos de Trump sobre Irán",
+      "resumen": "Los precios internacionales del crudo cayeron más de 4% después de declaraciones de Trump sobre Irán.",
+      "afecta": ["Petróleo", "Energía"],
+      "tono": "negativo", "importancia": "media", "tipo": "hecho", "categoria": "Geopolítica", "volatilidad": true,
+      "impacto": "La baja del crudo ayudó al ánimo general de los inversores, según el reporte.",
+      "fuentes": [
+        { "nombre": "Asia Economy", "url": "https://view.asiae.co.kr/en/article/2026011606564672814" }
+      ]
+    }
+  ],
+  "contradicciones": [],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Balance y plan de inversión de TSMC." },
+    { "sector": "Financiero", "tono": "positivo", "porque": "Buenos balances de Goldman y Morgan Stanley." },
+    { "sector": "Energía", "tono": "negativo", "porque": "El crudo cayó más de 4%." }
+  ],
+  "riesgoHoy": "Los vaivenes del petróleo por la tensión con Irán.",
+  "proximos": ["Feriado de Martin Luther King el lunes 19", "Más balances la semana siguiente"]
+}
