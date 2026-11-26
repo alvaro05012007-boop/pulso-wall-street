@@ -1,0 +1,156 @@
+{
+  "id": "2026-11-26-1049",
+  "fecha": "2026-11-26",
+  "hora": "10:49",
+  "momento": "apertura",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Hoy la bolsa de Nueva York está cerrada por Acción de Gracias; los valores de los índices son los del cierre del miércoles (S&P 500 -0,25%, Dow +0,33%, Nasdaq -0,62%).",
+    "Afuera hubo rebote: el Nikkei cerró +0,9% con SoftBank +7,3% y Europa subía cerca de 1,4%, mientras los futuros de EE.UU. ganaban entre 0,2% y 0,3%.",
+    "El mercado sigue dando casi por segura (97%-99%) una suba de tasas de la Fed en diciembre tras la inflación PCE núcleo de 3,3%.",
+    "El petróleo se mantiene firme (Brent cerca de 94 dólares, WTI cerca de 84) por ataques en el Golfo y reportes no verificados de minas en el estrecho de Ormuz.",
+    "Mañana viernes hay rueda corta por Black Friday y el domingo 29 se reúne la OPEP+."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.182,78", "cambio": "-0,25%", "cambioPct": -0.25 },
+    { "nombre": "Dow Jones", "valor": "50.182,95", "cambio": "+0,33%", "cambioPct": 0.33 },
+    { "nombre": "Nasdaq", "valor": "23.585,80", "cambio": "-0,62%", "cambioPct": -0.62 },
+    { "nombre": "Bono 10 años", "valor": "4,86%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "83,90 USD", "cambio": "+0,3%", "cambioPct": 0.3 },
+    { "nombre": "Dólar (DXY)", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street cerrada por Acción de Gracias; los futuros suben levemente",
+      "resumen": "La Bolsa de Nueva York y el Nasdaq no operan este jueves y el mercado de bonos también está cerrado. Los futuros del S&P 500 y del Nasdaq 100 subían 0,3% y los del Dow 0,2%. El viernes la rueda termina temprano.",
+      "afecta": ["S&P 500", "Dow Jones", "Nasdaq"],
+      "tono": "neutral",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Con poco volumen por el feriado, las fuentes advierten que los movimientos de precios pueden exagerarse.",
+      "fuentes": [
+        { "nombre": "AP (WSAV)", "url": "https://www.wsav.com/business/ap-business/ap-asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/" },
+        { "nombre": "Bloomberg (swissinfo)", "url": "https://www.swissinfo.ch/eng/global-stocks-climb-as-ai-trade-mounts-a-comeback:-markets-wrap/92439307" }
+      ]
+    },
+    {
+      "titulo": "Asia y Europa rebotan con la vuelta de compras en acciones de IA",
+      "resumen": "El Nikkei japonés cerró con suba de 0,9%, con SoftBank Group +7,3% y Kioxia +12,6%, aunque recortó ganancias al final por toma de ganancias. El Stoxx Europe 600 subía 1,4% temprano, impulsado por mineras y bancos.",
+      "afecta": ["Tecnología", "Semiconductores", "Materiales", "Financiero"],
+      "tono": "positivo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Recuperación parcial de las acciones ligadas a la IA fuera de EE.UU. después de la venta del miércoles.",
+      "fuentes": [
+        { "nombre": "AP (WSAV)", "url": "https://www.wsav.com/business/ap-business/ap-asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/" },
+        { "nombre": "Bloomberg (swissinfo)", "url": "https://www.swissinfo.ch/eng/global-stocks-climb-as-ai-trade-mounts-a-comeback:-markets-wrap/92439307" }
+      ]
+    },
+    {
+      "titulo": "El mercado descuenta casi con certeza una suba de tasas de la Fed en diciembre",
+      "resumen": "Tras la inflación PCE núcleo de 3,3% anual (se esperaba 3,2%), los futuros de tasas asignan entre 97% y 99% de chances a una suba en diciembre y alrededor de 63% a otra en enero. En Europa también se descuenta una suba del BCE de 0,25 puntos en diciembre.",
+      "afecta": ["Financiero", "Inmobiliario", "Tecnología", "Bonos"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hipotesis",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Según Investing.com, frenó el repunte global de los bonos.",
+      "fuentes": [
+        { "nombre": "Investing.com", "url": "https://ng.investing.com/news/forex-news/global-bond-rally-eases-as-sticky-pce-locks-in-december-fed-hike-2830460" }
+      ]
+    },
+    {
+      "titulo": "Petróleo firme por ataques en el Golfo y reportes de minas en Ormuz",
+      "resumen": "Los hutíes de Yemen se atribuyeron ataques contra la refinería saudí de Ras Tanura, y reportes iraníes no verificados hablan de petroleros y un buque de GNL alcanzados por minas en el estrecho de Ormuz. El Brent rondaba los 94 dólares y el WTI los 84. Los inventarios de crudo de EE.UU. subieron 1,1 millones de barriles.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "urgencia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El crudo se mantuvo sostenido por el riesgo de oferta, aunque los analistas citan posibles excedentes en 2027 y un dólar fuerte como freno.",
+      "fuentes": [
+        { "nombre": "Investing.com", "url": "https://investing.com/news/commodities-news/oil-steadies-as-hormuz-attacks-threaten-supply-recovery-inventory-build-weighs-5051937" },
+        { "nombre": "TipRanks", "url": "https://www.tipranks.com/news/oil-prices-slip-below-94-as-hormuz-mine-claims-clash-with-2027-supply-glut" },
+        { "nombre": "EnergyNow", "url": "https://energynow.com/2026/11/oil-prices-mixed-as-middle-east-supply-risks-clash-with-growing-u-s-inventories-ahead-of-opec-meeting/" }
+      ]
+    },
+    {
+      "titulo": "Los aranceles a 14 economías siguen pesando tras la venta del miércoles",
+      "resumen": "Parte de la caída de Wall Street del miércoles se atribuyó al anuncio del gobierno de Trump de nuevos aranceles a 14 economías, entre ellas China, la Unión Europea, Taiwán, Japón e India. Se sumaron a la inflación firme como motivo de la venta en acciones de IA.",
+      "afecta": ["Semiconductores", "Hardware", "Consumo"],
+      "tono": "negativo",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "interpretacion",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "Fast Company lo vincula con la venta en tecnología del miércoles.",
+      "fuentes": [
+        { "nombre": "Fast Company", "url": "https://www.fastcompany.com/91649141/tariffs-inflation-stock-tumble-ai-selloff" },
+        { "nombre": "Fox Business", "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026" }
+      ]
+    },
+    {
+      "titulo": "Nvidia: dudas por su conducción tras la salida y regreso de Jensen Huang",
+      "resumen": "Nvidia cayó 3,9% el miércoles en su segunda jornada de pérdidas tras la vuelta de Huang. Moody's había cambiado la perspectiva de su calificación a estable desde positiva por los cambios en la dirección. Newsquawk reporta además que Nvidia frenó envíos de servidores de IA al sudeste asiático y que Micron podría suspender inversiones en Taiwán.",
+      "afecta": ["Nvidia", "Micron", "Semiconductores"],
+      "tono": "negativo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Pesa sobre el ánimo de las acciones de chips, aunque en Asia el sector rebotó hoy.",
+      "fuentes": [
+        { "nombre": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/19/moodys-says-jensen-huangs-exit-is-credit-negative-for-nvidia/" },
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/daily-us-equity-news---nvda-halts-southeast-asia-ai-server-shipments-kxiay--nvda-memory-partnership-mu-may-suspend-taiwan-investment-ssnlf-restructures-semiconductor-operations-spcx-pledges-two-shares-to-every-us-child" }
+      ]
+    },
+    {
+      "titulo": "La nafta en EE.UU. llega barata a Acción de Gracias",
+      "resumen": "El promedio nacional de la nafta común según AAA es de 3,555 dólares por galón, 73 centavos menos que hace un mes. La calefacción, en cambio, está más cara.",
+      "afecta": ["Consumo", "Energía"],
+      "tono": "mixto",
+      "importancia": "baja",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Materias primas",
+      "volatilidad": false,
+      "impacto": "Alivio para el bolsillo del consumidor justo antes de la temporada de compras.",
+      "fuentes": [
+        { "nombre": "Energy News Beat", "url": "https://energynewsbeat.co/crude-oil/a-thanksgiving-energy-roundup-cheaper-gasoline-costlier-heat-and-a-hormuz-scare/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Petróleo: un reporte da Brent sin cambios en 94,60 y WTI +0,3% a 83,90; otro da Brent -0,87% a 93,79 y WTI -0,42% a 83,33; un tercero Brent +0,1% a 94,71 y WTI +0,4% a 83,99 (cotizaciones tempranas de distintos horarios).",
+    "Petróleo: el resumen de ayer registraba el WTI en 81,09 dólares al cierre del miércoles, pero las cotizaciones de hoy rondan 83-84 con variaciones chicas; las cifras de ayer y hoy no cierran entre sí (posible diferencia de contrato o de fuente).",
+    "Nvidia: un reporte dice que S&P Global Ratings advirtió que podría bajarle la calificación por temas de gobierno corporativo; no se encontró confirmación de S&P (sí hay una acción de Moody's)."
+  ],
+  "sectores": [
+    { "sector": "Energía", "tono": "positivo", "porque": "El crudo se sostiene por ataques en el Golfo y reportes de minas en Ormuz." },
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Rebote en Asia (SoftBank, Kioxia) después de la venta del miércoles, con dudas sobre Nvidia y aranceles." },
+    { "sector": "Tecnología", "tono": "mixto", "porque": "Las compras volvieron a la IA fuera de EE.UU., pero la suba de tasas esperada pesa sobre el crecimiento." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Los bancos europeos subieron, mientras la Fed se encamina a subir tasas." },
+    { "sector": "Materiales", "tono": "positivo", "porque": "Las mineras lideraron la suba en Europa." },
+    { "sector": "Consumo", "tono": "mixto", "porque": "Nafta más barata antes del Black Friday, pero aranceles e inflación siguen presionando." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Los reportes de minas en Ormuz elevan el riesgo para el tráfico marítimo de crudo y gas." }
+  ],
+  "riesgoHoy": "Según las noticias, el mayor riesgo está en semiconductores y acciones de IA (aranceles, dudas sobre Nvidia y tasas más altas) y en energía y transporte marítimo por la tensión en el estrecho de Ormuz. Con el feriado, la poca liquidez puede amplificar movimientos el viernes.",
+  "proximos": [
+    "Viernes 27/11: rueda corta por Black Friday (cierre temprano en acciones y bonos) y primeros datos de ventas de la temporada.",
+    "Domingo 29/11: reunión de la OPEP+ para discutir la producción de 2027.",
+    "Inicio de diciembre: informe de empleo de noviembre (nóminas no agrícolas).",
+    "Diciembre: reuniones de la Fed y del BCE, donde el mercado descuenta subas de tasas."
+  ]
+}
