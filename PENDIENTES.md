@@ -5,17 +5,15 @@ y por seguridad no las puedo hacer yo. También están en la pestaña **Estado**
 
 ## 1. Noticias sin depender de Claude abierto
 - [ ] Crear una clave de API en https://console.anthropic.com (se paga por uso).
-- [ ] Copiar `bolsa-ny/.env.example` como `bolsa-ny/.env` y pegar la clave en `ANTHROPIC_API_KEY=`.
+- [ ] Para que la nube escriba los resúmenes con la PC apagada: en GitHub, repositorio → Settings → Secrets and variables
+      → Actions → "New repository secret", nombre `ANTHROPIC_API_KEY`, y pegar la clave ahí.
 - [ ] Avisarme para probar la primera corrida real.
 - [ ] Cuando funcione, pausar la tarea de Claude "Resumen bolsa NY" (para no pagar dos veces).
 
-## 2. Que la página funcione con la PC apagada y desde cualquier lugar
-- [ ] Crear una cuenta en un servicio de nube (por ejemplo GitHub, gratis) y decidir si la página puede quedar pública
-      o si tiene que tener contraseña.
-- [ ] Avisarme para configurar la publicación y el actualizador en la nube.
-
-Mientras tanto, el celular funciona en tu casa, conectado al mismo Wi-Fi que la PC: probado el 25/11/2026
-(doble clic en "Abrir en el celular.cmd").
+## 2. Que la página funcione con la PC apagada y desde cualquier lugar — HECHO el 26/11/2026
+Publicada en https://alvaro05012007-boop.github.io/pulso-wall-street/ (pública). GitHub actualiza precios e historial solo
+los días de bolsa. Los resúmenes que escribe la tarea de Claude en la PC se suben solos (cada 15 minutos se fija si hay
+nuevos), así que para que lleguen la PC tiene que estar prendida, hasta que actives el punto 1 en la nube.
 
 ## 3. Más datos de mercado
 - [ ] Crear una clave gratuita en un proveedor de datos (por ejemplo Alpha Vantage o Twelve Data) para tener:

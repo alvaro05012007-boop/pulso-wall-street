@@ -13,7 +13,7 @@ Nada de lo que muestra es una recomendación de inversión ni una predicción.
   Se abre la página en la PC con un código QR en la pestaña Estado: escanealo con la cámara del celular conectado al mismo
   Wi-Fi. El link trae una clave de acceso (no lo compartas); el celular la recuerda. La primera vez Windows puede preguntar
   si permitís Node.js: aceptá solo para redes privadas.
-- **Desde cualquier lugar, con la PC apagada:** pendiente (ver `PENDIENTES.md`).
+- **Desde cualquier lugar, con la PC apagada:** https://alvaro05012007-boop.github.io/pulso-wall-street/ (pública).
 
 ## Cómo se usa
 
@@ -106,8 +106,11 @@ constante y bloquea 15 minutos a quien falle 10 veces. API de solo lectura, con 
 `/api/estado`, `/api/indices`, `/api/empresas?sector=Salud`, `/api/empresa?ticker=NVDA`,
 `/api/resumenes?desde=AAAA-MM-DD&hasta=AAAA-MM-DD&q=texto&limite=20`.
 
-**Sin depender de la PC (pendiente):** servir la página y correr el actualizador en la nube (por ejemplo, GitHub Actions
-con GitHub Pages, o un servidor propio). Requiere una cuenta y decidir si la página queda pública.
+**En la nube (GitHub Actions + Pages):** `.github/workflows/actualizar.yml` corre `actualizar.mjs` en las mismas ventanas
+de NY, arma `datos.js`, `acciones.js` y `version.js` (no se guardan en el repositorio, así nunca chocan con la PC) y publica.
+Antes de correr baja de la página publicada los precios previos y el registro, para tener respaldo si Yahoo falla.
+La PC sube sola los resúmenes nuevos de `datos/`: `actualizar.mjs` se fija cada 15 minutos y hace commit y push solo de
+esa carpeta; cada push vuelve a publicar. Para noticias en la nube sin la PC: secreto `ANTHROPIC_API_KEY` en GitHub.
 
 ## Seguridad
 
