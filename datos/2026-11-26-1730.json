@@ -1,0 +1,158 @@
+{
+  "id": "2026-11-26-1730",
+  "fecha": "2026-11-26",
+  "hora": "17:30",
+  "momento": "cierre",
+  "tonoGeneral": "mixto",
+  "enSegundos": [
+    "Hoy Wall Street no operó por Acción de Gracias: los índices quedan con el cierre del miércoles (S&P 500 -0,25%, Dow +0,33%, Nasdaq -0,62%), después de una remontada fuerte en la última parte de esa rueda.",
+    "Afuera el día fue positivo: Europa subió cerca de 2% (DAX +1,9%, CAC +1,8%, FTSE +1,6% en las primeras horas) con rebote de las acciones de IA.",
+    "El bono del Tesoro a 10 años bajó hacia 4,80%, su nivel más bajo en unos tres meses, y el dólar (DXY) quedó quieto cerca de 103,75.",
+    "El petróleo sigue sensible a los ataques en el estrecho de Ormuz, pero las fuentes no coinciden en el precio del día.",
+    "Mañana viernes hay rueda corta por Black Friday: Bain proyecta más de 85.000 millones de dólares en ventas entre Black Friday y Cyber Monday."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.182,78", "cambio": "-0,25%", "cambioPct": -0.25 },
+    { "nombre": "Dow Jones", "valor": "50.182,95", "cambio": "+0,33%", "cambioPct": 0.33 },
+    { "nombre": "Nasdaq", "valor": "23.585,80", "cambio": "-0,62%", "cambioPct": -0.62 },
+    { "nombre": "Bono 10 años", "valor": "4,80%", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "sin dato", "cambio": "sin dato", "cambioPct": null },
+    { "nombre": "Dólar (DXY)", "valor": "103,75", "cambio": "sin dato", "cambioPct": null }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street cerrada por Acción de Gracias; el viernes hay rueda corta",
+      "resumen": "La Bolsa de Nueva York y el Nasdaq no operaron este jueves y el mercado de bonos también estuvo cerrado. El viernes 27 la sesión es corta (cierre temprano en acciones y bonos) y la operatoria normal vuelve el lunes 30. Los futuros en CME funcionan con horario reducido.",
+      "afecta": ["S&P 500", "Dow Jones", "Nasdaq"],
+      "tono": "neutral",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Con poco volumen por el feriado, los precios que se ven hoy son cotizaciones finas y no cierres.",
+      "fuentes": [
+        { "nombre": "Nasdaq", "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule" },
+        { "nombre": "Newsweek", "url": "https://www.newsweek.com/stock-market-thanksgiving-2026-12761725" }
+      ]
+    },
+    {
+      "titulo": "El miércoles el Dow borró una caída de más de 1.100 puntos",
+      "resumen": "En la última rueda antes del feriado, el S&P 500 llegó a caer más de 3% y el Nasdaq hasta 4,6% por la venta en acciones de IA, la inflación firme y nuevos aranceles. Al final el Dow cerró +0,33%, el S&P 500 -0,25% y el Nasdaq -0,62%; la mayoría de las acciones del S&P 500 terminaron en alza.",
+      "afecta": ["Tecnología", "Semiconductores", "Nvidia", "Oracle", "Micron"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": true,
+      "impacto": "La venta quedó concentrada en los líderes de IA, mientras el resto del mercado y las pequeñas empresas (Russell 2000 +0,71%) subieron.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html" },
+        { "nombre": "AP (ABC News)", "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529" },
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/" }
+      ]
+    },
+    {
+      "titulo": "Europa y Asia rebotan con la vuelta de compras en tecnología",
+      "resumen": "Con EE.UU. cerrado, el DAX alemán subía 1,9%, el CAC 40 francés 1,8% y el FTSE 100 británico 1,6% en las primeras horas. Antes, Asia había cerrado en alza con rebote de las acciones ligadas a la IA.",
+      "afecta": ["Tecnología", "Semiconductores", "Materiales", "Financiero"],
+      "tono": "positivo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Recuperación parcial del apetito por riesgo fuera de EE.UU. después de la venta del miércoles.",
+      "fuentes": [
+        { "nombre": "AP (WOKV)", "url": "https://www.wokv.com/news/business/asian-shares-rebound/Y4HJNANVHA3M5CZWBGRJRUQHHA/" },
+        { "nombre": "The Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-global-stocks-climb-as-traders-shrug-off-latest-us-tariff/" }
+      ]
+    },
+    {
+      "titulo": "El bono a 10 años baja hacia 4,80% pese a la inflación firme",
+      "resumen": "El rendimiento del Tesoro a 10 años cayó a la zona de 4,80%, el menor nivel en unos tres meses, porque los inversores compraron bonos como refugio ante los temores por la valuación de la IA. Esto pasa aunque el mercado descuenta una suba de tasas de la Fed en diciembre tras el PCE núcleo de 3,3%.",
+      "afecta": ["Financiero", "Inmobiliario", "Bonos"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": true,
+      "impacto": "Según CNBC, la búsqueda de refugio pesó más que el dato de inflación en los bonos.",
+      "fuentes": [
+        { "nombre": "CNBC", "url": "https://cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html" },
+        { "nombre": "FinScans", "url": "https://finscans.com/news/2026/11/26/us-dollar-index-stalls-at-10375-as-treasury-yields-drop-to" }
+      ]
+    },
+    {
+      "titulo": "El dólar se toma una pausa cerca de 103,75",
+      "resumen": "El índice dólar (DXY) quedó prácticamente sin cambios en la calma del feriado, después de retroceder desde máximos de 20 meses en 104,53 a principios de semana. El euro rondaba 1,0968 dólares y el dólar subía a 159,30 yenes.",
+      "afecta": ["Dólar", "Materias primas"],
+      "tono": "neutral",
+      "importancia": "baja",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Movimientos chicos por la baja liquidez del feriado.",
+      "fuentes": [
+        { "nombre": "FXStreet", "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-flatlines-just-below-10400-in-thanksgiving-lull-202611260932" },
+        { "nombre": "AP (WOKV)", "url": "https://www.wokv.com/news/business/asian-shares-rebound/Y4HJNANVHA3M5CZWBGRJRUQHHA/" }
+      ]
+    },
+    {
+      "titulo": "Petróleo atento a Ormuz y a la OPEP+ del domingo",
+      "resumen": "Los reportes de buques atacados y de minas en el estrecho de Ormuz mantienen la preocupación por la oferta, según analistas de ING. El Brent cerró el miércoles en 90,91 dólares, arriba de 90 por primera vez desde el 17 de noviembre. Al mismo tiempo, se acumula un excedente de oferta que la OPEP+ tendrá que discutir.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "alta",
+      "urgencia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El crudo se mantuvo sostenido por el riesgo de oferta, frenado por los inventarios y el excedente esperado.",
+      "fuentes": [
+        { "nombre": "Investing.com", "url": "https://investing.com/news/commodities-news/oil-mixed-as-hormuz-attacks-mount-supply-surplus-and-weak-fuel-margins-weigh-5049487" },
+        { "nombre": "MarketScreener", "url": "https://www.marketscreener.com/news/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-commodities-roundup-ce7851d9d980f723" }
+      ]
+    },
+    {
+      "titulo": "Black Friday: Bain proyecta más de 85.000 millones en ventas",
+      "resumen": "Bain estima que las ventas entre Black Friday y Cyber Monday superarán los 85.000 millones de dólares, 8,5% del gasto total de las fiestas, con un crecimiento de 8,75% interanual. Para toda la temporada proyecta una suba de 4,5%.",
+      "afecta": ["Consumo"],
+      "tono": "positivo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hipotesis",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Los primeros datos de ventas del fin de semana serán seguidos por el mercado como señal del consumo.",
+      "fuentes": [
+        { "nombre": "Bain & Company", "url": "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Petróleo hoy: un reporte da el Brent -0,6% a 90 dólares temprano en Europa; otro lo da +0,8% a 95,36; un monitor de Ormuz lo marca cerca de 93. No se pudo fijar un precio único (por eso el WTI queda sin dato).",
+    "Bono a 10 años: un reporte lo da en 4,866% el miércoles, CNBC en 4,838% y FinScans en 4,80% el jueves; son cotizaciones de distintos horarios con mercado cerrado.",
+    "Cierre del miércoles: Business Upturn da el Dow en 50.237,37 y el S&P 500 en 7.183,40; los reportes basados en AP dan 50.182,95 y 7.182,78 (se usan estos)."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "mixto", "porque": "Fueron el foco de la venta del miércoles (Nvidia, Micron) y rebotaron hoy fuera de EE.UU." },
+    { "sector": "Tecnología", "tono": "mixto", "porque": "Temores por la valuación de la IA, con rebote en Europa y Asia durante el feriado." },
+    { "sector": "Energía", "tono": "mixto", "porque": "Ormuz sostiene el crudo, pero el excedente de oferta y la OPEP+ lo frenan." },
+    { "sector": "Financiero", "tono": "mixto", "porque": "Tasas largas en baja mientras se espera una suba de la Fed en diciembre." },
+    { "sector": "Inmobiliario", "tono": "positivo", "porque": "El bono a 10 años en mínimos de tres meses alivia el costo de financiamiento." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Bain proyecta ventas récord de Black Friday a Cyber Monday." },
+    { "sector": "Transporte", "tono": "negativo", "porque": "Los ataques y minas en Ormuz elevan el riesgo para el tráfico marítimo." }
+  ],
+  "riesgoHoy": "Según las noticias, el mayor riesgo sigue en semiconductores y acciones de IA (valuación, aranceles y tasas) y en energía y transporte marítimo por Ormuz. La rueda corta del viernes, con poco volumen, puede amplificar movimientos.",
+  "proximos": [
+    "Viernes 27/11: rueda corta por Black Friday (cierre temprano en acciones y bonos).",
+    "Domingo 29/11: reunión de la OPEP+ sobre la producción de 2027.",
+    "Lunes 30/11: vuelve la operatoria normal; Cyber Monday.",
+    "Inicio de diciembre: informe de empleo de noviembre (nóminas no agrícolas).",
+    "Diciembre: reuniones de la Fed y del BCE, donde el mercado descuenta subas de tasas."
+  ]
+}
