@@ -1,4 +1,6 @@
 # Actualiza precios, noticias (si hay clave) e historial en la nube y publica la página en GitHub Pages.
+# La nube no guarda nada en el repositorio: arma datos.js, acciones.js y version.js en cada corrida y los publica.
+# Así la PC puede subir resúmenes nuevos (datos/*.json) sin chocar nunca con cambios de la nube.
 # GitHub usa hora UTC: estos rangos cubren las ventanas de NY con y sin horario de verano; actualizar.mjs --si-toca decide si corre.
 name: Actualizar y publicar
 on:
@@ -6,11 +8,11 @@ on:
     - cron: '*/15 13-14 * * 1-5'   # antes de la apertura (9:00-9:45 NY)
     - cron: '*/15 20-22 * * 1-5'   # después del cierre (16:20-17:30 NY)
   push:
-    branches: [main]
+    branches: [main]                # la PC subió resúmenes o código: publicar enseguida
   workflow_dispatch:                # botón "Run workflow" para correrlo a mano
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -30,23 +32,23 @@ jobs:
         with:
           node-version: 24
       - run: npm ci
+      - uses: actions/configure-pages@v6
+        id: pages
+      - name: Traer el último estado publicado
+        # precios previos (respaldo si Yahoo falla), registro de ejecuciones y última ventana corrida
+        run: |
+          mkdir -p logs
+          for f in acciones.js logs/ejecuciones.jsonl logs/ultima-ventana.txt; do
+            curl -fsSL "${{ steps.pages.outputs.base_url }}/$f" -o "$f" || rm -f "$f"
+          done
       - name: Actualizar datos
-        if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # vacío = se omiten las noticias por API
         run: node actualizar.mjs ${{ github.event_name == 'schedule' && '--si-toca' || '' }}
-      - name: Guardar cambios en el repositorio
-        if: github.event_name != 'push'
-        run: |
-          git config user.name "pulso-bot"
-          git config user.email "pulso-bot@users.noreply.github.com"
-          # solo el estado público del actualizador; logs/clave-red.txt y el resto de logs/ nunca se suben
-          git add datos datos.js acciones.js version.js
-          git add -f logs/ejecuciones.js logs/ejecuciones.jsonl logs/ultima-ventana.txt 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Actualización automática" && git push)
       - run: rm -rf node_modules    # la página no la necesita; no se publica
-      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
+        if: hashFiles('datos.js') != ''   # fuera de horario --si-toca no arma nada: no se publica
         with:
           path: .
       - uses: actions/deploy-pages@v5
+        if: hashFiles('datos.js') != ''

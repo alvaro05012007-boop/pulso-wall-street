@@ -3,6 +3,10 @@
 node_modules/
 # Tus alertas personales (lista de seguimiento): quedan solo en esta PC
 alertas.json
+# Se arman solos (en la PC y en la nube) a partir de datos/ y de Yahoo: no se suben, así nunca chocan
+datos.js
+acciones.js
+version.js
 # Registros y archivos temporales del actualizador
 logs/
 *.tmp

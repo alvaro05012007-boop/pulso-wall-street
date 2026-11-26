@@ -56,11 +56,28 @@ function auditoria() {
     return { paso: 'dependencias', ok: total === 0, salida: total ? `${total} vulnerabilidades: correr npm audit fix en bolsa-ny` : 'sin vulnerabilidades conocidas' };
   } catch { return { paso: 'dependencias', ok: true, omitido: true, salida: 'npm audit no respondió (sin internet?)' }; }
 }
+// Sube a GitHub los resúmenes nuevos de datos/ (la nube rearma y publica la página sola). Solo en la PC, y solo si hay algo nuevo.
+function subirResumenes() {
+  if (process.env.GITHUB_ACTIONS || !existsSync(new URL('./.git', raiz))) return null;
+  const git = existsSync('C:/Program Files/Git/cmd/git.exe') ? 'C:/Program Files/Git/cmd/git.exe' : 'git';
+  const g = (...a) => spawnSync(git, a, { cwd: new URL('.', raiz), encoding: 'utf8', timeout: 120000,
+    env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'never' } }); // nunca quedarse esperando una ventana
+  g('add', '--', 'datos/*.json');
+  if (g('diff', '--cached', '--quiet', '--', 'datos').status === 0) return null; // nada nuevo
+  const c = g('commit', '-q', '-m', 'Resúmenes nuevos', '--', 'datos');
+  let p = g('push', '-q');
+  if (p.status !== 0) { g('pull', '--rebase', '-q'); p = g('push', '-q'); } // alguien subió código desde otro lado
+  return { paso: 'nube', intentos: 1, ok: c.status === 0 && p.status === 0,
+    salida: p.status === 0 ? 'resúmenes subidos a GitHub' : ((c.stderr || '') + (p.stderr || '')).trim().slice(-800) };
+}
 function registrar(e) {
   appendFileSync(new URL('ejecuciones.jsonl', logs), JSON.stringify(e) + '\n');
   const ultimas = readFileSync(new URL('ejecuciones.jsonl', logs), 'utf8').trim().split('\n').slice(-60).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
   writeFileSync(new URL('ejecuciones.js', logs), 'window.EJECUCIONES = ' + JSON.stringify(ultimas) + ';\n');
 }
+
+const nube = subirResumenes(); // va antes del horario: la tarea de Claude puede escribir un resumen fuera de la ventana
+if (nube) registrar({ inicio: new Date().toISOString(), segundos: 0, motivo: 'subida a la nube', ok: nube.ok, pasos: [nube] });
 
 const siToca = process.argv.includes('--si-toca');
 let ventana = null;
