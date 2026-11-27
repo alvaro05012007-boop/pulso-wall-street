@@ -37,7 +37,7 @@ export function armar(r) {
   const principal = (r.noticias || []).find(n => n.importancia === 'alta') || r.noticias?.[0];
   const idx = (r.indices || []).filter(i => /S&P 500|Dow|Nasdaq/.test(i.nombre)).slice(0, 3);
   const puntos = (r.enSegundos || []).filter(p => p && p !== principal?.titulo).slice(0, 4);
-  const claves = (puntos.length > 3 ? puntos.slice(1) : puntos).slice(0, 3).map(p => recortar(p, 170));
+  const claves = (puntos.length > 3 ? puntos.slice(1) : puntos).slice(0, 2).map(p => recortar(p, 170)); // 2 claves: el video queda en menos de un minuto
   const may = t => t.charAt(0).toUpperCase() + t.slice(1);
   const agenda = (r.proximos || []).slice(0, 3).map(p => { const i = String(p).indexOf(':'); return i > 0 && i < 26 ? [p.slice(0, i), may(recortar(p.slice(i + 1).split(';')[0].trim(), 75))] : ['', may(recortar(p, 90))]; });
   const titulo = recortar(principal?.titulo || (cierre ? 'Así cerró Wall Street' : 'Así arranca Wall Street'), 90);
@@ -123,7 +123,7 @@ ${filas.join('\n')}
 Importá las imágenes en orden, ajustá los segundos, grabá la voz (o "Texto a voz"), "Subtítulos automáticos" y exportá en 1080p.
 
 ## Texto para la publicación
-> ${titulo}. Lo más importante de Wall Street ${r.momento === 'cierre' ? 'de hoy' : 'antes de que abra'}, en ${t} segundos.
+> ${titulo}. Lo más importante de Wall Street ${r.momento === 'cierre' ? 'de hoy' : 'antes de que abra'}, en un minuto.
 > Resumen gratis de la bolsa de Nueva York, todos los días y en español: link en el perfil.
 > Información, no consejo de inversión.
 
@@ -140,12 +140,62 @@ function fotos(dir, n) {
   }
 }
 
+// ---- MP4 con voz: voz de Windows en español (sin internet) + ffmpeg (instalado con winget) ----
+const FFMPEG = (() => {
+  const enPath = spawnSync('ffmpeg', ['-version'], { encoding: 'utf8' });
+  if (enPath.status === 0) return 'ffmpeg';
+  const base = join(process.env.LOCALAPPDATA || '', 'Microsoft', 'WinGet', 'Packages');
+  try { // la tarea programada puede no tener el PATH nuevo: se busca donde lo deja winget
+    for (const d of readdirSync(base).filter(d => d.startsWith('Gyan.FFmpeg')))
+      for (const v of readdirSync(join(base, d))) { const f = join(base, d, v, 'bin', 'ffmpeg.exe'); if (existsSync(f)) return f; }
+  } catch { /* sin winget */ }
+  return null;
+})();
+// cómo se lee en voz alta (la voz de Windows lee mal siglas y fechas con barra)
+export function paraVoz(t) {
+  return String(t)
+    .replace(/S&P 500/g, 'ese ande pe quinientos').replace(/S&P/g, 'ese ande pe')
+    .replace(/EE\.\s?UU\./g, 'Estados Unidos').replace(/\bDXY\b/g, 'índice dólar').replace(/\bIA\b/g, 'inteligencia artificial')
+    .replace(/(\d+(?:,\d+)?)%-(\d+(?:,\d+)?)%/g, 'entre $1 y $2%')
+    .replace(/\b(\d{1,2})\/(\d{1,2})\b/g, (m, d, mes) => MESES[+mes - 1] ? `${+d} de ${MESES[+mes - 1]}` : m)
+    .replace(/[()]/g, ', ');
+}
+function mp4(dir, voz) {
+  if (!FFMPEG) throw new Error('falta ffmpeg (winget install Gyan.FFmpeg)');
+  const ps = `Add-Type -AssemblyName System.Speech
+$s = New-Object System.Speech.Synthesis.SpeechSynthesizer
+$v = $s.GetInstalledVoices() | Where-Object { $_.Enabled -and $_.VoiceInfo.Culture.Name -like 'es-*' } | Select-Object -First 1
+if (-not $v) { exit 4 }
+$s.SelectVoice($v.VoiceInfo.Name); $s.Rate = 3
+$t = $env:PULSO_VOCES | ConvertFrom-Json
+for ($i = 0; $i -lt $t.Count; $i++) { $s.SetOutputToWaveFile((Join-Path $env:PULSO_DIR ('voz-' + ($i + 1) + '.wav'))); $s.Speak([string]$t[$i]) }
+$s.Dispose()`;
+  // los textos viajan por variables de entorno: nunca se arma código de PowerShell con datos
+  const v = spawnSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command', ps], { encoding: 'utf8', timeout: 180000,
+    env: { ...process.env, PULSO_VOCES: JSON.stringify(voz.map(paraVoz)), PULSO_DIR: dir } });
+  if (v.status !== 0) throw new Error(v.status === 4 ? 'Windows no tiene una voz en español' : 'no se pudo generar la voz: ' + (v.stderr || '').slice(-200));
+  const lista = [];
+  for (let i = 1; i <= voz.length; i++) { // un tramo por imagen: dura lo que la voz más un respiro corto
+    const seg = join(dir, `tramo-${i}.mp4`);
+    const r = spawnSync(FFMPEG, ['-y', '-loglevel', 'error', '-loop', '1', '-framerate', '30', '-i', join(dir, `placa-${i}.png`), '-i', join(dir, `voz-${i}.wav`),
+      '-af', 'apad=pad_dur=0.3', '-shortest', '-c:v', 'libx264', '-tune', 'stillimage', '-pix_fmt', 'yuv420p', '-r', '30',
+      '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', seg], { encoding: 'utf8', timeout: 180000 });
+    if (r.status !== 0) throw new Error('ffmpeg falló en el tramo ' + i + ': ' + (r.stderr || '').slice(-200));
+    lista.push(`file '${seg.replace(/\\/g, '/').replace(/'/g, "'\\''")}'`);
+  }
+  writeFileSync(join(dir, 'tramos.txt'), lista.join('\n'));
+  const r = spawnSync(FFMPEG, ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', join(dir, 'tramos.txt'), '-c', 'copy', '-movflags', '+faststart', join(dir, 'video.mp4')], { encoding: 'utf8', timeout: 180000 });
+  if (r.status !== 0) throw new Error('ffmpeg no pudo unir los tramos: ' + (r.stderr || '').slice(-200));
+  for (let i = 1; i <= voz.length; i++) { rmSync(join(dir, `tramo-${i}.mp4`), { force: true }); rmSync(join(dir, `voz-${i}.wav`), { force: true }); }
+  rmSync(join(dir, 'tramos.txt'), { force: true });
+}
+
 // Pruebas del armado (sin Edge ni archivos)
 {
   const r = { id: 'x', fecha: '2026-11-25', hora: '19:52', momento: 'cierre', indices: [{ nombre: 'S&P 500', cambio: '-0,25%', cambioPct: -0.25 }, { nombre: 'Dow Jones', cambio: '+0,33%', cambioPct: 0.33 }, { nombre: 'Nasdaq', cambio: '-0,62%', cambioPct: -0.62 }],
     noticias: [{ titulo: 'Wall <b>borra</b> una caída', importancia: 'alta' }], enSegundos: ['uno', 'dos +3,2%', 'tres', 'cuatro'], proximos: ['Viernes 27/11: rueda corta.'] };
   const a = armar(r);
-  assert.equal(a.placas.length, 7);
+  assert.equal(a.placas.length, 6);
   assert.ok(!a.placas.join('').includes('<b>borra'), 'el texto de la web se escapa');
   assert.ok(a.placas[2].includes('class="sube">+3,2%'));
   assert.equal(a.voz[1], 'El S&P 500 bajó 0,25%, el Dow Jones subió 0,33% y el Nasdaq bajó 0,62%.');
@@ -153,9 +203,10 @@ function fotos(dir, n) {
   const feriado = armar({ ...r, fecha: '2026-11-26' }); // Acción de Gracias: los índices son del último cierre
   assert.ok(feriado.placas[0].includes('Bolsa cerrada') && !feriado.placas[0].includes('cerró con'));
   assert.ok(feriado.voz[1].startsWith('Hoy no hubo rueda. En el último cierre, el S&P 500 bajó 0,25%'));
+  assert.equal(paraVoz('Viernes 27/11: el S&P 500 y EE.UU. (DXY) 4,86%-4,89%'), 'Viernes 27 de noviembre: el ese ande pe quinientos y Estados Unidos , índice dólar,  entre 4,86 y 4,89%');
 }
 
-const arg = process.argv[2];
+const arg = process.argv.slice(2).find(a => !a.startsWith('--'));
 const archivos = readdirSync(join(raiz, 'datos')).filter(f => /^\d{4}-\d{2}-\d{2}-\d{4}\.json$/.test(f)).sort();
 const limite = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
 const elegidos = arg ? archivos.filter(f => f.startsWith(arg)) : archivos.filter(f => f.slice(0, 10) >= limite);
@@ -167,10 +218,14 @@ for (const f of elegidos) {
   let r; try { r = JSON.parse(readFileSync(join(raiz, 'datos', f), 'utf8')); } catch { continue; }
   const a = armar(r);
   mkdirSync(dir, { recursive: true });
+  for (const f of readdirSync(dir).filter(f => /^placa-\d+\.png$/.test(f))) rmSync(join(dir, f)); // sin restos de una versión anterior
   writeFileSync(join(dir, 'placas.html'), html(a.placas));
   try { fotos(dir, a.placas.length); } catch (e) { rmSync(join(dir, 'guion.md'), { force: true }); console.error(`${id}: ${e.message}`); process.exitCode = 1; continue; }
-  writeFileSync(join(dir, 'guion.md'), guion(r, a)); // se escribe al final: sin guion = se reintenta en la próxima pasada
+  try { mp4(dir, a.voz); } catch (e) { console.error(`${id}: sin MP4 (${e.message}); quedan las imágenes y el guion.`); }
+  const g = guion(r, a), pub = g.split('## Texto para la publicación\n')[1] || '';
+  writeFileSync(join(dir, 'texto-publicacion.txt'), pub.replace(/^> /gm, '').trim() + '\n'); // para copiar y pegar en TikTok
+  writeFileSync(join(dir, 'guion.md'), g); // se escribe al final: sin guion = se reintenta en la próxima pasada
   hechos.push(id); console.log(`Video listo: negocio-pulso/videos/${id}`);
 }
-if (hechos.length && !process.argv.includes('--sin-aviso')) notificar('Pulso de Wall Street', `Video del día listo (${hechos.at(-1)}): imágenes y guion en negocio-pulso/videos.`);
+if (hechos.length && !process.argv.includes('--sin-aviso')) notificar('Pulso de Wall Street', `Video del día listo (${hechos.at(-1)}): video.mp4 y texto para TikTok en negocio-pulso/videos.`);
 if (!hechos.length && !process.exitCode) console.log('No hay resúmenes nuevos para video.');

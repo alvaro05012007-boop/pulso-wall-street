@@ -62,7 +62,7 @@ analistas llevado al plazo. Pesimista y optimista = central más la dispersión 
 | `proyeccion.js`, `ficha.js` | Proyección estimada y ficha ampliada de cada empresa (balance, SEC, parecidas, temas, regulación) |
 | `empresas.mjs` → `empresas.js` | Analistas, balances, capitalización y SEC, una vez por día |
 | `vivo.js` + `cloudflare/precios-en-vivo.js` | Precios en vivo cada 15 s con la página abierta (4:00-20:00 NY). El intermediario corre gratis en Cloudflare: https://precios-en-vivo.alvaro05012007.workers.dev. Para cambiarlo: `cd cloudflare` y `npx.cmd wrangler deploy` |
-| `videos.mjs` | Video del día: con cada resumen nuevo arma 7 imágenes verticales y el guion en `../negocio-pulso/videos/<id>/` (fuera de la página) y avisa con una notificación. Lo corre `actualizar.mjs` en la PC; usa Edge. A mano: `node videos.mjs 2026-11-26` |
+| `videos.mjs` | Video del día: con cada resumen nuevo arma `video.mp4` con voz (voz de Windows en español + ffmpeg, instalado con winget), las imágenes, el guion y `texto-publicacion.txt` en `../negocio-pulso/videos/<id>/` (fuera de la página) y avisa con una notificación. Lo corre `actualizar.mjs` en la PC; usa Edge. A mano: `node videos.mjs 2026-11-26` |
 | `feriados.mjs`, `notificar.mjs` | Feriados de la bolsa y notificaciones de Windows, compartidos por los scripts de la PC |
 | `premium.js` + `exportar-lista.mjs` | Lista de espera de Pulso Premium (pestaña Hoy). Los emails se guardan en tu cuenta de Cloudflare (KV "LISTA"). Para verlos: `node exportar-lista.mjs` (crea `lista-premium.csv`, que no se sube) |
 | `fuera-horario.mjs` → `extendido.js` | Precio de cada empresa antes de la apertura y después del cierre ("pre"/"post" en el ranking y en la ficha) |
