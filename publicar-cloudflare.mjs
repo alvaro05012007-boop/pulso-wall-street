@@ -8,7 +8,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const raiz = fileURLToPath(new URL('./', import.meta.url));
-const PERMITIDO = /^[\w-]+\.(html|css|js)$/; // .mjs (scripts de la PC) y todo lo que empieza con punto quedan afuera
+const PERMITIDO = /^[\w-]+\.(html|css|js)$|^tiktok\w+\.txt$/; // .mjs (scripts de la PC) y lo que empieza con punto quedan afuera; tiktok*.txt = verificación del dominio para TikTok for Developers
 const salida = mkdtempSync(join(tmpdir(), 'pulso-pages-'));
 try {
   const archivos = readdirSync(raiz).filter(f => PERMITIDO.test(f));
