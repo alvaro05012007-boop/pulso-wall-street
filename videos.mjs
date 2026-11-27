@@ -3,7 +3,7 @@
 // Escribe en ../negocio-pulso/videos/<id del resumen>/ (fuera de la página: no se publica) y avisa con una notificación.
 // Uso: node videos.mjs [<id o fecha>]   (sin nada: los resúmenes de los últimos 2 días que todavía no tienen video)
 // Lo llama actualizar.mjs en la PC cada 15 minutos. Necesita Microsoft Edge (viene con Windows) para sacar las imágenes.
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, statSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -11,6 +11,7 @@ import { tmpdir } from 'node:os';
 import assert from 'node:assert';
 import { notificar } from './notificar.mjs';
 import { huboRueda } from './feriados.mjs';
+import { videoAnimado } from './video/animado.mjs';
 
 const raiz = fileURLToPath(new URL('./', import.meta.url));
 const DESTINO = join(raiz, '..', 'negocio-pulso', 'videos');
@@ -211,13 +212,32 @@ const archivos = readdirSync(join(raiz, 'datos')).filter(f => /^\d{4}-\d{2}-\d{2
 const limite = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
 const elegidos = arg ? archivos.filter(f => f.startsWith(arg)) : archivos.filter(f => f.slice(0, 10) >= limite);
 const hechos = [];
+// un video por vez: armar uno tarda unos 3 minutos y el actualizador corre cada 15
+mkdirSync(DESTINO, { recursive: true });
+const candado = join(DESTINO, '.armando');
+if (existsSync(candado) && Date.now() - statSync(candado).mtimeMs < 40 * 60e3) { console.log('Ya se está armando un video.'); process.exit(0); }
+writeFileSync(candado, String(process.pid));
+process.on('exit', () => rmSync(candado, { force: true }));
 for (const f of elegidos) {
   const id = f.replace('.json', ''), dir = join(DESTINO, id);
   if (!arg && existsSync(join(dir, 'guion.md'))) continue; // ya tiene video
-  if (!EDGE) { console.error('No encontré Microsoft Edge: no puedo sacar las imágenes.'); process.exit(1); }
+  if (!EDGE) { console.error('No encontré Microsoft Edge: no puedo armar el video.'); process.exit(1); }
   let r; try { r = JSON.parse(readFileSync(join(raiz, 'datos', f), 'utf8')); } catch { continue; }
-  const a = armar(r);
   mkdirSync(dir, { recursive: true });
+  // 1) el video animado (escenas, voz, efectos y música)
+  if (FFMPEG) {
+    try {
+      const { guion: gu } = videoAnimado(r, dir, FFMPEG);
+      for (const x of readdirSync(dir).filter(x => /^placa-\d+\.png$|^placas\.html$/.test(x))) rmSync(join(dir, x)); // restos del formato viejo
+      const gancho = gu.escenas[0];
+      writeFileSync(join(dir, 'texto-publicacion.txt'), `${gancho.pantalla}\nLo más importante de Wall Street en un minuto, en español y explicado simple.\nResumen gratis todos los días: link en el perfil.\nInformación, no consejo de inversión.\n\n#WallStreet #bolsa #finanzas #acciones #inversiones #SP500 #Nasdaq #DowJones #economia #finanzaspersonales\n`);
+      writeFileSync(join(dir, 'guion.md'), `# Video · ${gancho.pantalla}\n\nResumen del ${fechaLarga(r.fecha)}, ${r.hora}. Duración: ${Math.round(gu.dur)} segundos. ${r.video ? 'Guion escrito por la tarea de Claude.' : 'Guion automático (el resumen no traía el bloque "video").'}\n\n| Escena | Desde | Lo que dice la voz |\n|---|---|---|\n${gu.escenas.map(e => `| ${e.tipo} | ${e.a.toFixed(1)} s | ${e.voz.replace(/\|/g, '/')} |`).join('\n')}\n`);
+      hechos.push(id); console.log(`Video listo: negocio-pulso/videos/${id}`);
+      continue;
+    } catch (e) { console.error(`${id}: el video animado falló (${e.message}); armo el simple.`); }
+  }
+  // 2) si falla: el video simple de imágenes fijas
+  const a = armar(r);
   for (const f of readdirSync(dir).filter(f => /^placa-\d+\.png$/.test(f))) rmSync(join(dir, f)); // sin restos de una versión anterior
   writeFileSync(join(dir, 'placas.html'), html(a.placas));
   try { fotos(dir, a.placas.length); } catch (e) { rmSync(join(dir, 'guion.md'), { force: true }); console.error(`${id}: ${e.message}`); process.exitCode = 1; continue; }

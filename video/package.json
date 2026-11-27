@@ -1,0 +1,9 @@
+{
+  "name": "pulso-video",
+  "private": true,
+  "type": "module",
+  "description": "Motor del video del día (solo en la PC)",
+  "dependencies": {
+    "playwright-core": "1.65.1"
+  }
+}

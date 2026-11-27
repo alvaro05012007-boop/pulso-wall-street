@@ -63,8 +63,11 @@ Al final respondé SOLO con un bloque \`\`\`json con este objeto (sin comentario
   "contradicciones": [],
   "sectores": [{ "sector": "Energía", "tono": "negativo", "porque": "una frase" }],
   "riesgoHoy": "una o dos frases",
-  "proximos": ["eventos programados próximos"]
+  "proximos": ["eventos programados próximos"],
+  "video": { "gancho": { "voz": "máx. 14 palabras", "pantalla": "máx. 7 palabras", "numero": "opcional, ej. −1.100 pts" },
+    "datos": [{ "voz": "máx. 32 palabras", "pantalla": "máx. 7 palabras", "numero": "opcional", "signo": 1 }], "cierre": { "voz": "máx. 14 palabras" } }
 }
+- "video": guion del video de TikTok, en rioplatense, frases cortas, como si se lo contaras a un amigo. "gancho": lo más sorprendente del día en el primer segundo (sin saludar). "datos": 2 o 3 cosas, la más importante primero, qué pasó y por qué importa; "signo" 1 suba, -1 baja, 0 neutral. "cierre": invitar a seguir la cuenta. Todo junto, menos de 110 palabras. Solo hechos de este resumen, sin recomendaciones ni predicciones.
 - "indices": siempre estos 6 y en este orden: "S&P 500", "Dow Jones", "Nasdaq", "Bono 10 años", "Petróleo WTI", "Dólar (DXY)".
 - "noticias": máximo 8, ordenadas por importancia, con las URL reales que leíste.
 - "sectores": solo estos nombres exactos: Tecnología, Semiconductores, Software, Hardware, Financiero, Energía, Energía limpia, Salud, Consumo, Industria, Inmobiliario, Servicios públicos, Materiales, Comunicaciones, Defensa, Transporte.`;
