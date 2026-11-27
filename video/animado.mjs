@@ -24,7 +24,7 @@ export function paraVoz(t) {
     .replace(/S&P 500/g, 'es and pi quinientos').replace(/S&P/g, 'es and pi')
     .replace(/Wall Street/g, 'Wol Strít').replace(/Dow Jones/g, 'Dau Yons').replace(/\bDow\b/g, 'Dau').replace(/Nasdaq/g, 'Násdac')
     .replace(/Black Friday/gi, 'Blak Fráidei').replace(/Cyber Monday/gi, 'Sáiber Mándei').replace(/Nvidia/gi, 'Envidia').replace(/\bGoogle\b/g, 'Gúgol')
-    .replace(/\bApple\b/g, 'Ápol').replace(/Microsoft/g, 'Máicrosoft').replace(/OPEP\+/g, 'OPEP plus').replace(/\bFed\b/g, 'la Fed').replace(/la la Fed/g, 'la Fed')
+    .replace(/Berkshire Hathaway/g, 'Bérkshir Jázauei').replace(/Warren Buffett/g, 'Uórren Bófet').replace(/\bApple\b/g, 'Ápol').replace(/Microsoft/g, 'Máicrosoft').replace(/OPEP\+/g, 'OPEP plus').replace(/\bFed\b/g, 'la Fed').replace(/la la Fed/g, 'la Fed')
     .replace(/\brueda\b/g, 'jornada').replace(/\bruedas\b/g, 'jornadas')
     .replace(/EE\.\s?UU\./g, 'Estados Unidos').replace(/\bDXY\b/g, 'índice dólar').replace(/\bIA\b/g, 'inteligencia artificial')
     .replace(/\bpts\b/g, 'puntos').replace(/−/g, 'menos ')
@@ -151,10 +151,12 @@ function mezclar(ff, guion, voces, salida) {
 }
 
 // ---------- todo junto ----------
-export function videoAnimado(r, dir, ff) {
-  const trabajo = join(CACHE, 'trabajo', r.id || 'x'); rmSync(trabajo, { recursive: true, force: true }); mkdirSync(trabajo, { recursive: true });
+export const videoAnimado = (r, dir, ff) => videoDeEscenas(escenas(r), r.id || 'x', dir, ff);
+// arma el video desde cualquier lista de escenas (resumen del día, curiosidades, etc.)
+export function videoDeEscenas(esc, id, dir, ff) {
+  const trabajo = join(CACHE, 'trabajo', id); rmSync(trabajo, { recursive: true, force: true }); mkdirSync(trabajo, { recursive: true });
   try {
-    const esc = escenas(r), voces = hablar(esc.map(e => e.voz), trabajo), guion = tiempos(esc, voces);
+    const voces = hablar(esc.map(e => e.voz), trabajo), guion = tiempos(esc, voces);
     writeFileSync(join(trabajo, 'guion.json'), JSON.stringify(guion));
     const rr = spawnSync(process.execPath, [join(aqui, 'render.mjs'), join(trabajo, 'guion.json'), join(trabajo, 'cuadros')], { encoding: 'utf8', timeout: 30 * 60e3, cwd: aqui });
     if (rr.status !== 0) throw new Error('falló el dibujo de los cuadros: ' + ((rr.stderr || '') + (rr.stdout || '')).slice(-300));

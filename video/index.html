@@ -26,7 +26,11 @@ function wrap(str,font,maxW){_m.font=font;const out=[];let line='';for(const w o
 function fit(str,peso,fam,base,maxW){_m.font=`${peso} ${base}px ${fam}`;const w=_m.measureText(str).width;return `${peso} ${Math.floor(w>maxW?base*maxW/w:base)}px ${fam}`}
 const ANCHO=W-SAFE_R-110;
 // número que cuenta desde 0 hasta su valor, respetando el formato original ("−1.100 pts", "+0,33%", "4,80%")
-function contar(str,p){const m=String(str).match(/^([^\d]*)(\d{1,3}(?:\.\d{3})*(?:,\d+)?|\d+(?:,\d+)?)(.*)$/);if(!m)return str;
+// sticker grande (emoji a color de Windows) que entra rebotando y se balancea
+function sticker(g,t,u,emo,x,y,size){if(!emo)return;const s=spr(P(u,.12,.6),5,10);if(s<=0)return;g.save();g.translate(x,y+Math.sin(t*3)*12);g.rotate(Math.sin(t*2.2)*.09);g.scale(s,s);
+  g.font=`${size}px "Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif`;g.textAlign='center';g.textBaseline='middle';g.shadowColor='rgba(0,0,0,.45)';g.shadowBlur=30;g.fillText(emo,0,0);g.restore()}
+function contar(str,p){if(/^\d{4}$/.test(String(str).trim()))return String(Math.round(2026+(+str-2026)*cl(p))); // años: cuenta hacia atrás desde hoy, como una máquina del tiempo
+  const m=String(str).match(/^([^\d]*)(\d{1,3}(?:\.\d{3})*(?:,\d+)?|\d+(?:,\d+)?)(.*)$/);if(!m)return str;
   const [ ,pre,num,suf]=m,dec=(num.split(',')[1]||'').length,v=parseFloat(num.replace(/\./g,'').replace(',','.'))*cl(p);
   let s=v.toFixed(dec).replace('.',',');const [ent,fr]=s.split(',');s=ent.replace(/\B(?=(\d{3})+(?!\d))/g,'.')+(fr?','+fr:'');return pre+s+suf}
 
@@ -57,12 +61,14 @@ function velas(g,u,dur,signo,seed,al){const r=rng(seed),n=18,w=(W-120)/n;let p=0
 const ESC={
   gancho(g,t,u,e){fillAll(g,INK);blobs(g,t,INK,[colSigno(e.signo),SHADE,COOL],.55+1.2*Math.exp(-4*u));
     const lp_=ex(P(u,0,.55));g.save();g.globalAlpha=lp_;pulso(g,t,560,180,colSigno(e.signo),1,8,[.25+.5*lp_]);g.restore();
-    let tam=112,lineas=wrap(e.pantalla||'',`900 ${tam}px ${D}`,W-SAFE_R-110);while(lineas.length>4&&tam>70){tam-=8;lineas=wrap(e.pantalla||'',`900 ${tam}px ${D}`,W-SAFE_R-110)}let pal=0;const alto=tam*1.14;
+    let tam=112,lineas=wrap(e.pantalla||'',`900 ${tam}px ${D}`,W-SAFE_R-110);const anchoMax=()=>{_m.font=`900 ${tam}px ${D}`;return Math.max(...lineas.map(l=>_m.measureText(l).width))};
+    while((lineas.length>4||anchoMax()>W-SAFE_R-110)&&tam>70){ /* también achica si una palabra sola no entra */ tam-=8;lineas=wrap(e.pantalla||'',`900 ${tam}px ${D}`,W-SAFE_R-110)}let pal=0;const alto=tam*1.14;
     lineas.forEach((l,k)=>{const ws=l.split(' ');let x=0;const font=`900 ${tam}px ${D}`;_m.font=font;const tw=_m.measureText(l).width,esp=_m.measureText(' ').width;let cx=SX-tw/2;
       ws.forEach(w=>{const ww=_m.measureText(w).width,i=pal++,a=u>=.12+i*.09?1:0,s=st(u-.12-i*.09,.28,.9);g.save();g.translate(cx+ww/2,780+k*alto);g.scale(s,s);g.globalAlpha=a;
         g.font=font;g.textAlign='center';g.fillStyle=rgb(i%3===2?WARM:PAPER);g.fillText(w,0,0);g.restore();cx+=ww+esp})});
     if(e.numero){const yN=Math.min(1440,780+lineas.length*alto+170),p=eo(P(u,.35,.9)),s=st(u-.35,.3,.6);g.save();g.translate(SX,yN);g.scale(s,s);
       g.shadowColor=rgb(colNum(e.numero,e.signo),.8);g.shadowBlur=50;T(g,contar(e.numero,p),fit(e.numero,900,D,190,ANCHO),0,0,colNum(e.numero,e.signo),u>=.35?1:0);g.restore()}
+    sticker(g,t,u,e.emoji,SX,340,190);
     if(u<.5)FX.shock(g,u*1.4,{cx:SX,cy:780,cols:[colSigno(e.signo),PAPER,WARM],rings:2,scale:.8})},
 
   indices(g,t,u,e){fillAll(g,DEEP);blobs(g,t,DEEP,[SHADE,COOL],.35);
@@ -78,11 +84,12 @@ const ESC={
       const sp=[];const r=rng(40+i);let v=0;for(let k=0;k<=24;k++){v+=(r()-.5+(f.pct>0?.12:f.pct<0?-.12:0))*14;sp.push([110+k*13,y+150-v])}drawOn(g,sp,ex(P(u,.2+i*.32,.8)),col,4,.9);
       const pn=eo(P(u,.15+i*.32,.8));g.shadowColor=rgb(col,.7);g.shadowBlur=30;T(g,(f.pct>0?'▲ ':f.pct<0?'▼ ':'')+contar(f.cambio.replace(/^[+-]/,f.pct>0?'+':f.pct<0?'−':''),pn),`900 84px ${D}`,W-SAFE_R-60,y+128,col,1,'right');g.restore()})},
 
-  dato(g,t,u,e){const bg=e.k%2?INK:[10,16,48];fillAll(g,bg);blobs(g,t,bg,[colSigno(e.signo),SHADE],.45);velas(g,u,e.b-e.a,e.signo,7+e.k*13,.28);
-    tracked(g,`CLAVE ${e.k} DE ${e.de}`,`800 34px ${B}`,SX,330,6,ACC,ex(P(u,0,.3)));
+  dato(g,t,u,e){const bg=e.k%2?INK:[10,16,48];fillAll(g,bg);blobs(g,t,bg,[colSigno(e.signo),SHADE],.45);if(!e.emoji)velas(g,u,e.b-e.a,e.signo,7+e.k*13,.28);
+    tracked(g,e.eyebrow||`CLAVE ${e.k} DE ${e.de}`,`800 34px ${B}`,SX,330,6,ACC,ex(P(u,0,.3)));
     let y=560;if(e.numero){const p=eo(P(u,.1,.8)),s=st(u-.1,.3,.7),col=colNum(e.numero,e.signo);g.save();g.translate(SX,y+100);g.scale(s,s);g.shadowColor=rgb(col,.85);g.shadowBlur=60;
       const font=fit(e.numero,900,D,220,ANCHO);T(g,contar(e.numero,p),font,0,0,col,u>=.1?1:0);g.restore();y+=230}
-    const lineas=wrap(e.pantalla||'',`900 80px ${D}`,W-SAFE_R-120);lineas.forEach((l,k)=>{const q=stg(u,k,.12,.45,ex);T(g,l,`900 80px ${D}`,SX+(1-q)*-120,y+k*96,PAPER,q)})},
+    const lineas=wrap(e.pantalla||'',`900 80px ${D}`,W-SAFE_R-120);lineas.forEach((l,k)=>{const q=stg(u,k,.12,.45,ex);T(g,l,`900 80px ${D}`,SX+(1-q)*-120,y+k*96,PAPER,q)});
+    if(e.emoji){const fin=y+(lineas.length-1)*96+40,tam=Math.max(120,Math.min(230,1300-fin-20)),cy=fin+20+tam/2;sticker(g,t,u,e.emoji,SX,cy,tam)}}, // debajo del texto, sin tapar los subtítulos
 
   agenda(g,t,u,e){fillAll(g,[12,20,56]);blobs(g,t,[12,20,56],[COOL,SHADE],.35);
     tracked(g,'QUÉ VIENE',`800 34px ${B}`,SX,330,6,ACC,ex(P(u,0,.3)));T(g,e.pantalla||'Para tener en el radar',fit(e.pantalla||'Para tener en el radar',900,D,72,ANCHO),SX,425,PAPER,ex(P(u,.08,.35)));
