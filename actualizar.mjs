@@ -5,13 +5,11 @@
 //                                    y una sola vez por ventana; pensado para un programador que lo llama cada 15 minutos.
 // Los horarios se calculan en America/New_York, así que los cambios de horario de verano se respetan solos.
 import { spawnSync } from 'node:child_process';
+import { FERIADOS } from './feriados.mjs';
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync, unlinkSync, statSync, cpSync } from 'node:fs';
 
 const raiz = new URL('./', import.meta.url), logs = new URL('./logs/', import.meta.url);
 mkdirSync(logs, { recursive: true });
-// shortcut: feriados de la bolsa de NY cargados hasta 2027 (igual que en app.js); sumar los de 2028 cuando se publiquen
-const FERIADOS = new Set(('2026-01-01 2026-01-19 2026-02-16 2026-04-03 2026-05-25 2026-06-19 2026-07-03 2026-09-07 2026-11-26 2026-12-25 ' +
-  '2027-01-01 2027-01-18 2027-02-15 2027-03-26 2027-05-31 2027-06-18 2027-07-05 2027-09-06 2027-11-25 2027-12-24').split(' '));
 const VENTANAS = [['apertura', 9 * 60, 9 * 60 + 45], ['cierre', 16 * 60 + 20, 17 * 60 + 30]]; // minutos, hora de NY
 
 function horaNY(fecha) {
@@ -92,6 +90,10 @@ function registrar(e) {
 
 const nube = subirResumenes(); // va antes del horario: la tarea de Claude puede escribir un resumen fuera de la ventana
 if (nube) registrar({ inicio: new Date().toISOString(), segundos: 0, motivo: 'subida a la nube', ok: nube.ok, pasos: [nube] });
+if (!process.env.GITHUB_ACTIONS) { // video del día: imágenes y guion de cada resumen nuevo (solo en la PC, usa Edge)
+  const v = correr('videos.mjs');
+  if (/Video listo/.test(v.salida) || !v.ok) registrar({ inicio: new Date().toISOString(), segundos: 0, motivo: 'video del día', ok: v.ok, pasos: [{ paso: 'video', intentos: 1, ...v }] });
+}
 
 const siToca = process.argv.includes('--si-toca');
 let ventana = null;
