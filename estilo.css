@@ -326,6 +326,10 @@
   .det-precio { text-align: right; }
   .det-precio b { display: block; font: 600 1.6rem/1.15 var(--display); font-variant-numeric: tabular-nums; }
   .det-precio span { font-size: .9rem; font-weight: 600; }
+  .det-ext { margin-top: .35rem; font-size: .85rem; color: var(--suave); }
+  .det-precio .det-ext b { display: inline; font: 600 .95rem/1.2 var(--display); font-variant-numeric: tabular-nums; }
+  .det-ext small { display: block; font-size: .75rem; opacity: .75; }
+  td .ext { display: block; font-size: .72rem; font-weight: 600; opacity: .85; white-space: nowrap; }
   .det-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 18px 0 14px; }
   .det-stats .stat { background: var(--panel-2); box-shadow: none; border-radius: 12px; padding: 10px 12px; }
   .det-stats .stat b { font-size: 1.05rem; }

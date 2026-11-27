@@ -7,6 +7,9 @@ on:
   schedule:
     - cron: '*/15 13-14 * * 1-5'   # antes de la apertura (9:00-9:45 NY)
     - cron: '*/15 20-22 * * 1-5'   # después del cierre (16:20-17:30 NY)
+    - cron: '*/30 8-12 * * 1-5'    # precios antes de la apertura (desde las 4:00 NY)
+    - cron: '*/30 23 * * 1-5'      # precios después del cierre (hasta las 20:00 NY)
+    - cron: '*/30 0 * * 2-6'
   push:
     branches: [main]                # la PC subió resúmenes o código: publicar enseguida
   workflow_dispatch:                # botón "Run workflow" para correrlo a mano
@@ -38,7 +41,7 @@ jobs:
         # precios previos (respaldo si Yahoo falla), registro de ejecuciones y última ventana corrida
         run: |
           mkdir -p logs
-          for f in acciones.js empresas.js logs/ejecuciones.jsonl logs/ultima-ventana.txt; do
+          for f in acciones.js empresas.js extendido.js datos.js version.js logs/ejecuciones.jsonl logs/ultima-ventana.txt; do
             curl -fsSL "${{ steps.pages.outputs.base_url }}/$f" -o "$f" || rm -f "$f"
           done
       - name: Actualizar datos

@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync, renameSync, readdirSync, statSync } from 'node:fs';
 
 // Marca del código de la página (fecha del archivo más nuevo): si cambia, la página abierta o guardada por el navegador se recarga sola.
-const DATOS = new Set(['datos.js', 'acciones.js', 'version.js']);
+const DATOS = new Set(['datos.js', 'acciones.js', 'version.js', 'empresas.js', 'extendido.js']);
 function marcaCodigo() {
   const dir = new URL('./', import.meta.url);
   return new Date(Math.max(...readdirSync(dir).filter(f => /\.(html|css|js)$/.test(f) && !DATOS.has(f))

@@ -691,6 +691,9 @@
       sectorSel = s; document.querySelectorAll('[data-sector]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.sector === s))); ranking();
     } }, s || 'Todos')));
   }
+  // Precio antes de la apertura o después del cierre (extendido.js), solo si es posterior al último precio normal
+  const SESION = { pre: 'Antes de la apertura', post: 'Después del cierre' };
+  function extendido(a) { const x = window.EXTENDIDO?.porTicker?.[a.ticker]; return x && Date.parse(x.hora) > Date.parse(a.actualizadoISO || 0) ? x : null; }
   function ranking() {
     const todas = acc?.lista || [];
     $('rankingSinDatos').hidden = todas.length > 0;
@@ -718,7 +721,8 @@
           el('td', {}, estrella(a)),
           el('td', { class: 'num' }, String(a[MODOS[modo].puesto])),
           el('td', { class: 'emp', title: a.sector }, a.nombre, el('span', { class: 'tk' }, a.ticker)),
-          el('td', { class: 'num' }, num(a.precio)),
+          (x => el('td', { class: 'num' }, num(a.precio), x ? el('span', { class: 'ext ' + clase(x.cambioPct), title: `${SESION[x.sesion]}: ${num(x.precio)} USD, ${horaNY(x.hora)}` },
+            (x.sesion === 'pre' ? 'pre ' : 'post ') + pct(x.cambioPct)) : null))(extendido(a)),
           el('td', { class: 'num ' + clase(a.cambio1d) }, pct(a.cambio1d)),
           el('td', { class: 'num opc ' + clase(a.retorno1a) }, pct(a.retorno1a, 1)),
           el('td', {}, el('div', { class: 'estab' }, barraEstab(a[MODOS[modo].k] ?? 0), el('b', {}, String(a[MODOS[modo].k] ?? '—')))),
@@ -743,7 +747,7 @@
           })));
       }));
     }
-    $('rankingFecha').textContent = `Precios de Yahoo Finance actualizados el ${new Date(acc.actualizado).toLocaleString('es-AR', { dateStyle: 'long', timeStyle: 'short' })}. "Día" es la variación de la última rueda. Volatilidad: cuánto se mueve el precio en un año típico. Peor caída: la mayor baja desde un máximo en el último año.`;
+    $('rankingFecha').textContent = `Precios de Yahoo Finance actualizados el ${new Date(acc.actualizado).toLocaleString('es-AR', { dateStyle: 'long', timeStyle: 'short' })}. "Día" es la variación de la última rueda; debajo del precio, "pre" o "post" es cuánto se movió antes de la apertura o después del cierre. Volatilidad: cuánto se mueve el precio en un año típico. Peor caída: la mayor baja desde un máximo en el último año.`;
   }
   function menciones(a) {
     const rxs = (a.claves || [a.ticker]).map(k => new RegExp(`(^|[^${LETRA}])${esc(k)}(?![${LETRA}])`, k.length > 5 ? 'i' : ''));
@@ -759,7 +763,9 @@
     $('detalle').replaceChildren(
       el('div', { class: 'det-cab' },
         el('div', {}, el('h3', {}, a.nombre), el('div', { class: 'det-sub' }, el('span', {}, a.ticker), el('span', {}, a.sector), estrella(a))),
-        el('div', { class: 'det-precio' }, el('b', {}, num(a.precio) + ' USD'), el('span', { class: clase(a.cambio1d) }, `${pct(a.cambio1d)} en la última rueda`))),
+        el('div', { class: 'det-precio' }, el('b', {}, num(a.precio) + ' USD'), el('span', { class: clase(a.cambio1d) }, `${pct(a.cambio1d)} en la última rueda`),
+          (x => x ? el('div', { class: 'det-ext' }, `${SESION[x.sesion]}: `, el('b', {}, num(x.precio) + ' USD'), ' ', el('span', { class: clase(x.cambioPct) }, pct(x.cambioPct)),
+            el('small', {}, horaNY(x.hora) + '. Opera poca gente: puede cambiar mucho en la apertura.')) : null)(extendido(a)))),
       el('div', { class: 'det-stats' },
         stat('Estabilidad', `${a.estabilidad} de 100`, `puesto ${a.puestoEst} de ${acc.lista.length}`),
         a.agresivo != null ? stat('Riesgo y crecimiento', `${a.agresivo} de 100`, `puesto ${a.puestoAgr} de ${acc.lista.length}`) : null,
@@ -1144,6 +1150,7 @@
       if (!v.datos && !v.acciones) return ambos();
       if (v.datos !== versionVista.datos) traer('datos.js', () => { versionVista.datos = v.datos; cargar(false); });
       if (v.acciones !== versionVista.acciones) traer('acciones.js', () => { versionVista.acciones = v.acciones; cargarAcciones(); });
+      if (v.extendido && v.extendido !== versionVista.extendido) traer('extendido.js', () => { versionVista.extendido = v.extendido; ranking(); window.Pulso.refrescarDetalle(); });
       if (v.empresas && v.empresas !== versionVista.empresas) traer('empresas.js', () => { versionVista.empresas = v.empresas; window.Pulso.refrescarDetalle(); });
     }, ambos); // sin version.js (instalación vieja) se comporta como antes
     traer('logs/ejecuciones.js', avisarCambios);

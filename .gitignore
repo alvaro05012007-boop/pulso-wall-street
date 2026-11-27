@@ -8,6 +8,7 @@ datos.js
 acciones.js
 version.js
 empresas.js
+extendido.js
 # Registros y archivos temporales del actualizador
 logs/
 *.tmp

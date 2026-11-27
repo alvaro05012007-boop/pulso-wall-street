@@ -41,6 +41,7 @@ Nada de lo que muestra es una recomendación de inversión ni una predicción.
 | Historial publicado (`datos.js`) | `datos/*.json`, validados | `datos.mjs` |
 | Precio objetivo de analistas, próximo balance y capitalización | Yahoo Finance (quoteSummary), una vez por día | `empresas.mjs` |
 | Presentaciones oficiales (10-K, 10-Q, 8-K) | SEC EDGAR, gratis, una vez por día | `empresas.mjs` |
+| Precio antes de la apertura (4:00-9:30 NY) y después del cierre (16:00-20:00 NY) | Yahoo Finance (v7/quote), cada 15 min en la PC y cada 30 min en la nube, solo en esas franjas | `fuera-horario.mjs` |
 
 Si Yahoo falla, `acciones.mjs` reintenta y prueba su servidor alternativo; si sigue fallando, conserva el último dato
 válido marcado como **desactualizado**. Nunca completa un valor inventado. Cada dato muestra fuente y hora de Nueva York.
@@ -59,6 +60,7 @@ analistas llevado al plazo. Pesimista y optimista = central más la dispersión 
 | `terminal.js`, `inteligencia.js`, `comparador.js`, `listas.js`, `estado.js` | Secciones nuevas, enchufadas a `app.js` con `window.Pulso` |
 | `proyeccion.js`, `ficha.js` | Proyección estimada y ficha ampliada de cada empresa (balance, SEC, parecidas, temas, regulación) |
 | `empresas.mjs` → `empresas.js` | Analistas, balances, capitalización y SEC, una vez por día |
+| `fuera-horario.mjs` → `extendido.js` | Precio de cada empresa antes de la apertura y después del cierre ("pre"/"post" en el ranking y en la ficha) |
 | `motor-noticias.js` | Puntaje e importancia de noticias con reglas fijas y verificación de cifras contra Yahoo |
 | `Abrir en el celular.cmd` | Arranca el servidor en modo red y abre la página con el código QR |
 | `PENDIENTES.md` | Lo que solo podés hacer vos (cuentas, claves, pagos) |

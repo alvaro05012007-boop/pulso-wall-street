@@ -14,13 +14,23 @@ const FERIADOS = new Set(('2026-01-01 2026-01-19 2026-02-16 2026-04-03 2026-05-2
   '2027-01-01 2027-01-18 2027-02-15 2027-03-26 2027-05-31 2027-06-18 2027-07-05 2027-09-06 2027-11-25 2027-12-24').split(' '));
 const VENTANAS = [['apertura', 9 * 60, 9 * 60 + 45], ['cierre', 16 * 60 + 20, 17 * 60 + 30]]; // minutos, hora de NY
 
-export function ventanaNY(fecha = new Date()) {
+function horaNY(fecha) {
   const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23', weekday: 'short' })
     .formatToParts(fecha).map(x => [x.type, x.value]));
   const dia = `${p.year}-${p.month}-${p.day}`, min = +p.hour * 60 + +p.minute;
-  if (['Sat', 'Sun'].includes(p.weekday) || FERIADOS.has(dia)) return null;
+  return ['Sat', 'Sun'].includes(p.weekday) || FERIADOS.has(dia) ? null : { dia, min };
+}
+export function ventanaNY(fecha = new Date()) {
+  const { dia, min } = horaNY(fecha) || {};
+  if (!dia) return null;
   const v = VENTANAS.find(([, a, b]) => min >= a && min <= b);
   return v ? `${dia}-${v[0]}` : null;
+}
+
+// Franjas de precios fuera de horario: antes de la apertura (4:00-9:30) y después del cierre (16:00-20:00), hora de NY
+export function extendidaNY(fecha = new Date()) {
+  const h = horaNY(fecha); if (!h) return false;
+  return (h.min >= 4 * 60 && h.min < 9 * 60 + 30) || (h.min >= 16 * 60 && h.min <= 20 * 60 + 10);
 }
 
 // Pruebas de horario: invierno (UTC-5), verano (UTC-4), feriado y fin de semana
@@ -31,6 +41,10 @@ assert.equal(ventanaNY(new Date('2026-11-24T21:45:00Z')), '2026-11-24-cierre'); 
 assert.equal(ventanaNY(new Date('2026-11-26T14:30:00Z')), null);                  // Thanksgiving
 assert.equal(ventanaNY(new Date('2026-11-28T14:30:00Z')), null);                  // sábado
 assert.equal(ventanaNY(new Date('2026-11-24T18:00:00Z')), null);                  // mediodía: fuera de ventana
+assert.equal(extendidaNY(new Date('2026-11-24T23:30:00Z')), true);                // 18:30 en NY: después del cierre
+assert.equal(extendidaNY(new Date('2026-11-24T10:00:00Z')), true);                // 5:00 en NY: antes de la apertura
+assert.equal(extendidaNY(new Date('2026-11-24T18:00:00Z')), false);               // mediodía: horario normal
+assert.equal(extendidaNY(new Date('2026-11-25T03:00:00Z')), false);               // 22:00 en NY: todo cerrado
 
 const espera = ms => new Promise(r => setTimeout(r, ms));
 function correr(script, ...args) {
@@ -83,9 +97,14 @@ const siToca = process.argv.includes('--si-toca');
 let ventana = null;
 if (siToca) {
   ventana = ventanaNY();
-  if (!ventana) process.exit(0); // fuera de horario: nada que hacer, no ensucia el registro
   const estadoF = new URL('ultima-ventana.txt', logs);
-  if (existsSync(estadoF) && readFileSync(estadoF, 'utf8').trim() === ventana) process.exit(0); // ya corrió en esta ventana
+  if (!ventana || (existsSync(estadoF) && readFileSync(estadoF, 'utf8').trim() === ventana)) { // fuera de ventana o ya corrió
+    if (extendidaNY()) { // solo el precio fuera de horario (un pedido); no se registra para no llenar el registro cada 15 minutos
+      console.log(correr('fuera-horario.mjs').salida);
+      if (process.env.GITHUB_ACTIONS) correr('datos.mjs'); // la nube necesita datos.js para volver a publicar
+    }
+    process.exit(0);
+  }
 }
 const lock = new URL('.ejecutando', logs);
 if (existsSync(lock) && Date.now() - statSync(lock).mtimeMs < 20 * 60e3) { console.log('Ya hay una actualización en curso.'); process.exit(0); }
@@ -105,6 +124,7 @@ try {
     if (/menos de 20 horas/.test(e.salida)) e.omitido = true;
     pasos.push(e);
   }
+  if (precios.ok && (extendidaNY() || !siToca)) pasos.push({ paso: 'fuera de horario', intentos: 1, ...correr('fuera-horario.mjs') });
   if (ventana || process.argv.includes('--noticias')) { // noticias por API: solo si hay clave en .env (salida 3 = sin clave, se omite)
     const n = { paso: 'noticias', intentos: 1, ...correr('noticias.mjs', ventana ? ventana.split('-').at(-1) : '') };
     if (n.codigo === 3) { n.ok = true; n.omitido = true; }

@@ -14,8 +14,12 @@ for (const f of readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
   items.push(JSON.stringify(r));
 }
 const tmp = new URL(`./datos.js.${process.pid}.tmp`, import.meta.url); // temporal propio: varias tareas pueden armarlo a la vez
-writeFileSync(tmp, 'window.RESUMENES = [\n' + items.join(',\n') + '\n];\n');
-renameSync(tmp, new URL('./datos.js', import.meta.url));
-marcarVersion('datos');
+const nuevo = 'window.RESUMENES = [\n' + items.join(',\n') + '\n];\n';
+let viejo = null; try { viejo = readFileSync(new URL('./datos.js', import.meta.url), 'utf8'); } catch { /* primera vez */ }
+if (nuevo !== viejo) { // sin cambios no se marca versión: las páginas abiertas no vuelven a bajar más de 1 MB
+  writeFileSync(tmp, nuevo);
+  renameSync(tmp, new URL('./datos.js', import.meta.url));
+  marcarVersion('datos');
+}
 for (const s of saltados) console.warn('JSON invalido, lo salteo: ' + s);
 console.log(`datos.js actualizado con ${items.length} resumenes${saltados.length ? `; ${saltados.length} salteados` : ''}`);
