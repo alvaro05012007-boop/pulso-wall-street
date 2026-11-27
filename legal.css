@@ -1,0 +1,17 @@
+/* Páginas legales (privacidad y términos): misma paleta y tipografía que la página principal, lectura cómoda. */
+:root { --noche: #070B24; --panel: #10173D; --linea: #26306B; --hielo: #E4EAFF; --suave: #C7CFF0; --tenue: #8E9AD0; --sube: #4FE3C1; }
+* { box-sizing: border-box; }
+html { color-scheme: dark; }
+body { margin: 0; background: var(--noche); color: var(--suave); font: 17px/1.65 "Instrument Sans", system-ui, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding-block: 48px 72px; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); }
+a { color: var(--sube); }
+a:focus-visible { outline: 2px solid var(--sube); outline-offset: 2px; }
+.volver { display: inline-block; margin-bottom: 28px; font-weight: 600; text-decoration: none; }
+h1 { margin: 0 0 6px; font: 800 clamp(1.7rem, 5vw, 2.3rem)/1.15 "Unbounded", system-ui, sans-serif; color: var(--hielo); text-wrap: balance; }
+h2 { margin: 36px 0 8px; font: 600 1.15rem/1.3 "Unbounded", system-ui, sans-serif; color: var(--hielo); }
+.fecha { color: var(--tenue); margin: 0 0 28px; }
+p, li { max-width: 68ch; }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+.resumen { background: var(--panel); border: 1px solid var(--linea); border-radius: 14px; padding: 16px 20px; color: var(--hielo); }
+.idioma { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--linea); }
