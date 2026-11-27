@@ -12,3 +12,4 @@ extendido.js
 # Registros y archivos temporales del actualizador
 logs/
 *.tmp
+.wrangler/

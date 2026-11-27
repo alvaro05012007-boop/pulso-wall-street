@@ -60,6 +60,7 @@ analistas llevado al plazo. Pesimista y optimista = central más la dispersión 
 | `terminal.js`, `inteligencia.js`, `comparador.js`, `listas.js`, `estado.js` | Secciones nuevas, enchufadas a `app.js` con `window.Pulso` |
 | `proyeccion.js`, `ficha.js` | Proyección estimada y ficha ampliada de cada empresa (balance, SEC, parecidas, temas, regulación) |
 | `empresas.mjs` → `empresas.js` | Analistas, balances, capitalización y SEC, una vez por día |
+| `vivo.js` + `cloudflare/precios-en-vivo.js` | Precios en vivo cada 15 s con la página abierta (4:00-20:00 NY). El intermediario corre gratis en Cloudflare: https://precios-en-vivo.alvaro05012007.workers.dev. Para cambiarlo: `cd cloudflare` y `npx.cmd wrangler deploy` |
 | `fuera-horario.mjs` → `extendido.js` | Precio de cada empresa antes de la apertura y después del cierre ("pre"/"post" en el ranking y en la ficha) |
 | `motor-noticias.js` | Puntaje e importancia de noticias con reglas fijas y verificación de cifras contra Yahoo |
 | `Abrir en el celular.cmd` | Arranca el servidor en modo red y abre la página con el código QR |

@@ -19,7 +19,7 @@ const RED = process.argv.includes('--red');
 const PUERTO = Number(process.argv.find(a => /^\d+$/.test(a))) || 8787;
 const TIPOS = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8' };
 const CSP = "default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; " + // colores de las leyendas en atributos style; scripts siguen estrictos
-  "font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'";
+  "font-src https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://*.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'";
 
 export function permitido(ruta) { // devuelve la ruta en disco o null: solo archivos de la página, sin salir de la carpeta
   let limpia;

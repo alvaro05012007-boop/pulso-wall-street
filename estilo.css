@@ -329,6 +329,14 @@
   .det-ext { margin-top: .35rem; font-size: .85rem; color: var(--suave); }
   .det-precio .det-ext b { display: inline; font: 600 .95rem/1.2 var(--display); font-variant-numeric: tabular-nums; }
   .det-ext small { display: block; font-size: .75rem; opacity: .75; }
+  .destello-sube { animation: destello-sube 1.2s var(--ease-out); }
+  .destello-baja { animation: destello-baja 1.2s var(--ease-out); }
+  @keyframes destello-sube { from { background: color-mix(in srgb, var(--sube) 35%, transparent); } }
+  @keyframes destello-baja { from { background: color-mix(in srgb, var(--baja) 35%, transparent); } }
+  .punto-vivo { display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--sube); vertical-align: 1px; animation: latido 2s ease-in-out infinite; }
+  @keyframes latido { 50% { opacity: .35; } }
+  @media (prefers-reduced-motion: reduce) { .destello-sube, .destello-baja, .punto-vivo { animation: none; } }
+  .vivo-estado { margin-bottom: 0; }
   td .ext { display: block; font-size: .72rem; font-weight: 600; opacity: .85; white-space: nowrap; }
   .det-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 18px 0 14px; }
   .det-stats .stat { background: var(--panel-2); box-shadow: none; border-radius: 12px; padding: 10px 12px; }

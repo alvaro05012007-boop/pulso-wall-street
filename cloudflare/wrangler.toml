@@ -1,0 +1,6 @@
+# Configuración para publicar el intermediario de precios en vivo en Cloudflare (plan gratis).
+# Publicar: npx wrangler deploy   (desde esta carpeta, después de npx wrangler login)
+name = "precios-en-vivo"
+main = "precios-en-vivo.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
