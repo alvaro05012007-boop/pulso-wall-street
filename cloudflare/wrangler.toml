@@ -4,3 +4,8 @@ name = "precios-en-vivo"
 main = "precios-en-vivo.js"
 compatibility_date = "2026-11-01"
 workers_dev = true
+
+# Lista de espera de Pulso Premium (emails). Ver y exportar: node ../exportar-lista.mjs
+[[kv_namespaces]]
+binding = "LISTA"
+id = "686fd4e9e58445c39ddf502e4957aff2"

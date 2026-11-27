@@ -129,6 +129,21 @@
         </details>
       </div>
       <aside>
+        <div class="bloque premium">
+          <h2>Pulso Premium</h2>
+          <p>Se viene una versión con el resumen completo, informes en PDF, alertas por email y todo el historial. Dejá tu email y te avisamos primero, con un precio de lanzamiento.</p>
+          <form id="formPremium" novalidate>
+            <label class="sr" for="emailPremium">Tu email</label>
+            <div class="premium-fila">
+              <input id="emailPremium" class="buscar" type="email" autocomplete="email" inputmode="email" placeholder="tu@email.com" required maxlength="254">
+              <button class="chip primario" type="submit">Avisame</button>
+            </div>
+            <input id="webPremium" class="trampa" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <label class="premium-acepto"><input id="aceptoPremium" type="checkbox"> Acepto que me escriban a este email solo para avisarme de Pulso Premium.</label>
+            <p class="nota" id="msgPremium" role="status"></p>
+          </form>
+          <p class="nota">No lo compartimos con nadie. Para darte de baja, respondé cualquier email que te enviemos.</p>
+        </div>
         <div class="bloque"><h2>Clima por sector</h2><div id="sectores"></div></div>
         <div class="bloque"><h2>Dónde hay más riesgo hoy</h2><div class="aviso-riesgo" id="riesgoHoy"></div></div>
         <div class="bloque"><h2>Para seguir</h2><ul class="proximos" id="proximos"></ul></div>
@@ -291,5 +306,6 @@
 <script src="proyeccion.js"></script>
 <script src="ficha.js"></script>
 <script src="vivo.js"></script>
+<script src="premium.js"></script>
 </body>
 </html>

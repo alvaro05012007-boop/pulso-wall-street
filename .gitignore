@@ -13,3 +13,4 @@ extendido.js
 logs/
 *.tmp
 .wrangler/
+lista-premium.csv

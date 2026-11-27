@@ -39,15 +39,32 @@ async function cotizar(simbolos) {
   throw new Error('Yahoo rechazó la sesión');
 }
 
+// Lista de espera de Pulso Premium: guarda solo el email y la fecha (sin IP ni nada más) en el KV "LISTA" de tu cuenta.
+// Para verla o exportarla: node exportar-lista.mjs (en la PC, con la sesión de wrangler).
+async function anotar(req, env, responder) {
+  if (req.method !== 'POST') return responder({ error: 'solo POST' }, 405);
+  if (!env?.LISTA) return responder({ error: 'lista no configurada' }, 500);
+  let d;
+  try { d = JSON.parse((await req.text()).slice(0, 2000)); } catch { return responder({ error: 'pedido inválido' }, 400); }
+  if (d?.web) return responder({ ok: true }); // campo trampa que solo llenan los robots: se ignora sin avisar
+  const email = String(d?.email || '').trim().toLowerCase();
+  if (email.length > 254 || !/^[a-z0-9._%+-]+@[a-z0-9-]+(\.[a-z0-9-]+)*\.[a-z]{2,}$/.test(email)) return responder({ error: 'Ese email no parece válido.' }, 400);
+  if (d?.acepto !== true) return responder({ error: 'Falta aceptar que te escribamos.' }, 400);
+  const ya = await env.LISTA.get(email);
+  if (ya === null) await env.LISTA.put(email, '1', { metadata: { fecha: new Date().toISOString() } }); // la fecha va como metadato: el listado la trae sin leer cada email
+  return responder({ ok: true, ya: !!ya });
+}
+
 export default {
   async fetch(req, env, ctx) {
     const origen = req.headers.get('Origin');
     const cors = { 'Access-Control-Allow-Origin': PERMITIDOS.includes(origen) ? origen : PERMITIDOS[0], 'Vary': 'Origin' };
     const responder = (cuerpo, estado = 200, extra = {}) => new Response(JSON.stringify(cuerpo), { status: estado, headers: { 'Content-Type': 'application/json; charset=utf-8', ...cors, ...extra } });
-    if (req.method === 'OPTIONS') return new Response(null, { headers: { ...cors, 'Access-Control-Allow-Methods': 'GET' } });
-    if (req.method !== 'GET') return responder({ error: 'solo GET' }, 405);
+    if (req.method === 'OPTIONS') return new Response(null, { headers: { ...cors, 'Access-Control-Allow-Methods': 'GET, POST', 'Access-Control-Allow-Headers': 'Content-Type' } });
     if (origen && !PERMITIDOS.includes(origen)) return responder({ error: 'origen no permitido' }, 403);
     const url = new URL(req.url);
+    if (url.pathname === '/lista') return anotar(req, env, responder);
+    if (req.method !== 'GET') return responder({ error: 'solo GET' }, 405);
     const simbolos = [...new Set((url.searchParams.get('s') || '').toUpperCase().split(',').filter(Boolean))].sort();
     if (!simbolos.length || simbolos.length > 150 || !simbolos.every(s => /^[A-Z0-9.^=-]{1,12}$/.test(s))) return responder({ error: 'símbolos inválidos' }, 400);
 

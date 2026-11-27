@@ -630,3 +630,15 @@
     *, *::before, *::after { animation: none !important; transition: none !important; }
     .show-barras .actual i { transform: scaleX(1); opacity: .55; }
   }
+  /* Lista de espera de Pulso Premium */
+  .premium { background: var(--panel); box-shadow: var(--sombra); border-radius: 16px; padding: 18px 20px; display: grid; gap: 10px; }
+  .premium h2 { margin: 0; }
+  .premium p { margin: 0; }
+  .premium form { display: grid; gap: 10px; }
+  .premium-fila { display: flex; flex-wrap: wrap; gap: 8px; }
+  .premium-fila .buscar { flex: 1 1 180px; min-width: 0; max-width: none; background: var(--panel-2); }
+  .premium-fila .chip { min-height: 44px; }
+  .premium-acepto { display: flex; gap: 8px; align-items: flex-start; font-size: .85rem; color: var(--suave); cursor: pointer; }
+  .premium-acepto input { margin-top: 3px; accent-color: var(--sube); }
+  .trampa { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+  .premium .buscar:focus-visible, .premium .chip:focus-visible, .premium-acepto input:focus-visible { outline: 2px solid var(--sube); outline-offset: 2px; }
