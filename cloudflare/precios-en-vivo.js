@@ -2,7 +2,7 @@
 // Yahoo no deja que una página le pida precios directo desde el navegador: este Worker se los pide y se los pasa a la página.
 // Uso: GET https://<tu-worker>.workers.dev/?s=AAPL,NVDA,...   -> { hora, precios: { AAPL: {...}, ... } }
 // Solo lectura, sin claves. Guarda la respuesta 10 segundos para que muchos visitantes compartan el mismo pedido a Yahoo.
-const PERMITIDOS = ['https://alvaro05012007-boop.github.io', 'http://localhost:8787', 'http://127.0.0.1:8787', 'null']; // null = doble clic en index.html
+const PERMITIDOS = ['https://pulso-wallstreet.pages.dev', 'https://alvaro05012007-boop.github.io', 'http://localhost:8787', 'http://127.0.0.1:8787', 'null']; // null = doble clic en index.html
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
 const CAMPOS = 'marketState,regularMarketPrice,regularMarketChangePercent,regularMarketTime,postMarketPrice,postMarketChangePercent,postMarketTime,preMarketPrice,preMarketChangePercent,preMarketTime';
 let sesion = null; // cookie + crumb de Yahoo, reutilizados mientras el Worker siga vivo

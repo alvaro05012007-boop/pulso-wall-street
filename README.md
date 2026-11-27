@@ -13,7 +13,8 @@ Nada de lo que muestra es una recomendación de inversión ni una predicción.
   Se abre la página en la PC con un código QR en la pestaña Estado: escanealo con la cámara del celular conectado al mismo
   Wi-Fi. El link trae una clave de acceso (no lo compartas); el celular la recuerda. La primera vez Windows puede preguntar
   si permitís Node.js: aceptá solo para redes privadas.
-- **Desde cualquier lugar, con la PC apagada:** https://alvaro05012007-boop.github.io/pulso-wall-street/ (pública).
+- **Desde cualquier lugar, con la PC apagada:** https://pulso-wallstreet.pages.dev (Cloudflare Pages, pública). El link viejo de GitHub (https://alvaro05012007-boop.github.io/pulso-wall-street/) sigue andando y guarda el estado de la nube.
+  Publicar a mano en Cloudflare: `node publicar-cloudflare.mjs` (sube solo html, css y js; nunca .env ni scripts).
 
 ## Cómo se usa
 

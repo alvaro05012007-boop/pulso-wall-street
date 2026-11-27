@@ -642,3 +642,13 @@
   .premium-acepto input { margin-top: 3px; accent-color: var(--sube); }
   .trampa { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
   .premium .buscar:focus-visible, .premium .chip:focus-visible, .premium-acepto input:focus-visible { outline: 2px solid var(--sube); outline-offset: 2px; }
+  .premium-dialogo { width: min(460px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; border: 0; color: var(--hielo); position: fixed; padding: 26px 24px 20px; }
+  .premium-dialogo::backdrop { background: #070B24B8; backdrop-filter: blur(3px); }
+  .premium-dialogo[open] { animation: premium-entra .35s var(--ease-out); }
+  @keyframes premium-entra { from { opacity: 0; transform: translateY(12px) scale(.98); } }
+  .premium-dialogo .chip[data-cerrar] { justify-self: center; box-shadow: none; background: transparent; }
+  .premium-eyebrow { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--sube); font-weight: 600; }
+  .cerrar-premium { position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border: 0; border-radius: 50%; background: transparent; color: var(--suave); font-size: 1.4rem; line-height: 1; cursor: pointer; }
+  .cerrar-premium:hover { background: var(--panel-2); color: var(--hielo); }
+  .cerrar-premium:focus-visible { outline: 2px solid var(--sube); }
+  .premium-dialogo:not([open]) { display: none; } /* .premium pone display:grid, que si no le ganaría al estilo del navegador */

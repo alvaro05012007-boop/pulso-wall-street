@@ -132,15 +132,15 @@
         <div class="bloque premium">
           <h2>Pulso Premium</h2>
           <p>Se viene una versión con el resumen completo, informes en PDF, alertas por email y todo el historial. Dejá tu email y te avisamos primero, con un precio de lanzamiento.</p>
-          <form id="formPremium" novalidate>
+          <form class="form-premium" novalidate>
             <label class="sr" for="emailPremium">Tu email</label>
             <div class="premium-fila">
-              <input id="emailPremium" class="buscar" type="email" autocomplete="email" inputmode="email" placeholder="tu@email.com" required maxlength="254">
+              <input id="emailPremium" name="email" class="buscar" type="email" autocomplete="email" inputmode="email" placeholder="tu@email.com" required maxlength="254">
               <button class="chip primario" type="submit">Avisame</button>
             </div>
-            <input id="webPremium" class="trampa" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
-            <label class="premium-acepto"><input id="aceptoPremium" type="checkbox"> Acepto que me escriban a este email solo para avisarme de Pulso Premium.</label>
-            <p class="nota" id="msgPremium" role="status"></p>
+            <input name="web" class="trampa" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <label class="premium-acepto"><input id="aceptoPremium" name="acepto" type="checkbox"> Acepto que me escriban a este email solo para avisarme de Pulso Premium.</label>
+            <p class="nota msg-premium" role="status"></p>
           </form>
           <p class="nota">No lo compartimos con nadie. Para darte de baja, respondé cualquier email que te enviemos.</p>
         </div>
@@ -271,6 +271,26 @@
     <p><span id="proximo"></span>. Precios de Yahoo Finance. Es información, no asesoramiento financiero: no dice qué comprar ni vender.</p>
   </footer>
 </div>
+
+
+<dialog class="premium premium-dialogo" id="dialogoPremium" aria-labelledby="dialogoPremiumTitulo">
+  <button class="cerrar-premium" type="button" aria-label="Cerrar" data-cerrar>×</button>
+  <span class="premium-eyebrow">Próximamente</span>
+  <h2 id="dialogoPremiumTitulo">Pulso Premium</h2>
+  <p>El resumen completo antes de la apertura y después del cierre, informes en PDF, alertas por email y todo el historial. Dejá tu email y te avisamos primero, con un precio de lanzamiento.</p>
+  <form class="form-premium" novalidate>
+    <label class="sr" for="emailPremiumDlg">Tu email</label>
+    <div class="premium-fila">
+      <input id="emailPremiumDlg" name="email" class="buscar" type="email" autocomplete="email" inputmode="email" placeholder="tu@email.com" required maxlength="254">
+      <button class="chip primario" type="submit">Avisame</button>
+    </div>
+    <input name="web" class="trampa" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="premium-acepto"><input id="aceptoPremiumDlg" name="acepto" type="checkbox"> Acepto que me escriban a este email solo para avisarme de Pulso Premium.</label>
+    <p class="nota msg-premium" role="status"></p>
+  </form>
+  <p class="nota">No lo compartimos con nadie. Para darte de baja, respondé cualquier email que te enviemos.</p>
+  <button class="chip" type="button" data-cerrar>Ahora no</button>
+</dialog>
 
 <div class="show" id="show" role="dialog" aria-modal="true" aria-label="Presentación del resumen" hidden>
   <div class="show-barras" id="showBarras" aria-hidden="true"></div>
