@@ -20,7 +20,12 @@ export function recortar(s, max) {
 // cómo se lee en voz alta (las voces leen mal siglas y fechas con barra)
 export function paraVoz(t) {
   return String(t)
-    .replace(/S&P 500/g, 'ese ande pe quinientos').replace(/S&P/g, 'ese ande pe')
+    // nombres en inglés escritos como suenan (la voz lee todo con fonética española); revisado transcribiendo el audio con Whisper
+    .replace(/S&P 500/g, 'es and pi quinientos').replace(/S&P/g, 'es and pi')
+    .replace(/Wall Street/g, 'Wol Strít').replace(/Dow Jones/g, 'Dau Yons').replace(/\bDow\b/g, 'Dau').replace(/Nasdaq/g, 'Násdac')
+    .replace(/Black Friday/gi, 'Blak Fráidei').replace(/Cyber Monday/gi, 'Sáiber Mándei').replace(/Nvidia/gi, 'Envidia').replace(/\bGoogle\b/g, 'Gúgol')
+    .replace(/\bApple\b/g, 'Ápol').replace(/Microsoft/g, 'Máicrosoft').replace(/OPEP\+/g, 'OPEP plus').replace(/\bFed\b/g, 'la Fed').replace(/la la Fed/g, 'la Fed')
+    .replace(/\brueda\b/g, 'jornada').replace(/\bruedas\b/g, 'jornadas')
     .replace(/EE\.\s?UU\./g, 'Estados Unidos').replace(/\bDXY\b/g, 'índice dólar').replace(/\bIA\b/g, 'inteligencia artificial')
     .replace(/\bpts\b/g, 'puntos').replace(/−/g, 'menos ')
     .replace(/(\d+(?:,\d+)?)%-(\d+(?:,\d+)?)%/g, 'entre $1 y $2%')
