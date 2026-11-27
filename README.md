@@ -39,10 +39,16 @@ Nada de lo que muestra es una recomendación de inversión ni una predicción.
 | Indicadores (RSI, MACD, ATR, Bollinger, medias de 20/50/100/200, volatilidad, caída máxima, beta, Sharpe, correlación, amplitud, sectores, anomalías) | Calculados en `cuant.mjs` con esos precios | `acciones.mjs` |
 | Resúmenes de noticias | Búsqueda web de la tarea programada de Claude | Tarea "Resumen bolsa NY" |
 | Historial publicado (`datos.js`) | `datos/*.json`, validados | `datos.mjs` |
+| Precio objetivo de analistas, próximo balance y capitalización | Yahoo Finance (quoteSummary), una vez por día | `empresas.mjs` |
+| Presentaciones oficiales (10-K, 10-Q, 8-K) | SEC EDGAR, gratis, una vez por día | `empresas.mjs` |
 
 Si Yahoo falla, `acciones.mjs` reintenta y prueba su servidor alternativo; si sigue fallando, conserva el último dato
 válido marcado como **desactualizado**. Nunca completa un valor inventado. Cada dato muestra fuente y hora de Nueva York.
-La capitalización bursátil no está disponible en la fuente gratuita usada y por eso no se muestra.
+**Proyección estimada** (ficha de cada empresa, 30 a 720 días): no es una predicción ni un consejo de inversión, y la página lo
+dice siempre. Escenario central = promedio de (1) el pasado de la empresa en tramos del mismo largo, con el percentil movido
+de 40 a 60 por el tono de sus noticias de los últimos 30 días, (2) la mediana del S&P 500 y (3) el precio objetivo de los
+analistas llevado al plazo. Pesimista y optimista = central más la dispersión histórica (percentiles 10 y 90). Código en
+`proyeccion.js`; percentiles en `cuant.mjs` (`escenarios`, con prueba).
 
 ## Archivos
 
@@ -51,6 +57,8 @@ La capitalización bursátil no está disponible en la fuente gratuita usada y p
 | `index.html`, `estilo.css` | Estructura y estilos de la página |
 | `app.js` | Resumen, historial, tendencias, ranking, fichas, gráficos, presentación, esfera 3D |
 | `terminal.js`, `inteligencia.js`, `comparador.js`, `listas.js`, `estado.js` | Secciones nuevas, enchufadas a `app.js` con `window.Pulso` |
+| `proyeccion.js`, `ficha.js` | Proyección estimada y ficha ampliada de cada empresa (balance, SEC, parecidas, temas, regulación) |
+| `empresas.mjs` → `empresas.js` | Analistas, balances, capitalización y SEC, una vez por día |
 | `motor-noticias.js` | Puntaje e importancia de noticias con reglas fijas y verificación de cifras contra Yahoo |
 | `Abrir en el celular.cmd` | Arranca el servidor en modo red y abre la página con el código QR |
 | `PENDIENTES.md` | Lo que solo podés hacer vos (cuentas, claves, pagos) |

@@ -48,7 +48,7 @@
     const faltan = faltantes(D);
     const PENDIENTES = [ // copia de PENDIENTES.md: lo que solo puede hacer el usuario (cuentas, claves, pagos)
       ['Noticias sin Claude abierto ni la PC prendida', 'Crear una clave en console.anthropic.com y cargarla en GitHub como secreto ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions); avisar para probarla.'],
-      ['Segunda fuente de precios y capitalización bursátil', 'Crear una clave gratuita en un proveedor de datos (Alpha Vantage o Twelve Data) y pegarla en bolsa-ny/.env.'],
+      ['Segunda fuente de precios', 'Crear una clave gratuita en un proveedor de datos (Alpha Vantage o Twelve Data) y pegarla en bolsa-ny/.env, para no depender solo de Yahoo.'],
       ['Cifras oficiales de la economía', 'Crear una clave gratuita de FRED (Reserva Federal de St. Louis) y pegarla en bolsa-ny/.env (FRED_API_KEY) para seguir IPC, PCE, empleo, PIB y la tasa de la Fed con datos oficiales.'],
       ['Probar en tus dispositivos', 'Abrir la página en Safari y revisar mañana entre las 10:00 y 10:45 que el actualizador corrió solo.']
     ];

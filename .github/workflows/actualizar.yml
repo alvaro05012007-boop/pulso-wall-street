@@ -38,7 +38,7 @@ jobs:
         # precios previos (respaldo si Yahoo falla), registro de ejecuciones y última ventana corrida
         run: |
           mkdir -p logs
-          for f in acciones.js logs/ejecuciones.jsonl logs/ultima-ventana.txt; do
+          for f in acciones.js empresas.js logs/ejecuciones.jsonl logs/ultima-ventana.txt; do
             curl -fsSL "${{ steps.pages.outputs.base_url }}/$f" -o "$f" || rm -f "$f"
           done
       - name: Actualizar datos

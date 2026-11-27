@@ -108,3 +108,17 @@ export function percentil(valores) { // puesto relativo 0..1 dentro del grupo (e
   const s = [...valores].sort((a, b) => a - b);
   return v => s.length > 1 ? s.indexOf(v) / (s.length - 1) : .5;
 }
+
+// Escenarios históricos a un plazo: el retorno de TODAS las ventanas de `ruedas` ruedas de la historia, ordenado.
+// Percentiles 10/25/50/75/90 en %: "si los próximos N días se comportan como algún tramo igual del pasado".
+// independientes = cuántos tramos que no se pisan entran en la historia (cuanto menos, menos confiable).
+export function escenarios(c, ruedas) {
+  const r = [];
+  for (let i = 0; i + ruedas < c.length; i++) if (c[i] > 0) r.push(c[i + ruedas] / c[i] - 1);
+  if (r.length < 20) return null;
+  r.sort((a, b) => a - b);
+  const pq = p => { const x = p * (r.length - 1), k = Math.floor(x); return (r[k] + ((r[k + 1] ?? r[k]) - r[k]) * (x - k)) * 100; };
+  const red = v => Math.round(v * 100) / 100;
+  return { p10: red(pq(.1)), p25: red(pq(.25)), p50: red(pq(.5)), p75: red(pq(.75)), p90: red(pq(.9)),
+    ventanas: r.length, independientes: Math.floor((c.length - 1) / ruedas) };
+}

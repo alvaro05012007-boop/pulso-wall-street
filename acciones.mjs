@@ -117,6 +117,8 @@ function analizar(d, ref, rf) {
     atr: r2(at), atrPct: at ? r2(at / ult * 100) : null,
     bollinger: bb && { sup: r2(bb.sup), inf: r2(bb.inf), media: r2(bb.media), pctB: r2(bb.pctB) },
     volHist20: r2(q.volatilidad(c.slice(-21)), 1), caidaMax5a: r2(q.caidaMaxima(c), 1),
+    // días corridos -> ruedas (252 por año): base de la proyección estimada que muestra la ficha de cada empresa
+    escenarios: Object.fromEntries([[30, 21], [60, 41], [90, 62], [180, 124], [360, 249], [720, 497]].map(([d, t]) => [d, q.escenarios(c, t)])),
     fuente: FUENTE, servidor: d.servidor, actualizadoISO: new Date(d.meta.regularMarketTime * 1000).toISOString(),
     estado: 'ok', avisos: d.avisos.slice(0, 5), anomalias: [],
   };

@@ -43,7 +43,7 @@ if (yaHay) { console.log(`Ya hay un resumen de ${momento} de hoy (quizás de la 
 const PROMPT = `Armá un resumen de noticias del mercado de acciones de Estados Unidos para un usuario hispanohablante, en español rioplatense claro.
 Es el resumen de ${momento === 'apertura' ? 'antes de la apertura' : 'después del cierre'} del ${fecha}.
 
-Buscá en la web las noticias de las últimas ~12 horas: cómo cerraron o están por abrir S&P 500, Dow Jones y Nasdaq; la Fed y las tasas; inflación PCE e IPC, empleo y PIB; resultados de empresas grandes; movimientos fuertes de acciones; petróleo, dólar y bono del Tesoro a 10 años; geopolítica que mueva el mercado. Priorizá Reuters, AP, CNBC, Bloomberg, WSJ, MarketWatch y Yahoo Finance.
+Buscá en la web las noticias de las últimas ~12 horas: cómo cerraron o están por abrir S&P 500, Dow Jones y Nasdaq; la Fed y las tasas; inflación PCE e IPC, empleo y PIB; resultados de empresas grandes; movimientos fuertes de acciones; petróleo, dólar y bono del Tesoro a 10 años; geopolítica que mueva el mercado; restricciones que afecten a empresas o sectores (aranceles, controles de exportación de chips, impuestos, sanciones, regulación y antimonopolio). Priorizá Reuters, AP, CNBC, Bloomberg, WSJ, MarketWatch y Yahoo Finance.
 
 Reglas:
 - No inventes cifras. Si no encontrás un dato, poné "sin dato" en valor/cambio y null en cambioPct.
@@ -58,7 +58,7 @@ Al final respondé SOLO con un bloque \`\`\`json con este objeto (sin comentario
   "indices": [{ "nombre": "S&P 500", "valor": "7.237,17", "cambio": "+4,73%", "cambioPct": 4.73 }],
   "noticias": [{ "titulo": "", "resumen": "2-3 frases", "afecta": ["Sector o empresa"], "tono": "positivo",
     "hora": "HH:MM de Nueva York si la fuente la dice (si no, omitir)", "importancia": "alta | media | baja", "urgencia": "alta | normal",
-    "tipo": "hecho | interpretacion | hipotesis", "categoria": "Fed y tasas | Inflación | Empleo | PIB | Resultados | Empresa | Sector | Geopolítica | Materias primas | Otro",
+    "tipo": "hecho | interpretacion | hipotesis", "categoria": "Fed y tasas | Inflación | Empleo | PIB | Resultados | Empresa | Sector | Geopolítica | Regulación y restricciones | Materias primas | Otro",
     "volatilidad": true, "impacto": "una frase", "fuentes": [{ "nombre": "Reuters", "url": "https://..." }] }],
   "contradicciones": [],
   "sectores": [{ "sector": "Energía", "tono": "negativo", "porque": "una frase" }],

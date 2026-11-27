@@ -774,6 +774,7 @@
       el('div', { class: 'det-acciones' }, ...(window.Pulso?.accionesEmpresa || []).map(f => f(a))),
       caja,
       a.rsi != null ? indicadores(a) : null,
+      ...(window.Pulso?.seccionesEmpresa || []).map(f => { try { return f(a); } catch (e) { console.error('Pulso:', e); return null; } }).filter(Boolean),
       el('div', { class: 'det-pie' },
         el('h4', {}, ments.length ? `En tus resúmenes (${ments.length})` : 'En tus resúmenes'),
         ments.length ? el('ul', { class: 'det-noticias' }, ments.slice(0, 6).map(({ r, n }) => el('li', {}, el('button', { onclick: () => abrirResumen(r) },
@@ -1110,7 +1111,7 @@
   function avisarCambios() { for (const f of oyentes) { try { f(); } catch (e) { console.error('Pulso:', e); } } }
   window.Pulso = { el, svg, ico, num, pct, clase, fechaCorta, fechaLarga, tono, stat, mini, grafico, abrirResumen, pestania, aviso, leer, guardar,
     urlSegura, conGlosario, serie, valorEn, COLOR, menciones, barraEn, horaNY, cambioDia, elegirEmpresa: (tk, desplazar = true) => { pestania('ranking'); elegir(tk, desplazar); },
-    datos: () => datos, acc: () => acc, actual: () => actual, accionesEmpresa: [], recargar: () => recargar(), resumenEjecutivo, tendenciasEnFrases, momento,
+    datos: () => datos, acc: () => acc, actual: () => actual, accionesEmpresa: [], seccionesEmpresa: [], recargar: () => recargar(), resumenEjecutivo, tendenciasEnFrases, momento,
     alMostrar: f => { alMostrar.push(f); if (actual) pintarResumen(actual); },
     refrescarDetalle: () => { const a = acc?.lista?.find(x => x.ticker === elegida); if (a) detalle(a); }, alActualizar: f => { oyentes.push(f); if (datos.length || acc) { try { f(); } catch (e) { console.error('Pulso:', e); } } } };
   function cargarAcciones() {
@@ -1143,6 +1144,7 @@
       if (!v.datos && !v.acciones) return ambos();
       if (v.datos !== versionVista.datos) traer('datos.js', () => { versionVista.datos = v.datos; cargar(false); });
       if (v.acciones !== versionVista.acciones) traer('acciones.js', () => { versionVista.acciones = v.acciones; cargarAcciones(); });
+      if (v.empresas && v.empresas !== versionVista.empresas) traer('empresas.js', () => { versionVista.empresas = v.empresas; window.Pulso.refrescarDetalle(); });
     }, ambos); // sin version.js (instalación vieja) se comporta como antes
     traer('logs/ejecuciones.js', avisarCambios);
   }

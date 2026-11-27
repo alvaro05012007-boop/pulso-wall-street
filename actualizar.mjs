@@ -100,6 +100,11 @@ try {
     if (intento < 3) await espera(intento === 1 ? 60e3 : 180e3);
   }
   pasos.push(precios);
+  if (precios.ok) { // analistas, balances y SEC: el script mismo se saltea si ya corrió en las últimas 20 horas
+    const e = { paso: 'empresas', intentos: 1, ...correr('empresas.mjs') };
+    if (/menos de 20 horas/.test(e.salida)) e.omitido = true;
+    pasos.push(e);
+  }
   if (ventana || process.argv.includes('--noticias')) { // noticias por API: solo si hay clave en .env (salida 3 = sin clave, se omite)
     const n = { paso: 'noticias', intentos: 1, ...correr('noticias.mjs', ventana ? ventana.split('-').at(-1) : '') };
     if (n.codigo === 3) { n.ok = true; n.omitido = true; }

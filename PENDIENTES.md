@@ -17,8 +17,7 @@ nuevos), así que para que lleguen la PC tiene que estar prendida, hasta que act
 
 ## 3. Más datos de mercado
 - [ ] Crear una clave gratuita en un proveedor de datos (por ejemplo Alpha Vantage o Twelve Data) para tener:
-  - una segunda fuente de precios independiente de Yahoo,
-  - la capitalización bursátil de cada empresa.
+  una segunda fuente de precios independiente de Yahoo (la capitalización bursátil ya se muestra desde el 27/11/2026).
 - [ ] Pegarla en `bolsa-ny/.env` y avisarme.
 
 ## 4. Cifras oficiales de la economía (inflación, empleo, PIB, tasa de la Fed)

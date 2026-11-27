@@ -74,3 +74,16 @@ test('nombre corto', () => {
   assert.equal(q.nombreCorto('Amazon.com, Inc.'), 'Amazon');
   assert.equal(q.nombreCorto('The Walt Disney Company'), 'Walt Disney');
 });
+
+test('escenarios históricos', () => {
+  // precio que sube 1% por rueda: toda ventana de 10 ruedas rinde 1,01^10 - 1 = 10,46%
+  const c = Array.from({ length: 200 }, (_, i) => 100 * 1.01 ** i);
+  const e = q.escenarios(c, 10);
+  cerca(e.p10, 10.46, 0.01); cerca(e.p90, 10.46, 0.01);
+  assert.equal(e.ventanas, 190); assert.equal(e.independientes, 19);
+  // ventanas de 1 rueda que alternan +10% y -10%: la mitad de cada una
+  const z = Array.from({ length: 101 }, (_, i) => i % 2 ? 110 : 100);
+  const e1 = q.escenarios(z, 1);
+  cerca(e1.p90, 10, 1e-9); cerca(e1.p10, -100 / 11, 0.01);
+  assert.equal(q.escenarios([1, 2, 3], 1), null); // muy poca historia
+});
