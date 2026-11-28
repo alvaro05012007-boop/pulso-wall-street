@@ -1,0 +1,168 @@
+{
+  "id": "2026-11-27-2240",
+  "fecha": "2026-11-27",
+  "hora": "22:40",
+  "momento": "cierre",
+  "tonoGeneral": "positivo",
+  "enSegundos": [
+    "En la rueda corta de Black Friday Wall Street subió fuerte: S&P 500 +1,60%, Dow +1,18% y Nasdaq +2,31%, con el S&P cerrando su mejor semana desde abril de 2025 (+5,6%).",
+    "El rebote lo encabezaron las acciones de chips y memoria que venían muy castigadas: Sandisk saltó cerca de 16%, mientras Nvidia casi no acompañó.",
+    "El bono del Tesoro a 10 años subió hacia 4,90% y el dólar (DXY) avanzó 0,36% a 104,04; el petróleo WTI cerró cerca de 83 dólares, con los ataques en Arabia Saudita y Ormuz de fondo.",
+    "Adobe contó 9.700 millones de dólares en compras online en Black Friday hasta las 18:30 (+12,8%) y subió su pronóstico del día a entre 13.000 y 13.400 millones.",
+    "La semana que viene llegan los ISM y el informe de empleo del viernes 4, antes de la reunión de la Fed del 9 de diciembre."
+  ],
+  "indices": [
+    { "nombre": "S&P 500", "valor": "7.297,49", "cambio": "+1,60%", "cambioPct": 1.60 },
+    { "nombre": "Dow Jones", "valor": "50.774,94", "cambio": "+1,18%", "cambioPct": 1.18 },
+    { "nombre": "Nasdaq", "valor": "24.129,50", "cambio": "+2,31%", "cambioPct": 2.31 },
+    { "nombre": "Bono 10 años", "valor": "4,90%", "cambio": "+0,03 pp", "cambioPct": null },
+    { "nombre": "Petróleo WTI", "valor": "83,08", "cambio": "-0,7%", "cambioPct": -0.7 },
+    { "nombre": "Dólar (DXY)", "valor": "104,04", "cambio": "+0,36%", "cambioPct": 0.36 }
+  ],
+  "noticias": [
+    {
+      "titulo": "Wall Street cierra su mejor semana desde abril de 2025 en la rueda corta de Black Friday",
+      "resumen": "En una sesión que terminó a las 13:00 de Nueva York, el S&P 500 subió 1,60% a 7.297,49, el Dow 1,18% a 50.774,94 y el Nasdaq 2,31% a 24.129,50. El S&P 500 ganó 5,6% en la semana, su mejor semana desde abril de 2025, y el Dow tuvo su mayor suba semanal desde octubre de 2022.",
+      "afecta": ["S&P 500", "Dow Jones", "Nasdaq", "Tecnología"],
+      "tono": "positivo",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Otro",
+      "volatilidad": false,
+      "impacto": "Los tres índices recuperaron buena parte de la venta de la semana anterior, con todos los sectores en alza según los reportes de cierre.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html" },
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-s-and-p-500-posts-best-week-in-19-months-as-ai-stocks-rebound/" }
+      ]
+    },
+    {
+      "titulo": "Rebotan las acciones de memoria: Sandisk sube cerca de 16%",
+      "resumen": "Las empresas de memoria y almacenamiento, que venían de una caída fuerte por miedo a sobreoferta y precios de NAND más bajos, lideraron la suba. Sandisk cerró en torno a 85 dólares (+16%) y también subieron Micron y Western Digital. Micron presenta resultados el 17 de diciembre.",
+      "afecta": ["Semiconductores", "Hardware", "Sandisk", "Micron", "Western Digital"],
+      "tono": "positivo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Los chips y la IA empujaron al Nasdaq a la mayor suba del día entre los tres índices.",
+      "fuentes": [
+        { "nombre": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-sandisk-surges-16-as-memory-stocks-rebound-from-ai-driven-selloff/" },
+        { "nombre": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/sndk-mu-wdc-other-memory-stocks-rally-as-investors-return-to-beaten-down-ai-names/cNbCupeR9ND" }
+      ]
+    },
+    {
+      "titulo": "Nvidia se quedó afuera del rally de chips",
+      "resumen": "Mientras el resto de los semiconductores subía, Nvidia apenas se movió. Los reportes no coinciden en la cifra: uno habla de una suba de 0,8% y otro de una baja cercana a 1,3%.",
+      "afecta": ["Nvidia", "Semiconductores"],
+      "tono": "mixto",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Empresa",
+      "volatilidad": false,
+      "impacto": "Nvidia quedó por detrás del sector en una jornada de fuerte rebote de las acciones de IA.",
+      "fuentes": [
+        { "nombre": "Miltonberg Edge", "url": "https://miltonbergedge.com/daily/2026-11-27?via=x#sp500-best-week-since-april-2025" },
+        { "nombre": "Coinpaper", "url": "https://coinpaper.com/39526/sandisk-outperforms-nvidia-as-investors-return-to-battered-memory-chip-stocks" }
+      ]
+    },
+    {
+      "titulo": "Sube el rendimiento del bono a 10 años y el dólar se fortalece",
+      "resumen": "Con el apetito por acciones, bajó la demanda de bonos como refugio y el rendimiento del Treasury a 10 años subió desde 4,85% hacia 4,89%-4,94% según la hora del reporte. El índice dólar (DXY) avanzó 0,36% a 104,04. El mercado de bonos cerró a las 14:00.",
+      "afecta": ["Financiero", "Inmobiliario"],
+      "tono": "mixto",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Fed y tasas",
+      "volatilidad": false,
+      "impacto": "El rendimiento del 10 años se alejó del mínimo de tres meses que había tocado a mitad de semana.",
+      "fuentes": [
+        { "nombre": "AP (NY1)", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/27/stocks-rise-and-keep-wall-street-on-track-to-close-out-an-erratic-week-with-big-gains" },
+        { "nombre": "Trading Economics", "url": "https://tradingeconomics.com/united-states/government-bond-yield" }
+      ]
+    },
+    {
+      "titulo": "Petróleo: ataques hutíes en Arabia Saudita y tensión en Ormuz antes de la OPEP+",
+      "resumen": "Los hutíes intensificaron los ataques contra infraestructura energética saudí e Irán sigue atacando barcos en el estrecho de Ormuz. Aun así, el WTI cerró en 83,08 dólares (-0,7%) según Reuters, y el Brent terminó con suba semanal antes de la reunión de la OPEP+ del domingo 29.",
+      "afecta": ["Energía", "Transporte"],
+      "tono": "mixto",
+      "importancia": "media",
+      "urgencia": "alta",
+      "tipo": "hecho",
+      "categoria": "Geopolítica",
+      "volatilidad": true,
+      "impacto": "El crudo se movió en un rango estrecho en el día, pero cerró la semana en alza.",
+      "fuentes": [
+        { "nombre": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html" },
+        { "nombre": "MLQ (Reuters)", "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/" }
+      ]
+    },
+    {
+      "titulo": "Black Friday online supera lo previsto, según Adobe",
+      "resumen": "Las compras online en Estados Unidos llegaron a 9.700 millones de dólares hasta las 18:30 de Nueva York, 12,8% más que el año pasado. Adobe subió su pronóstico para el día a entre 13.000 y 13.400 millones y espera 15.100 millones para el Cyber Monday del 30 de noviembre.",
+      "afecta": ["Consumo", "Amazon", "Minoristas"],
+      "tono": "positivo",
+      "importancia": "media",
+      "urgencia": "normal",
+      "tipo": "hecho",
+      "categoria": "Sector",
+      "volatilidad": false,
+      "impacto": "Según Reuters, los consumidores priorizan las ofertas pese a la inflación y la nafta cara.",
+      "fuentes": [
+        { "nombre": "Reuters (US News)", "url": "https://money.usnews.com/investing/news/articles/2026-11-27/us-black-friday-online-sales-to-cross-13-billion-adobe-says" }
+      ]
+    },
+    {
+      "titulo": "Se espera un informe de empleo flojo el viernes 4",
+      "resumen": "El consenso anticipa unos 90.000 empleos nuevos en noviembre, contra 165.000 en octubre, con desempleo cerca de 4,1%. Antes salen los ISM de manufactura (martes) y servicios (jueves), y la Fed se reúne el 9 de diciembre.",
+      "afecta": ["S&P 500", "Financiero"],
+      "tono": "neutral",
+      "importancia": "alta",
+      "urgencia": "normal",
+      "tipo": "hipotesis",
+      "categoria": "Empleo",
+      "volatilidad": true,
+      "impacto": "Según Newsquawk, el dato puede pesar en lo que el mercado espera de la Fed para comienzos de 2027.",
+      "fuentes": [
+        { "nombre": "Newsquawk", "url": "https://www.newsquawk.com/headlines/week-in-focus-nov-30th-dec-4th-2026-highlights-include-us-nfp-ism-pmis-nvda-hearings-and-the-spanish-election" }
+      ]
+    }
+  ],
+  "contradicciones": [
+    "Motley Fool y Swingfolio dan el S&P 500 en +1,60% (7.297,49) al cierre; otro reporte da +1,15% (7.265,48), probablemente medido antes del final.",
+    "Sandisk: Motley Fool dice +16% (85,36 dólares); otro reporte dice +10,3% (81,19 dólares).",
+    "Nvidia: un reporte dice que subió 0,8%; otro que bajó cerca de 1,3%.",
+    "Bono a 10 años: AP lo da en 4,89%, Trading Economics en 4,90% y otros reportes de última hora en 4,94%.",
+    "Petróleo WTI: Reuters (vía MLQ) da cierre en 83,08 dólares (-0,7%); Yahoo Finance lo daba +1% cerca de 84 dólares a mitad de rueda."
+  ],
+  "sectores": [
+    { "sector": "Semiconductores", "tono": "positivo", "porque": "Las de memoria y almacenamiento rebotaron fuerte (Sandisk +16%), aunque Nvidia no acompañó." },
+    { "sector": "Hardware", "tono": "positivo", "porque": "Western Digital y Sandisk subieron con la vuelta de compradores a las acciones de almacenamiento." },
+    { "sector": "Tecnología", "tono": "positivo", "porque": "El rebote de la IA llevó al Nasdaq a +2,31%." },
+    { "sector": "Consumo", "tono": "positivo", "porque": "Las ventas online de Black Friday vienen por encima de lo previsto según Adobe." },
+    { "sector": "Energía", "tono": "mixto", "porque": "Ataques en Arabia Saudita y Ormuz, pero el WTI cerró levemente abajo antes de la OPEP+." },
+    { "sector": "Financiero", "tono": "neutral", "porque": "Subieron los rendimientos de los bonos en un día de poco volumen." }
+  ],
+  "riesgoHoy": "Las acciones de memoria y chips vienen de rebotar mucho tras caídas fuertes, y las fuentes advierten sobre sobreoferta y precios de memoria. Energía queda expuesta a lo que decida la OPEP+ el domingo y a los ataques en Medio Oriente.",
+  "proximos": [
+    "Domingo 29/11: reunión de la OPEP+ sobre producción.",
+    "Lunes 30/11: Cyber Monday (Adobe espera 15.100 millones de dólares online); resultados de Rubrik.",
+    "Martes 1/12: ISM manufacturero de noviembre; resultados de Copart y NIO.",
+    "Jueves 3/12: ISM de servicios.",
+    "Viernes 4/12: informe de empleo de noviembre (consenso cerca de 90.000 puestos).",
+    "Miércoles 9/12: decisión de tasas de la Fed.",
+    "17/12: resultados de Micron."
+  ],
+  "video": {
+    "gancho": { "voz": "Wall Street tuvo su mejor semana en un año y medio. Y en medio día.", "pantalla": "Mejor semana desde 2025", "numero": "+5,6%" },
+    "datos": [
+      { "voz": "El viernes la bolsa abrió solo medio día por Black Friday y el S&P 500 subió 1,6%. En la semana, ganó 5,6%.", "pantalla": "S&P 500 cierra semana arriba", "numero": "+1,60%", "signo": 1 },
+      { "voz": "Las que más subieron fueron las de memoria, que venían destrozadas. Sandisk saltó 16% en un día. Nvidia, en cambio, casi no se movió.", "pantalla": "Sandisk vuela, Nvidia quieta", "numero": "+16%", "signo": 1 },
+      { "voz": "Y la gente compró igual: 9.700 millones de dólares online en Black Friday hasta la tarde, casi 13% más que el año pasado.", "pantalla": "Black Friday online récord", "numero": "+12,8%", "signo": 1 }
+    ],
+    "cierre": { "voz": "La semana que viene hay dato de empleo. Seguime para no perdértelo." }
+  }
+}
